@@ -1,0 +1,58 @@
+[
+  {
+    "id": "tiburon-blanco",
+    "nombre": "Tiburón Blanco",
+    "nombreCientifico": "Carcharodon carcharias",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 6,
+      "pesoKg": 1200,
+      "formaCuerpo": "Fusiforme",
+      "rasgoDistintivo": "Dientes triangulares aserrados"
+    },
+    "habitat": "Aguas cálidas y templadas",
+    "alimentacion": "Mamíferos marinos, peces y otros tiburones"
+  },
+  {
+    "id": "tiburon-martillo",
+    "nombre": "Tiburón Martillo",
+    "nombreCientifico": "Sphyrna mokarran",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 6,
+      "pesoKg": 450,
+      "formaCuerpo": "Fusiforme",
+      "rasgoDistintivo": "Cabeza en forma de martillo"
+    },
+    "habitat": "Aguas tropicales y subtropicales",
+    "alimentacion": "Dieta muy variada (peces, tortugas, aves marinas, carroña)"
+  },
+  {
+    "id": "tiburon-ballena",
+    "nombre": "Tiburón Ballena",
+    "nombreCientifico": "Rhincodon typus",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 12,
+      "pesoKg": 19000,
+      "formaCuerpo": "Robusto y aplanado",
+      "rasgoDistintivo": "Patrón único de manchas blancas"
+    },
+    "habitat": "Aguas tropicales abiertas",
+    "alimentacion": "Filtrador de plancton y peces pequeños"
+  },
+  {
+    "id": "tiburon-tigre",
+    "nombre": "Tiburón Tigre",
+    "nombreCientifico": "Galeocerdo cuvier",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 5,
+      "pesoKg": 635,
+      "formaCuerpo": "Fusiforme",
+      "rasgoDistintivo": "Rayas verticales en el cuerpo"
+    },
+    "habitat": "Aguas tropicales y subtropicales",
+    "alimentacion": "Peces, tortugas, aves marinas y carroña"
+  }
+]
