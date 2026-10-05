@@ -15,27 +15,27 @@ export function SharkCard({ shark }: { shark: Shark }) {
 
 const styles = StyleSheet.create({
     card: {
+        flexDirection: 'row',
         alignItems: 'center',
-        justifyContent: 'center',
-        backgroundColor: '#edaeb9',
+        gap: 12,
+        backgroundColor: '#163a5f',
         padding: 16,
         marginVertical: 8,
+        marginHorizontal: 16,
+        borderRadius: 16,
     },
     info: {
-    flex: 1,
+        flex: 1,
     },
     nombre: {
         fontSize: 20,
-        color: '#55b2c9',
+        color: '#4fd1c5',
         fontWeight: 'bold',
-        textAlign: 'center',
-        marginVertical: 10, 
-    } ,
+        marginBottom: 4,
+    },
     nombreCientifico: {
         fontSize: 16,
-        color: '#000000',
-        fontWeight: 'bold',
-        textAlign: 'center',
-        marginVertical: 5,
+        color: '#cbd5e0',
+        fontStyle: 'italic',
     },
-})
+});
