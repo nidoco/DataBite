@@ -71,8 +71,8 @@ puede recorrerlo, y en caso de no haber datos ve un mensaje claro.
 
 ## Tasks
 
-- [ ] Crear el componente `SharkCard` en `components/` con props tipadas (recibe un `Shark`).
-- [ ] Hacer que `SharkCard` muestre el resumen de la especie dentro de `Text`
+- [X] Crear el componente `SharkCard` en `components/` con props tipadas (recibe un `Shark`).
+- [X] Hacer que `SharkCard` muestre el resumen de la especie dentro de `Text`
       (nombre y nombre científico; la imagen llega en F03).
 - [ ] Crear la pantalla `CatalogoScreen` en `screens/`.
 - [ ] En `CatalogoScreen`, cargar las especies con `loadSharks()`.

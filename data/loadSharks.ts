@@ -1,5 +1,5 @@
 import sharks from './sharks.json';
-import { Shark, Morfologia } from '../types/shark';
+import { Shark, Morfologia } from '../types/Shark';
 
 function esMorfologia(x: unknown): x is Morfologia {
     if (typeof x !== "object" || x === null) return false;
