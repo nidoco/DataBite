@@ -1,5 +1,4 @@
-import { FlatList, Text, StyleSheet } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import { FlatList, Text, StyleSheet, View } from 'react-native';
 import { SharkCard } from '../components/SharkCard';
 import loadSharks from '../data/loadSharks';
 
@@ -7,14 +6,14 @@ export function CatalogoScreen() {
     const sharks = loadSharks();
 
     return (
-        <SafeAreaView style={styles.container}>
+        <View style={styles.container}>
             <FlatList
                 data={sharks}
                 keyExtractor={(item) => item.id}
                 renderItem={({ item }) => <SharkCard shark={item} />}
                 ListEmptyComponent={<Text style={styles.emptyText}>Sin especies</Text>}
             />
-        </SafeAreaView>
+        </View>
     );
 }
 
