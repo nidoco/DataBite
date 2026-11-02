@@ -1,8 +1,13 @@
-import { FlatList, Text, StyleSheet, View } from 'react-native';
+import { View, FlatList, Text, StyleSheet } from 'react-native';
 import { SharkCard } from '../components/SharkCard';
 import loadSharks from '../data/loadSharks';
+import { NativeStackScreenProps } from '@react-navigation/native-stack';
+import { RootStackParamList } from '../types/navigation';
 
-export function CatalogoScreen() {
+type Props = NativeStackScreenProps<RootStackParamList, 'Catalogo'>;
+
+export function CatalogoScreen({ navigation }: Props) {
+
     const sharks = loadSharks();
 
     return (
@@ -10,7 +15,12 @@ export function CatalogoScreen() {
             <FlatList
                 data={sharks}
                 keyExtractor={(item) => item.id}
-                renderItem={({ item }) => <SharkCard shark={item} />}
+                renderItem={({ item }) => (
+                    <SharkCard
+                        shark={item}
+                        onPress={() => navigation.navigate('Detalle', { id: item.id })}
+                    />
+                )}
                 ListEmptyComponent={<Text style={styles.emptyText}>Sin especies</Text>}
             />
         </View>

@@ -4,6 +4,8 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { CatalogoScreen } from './screens/CatalogoScreen';
 import { RootStackParamList } from './types/navigation';
+import { DetalleScreen } from './screens/DetalleScreen';
+
 
 // Stack tipado: Stack.Screen solo acepta rutas declaradas en RootStackParamList
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -19,11 +21,19 @@ export default function App() {
             headerTitleStyle: { fontWeight: 'bold' },
           }}
         >
+          
           <Stack.Screen
             name="Catalogo"
             component={CatalogoScreen}
             options={{ title: 'DataBite' }}
           />
+
+          <Stack.Screen
+            name="Detalle"
+            component={DetalleScreen}
+            options={{ title: 'Ficha' }}
+          />
+
         </Stack.Navigator>
       </NavigationContainer>
       <StatusBar style="light" />
