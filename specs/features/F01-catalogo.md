@@ -74,9 +74,17 @@ puede recorrerlo, y en caso de no haber datos ve un mensaje claro.
 - [X] Crear el componente `SharkCard` en `components/` con props tipadas (recibe un `Shark`).
 - [X] Hacer que `SharkCard` muestre el resumen de la especie dentro de `Text`
       (nombre y nombre científico; la imagen llega en F03).
-- [ ] Crear la pantalla `CatalogoScreen` en `screens/`.
-- [ ] En `CatalogoScreen`, cargar las especies con `loadSharks()`.
-- [ ] Renderizar la lista con `FlatList`, una `SharkCard` por especie.
-- [ ] Agregar `ListEmptyComponent` con el mensaje de "sin especies".
-- [ ] Conectar `CatalogoScreen` como pantalla inicial en `App.tsx`.
-- [ ] Verificar los criterios de aceptación de F01.
+- [X] Crear la pantalla `CatalogoScreen` en `screens/`.
+- [X] En `CatalogoScreen`, cargar las especies con `loadSharks()`.
+- [X] Renderizar la lista con `FlatList`, una `SharkCard` por especie.
+- [X] Agregar `ListEmptyComponent` con el mensaje de "sin especies".
+- [X] Conectar `CatalogoScreen` como pantalla inicial en `App.tsx`.
+- [X] Verificar los criterios de aceptación de F01.
+## Notas de evolución
+
+- La imagen de portada de cada especie se incorpora en F03 (galería); el catálogo
+  base de F01 funciona solo con texto.
+- El filtrado de especies extintas (mostrar solo las desbloqueadas) se incorpora
+  en F06 (Easter Egg). En el MVP inicial, F01 muestra todas las especies válidas.
+
+
