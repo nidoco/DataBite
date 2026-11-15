@@ -1,4 +1,5 @@
-import { View, FlatList, Text, StyleSheet } from 'react-native';
+import { FlatList, Text, StyleSheet } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { SharkCard } from '../components/SharkCard';
 import loadSharks from '../data/loadSharks';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
@@ -11,7 +12,7 @@ export function CatalogoScreen({ navigation }: Props) {
     const sharks = loadSharks();
 
     return (
-        <View style={styles.container}>
+        <SafeAreaView style={styles.container} edges={['left', 'right']}>
             <FlatList
                 data={sharks}
                 keyExtractor={(item) => item.id}
@@ -19,11 +20,12 @@ export function CatalogoScreen({ navigation }: Props) {
                     <SharkCard
                         shark={item}
                         onPress={() => navigation.navigate('Detalle', { id: item.id })}
+
                     />
                 )}
                 ListEmptyComponent={<Text style={styles.emptyText}>Sin especies</Text>}
             />
-        </View>
+        </SafeAreaView>
     );
 }
 
