@@ -69,19 +69,19 @@ validar de forma segura el acceso a `route.params` y a `navigation`.
 
 ## Criterios de aceptación
 
-- [ ] Existe un `RootStackParamList` que tipa todas las rutas y sus parámetros.
-- [ ] Cada pantalla usa `NativeStackScreenProps` para tipar `route` y `navigation`.
-- [ ] `Catalogo` es la pantalla inicial.
-- [ ] Desde `Catalogo` se navega a `Detalle` pasando el `id` de la especie.
-- [ ] `Detalle` recupera la especie por `id` desde los datos validados.
-- [ ] Si el `id` no existe, `Detalle` muestra "especie no encontrada" y permite volver.
-- [ ] El header tiene un estilo global definido con `screenOptions`.
+- [X] Existe un `RootStackParamList` que tipa todas las rutas y sus parámetros.
+- [X] Cada pantalla usa `NativeStackScreenProps` para tipar `route` y `navigation`.
+- [X] `Catalogo` es la pantalla inicial.
+- [X] Desde `Catalogo` se navega a `Detalle` pasando el `id` de la especie.
+- [X] `Detalle` recupera la especie por `id` desde los datos validados.
+- [X] Si el `id` no existe, `Detalle` muestra "especie no encontrada" y permite volver.
+- [X] El header tiene un estilo global definido con `screenOptions`.
 
 ## Tasks
 
-- [ ] Instalar React Navigation y sus dependencias nativas.
-- [ ] Definir `RootStackParamList` en un archivo de tipos propio.
-- [ ] Configurar `NavigationContainer` y el Native Stack en `App.tsx`.
+- [X] Instalar React Navigation y sus dependencias nativas.
+- [X] Definir `RootStackParamList` en un archivo de tipos propio.
+- [X] Configurar `NavigationContainer` y el Native Stack en `App.tsx`.
 - [ ] Registrar las rutas: Catalogo, Detalle, Quiz, Resultados.
-- [ ] Aplicar el estilo global del header con `screenOptions`.
+- [X] Aplicar el estilo global del header con `screenOptions`.
 - [ ] Verificar los criterios de aceptación de navegación.

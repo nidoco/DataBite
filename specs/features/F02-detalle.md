@@ -67,26 +67,26 @@ legibles, y puede volver al catálogo para elegir otra.
 
 ## Criterios de aceptación
 
-- [ ] Al tocar una tarjeta del catálogo, se navega a la ruta `Detalle` con el `id`.
-- [ ] La pantalla recupera la especie correspondiente a ese `id`.
-- [ ] La ficha muestra nombre, nombre científico y estado de conservación.
-- [ ] La ficha muestra la morfología completa (longitud, peso, forma, rasgo).
-- [ ] La ficha muestra el hábitat y la alimentación.
-- [ ] Las medidas numéricas se muestran con su unidad (ej. "6 m", "1200 kg").
-- [ ] Si el `id` no corresponde a ninguna especie, se muestra "especie no encontrada".
-- [ ] Existe un control de volver (header / `goBack`) que regresa al catálogo.
-- [ ] Todo el texto de la ficha se renderiza dentro de componentes `Text`.
+- [X] Al tocar una tarjeta del catálogo, se navega a la ruta `Detalle` con el `id`.
+- [X] La pantalla recupera la especie correspondiente a ese `id`.
+- [X] La ficha muestra nombre, nombre científico, estado de conservación.
+- [X] La ficha muestra la morfología completa (longitud, peso, forma, rasgo).
+- [X] La ficha muestra el hábitat y la alimentación.
+- [X] Las medidas numéricas se muestran con su unidad (ej. "6 m", "1200 kg").
+- [X] Si el `id` no corresponde a ninguna especie, se muestra "especie no encontrada".
+- [X] Existe un control de volver (header / `goBack`) que regresa al catálogo.
+- [X] Todo el texto de la ficha se renderiza dentro de componentes `Text`.
 
 ## Tasks
 
-- [ ] Registrar la ruta `Detalle` en el stack con parámetro `{ id: string }`
+- [X] Registrar la ruta `Detalle` en el stack con parámetro `{ id: string }`
       (ver `01-navigation.md`).
-- [ ] Crear la pantalla `DetalleScreen` en `screens/`, tipada con
+- [X] Crear la pantalla `DetalleScreen` en `screens/`, tipada con
       `NativeStackScreenProps`.
-- [ ] Recuperar la especie por `id` desde los datos validados (helper de búsqueda).
-- [ ] Mostrar todos los campos de la especie, con las medidas formateadas con su
+- [X] Recuperar la especie por `id` desde los datos validados (helper de búsqueda).
+- [X] Mostrar todos los campos de la especie, con las medidas formateadas con su
       unidad.
-- [ ] Manejar el caso "especie no encontrada" con opción de volver.
-- [ ] Hacer que tocar una `SharkCard` navegue a `Detalle` con el `id` (prop
+- [X] Manejar el caso "especie no encontrada" con opción de volver.
+- [X] Hacer que tocar una `SharkCard` navegue a `Detalle` con el `id` (prop
       `onPress`).
-- [ ] Verificar los criterios de aceptación de F02.
+- [X] Verificar los criterios de aceptación de F02.
