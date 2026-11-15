@@ -1,9 +1,9 @@
 import sharks from './sharks.json';
 import { Shark, Morfologia } from '../types/Shark';
 
-function esMorfologia(x: unknown): x is Morfologia {
-    if (typeof x !== "object" || x === null) return false;
-    const obj = x as Record<string, unknown>;
+function esMorfologia(valor: unknown): valor is Morfologia {
+    if (typeof valor !== "object" || valor === null) return false;
+    const obj = valor as Record<string, unknown>;
 
     return (
         typeof obj.longitudMetros === "number" &&
@@ -12,9 +12,9 @@ function esMorfologia(x: unknown): x is Morfologia {
         typeof obj.rasgoDistintivo === "string"
   );
 }
-function esShark(x: unknown): x is Shark{
-    if (typeof x !== "object" || x === null) return false;
-    const obj = x as Record<string, unknown>;
+function esShark(valor: unknown): valor is Shark{
+    if (typeof valor !== "object" || valor === null) return false;
+    const obj = valor as Record<string, unknown>;
 
     return (
         typeof obj.id === "string" &&
@@ -31,4 +31,10 @@ export default function loadSharks(): Shark[] {
   const datos: unknown = sharks;
   if (!Array.isArray(datos)) return [];
   return datos.filter(esShark);
+}
+export function getSharkById(id: string): Shark | undefined {
+  // 1. obtén el array validado con loadSharks()
+  const especies = loadSharks();
+  // 2. devuelve el tiburón cuyo id coincida con el parámetro, usando .find()
+  return especies.find((shark) => shark.id === id);
 }
