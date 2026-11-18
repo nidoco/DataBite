@@ -2,7 +2,7 @@ export interface Morfologia {
     longitudMetros: number;
     pesoKg?: number | undefined;
     formaCuerpo: string;
-    rasgoDistintivo: string;
+    rasgoDistintivo?: string | undefined;
 }
 
 export interface Shark {
@@ -12,5 +12,5 @@ export interface Shark {
     estadoConservacion: string;
     morfologia: Morfologia;
     habitat: string;
-    alimentacion: string;
+    alimentacion?: string | undefined;
 }

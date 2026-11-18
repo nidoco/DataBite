@@ -9,7 +9,7 @@ function esMorfologia(valor: unknown): valor is Morfologia {
         typeof obj.longitudMetros === "number" &&
         (typeof obj.pesoKg === "number" || obj.pesoKg === undefined) &&
         typeof obj.formaCuerpo === "string" &&
-        typeof obj.rasgoDistintivo === "string"
+        (typeof obj.rasgoDistintivo === "string" || obj.rasgoDistintivo === undefined)
   );
 }
 function esShark(valor: unknown): valor is Shark{
@@ -22,7 +22,7 @@ function esShark(valor: unknown): valor is Shark{
         typeof obj.nombreCientifico === "string" &&
         typeof obj.estadoConservacion === "string" &&
         typeof obj.habitat === "string" &&
-        typeof obj.alimentacion === "string" &&
+        (typeof obj.alimentacion === "string" || obj.alimentacion === undefined) &&
         esMorfologia(obj.morfologia)
     )
 }
