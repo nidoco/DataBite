@@ -22,11 +22,15 @@ FishBase v26.06, sobre 536 especies vivas con estado de la UICN e ID de FishBase
 La definición inicial, con siete campos obligatorios en texto en español, la
 cumplían unas 239 especies, y ninguna fuente trae el rasgo distintivo.
 
+**Criterio general:** es mejor mostrar la información que existe, aunque sea poca, que
+dejar fuera una especie. Un dato que falta se muestra como "No disponible" y nunca se
+inventa.
+
 **Obligatorios.** Una especie se incluye solo si tiene:
 
 - nombre científico;
 - estado de conservación (categoría UICN);
-- longitud máxima en metros (FishBase la entrega en centímetros: se convierte).
+- un registro en FishBase, del que salen su forma del cuerpo y su hábitat.
 
 **Con regla de respaldo:**
 
@@ -39,15 +43,20 @@ cumplían unas 239 especies, y ninguna fuente trae el rasgo distintivo.
 **Opcionales** (la ficha muestra "No disponible" cuando faltan, nunca un valor
 inventado):
 
+- `longitudMetros`: FishBase la entrega en centímetros y se convierte a metros.
+  Unas 45 especies no la tienen y se incluyen igualmente.
 - `pesoKg`: solo ~15 % de las especies tiene un peso documentado.
-- `alimentacion`: FishBase la entrega como datos estructurados (tipo de
-  alimentación y presas) y solo cubre ~46 % de las especies.
+- `alimentacion`: se genera a partir de los grupos de presa registrados en FishBase
+  (hasta 3 grupos que sumen al menos el 15 % de los registros de la especie). Basta
+  un registro. La frase refleja lo documentado, no la dieta completa.
 - `rasgoDistintivo`: ninguna fuente lo trae. Queda para las especies escritas a
   mano.
 
 Cobertura medida sobre las 536 especies: longitud 490, nombre en español 342,
-peso 81, alimentación ~250. Se espera un catálogo de unas 490 especies, cifra que
-se confirma con el informe de cobertura.
+peso 81. El catálogo resultante tiene **535 especies**: la única excluida,
+*Squatina punctata*, no tiene registro en FishBase y por eso no hay forma del
+cuerpo ni hábitat. De las incluidas, ~227 tienen alimentación. El detalle está en
+`scripts/informe-cobertura.md`.
 
 ## Fuentes y condiciones de uso
 
@@ -137,15 +146,15 @@ resto quedó fuera.
 ## Criterios de aceptación
 
 - [ ] El informe de cobertura existe y muestra incluidas, descartadas y motivos.
-- [ ] Toda especie del JSON tiene nombre científico, estado de conservación y
-      longitud.
+- [X] Toda especie del JSON tiene nombre científico, estado de conservación, forma
+      del cuerpo y hábitat.
 - [ ] Toda especie sin nombre en español muestra su nombre científico como nombre.
-- [X] `pesoKg`, `alimentacion` y `rasgoDistintivo` son opcionales en el modelo y
-      en su validación.
-- [ ] Una especie con uno de esos campos con tipo incorrecto se descarta; una sin
+- [X] `longitudMetros`, `pesoKg`, `alimentacion` y `rasgoDistintivo` son opcionales
+      en el modelo y en su validación.
+- [X] Una especie con uno de esos campos con tipo incorrecto se descarta; una sin
       el campo se acepta.
-- [ ] La ficha de detalle muestra "No disponible" cuando falta peso, alimentación
-      o rasgo distintivo.
+- [X] La ficha de detalle muestra "No disponible" cuando falta longitud, peso,
+      alimentación o rasgo distintivo.
 - [ ] Los `id` son únicos y con formato de slug.
 - [ ] El JSON generado pasa la validación de `loadSharks` sin descartes inesperados.
 - [ ] El catálogo muestra las especies cargadas con scroll fluido.
@@ -160,40 +169,45 @@ resto quedó fuera.
   una app móvil y un curso. La consulta a Wikidata ya trae el estado de casi todas
   las especies vivas, pero no se verificó si esos valores heredan las restricciones
   de la UICN. Se consulta a `redlist@iucn.org` antes de generar el JSON final.
-- Alimentación: cómo convertir los datos estructurados de FishBase en un texto
-  corto en español.
-- Nueve especies cuyo nombre científico difiere entre Wikidata y FishBase (por
-  sinónimos taxonómicos) requieren revisión a mano.
 - Búsqueda y filtrado: con cientos de especies pasan a ser casi necesarios; se
   decide si entran en una feature propia.
 
 ## Decisiones tomadas
 
-- Los tres campos obligatorios son nombre científico, estado de conservación y
-  longitud.
+- Los campos obligatorios son nombre científico, estado de conservación, forma del
+  cuerpo y hábitat. Todo lo demás es opcional y se muestra como "No disponible".
 - Si una especie no tiene nombre común en español, el catálogo muestra el nombre
-  científico. Unas 148 especies mostrarán un nombre latino.
-- `alimentacion` y `rasgoDistintivo` pasan a ser opcionales en el modelo.
+  científico. Unas 190 especies mostrarán un nombre latino.
+- `longitudMetros`, `pesoKg`, `alimentacion` y `rasgoDistintivo` son opcionales en
+  el modelo.
+- El nombre en español se elige por frecuencia entre los nombres de FishBase; en un
+  empate gana la fuente FAO, luego la AFS y luego los nombres populares.
+- El estado de conservación se obtiene de la UICN (token aprobado). Si la UICN no
+  encuentra la especie por nombre, se consulta por su ID; si solo tiene evaluaciones
+  globales antiguas, se usa la más reciente.
+- Cuando el nombre científico difiere entre Wikidata y FishBase, se usa el de
+  FishBase.
 
 ## Tasks
 
 - [X] Revisar términos de uso y atribución de las fuentes candidatas.
-- [ ] Crear la cuenta de la UICN, solicitar el token y guardarlo fuera del
+- [X] Crear la cuenta de la UICN, solicitar el token y guardarlo fuera del
       repositorio (agregar su archivo al `.gitignore`).
 - [X] Hacer `pesoKg` opcional en `Morfologia` y en `esMorfologia`.
 - [X] Mostrar "No disponible" en `DetalleScreen` cuando falte el peso.
 - [X] Medir la cobertura de datos de Wikidata y FishBase (prueba previa).
-- [ ] Hacer `alimentacion` y `rasgoDistintivo` opcionales en `Morfologia`/`Shark`,
-      en sus type guards y en `DetalleScreen`.
+- [X] Hacer `longitudMetros`, `alimentacion` y `rasgoDistintivo` opcionales en
+      `Morfologia`/`Shark`, en sus type guards y en `DetalleScreen`.
 - [ ] Consultar a `redlist@iucn.org` por el uso de sus datos en una app educativa.
-- [ ] Escribir la tabla de equivalencias a español de los códigos de hábitat y
-      forma del cuerpo de FishBase.
-- [ ] Crear el script de obtención de la lista base de especies.
-- [ ] Crear la combinación de atributos por especie y la regla de "datos completos".
-- [ ] Definir y documentar la regla para elegir un nombre en español cuando hay
+- [X] Escribir la tabla de equivalencias a español de los códigos de hábitat, forma
+      del cuerpo y grupos de presa de FishBase.
+- [X] Crear el script de obtención de la lista base de especies.
+- [X] Crear la descarga de los datos de la UICN, con pausas y caché.
+- [X] Crear la combinación de atributos por especie y la regla de "datos completos".
+- [X] Definir y documentar la regla para elegir un nombre en español cuando hay
       varios.
-- [ ] Revisar a mano las especies con nombre científico distinto entre fuentes.
-- [ ] Generar el informe de cobertura y revisarlo.
+- [X] Revisar las especies con nombre científico distinto entre fuentes.
+- [X] Generar el informe de cobertura y revisarlo.
 - [ ] Generar `data/sharks.json` y validarlo con `loadSharks`.
 - [ ] Agregar la sección de créditos y atribución en la app y en el README.
 - [ ] Verificar los criterios de aceptación de F07.
