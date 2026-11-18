@@ -1,5 +1,5 @@
 export interface Morfologia {
-    longitudMetros: number;
+    longitudMetros?: number | undefined;
     pesoKg?: number | undefined;
     formaCuerpo: string;
     rasgoDistintivo?: string | undefined;

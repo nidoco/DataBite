@@ -6,7 +6,7 @@ function esMorfologia(valor: unknown): valor is Morfologia {
     const obj = valor as Record<string, unknown>;
 
     return (
-        typeof obj.longitudMetros === "number" &&
+        (typeof obj.longitudMetros === "number" || obj.longitudMetros === undefined) &&
         (typeof obj.pesoKg === "number" || obj.pesoKg === undefined) &&
         typeof obj.formaCuerpo === "string" &&
         (typeof obj.rasgoDistintivo === "string" || obj.rasgoDistintivo === undefined)
