@@ -7,7 +7,7 @@ function esMorfologia(valor: unknown): valor is Morfologia {
 
     return (
         typeof obj.longitudMetros === "number" &&
-        typeof obj.pesoKg === "number" &&
+        (typeof obj.pesoKg === "number" || obj.pesoKg === undefined) &&
         typeof obj.formaCuerpo === "string" &&
         typeof obj.rasgoDistintivo === "string"
   );

@@ -37,7 +37,7 @@ export function DetalleScreen({ route, navigation }: Props) {
       <View style={styles.tarjeta}>
         <Text style={styles.seccion}>Morfología</Text>
         <DatoFicha etiqueta="Longitud" valor={`${shark.morfologia.longitudMetros} m`} />
-        <DatoFicha etiqueta="Peso" valor={`${shark.morfologia.pesoKg} kg`} />
+        <DatoFicha etiqueta="Peso" valor={shark.morfologia.pesoKg !== undefined ? `${shark.morfologia.pesoKg} kg` : "No disponible"} />
         <DatoFicha etiqueta="Forma del cuerpo" valor={shark.morfologia.formaCuerpo} />
         <DatoFicha etiqueta="Rasgo distintivo" valor={shark.morfologia.rasgoDistintivo} />
       </View>

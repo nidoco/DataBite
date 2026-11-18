@@ -1,6 +1,6 @@
 export interface Morfologia {
     longitudMetros: number;
-    pesoKg: number;
+    pesoKg?: number | undefined;
     formaCuerpo: string;
     rasgoDistintivo: string;
 }
