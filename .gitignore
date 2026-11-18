@@ -31,7 +31,12 @@ yarn-error.*
 *.pem
 
 # local env files
+.env
 .env*.local
+
+# secrets and raw data downloaded by the catalog script (never commit)
+scripts/.secrets/
+scripts/cache/
 
 # typescript
 *.tsbuildinfo
