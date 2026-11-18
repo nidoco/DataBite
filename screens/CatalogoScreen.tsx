@@ -1,15 +1,26 @@
-import { FlatList, Text, StyleSheet } from 'react-native';
+import { FlatList, Text, StyleSheet, Pressable } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { SharkCard } from '../components/SharkCard';
 import loadSharks from '../data/loadSharks';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../types/navigation';
+import { useLayoutEffect } from 'react';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Catalogo'>;
 
 export function CatalogoScreen({ navigation }: Props) {
 
     const sharks = loadSharks();
+
+    useLayoutEffect(() => {
+        navigation.setOptions({
+            headerRight: () => (
+                <Pressable onPress={() => navigation.navigate('Quiz')}>
+                    <Text style={styles.botonQuiz}>Quiz</Text>
+                </Pressable>
+            ),
+        });
+    }, [navigation]);
 
     return (
         <SafeAreaView style={styles.container} edges={['left', 'right']}>
@@ -41,4 +52,10 @@ const styles = StyleSheet.create({
         fontSize: 16,
         color: '#cbd5e0',
     },
+    botonQuiz: {
+        color: '#4fd1c5',
+        fontSize: 16,
+        fontWeight: 'bold',
+    },
+
 });
