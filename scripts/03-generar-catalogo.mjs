@@ -125,7 +125,7 @@ const opcionalNumero = (v) => typeof v === 'number' || v === undefined;
 function esMorfologia(m) {
   return (
     typeof m === 'object' && m !== null &&
-    typeof m.longitudMetros === 'number' &&
+    opcionalNumero(m.longitudMetros) &&
     opcionalNumero(m.pesoKg) &&
     esTexto(m.formaCuerpo) &&
     opcionalTexto(m.rasgoDistintivo)
@@ -180,7 +180,7 @@ const excluidas = []; // { sci, motivo }
 const idsUsados = new Set();
 const stats = {
   nombreEspanol: 0, nombreCientifico: 0, conPeso: 0, estadoAntiguo: 0,
-  porIdUicn: 0, nombreDistinto: [], manuales: 0, conAlimentacion: 0,
+  porIdUicn: 0, nombreDistinto: [], manuales: 0, conAlimentacion: 0, sinLongitud: 0,
 };
 const muestraNombres = [];
 
@@ -196,8 +196,10 @@ for (const e of lista) {
   const estado = uicn ? estadoDe(uicn.evaluaciones) : null;
   if (!estado) { excluidas.push({ sci: nombreCientifico, motivo: 'Sin categoría de la UICN' }); continue; }
 
+  // La longitud es opcional: si FishBase no la tiene, la ficha muestra "No disponible".
   const largoCm = Number(s.Length);
-  if (!(largoCm > 0)) { excluidas.push({ sci: nombreCientifico, motivo: 'Sin longitud máxima en FishBase' }); continue; }
+  const tieneLongitud = largoCm > 0;
+  if (!tieneLongitud) stats.sinLongitud++;
 
   const forma = formaCuerpo[s.BodyShapeI];
   if (forma === undefined) { excluidas.push({ sci: nombreCientifico, motivo: `Forma del cuerpo sin traducción (${s.BodyShapeI ?? 'vacía'})` }); continue; }
@@ -218,7 +220,7 @@ for (const e of lista) {
       nombreCientifico,
       estadoConservacion: estado.categoria,
       morfologia: {
-        longitudMetros: Math.round(largoCm) / 100,
+        longitudMetros: tieneLongitud ? Math.round(largoCm) / 100 : undefined,
         pesoKg: pesoG > 0 ? Math.round(pesoG / 100) / 10 : undefined,
         formaCuerpo: forma,
       },
@@ -280,6 +282,7 @@ ${[...motivos].sort((a, b) => b[1] - a[1]).map(([m, n]) => `- ${m}: ${n}`).join(
 - Con el nombre científico como nombre (no hay nombre en español): ${stats.nombreCientifico}
 - Escritas a mano (tienen prioridad): ${stats.manuales}
 - Con peso máximo documentado: ${stats.conPeso}
+- Sin longitud máxima en FishBase (se incluyen y la ficha muestra "No disponible"): ${stats.sinLongitud}
 - Con estado de la UICN desactualizado (evaluación global antigua): ${stats.estadoAntiguo}
 - Encontradas en la UICN por su ID y no por su nombre: ${stats.porIdUicn}
 - Con alimentación (generada de las presas de FishBase, mínimo ${MIN_REGISTROS} registros): ${stats.conAlimentacion}
