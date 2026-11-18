@@ -1,0 +1,182 @@
+[
+  {
+    "id": "inmunes-al-cancer",
+    "enunciado": "Los tiburones son completamente inmunes al cáncer y nunca desarrollan tumores.",
+    "respuesta": "mito",
+    "explicacion": "Aunque este mito popular impulsó la venta de suplementos de cartílago de tiburón, la biología marina ha documentado numerosos casos de tumores benignos y malignos en diversas especies. Ningún grupo de animales vertebrados es completamente inmune al cáncer."
+  },
+  {
+    "id": "deteccion-campos-electricos",
+    "enunciado": "Los tiburones pueden detectar los débiles campos eléctricos producidos por los músculos y latidos de otros animales.",
+    "respuesta": "realidad",
+    "explicacion": "Poseen órganos sensoriales especializados llamados ampollas de Lorenzini, ubicados en poros alrededor de su hocico y cabeza. Estas estructuras rellenas de un gel conductor les permiten percibir señales bioeléctricas en el agua, facilitando la localización de presas ocultas bajo la arena."
+  },
+  {
+    "id": "piel-cubierta-denticulos",
+    "enunciado": "La piel de los tiburones está cubierta por diminutas escamas con estructura similar a la de un diente.",
+    "respuesta": "realidad",
+    "explicacion": "En lugar de las escamas planas de los peces óseos, los tiburones poseen dentículos dérmicos compuestos de dentina y recubiertos de esmalte. Estas microestructuras reducen la fricción con el agua al nadar, disminuyen el ruido hidrodinámico y actúan como una armadura protectora."
+  },
+  {
+    "id": "morir-si-dejan-de-nadar",
+    "enunciado": "Todos los tiburones mueren asfixiados de inmediato si dejan de nadar hacia adelante.",
+    "respuesta": "mito",
+    "explicacion": "Si bien algunas especies pelágicas necesitan nadar constantemente para forzar el paso de agua por sus branquias, muchas otras poseen bombeo bucal. Este mecanismo les permite aspirar agua por la boca y expulsarla por las hendiduras branquiales mientras descansan inmóviles sobre el fondo marino."
+  },
+  {
+    "id": "tiburones-anteriores-dinosaurios",
+    "enunciado": "Los ancestros de los tiburones habitaron los océanos de la Tierra antes de que existieran los dinosaurios.",
+    "respuesta": "realidad",
+    "explicacion": "El registro fósil demuestra que los primeros peces cartilaginosos con rasgos propios de los tiburones surgieron durante el periodo Silúrico y Devónico, mucho antes de la aparición de los dinosaurios en el Triásico. A lo largo de su historia evolutiva han sobrevivido a múltiples extinciones masivas."
+  },
+  {
+    "id": "humanos-presa-favorita",
+    "enunciado": "Los tiburones cazan activamente a los seres humanos porque formamos parte de su dieta natural.",
+    "respuesta": "mito",
+    "explicacion": "Los seres humanos no formamos parte de la cadena alimenticia natural de ningún tiburón, ya que nuestra composición corporal carece del alto contenido graso que necesitan para obtener energía. La gran mayoría de los incidentes ocurren por confusión visual en aguas turbias o por mordeduras exploratorias cuando investigan un objeto desconocido."
+  },
+  {
+    "id": "tiburones-emiten-rugidos",
+    "enunciado": "Los tiburones emiten rugidos o sonidos vocales bajo el agua para intimidar a sus presas.",
+    "respuesta": "mito",
+    "explicacion": "Los tiburones carecen de cuerdas vocales y de vejiga natatoria, órganos que otros animales utilizan para generar sonidos. Aunque pueden producir ruidos mecánicos accidentales al chasquear sus mandíbulas o moverse en el agua, no tienen capacidad de vocalización."
+  },
+  {
+    "id": "diversidad-metodos-reproduccion",
+    "enunciado": "Existen especies de tiburones que ponen huevos y otras que paren crías vivas completamente desarrolladas.",
+    "respuesta": "realidad",
+    "explicacion": "A diferencia de la mayoría de los peces óseos, los tiburones presentan fecundación interna y estrategias reproductivas muy variadas. Según la especie, pueden ser ovíparos, ovovivíparos o vivíparos placentarios, pero en todos los casos las crías nacen totalmente independientes y sin recibir cuidado parental."
+  },
+  {
+    "id": "esqueleto-de-cartilago",
+    "enunciado": "Los tiburones carecen de huesos verdaderos y su esqueleto está formado por cartílago.",
+    "respuesta": "realidad",
+    "explicacion": "Los tiburones pertenecen a la clase de los peces cartilaginosos, por lo que su estructura interna está compuesta de cartílago en lugar de tejido óseo. Este material es mucho más ligero y flexible que el hueso, lo que les aporta mayor flotabilidad y agilidad al nadar."
+  },
+  {
+    "id": "tiburones-son-ciegos",
+    "enunciado": "Los tiburones tienen una visión pésima y dependen exclusivamente del olfato para cazar.",
+    "respuesta": "mito",
+    "explicacion": "Los tiburones cuentan con ojos muy desarrollados y adaptados a entornos marinos con poca iluminación. Poseen una capa reflectante detrás de la retina llamada tapetum lucidum que amplifica la luz disponible, permitiéndoles distinguir formas y contrastes con gran nitidez bajo el agua."
+  },
+  {
+    "id": "higado-aceitoso-flotabilidad",
+    "enunciado": "Los tiburones carecen de vejiga natatoria y regulan su flotabilidad gracias a un hígado enorme rico en aceite.",
+    "respuesta": "realidad",
+    "explicacion": "A diferencia de la mayoría de los peces óseos que usan una vejiga llena de gas para no hundirse, los tiburones dependen de su hígado saturado de escualeno, un aceite menos denso que el agua de mar. Este órgano, sumado a su ligero esqueleto cartilaginoso y a la sustentación de sus aletas pectorales, les evita hundirse."
+  },
+  {
+    "id": "girar-boca-arriba-morder",
+    "enunciado": "Los tiburones necesitan voltearse boca arriba para poder morder debido a la posición inferior de su boca.",
+    "respuesta": "mito",
+    "explicacion": "Aunque la boca de la mayoría de los tiburones se ubica debajo del hocico, su mandíbula superior no está fusionada al cráneo. Al atacar, levantan el hocico y proyectan las mandíbulas hacia adelante para morder directamente sin necesidad de girar su cuerpo."
+  },
+  {
+    "id": "reemplazo-continuo-dientes",
+    "enunciado": "Los tiburones producen y reemplazan hileras completas de dientes de forma continua durante toda su vida.",
+    "respuesta": "realidad",
+    "explicacion": "Sus dientes no están fusionados a la mandíbula, sino insertados en el tejido blando de las encías en múltiples filas paralelas. Cuando un diente frontal se desgasta o se pierde al cazar, el diente situado inmediatamente detrás avanza como una cinta transportadora para ocupar su lugar."
+  },
+  {
+    "id": "tiburones-siempre-solitarios",
+    "enunciado": "Todos los tiburones son animales estrictamente solitarios que nunca interactúan ni forman grupos con otros ejemplares.",
+    "respuesta": "mito",
+    "explicacion": "Aunque muchas especies patrullan en solitario, numerosas investigaciones han demostrado que los tiburones exhiben comportamientos sociales complejos. Muchas especies forman cardúmenes organizados por tamaño o sexo, migran en grupo e incluso establecen jerarquías sociales alrededor de zonas de alimentación."
+  },
+  {
+    "id": "reguladores-ecosistemas-marinos",
+    "enunciado": "Los tiburones mantienen la salud de los ecosistemas marinos al controlar las poblaciones de otras especies.",
+    "respuesta": "realidad",
+    "explicacion": "Como depredadores superiores y mesodepredadores, los tiburones eliminan individuos enfermos o débiles y evitan que otras especies se reproduzcan sin control. Su presencia protege indirectamente hábitats clave como los arrecifes de coral y las praderas marinas, manteniendo el equilibrio trófico del océano."
+  },
+  {
+    "id": "tiburones-sangre-fria",
+    "enunciado": "Todos los tiburones tienen el cuerpo a la misma temperatura que el agua que los rodea.",
+    "respuesta": "mito",
+    "explicacion": "Algunos tiburones, como el tiburón blanco y el marrajo, conservan el calor que producen sus músculos gracias a una red especial de vasos sanguíneos. Así mantienen partes del cuerpo más calientes que el agua, lo que les permite nadar con más potencia en aguas frías."
+  },
+  {
+    "id": "migraciones-oceanicas",
+    "enunciado": "Algunos tiburones realizan migraciones que atraviesan océanos enteros.",
+    "respuesta": "realidad",
+    "explicacion": "Gracias a marcas satelitales se ha seguido a tiburones blancos que cruzaron el océano Índico de un continente a otro y regresaron. Otras especies también recorren grandes distancias siguiendo el alimento o para reproducirse."
+  },
+  {
+    "id": "gigantes-cazan-presas-grandes",
+    "enunciado": "Los tiburones más grandes del mundo se alimentan de presas grandes como focas y peces de gran tamaño.",
+    "respuesta": "mito",
+    "explicacion": "Las especies más grandes, como el tiburón ballena y el tiburón peregrino, se alimentan filtrando el agua. Así atrapan plancton, huevos y peces muy pequeños."
+  },
+  {
+    "id": "tiburon-groenlandia-longevo",
+    "enunciado": "El tiburón de Groenlandia es uno de los vertebrados más longevos que se conocen.",
+    "respuesta": "realidad",
+    "explicacion": "Un estudio que analizó el cristalino de sus ojos con datación por radiocarbono estimó que puede vivir varios siglos. Crece muy lentamente en las aguas heladas del Ártico y el Atlántico Norte."
+  },
+  {
+    "id": "nadar-sin-aletas",
+    "enunciado": "Un tiburón al que le cortan las aletas puede seguir nadando con normalidad.",
+    "respuesta": "mito",
+    "explicacion": "Sin aletas, el tiburón no puede impulsarse ni mantener el rumbo, por lo que se hunde y muere. Esta práctica, llamada aleteo, está prohibida en muchos países por ser cruel y por dañar a las poblaciones de tiburones."
+  },
+  {
+    "id": "edad-en-vertebras",
+    "enunciado": "La edad de un tiburón puede estimarse contando bandas en sus vértebras, de forma parecida a los anillos de un árbol.",
+    "respuesta": "realidad",
+    "explicacion": "Las vértebras de muchos tiburones forman bandas de crecimiento a lo largo de su vida. Los científicos las cuentan para estimar la edad, aunque comprueban el método con otras técnicas porque puede ser menos preciso en animales muy viejos."
+  },
+  {
+    "id": "todos-son-grandes",
+    "enunciado": "Todos los tiburones son animales de gran tamaño.",
+    "respuesta": "mito",
+    "explicacion": "Hay tiburones tan pequeños que caben en la palma de la mano, como algunos tiburones linterna de aguas profundas. Las especies varían muchísimo de tamaño, desde estos tiburones diminutos hasta el tiburón ballena, el pez más grande que existe."
+  },
+  {
+    "id": "tiburones-con-luz-propia",
+    "enunciado": "Existen tiburones capaces de producir su propia luz.",
+    "respuesta": "realidad",
+    "explicacion": "Algunos tiburones de aguas profundas, como los tiburones linterna, tienen en la piel órganos que emiten luz. Esta luz les ayuda a camuflarse contra el leve resplandor que llega desde la superficie."
+  },
+  {
+    "id": "megalodon-sigue-vivo",
+    "enunciado": "El megalodón todavía sobrevive en las profundidades del océano.",
+    "respuesta": "mito",
+    "explicacion": "El megalodón es un tiburón extinto que solo se conoce por fósiles, sobre todo dientes y vértebras. No hay ninguna prueba científica de que siga vivo, y un animal de ese tamaño no podría pasar desapercibido."
+  },
+  {
+    "id": "camuflaje-contrasombreado",
+    "enunciado": "Muchos tiburones tienen el lomo oscuro y el vientre claro para camuflarse en el agua.",
+    "respuesta": "realidad",
+    "explicacion": "Este patrón se llama contrasombreado. Visto desde arriba, el lomo oscuro se confunde con el fondo, y visto desde abajo, el vientre claro se confunde con la luz de la superficie."
+  },
+  {
+    "id": "blanco-en-acuarios",
+    "enunciado": "El tiburón blanco se mantiene con facilidad durante años en los acuarios.",
+    "respuesta": "mito",
+    "explicacion": "Ningún acuario ha logrado mantener un tiburón blanco en cautiverio a largo plazo. Los pocos ejemplares jóvenes que se exhibieron fueron liberados al mar tras un tiempo, porque esta especie necesita espacios enormes."
+  },
+  {
+    "id": "tiburones-caminantes",
+    "enunciado": "Existen tiburones que usan sus aletas para caminar sobre el fondo marino.",
+    "respuesta": "realidad",
+    "explicacion": "Los llamados tiburones caminantes, que viven en arrecifes de Australia e Indonesia, mueven sus aletas pectorales y pélvicas como si fueran patas. Así se desplazan entre rocas y charcas poco profundas."
+  },
+  {
+    "id": "solo-aguas-tropicales",
+    "enunciado": "Los tiburones solo viven en aguas tropicales y cálidas.",
+    "respuesta": "mito",
+    "explicacion": "Hay tiburones en todos los océanos, incluidas las aguas polares. El tiburón de Groenlandia, por ejemplo, vive en aguas heladas del Ártico."
+  },
+  {
+    "id": "urea-contra-la-sal",
+    "enunciado": "Los tiburones acumulan urea en la sangre para equilibrar la sal del mar.",
+    "respuesta": "realidad",
+    "explicacion": "La urea es una sustancia de desecho que la mayoría de los animales elimina, pero los tiburones la retienen en su sangre. Así sus líquidos corporales quedan tan concentrados como el agua de mar y no pierden agua por deshidratación."
+  },
+  {
+    "id": "especies-amenazadas",
+    "enunciado": "Muchas especies de tiburón están en peligro de extinción.",
+    "respuesta": "realidad",
+    "explicacion": "La pesca excesiva es la principal amenaza para los tiburones. Como muchas especies crecen despacio y tienen pocas crías, sus poblaciones tardan mucho en recuperarse."
+  }
+]
