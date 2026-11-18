@@ -5,7 +5,8 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { CatalogoScreen } from './screens/CatalogoScreen';
 import { RootStackParamList } from './types/navigation';
 import { DetalleScreen } from './screens/DetalleScreen';
-
+import { QuizScreen } from './screens/QuizScreen';
+import { ResultadosScreen } from './screens/ResultadosScreen';
 
 // Stack tipado: Stack.Screen solo acepta rutas declaradas en RootStackParamList
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -33,6 +34,20 @@ export default function App() {
             component={DetalleScreen}
             options={{ title: 'Ficha' }}
           />
+          
+          <Stack.Screen
+            name="Quiz"
+            component={QuizScreen}
+            options={{ title: 'Quiz' }}
+
+          />
+
+          <Stack.Screen
+            name="Resultados"
+            component={ResultadosScreen}
+            options={{ title: 'Resultados' }}
+          />
+
 
         </Stack.Navigator>
       </NavigationContainer>
