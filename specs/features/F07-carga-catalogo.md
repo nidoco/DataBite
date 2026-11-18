@@ -191,23 +191,22 @@ resto quedó fuera.
 ## Tasks
 
 - [X] Revisar términos de uso y atribución de las fuentes candidatas.
-- [X] Crear la cuenta de la UICN, solicitar el token y guardarlo fuera del
+- [ ] Crear la cuenta de la UICN, solicitar el token y guardarlo fuera del
       repositorio (agregar su archivo al `.gitignore`).
 - [X] Hacer `pesoKg` opcional en `Morfologia` y en `esMorfologia`.
 - [X] Mostrar "No disponible" en `DetalleScreen` cuando falte el peso.
 - [X] Medir la cobertura de datos de Wikidata y FishBase (prueba previa).
-- [X] Hacer `longitudMetros`, `alimentacion` y `rasgoDistintivo` opcionales en
-      `Morfologia`/`Shark`, en sus type guards y en `DetalleScreen`.
+- [ ] Hacer `alimentacion` y `rasgoDistintivo` opcionales en `Morfologia`/`Shark`,
+      en sus type guards y en `DetalleScreen`.
 - [ ] Consultar a `redlist@iucn.org` por el uso de sus datos en una app educativa.
-- [X] Escribir la tabla de equivalencias a español de los códigos de hábitat, forma
-      del cuerpo y grupos de presa de FishBase.
-- [X] Crear el script de obtención de la lista base de especies.
-- [X] Crear la descarga de los datos de la UICN, con pausas y caché.
-- [X] Crear la combinación de atributos por especie y la regla de "datos completos".
-- [X] Definir y documentar la regla para elegir un nombre en español cuando hay
+- [ ] Escribir la tabla de equivalencias a español de los códigos de hábitat y
+      forma del cuerpo de FishBase.
+- [ ] Crear el script de obtención de la lista base de especies.
+- [ ] Crear la combinación de atributos por especie y la regla de "datos completos".
+- [ ] Definir y documentar la regla para elegir un nombre en español cuando hay
       varios.
-- [X] Revisar las especies con nombre científico distinto entre fuentes.
-- [X] Generar el informe de cobertura y revisarlo.
+- [ ] Revisar a mano las especies con nombre científico distinto entre fuentes.
+- [ ] Generar el informe de cobertura y revisarlo.
 - [ ] Generar `data/sharks.json` y validarlo con `loadSharks`.
 - [ ] Agregar la sección de créditos y atribución en la app y en el README.
 - [ ] Verificar los criterios de aceptación de F07.
