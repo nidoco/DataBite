@@ -1,35 +1,4929 @@
 [
   {
-    "id": "tiburon-blanco",
-    "nombre": "Tiburón Blanco",
-    "nombreCientifico": "Carcharodon carcharias",
-    "estadoConservacion": "Vulnerable",
+    "id": "akheilos-suwartanai",
+    "nombre": "Akheilos suwartanai",
+    "nombreCientifico": "Akheilos suwartanai",
+    "estadoConservacion": "Datos insuficientes",
     "morfologia": {
-      "longitudMetros": 6,
-      "pesoKg": 1200,
-      "formaCuerpo": "Fusiforme",
-      "rasgoDistintivo": "Dientes triangulares aserrados"
+      "longitudMetros": 0.54,
+      "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Aguas cálidas y templadas",
-    "alimentacion": "Mamíferos marinos, peces y otros tiburones"
+    "habitat": "Junto al fondo del mar"
   },
   {
-    "id": "tiburon-martillo",
-    "nombre": "Tiburón Martillo",
-    "nombreCientifico": "Sphyrna mokarran",
+    "id": "cirrhoscyllium-expolitum",
+    "nombre": "Alfombrera barbuda",
+    "nombreCientifico": "Cirrhoscyllium expolitum",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.34,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "parascyllium-variolatum",
+    "nombre": "Alfombrera colarina",
+    "nombreCientifico": "Parascyllium variolatum",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.91,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "parascyllium-collare",
+    "nombre": "Alfombrera collareja",
+    "nombreCientifico": "Parascyllium collare",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.85,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos"
+  },
+  {
+    "id": "cirrhoscyllium-formosanum",
+    "nombre": "Alfombrera de Taiwan",
+    "nombreCientifico": "Cirrhoscyllium formosanum",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 0.39,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "cirrhoscyllium-japonicum",
+    "nombre": "Alfombrera japonesa",
+    "nombreCientifico": "Cirrhoscyllium japonicum",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.49,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "parascyllium-ferrugineum",
+    "nombre": "Alfombrera mohosa",
+    "nombreCientifico": "Parascyllium ferrugineum",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.8,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "scyliorhinus-stellaris",
+    "nombre": "Alitán",
+    "nombreCientifico": "Scyliorhinus stellaris",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 1.7,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Crustáceos del fondo y peces"
+  },
+  {
+    "id": "scyliorhinus-cervigoni",
+    "nombre": "Alitán africano",
+    "nombreCientifico": "Scyliorhinus cervigoni",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.67,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "scyliorhinus-boa",
+    "nombre": "Alitán boa",
+    "nombreCientifico": "Scyliorhinus boa",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.54,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "poroderma-pantherinum",
+    "nombre": "Alitán de barbilla",
+    "nombreCientifico": "Poroderma pantherinum",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.84,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces, moluscos y gusanos"
+  },
+  {
+    "id": "scyliorhinus-besnardi",
+    "nombre": "Alitán de lunares",
+    "nombreCientifico": "Scyliorhinus besnardi",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.47,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "scyliorhinus-capensis",
+    "nombre": "Alitán de manchas amarillas",
+    "nombreCientifico": "Scyliorhinus capensis",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 1.22,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Crustáceos del fondo y cefalópodos"
+  },
+  {
+    "id": "scyliorhinus-torrei",
+    "nombre": "Alitán enano",
+    "nombreCientifico": "Scyliorhinus torrei",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.32,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "scyliorhinus-hesperius",
+    "nombre": "Alitán ensillado",
+    "nombreCientifico": "Scyliorhinus hesperius",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "poroderma-africanum",
+    "nombre": "Alitán listado",
+    "nombreCientifico": "Poroderma africanum",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.01,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces, crustáceos del fondo y cefalópodos"
+  },
+  {
+    "id": "scyliorhinus-retifer",
+    "nombre": "Alitán mallero",
+    "nombreCientifico": "Scyliorhinus retifer",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.48,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "scyliorhinus-garmani",
+    "nombre": "Alitán manchado",
+    "nombreCientifico": "Scyliorhinus garmani",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.38,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "haploblepharus-fuscus",
+    "nombre": "Alitán marrón",
+    "nombreCientifico": "Haploblepharus fuscus",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 0.69,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Crustáceos del fondo y peces"
+  },
+  {
+    "id": "scyliorhinus-torazame",
+    "nombre": "Alitán nubarrado",
+    "nombreCientifico": "Scyliorhinus torazame",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.78,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces, crustáceos del fondo y moluscos"
+  },
+  {
+    "id": "haploblepharus-pictus",
+    "nombre": "Alitán obscuro",
+    "nombreCientifico": "Haploblepharus pictus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.57,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces, crustáceos del fondo y moluscos"
+  },
+  {
+    "id": "scyliorhinus-haeckelii",
+    "nombre": "Alitán pecoso",
+    "nombreCientifico": "Scyliorhinus haeckelii",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.6,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "scyliorhinus-meadi",
+    "nombre": "Alitán pintarrajo",
+    "nombreCientifico": "Scyliorhinus meadi",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.49,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "haploblepharus-edwardsii",
+    "nombre": "Alitán viperino",
+    "nombreCientifico": "Haploblepharus edwardsii",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 0.59,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces y crustáceos del fondo"
+  },
+  {
+    "id": "squatina-guggenheim",
+    "nombre": "Angelito",
+    "nombreCientifico": "Squatina guggenheim",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 1.29,
+      "formaCuerpo": "Forma variada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "squatina-occulta",
+    "nombre": "Angelito",
+    "nombreCientifico": "Squatina occulta",
     "estadoConservacion": "En peligro crítico",
     "morfologia": {
-      "longitudMetros": 6,
-      "pesoKg": 450,
-      "formaCuerpo": "Fusiforme",
-      "rasgoDistintivo": "Cabeza en forma de martillo"
+      "formaCuerpo": "Forma variada"
     },
-    "habitat": "Aguas tropicales y subtropicales",
-    "alimentacion": "Dieta muy variada (peces, tortugas, aves marinas, carroña)"
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "squatina-armata",
+    "nombre": "Angelote",
+    "nombreCientifico": "Squatina armata",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 0.95,
+      "formaCuerpo": "Forma variada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "squatina-californica",
+    "nombre": "Angelote",
+    "nombreCientifico": "Squatina californica",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 1.52,
+      "formaCuerpo": "Forma variada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces, cefalópodos y otros invertebrados del fondo"
+  },
+  {
+    "id": "squatina-squatina",
+    "nombre": "Angelote",
+    "nombreCientifico": "Squatina squatina",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 1.83,
+      "pesoKg": 80,
+      "formaCuerpo": "Forma variada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces y crustáceos del fondo"
+  },
+  {
+    "id": "squatina-africana",
+    "nombre": "Angelote africano",
+    "nombreCientifico": "Squatina africana",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 0.84,
+      "formaCuerpo": "Forma variada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "squatina-argentina",
+    "nombre": "Angelote argentino",
+    "nombreCientifico": "Squatina argentina",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 1.7,
+      "formaCuerpo": "Forma variada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Otros invertebrados del plancton"
+  },
+  {
+    "id": "squatina-australis",
+    "nombre": "Angelote australiano",
+    "nombreCientifico": "Squatina australis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.52,
+      "formaCuerpo": "Forma variada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces y crustáceos del fondo"
+  },
+  {
+    "id": "squatina-david",
+    "nombre": "Angelote de David",
+    "nombreCientifico": "Squatina david",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 0.79,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "squatina-formosa",
+    "nombre": "Angelote de Taiwan",
+    "nombreCientifico": "Squatina formosa",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 0.55,
+      "formaCuerpo": "Forma variada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "squatina-aculeata",
+    "nombre": "Angelote espinudo",
+    "nombreCientifico": "Squatina aculeata",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 1.88,
+      "pesoKg": 40,
+      "formaCuerpo": "Forma variada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces y crustáceos del fondo"
+  },
+  {
+    "id": "squatina-japonica",
+    "nombre": "Angelote japonés",
+    "nombreCientifico": "Squatina japonica",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 2,
+      "formaCuerpo": "Forma variada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Otros invertebrados del fondo"
+  },
+  {
+    "id": "squatina-nebulosa",
+    "nombre": "Angelote nebuloso",
+    "nombreCientifico": "Squatina nebulosa",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "formaCuerpo": "Forma variada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "squatina-tergocellatoides",
+    "nombre": "Angelote ocelado",
+    "nombreCientifico": "Squatina tergocellatoides",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 0.63,
+      "formaCuerpo": "Forma variada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "squatina-tergocellata",
+    "nombre": "Angelote ornamentado",
+    "nombreCientifico": "Squatina tergocellata",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.35,
+      "formaCuerpo": "Forma variada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Cefalópodos y peces"
+  },
+  {
+    "id": "apristurus-albisoma",
+    "nombre": "Apristurus albisoma",
+    "nombreCientifico": "Apristurus albisoma",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.6,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "apristurus-ampliceps",
+    "nombre": "Apristurus ampliceps",
+    "nombreCientifico": "Apristurus ampliceps",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.86,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "apristurus-aphyodes",
+    "nombre": "Apristurus aphyodes",
+    "nombreCientifico": "Apristurus aphyodes",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.54,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas muy profundas",
+    "alimentacion": "Peces, crustáceos del fondo y crustáceos del plancton"
+  },
+  {
+    "id": "apristurus-australis",
+    "nombre": "Apristurus australis",
+    "nombreCientifico": "Apristurus australis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.62,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas muy profundas"
+  },
+  {
+    "id": "apristurus-breviventralis",
+    "nombre": "Apristurus breviventralis",
+    "nombreCientifico": "Apristurus breviventralis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.49,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "apristurus-bucephalus",
+    "nombre": "Apristurus bucephalus",
+    "nombreCientifico": "Apristurus bucephalus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "apristurus-exsanguis",
+    "nombre": "Apristurus exsanguis",
+    "nombreCientifico": "Apristurus exsanguis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.91,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "apristurus-fedorovi",
+    "nombre": "Apristurus fedorovi",
+    "nombreCientifico": "Apristurus fedorovi",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.68,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas muy profundas"
+  },
+  {
+    "id": "apristurus-garricki",
+    "nombre": "Apristurus garricki",
+    "nombreCientifico": "Apristurus garricki",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.68,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "apristurus-gibbosus",
+    "nombre": "Apristurus gibbosus",
+    "nombreCientifico": "Apristurus gibbosus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 3.88,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "apristurus-internatus",
+    "nombre": "Apristurus internatus",
+    "nombreCientifico": "Apristurus internatus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.4,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas muy profundas"
+  },
+  {
+    "id": "apristurus-macrostomus",
+    "nombre": "Apristurus macrostomus",
+    "nombreCientifico": "Apristurus macrostomus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "apristurus-melanoasper",
+    "nombre": "Apristurus melanoasper",
+    "nombreCientifico": "Apristurus melanoasper",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.76,
+      "pesoKg": 1.3,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas muy profundas"
+  },
+  {
+    "id": "apristurus-micropterygeus",
+    "nombre": "Apristurus micropterygeus",
+    "nombreCientifico": "Apristurus micropterygeus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.37,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "apristurus-nakayai",
+    "nombre": "Apristurus nakayai",
+    "nombreCientifico": "Apristurus nakayai",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.68,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas muy profundas"
+  },
+  {
+    "id": "apristurus-pinguis",
+    "nombre": "Apristurus pinguis",
+    "nombreCientifico": "Apristurus pinguis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.84,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas muy profundas"
+  },
+  {
+    "id": "apristurus-yangi",
+    "nombre": "Apristurus yangi",
+    "nombreCientifico": "Apristurus yangi",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "asymbolus-funebris",
+    "nombre": "Asymbolus funebris",
+    "nombreCientifico": "Asymbolus funebris",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.44,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas cercanas a la costa"
+  },
+  {
+    "id": "asymbolus-galacticus",
+    "nombre": "Asymbolus galacticus",
+    "nombreCientifico": "Asymbolus galacticus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.48,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "asymbolus-occiduus",
+    "nombre": "Asymbolus occiduus",
+    "nombreCientifico": "Asymbolus occiduus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.6,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "asymbolus-pallidus",
+    "nombre": "Asymbolus pallidus",
+    "nombreCientifico": "Asymbolus pallidus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.44,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas muy profundas"
+  },
+  {
+    "id": "asymbolus-parvus",
+    "nombre": "Asymbolus parvus",
+    "nombreCientifico": "Asymbolus parvus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.35,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "asymbolus-rubiginosus",
+    "nombre": "Asymbolus rubiginosus",
+    "nombreCientifico": "Asymbolus rubiginosus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.39,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "asymbolus-submaculatus",
+    "nombre": "Asymbolus submaculatus",
+    "nombreCientifico": "Asymbolus submaculatus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.41,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "atelomycterus-baliensis",
+    "nombre": "Atelomycterus baliensis",
+    "nombreCientifico": "Atelomycterus baliensis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.47,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "atelomycterus-erdmanni",
+    "nombre": "Atelomycterus erdmanni",
+    "nombreCientifico": "Atelomycterus erdmanni",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.5,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos"
+  },
+  {
+    "id": "atelomycterus-fasciatus",
+    "nombre": "Atelomycterus fasciatus",
+    "nombreCientifico": "Atelomycterus fasciatus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.45,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "atelomycterus-marnkalha",
+    "nombre": "Atelomycterus marnkalha",
+    "nombreCientifico": "Atelomycterus marnkalha",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.47,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "aulohalaelurus-kanakorum",
+    "nombre": "Aulohalaelurus kanakorum",
+    "nombreCientifico": "Aulohalaelurus kanakorum",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.79,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos"
+  },
+  {
+    "id": "chiloscyllium-arabicum",
+    "nombre": "Bamboa arábiga",
+    "nombreCientifico": "Chiloscyllium arabicum",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 0.62,
+      "pesoKg": 0.6,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Cefalópodos, peces y crustáceos del fondo"
+  },
+  {
+    "id": "chiloscyllium-burmense",
+    "nombre": "Bamboa birmana",
+    "nombreCientifico": "Chiloscyllium burmense",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 0.58,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "hemiscyllium-strahani",
+    "nombre": "Bamboa capuchona",
+    "nombreCientifico": "Hemiscyllium strahani",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 0.8,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos"
+  },
+  {
+    "id": "chiloscyllium-hasseltii",
+    "nombre": "Bamboa de Hasselt",
+    "nombreCientifico": "Chiloscyllium hasseltii",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 0.61,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Otros invertebrados del fondo"
+  },
+  {
+    "id": "chiloscyllium-indicum",
+    "nombre": "Bamboa elegante",
+    "nombreCientifico": "Chiloscyllium indicum",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 0.65,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces y otros invertebrados del fondo"
+  },
+  {
+    "id": "chiloscyllium-caeruleopunctatum",
+    "nombre": "Bamboa estrellada",
+    "nombreCientifico": "Chiloscyllium caeruleopunctatum",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.67,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "chiloscyllium-punctatum",
+    "nombre": "Bamboa estriada",
+    "nombreCientifico": "Chiloscyllium punctatum",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 1.32,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces y otros invertebrados del fondo"
+  },
+  {
+    "id": "chiloscyllium-griseum",
+    "nombre": "Bamboa gris",
+    "nombreCientifico": "Chiloscyllium griseum",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 0.77,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos"
+  },
+  {
+    "id": "hemiscyllium-hallstromi",
+    "nombre": "Bamboa hombrera",
+    "nombreCientifico": "Hemiscyllium hallstromi",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 0.77,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos"
+  },
+  {
+    "id": "hemiscyllium-freycineti",
+    "nombre": "Bamboa jaspeada",
+    "nombreCientifico": "Hemiscyllium freycineti",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 0.72,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos"
+  },
+  {
+    "id": "hemiscyllium-trispeculare",
+    "nombre": "Bamboa moteada",
+    "nombreCientifico": "Hemiscyllium trispeculare",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.79,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Otros invertebrados del fondo"
+  },
+  {
+    "id": "hemiscyllium-ocellatum",
+    "nombre": "Bamboa ocellada",
+    "nombreCientifico": "Hemiscyllium ocellatum",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.07,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Crustáceos del fondo y moluscos"
+  },
+  {
+    "id": "chiloscyllium-plagiosum",
+    "nombre": "Bamboa punteada",
+    "nombreCientifico": "Chiloscyllium plagiosum",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 0.83,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces y crustáceos del fondo"
+  },
+  {
+    "id": "mustelus-canis",
+    "nombre": "Boca dulce",
+    "nombreCientifico": "Mustelus canis",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 1.5,
+      "pesoKg": 12.2,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Crustáceos del fondo y moluscos"
+  },
+  {
+    "id": "heptranchias-perlo",
+    "nombre": "Bocadulce",
+    "nombreCientifico": "Heptranchias perlo",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 1.37,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces, cefalópodos y crustáceos del fondo"
+  },
+  {
+    "id": "galeus-melastomus",
+    "nombre": "Bocanegra",
+    "nombreCientifico": "Galeus melastomus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.75,
+      "pesoKg": 1.4,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Crustáceos del fondo y peces"
+  },
+  {
+    "id": "scymnodon-ringens",
+    "nombre": "Bruja",
+    "nombreCientifico": "Scymnodon ringens",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 1.1,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas muy profundas"
+  },
+  {
+    "id": "zameus-squamulosus",
+    "nombre": "Bruja bocachica",
+    "nombreCientifico": "Zameus squamulosus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.84,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua",
+    "alimentacion": "Peces y otros invertebrados del fondo"
+  },
+  {
+    "id": "scymnodalatias-sherwoodi",
+    "nombre": "Bruja de Canterbury",
+    "nombreCientifico": "Scymnodalatias sherwoodi",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.8,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "bythaelurus-bachi",
+    "nombre": "Bythaelurus bachi",
+    "nombreCientifico": "Bythaelurus bachi",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.42,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "bythaelurus-clevai",
+    "nombre": "Bythaelurus clevai",
+    "nombreCientifico": "Bythaelurus clevai",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.39,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "bythaelurus-giddingsi",
+    "nombre": "Bythaelurus giddingsi",
+    "nombreCientifico": "Bythaelurus giddingsi",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.45,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas muy profundas"
+  },
+  {
+    "id": "bythaelurus-incanus",
+    "nombre": "Bythaelurus incanus",
+    "nombreCientifico": "Bythaelurus incanus",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.45,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "bythaelurus-naylori",
+    "nombre": "Bythaelurus naylori",
+    "nombreCientifico": "Bythaelurus naylori",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.51,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "bythaelurus-stewarti",
+    "nombre": "Bythaelurus stewarti",
+    "nombreCientifico": "Bythaelurus stewarti",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.43,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "bythaelurus-tenuicephalus",
+    "nombre": "Bythaelurus tenuicephalus",
+    "nombreCientifico": "Bythaelurus tenuicephalus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 3,
+      "formaCuerpo": "Forma variada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "bythaelurus-vivaldii",
+    "nombre": "Bythaelurus vivaldii",
+    "nombreCientifico": "Bythaelurus vivaldii",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "formaCuerpo": "Forma variada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "hexanchus-griseus",
+    "nombre": "Cañabota",
+    "nombreCientifico": "Hexanchus griseus",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 6,
+      "pesoKg": 590,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "carcharhinus-coatesi",
+    "nombre": "Carcharhinus coatesi",
+    "nombreCientifico": "Carcharhinus coatesi",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.87,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En arrecifes o cerca de ellos"
+  },
+  {
+    "id": "carcharhinus-humani",
+    "nombre": "Carcharhinus humani",
+    "nombreCientifico": "Carcharhinus humani",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.84,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En aguas abiertas cercanas a la costa"
+  },
+  {
+    "id": "carcharhinus-leiodon",
+    "nombre": "Carcharhinus leiodon",
+    "nombreCientifico": "Carcharhinus leiodon",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 1.65,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "carcharhinus-obsoletus",
+    "nombre": "Carcharhinus obsoletus",
+    "nombreCientifico": "Carcharhinus obsoletus",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "carcharhinus-tilstoni",
+    "nombre": "Carcharhinus tilstoni",
+    "nombreCientifico": "Carcharhinus tilstoni",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 2,
+      "pesoKg": 52,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En aguas abiertas cercanas a la costa",
+    "alimentacion": "Cefalópodos, peces y moluscos"
+  },
+  {
+    "id": "carcharhinus-tjutjot",
+    "nombre": "Carcharhinus tjutjot",
+    "nombreCientifico": "Carcharhinus tjutjot",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 0.94,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En arrecifes o cerca de ellos"
+  },
+  {
+    "id": "carcharhinus-falciformis",
+    "nombre": "Cazón",
+    "nombreCientifico": "Carcharhinus falciformis",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 3.5,
+      "pesoKg": 346,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "carcharhinus-limbatus",
+    "nombre": "Cazón",
+    "nombreCientifico": "Carcharhinus limbatus",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 2.86,
+      "pesoKg": 122.8,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "carcharhinus-plumbeus",
+    "nombre": "Cazón",
+    "nombreCientifico": "Carcharhinus plumbeus",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 3,
+      "pesoKg": 117.9,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "Junto al fondo y también a media agua",
+    "alimentacion": "Peces y crustáceos del fondo"
+  },
+  {
+    "id": "galeorhinus-galeus",
+    "nombre": "Cazón",
+    "nombreCientifico": "Galeorhinus galeus",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 1.93,
+      "pesoKg": 44.7,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua",
+    "alimentacion": "Peces y crustáceos del fondo"
+  },
+  {
+    "id": "nasolamia-velox",
+    "nombre": "Cazón",
+    "nombreCientifico": "Nasolamia velox",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 1.5,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces y crustáceos del fondo"
+  },
+  {
+    "id": "furgaleus-macki",
+    "nombre": "Cazón bigotudo",
+    "nombreCientifico": "Furgaleus macki",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.6,
+      "pesoKg": 12.9,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Cefalópodos, peces y vegetación marina"
+  },
+  {
+    "id": "rhizoprionodon-longurio",
+    "nombre": "Cazón bironche",
+    "nombreCientifico": "Rhizoprionodon longurio",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 1.1,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "triaenodon-obesus",
+    "nombre": "Cazón coralero trompacorta",
+    "nombreCientifico": "Triaenodon obesus",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 2.13,
+      "pesoKg": 18.3,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "hemitriakis-leucoperiptera",
+    "nombre": "Cazón de aleta blanca",
+    "nombreCientifico": "Hemitriakis leucoperiptera",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "mustelus-dorsalis",
+    "nombre": "Cazón de leche",
+    "nombreCientifico": "Mustelus dorsalis",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 0.64,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Crustáceos del fondo"
+  },
+  {
+    "id": "rhizoprionodon-terraenovae",
+    "nombre": "Cazón de ley",
+    "nombreCientifico": "Rhizoprionodon terraenovae",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.1,
+      "pesoKg": 7.3,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "hexanchus-nakamurai",
+    "nombre": "Cazón de seis branquias",
+    "nombreCientifico": "Hexanchus nakamurai",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 2.06,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "mustelus-sinusmexicanus",
+    "nombre": "Cazón del Golfo",
+    "nombreCientifico": "Mustelus sinusmexicanus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.83,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "hypogaleus-hyugaensis",
+    "nombre": "Cazón elegante",
+    "nombreCientifico": "Hypogaleus hyugaensis",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 1.27,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "scoliodon-laticaudus",
+    "nombre": "Cazón espadachín",
+    "nombreCientifico": "Scoliodon laticaudus",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 1,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces y crustáceos del fondo"
+  },
+  {
+    "id": "squalus-suckleyi",
+    "nombre": "Cazón espinoso común",
+    "nombreCientifico": "Squalus suckleyi",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.4,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "Junto al fondo y también a media agua",
+    "alimentacion": "Crustáceos del fondo"
+  },
+  {
+    "id": "mustelus-albipinnis",
+    "nombre": "Cazón hacat",
+    "nombreCientifico": "Mustelus albipinnis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.09,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "hemitriakis-japanica",
+    "nombre": "Cazón japonés",
+    "nombreCientifico": "Hemitriakis japanica",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 1.1,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Crustáceos del fondo y peces"
+  },
+  {
+    "id": "rhizoprionodon-acutus",
+    "nombre": "Cazón lechoso",
+    "nombreCientifico": "Rhizoprionodon acutus",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 1.75,
+      "pesoKg": 5,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "Junto al fondo y también a media agua",
+    "alimentacion": "Cefalópodos, crustáceos del fondo y peces"
+  },
+  {
+    "id": "mustelus-californicus",
+    "nombre": "Cazón mamón",
+    "nombreCientifico": "Mustelus californicus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.16,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "scylliogaleus-quecketti",
+    "nombre": "Cazón mosqueador",
+    "nombreCientifico": "Scylliogaleus quecketti",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 0.89,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Cefalópodos y crustáceos del fondo"
+  },
+  {
+    "id": "iago-omanensis",
+    "nombre": "Cazón ojigrande",
+    "nombreCientifico": "Iago omanensis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.37,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Cefalópodos, crustáceos del fondo y peces"
+  },
+  {
+    "id": "iago-garricki",
+    "nombre": "Cazón picudo",
+    "nombreCientifico": "Iago garricki",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.75,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Moluscos"
+  },
+  {
+    "id": "rhizoprionodon-porosus",
+    "nombre": "Cazón picudo antillano",
+    "nombreCientifico": "Rhizoprionodon porosus",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 1.13,
+      "pesoKg": 7.5,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces y crustáceos del fondo"
+  },
+  {
+    "id": "rhizoprionodon-taylori",
+    "nombre": "Cazón picudo australiano",
+    "nombreCientifico": "Rhizoprionodon taylori",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.69,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En aguas abiertas lejos de la costa",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "rhizoprionodon-lalandii",
+    "nombre": "Cazón picudo chino",
+    "nombreCientifico": "Rhizoprionodon lalandii",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces, cefalópodos y crustáceos del fondo"
+  },
+  {
+    "id": "rhizoprionodon-oligolinx",
+    "nombre": "Cazón picudo gris",
+    "nombreCientifico": "Rhizoprionodon oligolinx",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 0.85,
+      "pesoKg": 2.8,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces, crustáceos del fondo y moluscos"
+  },
+  {
+    "id": "isogomphodon-oxyrhynchus",
+    "nombre": "Cazón picudo sudamericano",
+    "nombreCientifico": "Isogomphodon oxyrhynchus",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 1.6,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "gogolia-filewoodi",
+    "nombre": "Cazón velero",
+    "nombreCientifico": "Gogolia filewoodi",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "centrophorus-atromarginatus",
+    "nombre": "Centrophorus atromarginatus",
+    "nombreCientifico": "Centrophorus atromarginatus",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 0.87,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "centrophorus-isodon",
+    "nombre": "Centrophorus isodon",
+    "nombreCientifico": "Centrophorus isodon",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 1.08,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "centrophorus-lesliei",
+    "nombre": "Centrophorus lesliei",
+    "nombreCientifico": "Centrophorus lesliei",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 0.77,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "centrophorus-longipinnis",
+    "nombre": "Centrophorus longipinnis",
+    "nombreCientifico": "Centrophorus longipinnis",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 0.78,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "centrophorus-seychellorum",
+    "nombre": "Centrophorus seychellorum",
+    "nombreCientifico": "Centrophorus seychellorum",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.8,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "centrophorus-westraliensis",
+    "nombre": "Centrophorus westraliensis",
+    "nombreCientifico": "Centrophorus westraliensis",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "centroscyllium-excelsum",
+    "nombre": "Centroscyllium excelsum",
+    "nombreCientifico": "Centroscyllium excelsum",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 0.64,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "cephaloscyllium-albipinnum",
+    "nombre": "Cephaloscyllium albipinnum",
+    "nombreCientifico": "Cephaloscyllium albipinnum",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 1.01,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas muy profundas"
+  },
+  {
+    "id": "cephaloscyllium-cooki",
+    "nombre": "Cephaloscyllium cooki",
+    "nombreCientifico": "Cephaloscyllium cooki",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.3,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "cephaloscyllium-hiscosellum",
+    "nombre": "Cephaloscyllium hiscosellum",
+    "nombreCientifico": "Cephaloscyllium hiscosellum",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.46,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas muy profundas"
+  },
+  {
+    "id": "cephaloscyllium-pictum",
+    "nombre": "Cephaloscyllium pictum",
+    "nombreCientifico": "Cephaloscyllium pictum",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.72,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "cephaloscyllium-sarawakense",
+    "nombre": "Cephaloscyllium sarawakense",
+    "nombreCientifico": "Cephaloscyllium sarawakense",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 0.4,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "cephaloscyllium-signourum",
+    "nombre": "Cephaloscyllium signourum",
+    "nombreCientifico": "Cephaloscyllium signourum",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "cephaloscyllium-speccum",
+    "nombre": "Cephaloscyllium speccum",
+    "nombreCientifico": "Cephaloscyllium speccum",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.68,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "cephaloscyllium-stevensi",
+    "nombre": "Cephaloscyllium stevensi",
+    "nombreCientifico": "Cephaloscyllium stevensi",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas cercanas a la costa"
+  },
+  {
+    "id": "cephaloscyllium-umbratile",
+    "nombre": "Cephaloscyllium umbratile",
+    "nombreCientifico": "Cephaloscyllium umbratile",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 1.2,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "cephaloscyllium-variegatum",
+    "nombre": "Cephaloscyllium variegatum",
+    "nombreCientifico": "Cephaloscyllium variegatum",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 0.72,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas muy profundas"
+  },
+  {
+    "id": "cephaloscyllium-zebrum",
+    "nombre": "Cephaloscyllium zebrum",
+    "nombreCientifico": "Cephaloscyllium zebrum",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.45,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas muy profundas"
+  },
+  {
+    "id": "oxynotus-centrina",
+    "nombre": "Cerdo marino",
+    "nombreCientifico": "Oxynotus centrina",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 1.5,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Gusanos"
+  },
+  {
+    "id": "oxynotus-bruniensis",
+    "nombre": "Cerdo marino agujeta",
+    "nombreCientifico": "Oxynotus bruniensis",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 0.65,
+      "pesoKg": 6.6,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces y otros invertebrados del fondo"
+  },
+  {
+    "id": "oxynotus-paradoxus",
+    "nombre": "Cerdo marino velero",
+    "nombreCientifico": "Oxynotus paradoxus",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 1.2,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces y otros invertebrados del fondo"
+  },
+  {
+    "id": "chlamydoselachus-africana",
+    "nombre": "Chlamydoselachus africana",
+    "nombreCientifico": "Chlamydoselachus africana",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.99,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "cirrhigaleus-australis",
+    "nombre": "Cirrhigaleus australis",
+    "nombreCientifico": "Cirrhigaleus australis",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "paragaleus-tengi",
+    "nombre": "Comadreja coluda",
+    "nombreCientifico": "Paragaleus tengi",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 0.88,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "chaenogaleus-macrostoma",
+    "nombre": "Comadreja ganchuda",
+    "nombreCientifico": "Chaenogaleus macrostoma",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 1,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces, crustáceos del fondo y moluscos"
+  },
+  {
+    "id": "hemigaleus-microstoma",
+    "nombre": "Comadreja segadora",
+    "nombreCientifico": "Hemigaleus microstoma",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 1.35,
+      "pesoKg": 14,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Moluscos"
+  },
+  {
+    "id": "hemipristis-elongata",
+    "nombre": "Comadreja sobrediente",
+    "nombreCientifico": "Hemipristis elongata",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 2.59,
+      "pesoKg": 63,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "sphyrna-corona",
+    "nombre": "Cornuda coronada",
+    "nombreCientifico": "Sphyrna corona",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 0.92,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "sphyrna-media",
+    "nombre": "Cornuda cuchara",
+    "nombreCientifico": "Sphyrna media",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 1.5,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "sphyrna-tiburo",
+    "nombre": "Cornuda de corona",
+    "nombreCientifico": "Sphyrna tiburo",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 1.5,
+      "pesoKg": 10.8,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Crustáceos del fondo y moluscos"
+  },
+  {
+    "id": "sphyrna-tudes",
+    "nombre": "Cornuda de corona",
+    "nombreCientifico": "Sphyrna tudes",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 1.34,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua",
+    "alimentacion": "Peces, crustáceos del fondo y cefalópodos"
+  },
+  {
+    "id": "eusphyra-blochii",
+    "nombre": "Cornuda planeadora",
+    "nombreCientifico": "Eusphyra blochii",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 1.86,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "dichichthys-albimarginatus",
+    "nombre": "Dichichthys albimarginatus",
+    "nombreCientifico": "Dichichthys albimarginatus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.58,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "dichichthys-bigus",
+    "nombre": "Dichichthys bigus",
+    "nombreCientifico": "Dichichthys bigus",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "dichichthys-nigripalatum",
+    "nombre": "Dichichthys nigripalatum",
+    "nombreCientifico": "Dichichthys nigripalatum",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.55,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "heterodontus-zebra",
+    "nombre": "Dormilón acebrado",
+    "nombreCientifico": "Heterodontus zebra",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.25,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces, crustáceos del fondo y moluscos"
+  },
+  {
+    "id": "heterodontus-ramalheira",
+    "nombre": "Dormilón boquigrande",
+    "nombreCientifico": "Heterodontus ramalheira",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.64,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Crustáceos del fondo"
+  },
+  {
+    "id": "heterodontus-mexicanus",
+    "nombre": "Dormilón búfalo",
+    "nombreCientifico": "Heterodontus mexicanus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.7,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces y crustáceos del fondo"
+  },
+  {
+    "id": "heterodontus-galeatus",
+    "nombre": "Dormilón carenado",
+    "nombreCientifico": "Heterodontus galeatus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.52,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces, crustáceos del fondo y equinodermos"
+  },
+  {
+    "id": "heterodontus-francisci",
+    "nombre": "Dormilón cornudo",
+    "nombreCientifico": "Heterodontus francisci",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.22,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Crustáceos del fondo, moluscos y peces"
+  },
+  {
+    "id": "heterodontus-quoyi",
+    "nombre": "Dormilón de Galápagos",
+    "nombreCientifico": "Heterodontus quoyi",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.07,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Crustáceos del fondo, moluscos y otros invertebrados del fondo"
+  },
+  {
+    "id": "heterodontus-japonicus",
+    "nombre": "Dormilón japonés",
+    "nombreCientifico": "Heterodontus japonicus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.2,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Crustáceos del fondo, moluscos y peces"
+  },
+  {
+    "id": "heterodontus-portusjacksoni",
+    "nombre": "Dormilón toro",
+    "nombreCientifico": "Heterodontus portusjacksoni",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.65,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Crustáceos del fondo y equinodermos"
+  },
+  {
+    "id": "etmopterus-alphus",
+    "nombre": "Etmopterus alphus",
+    "nombreCientifico": "Etmopterus alphus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.34,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "etmopterus-benchleyi",
+    "nombre": "Etmopterus benchleyi",
+    "nombreCientifico": "Etmopterus benchleyi",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.33,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "etmopterus-bigelowi",
+    "nombre": "Etmopterus bigelowi",
+    "nombreCientifico": "Etmopterus bigelowi",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.67,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa",
+    "alimentacion": "Peces y cefalópodos"
+  },
+  {
+    "id": "etmopterus-brosei",
+    "nombre": "Etmopterus brosei",
+    "nombreCientifico": "Etmopterus brosei",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.45,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "etmopterus-burgessi",
+    "nombre": "Etmopterus burgessi",
+    "nombreCientifico": "Etmopterus burgessi",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.36,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "etmopterus-carteri",
+    "nombre": "Etmopterus carteri",
+    "nombreCientifico": "Etmopterus carteri",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.21,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "etmopterus-caudistigmus",
+    "nombre": "Etmopterus caudistigmus",
+    "nombreCientifico": "Etmopterus caudistigmus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.31,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "etmopterus-compagnoi",
+    "nombre": "Etmopterus compagnoi",
+    "nombreCientifico": "Etmopterus compagnoi",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.78,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa",
+    "alimentacion": "Peces, crustáceos del fondo y moluscos"
+  },
+  {
+    "id": "etmopterus-dianthus",
+    "nombre": "Etmopterus dianthus",
+    "nombreCientifico": "Etmopterus dianthus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.41,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "etmopterus-dislineatus",
+    "nombre": "Etmopterus dislineatus",
+    "nombreCientifico": "Etmopterus dislineatus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.45,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "etmopterus-evansi",
+    "nombre": "Etmopterus evansi",
+    "nombreCientifico": "Etmopterus evansi",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.32,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "etmopterus-fusus",
+    "nombre": "Etmopterus fusus",
+    "nombreCientifico": "Etmopterus fusus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.26,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "etmopterus-joungi",
+    "nombre": "Etmopterus joungi",
+    "nombreCientifico": "Etmopterus joungi",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.41,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "etmopterus-lailae",
+    "nombre": "Etmopterus lailae",
+    "nombreCientifico": "Etmopterus lailae",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.37,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "etmopterus-litvinovi",
+    "nombre": "Etmopterus litvinovi",
+    "nombreCientifico": "Etmopterus litvinovi",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.61,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "etmopterus-marshae",
+    "nombre": "Etmopterus marshae",
+    "nombreCientifico": "Etmopterus marshae",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.23,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "etmopterus-molleri",
+    "nombre": "Etmopterus molleri",
+    "nombreCientifico": "Etmopterus molleri",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.46,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "etmopterus-perryi",
+    "nombre": "Etmopterus perryi",
+    "nombreCientifico": "Etmopterus perryi",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.17,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "etmopterus-pseudosqualiolus",
+    "nombre": "Etmopterus pseudosqualiolus",
+    "nombreCientifico": "Etmopterus pseudosqualiolus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.45,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "etmopterus-pycnolepis",
+    "nombre": "Etmopterus pycnolepis",
+    "nombreCientifico": "Etmopterus pycnolepis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas cercanas a la costa"
+  },
+  {
+    "id": "etmopterus-robinsi",
+    "nombre": "Etmopterus robinsi",
+    "nombreCientifico": "Etmopterus robinsi",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.31,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "etmopterus-samadiae",
+    "nombre": "Etmopterus samadiae",
+    "nombreCientifico": "Etmopterus samadiae",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.27,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas muy profundas"
+  },
+  {
+    "id": "etmopterus-sculptus",
+    "nombre": "Etmopterus sculptus",
+    "nombreCientifico": "Etmopterus sculptus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.59,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces, crustáceos del fondo y equinodermos"
+  },
+  {
+    "id": "etmopterus-splendidus",
+    "nombre": "Etmopterus splendidus",
+    "nombreCientifico": "Etmopterus splendidus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.3,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas cercanas a la costa",
+    "alimentacion": "Cefalópodos"
+  },
+  {
+    "id": "etmopterus-viator",
+    "nombre": "Etmopterus viator",
+    "nombreCientifico": "Etmopterus viator",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.39,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Crustáceos del plancton"
+  },
+  {
+    "id": "figaro-striatus",
+    "nombre": "Figaro striatus",
+    "nombreCientifico": "Figaro striatus",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.42,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "galeus-cadenati",
+    "nombre": "Galeus cadenati",
+    "nombreCientifico": "Galeus cadenati",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "galeus-corriganae",
+    "nombre": "Galeus corriganae",
+    "nombreCientifico": "Galeus corriganae",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.37,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En arrecifes o cerca de ellos"
+  },
+  {
+    "id": "galeus-gracilis",
+    "nombre": "Galeus gracilis",
+    "nombreCientifico": "Galeus gracilis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.34,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "galeus-longirostris",
+    "nombre": "Galeus longirostris",
+    "nombreCientifico": "Galeus longirostris",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.8,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "galeus-mincaronei",
+    "nombre": "Galeus mincaronei",
+    "nombreCientifico": "Galeus mincaronei",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 0.4,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "galeus-priapus",
+    "nombre": "Galeus priapus",
+    "nombreCientifico": "Galeus priapus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.45,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "galeus-springeri",
+    "nombre": "Galeus springeri",
+    "nombreCientifico": "Galeus springeri",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.32,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas muy profundas"
+  },
+  {
+    "id": "centrophorus-uyato",
+    "nombre": "Galludito",
+    "nombreCientifico": "Centrophorus uyato",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 1.1,
+      "pesoKg": 7.3,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Cefalópodos y peces"
+  },
+  {
+    "id": "squalus-acanthias",
+    "nombre": "Galludo",
+    "nombreCientifico": "Squalus acanthias",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 2,
+      "pesoKg": 9.1,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "squalus-blainville",
+    "nombre": "Galludo",
+    "nombreCientifico": "Squalus blainville",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 1.22,
+      "pesoKg": 7.3,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Crustáceos del fondo, cefalópodos y peces"
+  },
+  {
+    "id": "squalus-megalops",
+    "nombre": "Galludo",
+    "nombreCientifico": "Squalus megalops",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.72,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces y crustáceos del fondo"
+  },
+  {
+    "id": "squalus-rancureli",
+    "nombre": "Galludo cirano",
+    "nombreCientifico": "Squalus rancureli",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "squalus-melanurus",
+    "nombre": "Galludo cola negra",
+    "nombreCientifico": "Squalus melanurus",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "squalus-cubensis",
+    "nombre": "Galludo cubano",
+    "nombreCientifico": "Squalus cubensis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.1,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Crustáceos del fondo, peces y moluscos"
+  },
+  {
+    "id": "squalus-mitsukurii",
+    "nombre": "Galludo espinilla",
+    "nombreCientifico": "Squalus mitsukurii",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 0.9,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "squalus-japonicus",
+    "nombre": "Galludo japonés",
+    "nombreCientifico": "Squalus japonicus",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 0.91,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "cirrhigaleus-asper",
+    "nombre": "Galludo raspa",
+    "nombreCientifico": "Cirrhigaleus asper",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 1.2,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Cefalópodos y peces"
+  },
+  {
+    "id": "ginglymostoma-cirratum",
+    "nombre": "Gata",
+    "nombreCientifico": "Ginglymostoma cirratum",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 4.3,
+      "pesoKg": 109.6,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces y moluscos"
+  },
+  {
+    "id": "nebrius-ferrugineus",
+    "nombre": "Gata nodriza atezada",
+    "nombreCientifico": "Nebrius ferrugineus",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 3.2,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Crustáceos del fondo y peces"
+  },
+  {
+    "id": "pseudoginglymostoma-brevicaudatum",
+    "nombre": "Gata nodriza rabicorta",
+    "nombreCientifico": "Pseudoginglymostoma brevicaudatum",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 0.75,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos"
+  },
+  {
+    "id": "galeus-antillensis",
+    "nombre": "Gatica manchada",
+    "nombreCientifico": "Galeus antillensis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "mustelus-schmitti",
+    "nombre": "Gatuzo",
+    "nombreCientifico": "Mustelus schmitti",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 0.92,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Crustáceos del fondo y gusanos"
+  },
+  {
+    "id": "glyphis-garricki",
+    "nombre": "Glyphis garricki",
+    "nombreCientifico": "Glyphis garricki",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 1.45,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "glyphis-siamensis",
+    "nombre": "Glyphis siamensis",
+    "nombreCientifico": "Glyphis siamensis",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "gollum-suluensis",
+    "nombre": "Gollum suluensis",
+    "nombreCientifico": "Gollum suluensis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.59,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "halaelurus-maculosus",
+    "nombre": "Halaelurus maculosus",
+    "nombreCientifico": "Halaelurus maculosus",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 0.46,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "halaelurus-sellus",
+    "nombre": "Halaelurus sellus",
+    "nombreCientifico": "Halaelurus sellus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.35,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "haploblepharus-kistnasamyi",
+    "nombre": "Haploblepharus kistnasamyi",
+    "nombreCientifico": "Haploblepharus kistnasamyi",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas muy profundas"
+  },
+  {
+    "id": "hemigaleus-australiensis",
+    "nombre": "Hemigaleus australiensis",
+    "nombreCientifico": "Hemigaleus australiensis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.1,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "hemiscyllium-galei",
+    "nombre": "Hemiscyllium galei",
+    "nombreCientifico": "Hemiscyllium galei",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 0.57,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos"
+  },
+  {
+    "id": "hemiscyllium-halmahera",
+    "nombre": "Hemiscyllium halmahera",
+    "nombreCientifico": "Hemiscyllium halmahera",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 0.68,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas cercanas a la costa"
+  },
+  {
+    "id": "hemiscyllium-henryi",
+    "nombre": "Hemiscyllium henryi",
+    "nombreCientifico": "Hemiscyllium henryi",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 0.78,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos"
+  },
+  {
+    "id": "hemiscyllium-michaeli",
+    "nombre": "Hemiscyllium michaeli",
+    "nombreCientifico": "Hemiscyllium michaeli",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 0.7,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "hemitriakis-abdita",
+    "nombre": "Hemitriakis abdita",
+    "nombreCientifico": "Hemitriakis abdita",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.6,
+      "pesoKg": 0.5,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "hemitriakis-complicofasciata",
+    "nombre": "Hemitriakis complicofasciata",
+    "nombreCientifico": "Hemitriakis complicofasciata",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 0.81,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "hemitriakis-falcata",
+    "nombre": "Hemitriakis falcata",
+    "nombreCientifico": "Hemitriakis falcata",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.77,
+      "pesoKg": 1.5,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "hemitriakis-indroyonoi",
+    "nombre": "Hemitriakis indroyonoi",
+    "nombreCientifico": "Hemitriakis indroyonoi",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 1.2,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "heterodontus-omanensis",
+    "nombre": "Heterodontus omanensis",
+    "nombreCientifico": "Heterodontus omanensis",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.56,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "holohalaelurus-favus",
+    "nombre": "Holohalaelurus favus",
+    "nombreCientifico": "Holohalaelurus favus",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 0.52,
+      "pesoKg": 0.3,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "holohalaelurus-grennian",
+    "nombre": "Holohalaelurus grennian",
+    "nombreCientifico": "Holohalaelurus grennian",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.27,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "holohalaelurus-melanostigma",
+    "nombre": "Holohalaelurus melanostigma",
+    "nombreCientifico": "Holohalaelurus melanostigma",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.38,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "lamiopsis-tephrodes",
+    "nombre": "Lamiopsis tephrodes",
+    "nombreCientifico": "Lamiopsis tephrodes",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 1.4,
+      "pesoKg": 13.5,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "dalatias-licha",
+    "nombre": "Lija",
+    "nombreCientifico": "Dalatias licha",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 1.82,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces y crustáceos del fondo"
+  },
+  {
+    "id": "isurus-oxyrinchus",
+    "nombre": "Marrajo",
+    "nombreCientifico": "Isurus oxyrinchus",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 4.45,
+      "pesoKg": 505.8,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En aguas abiertas lejos de la costa",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "isurus-paucus",
+    "nombre": "Marrajo carite",
+    "nombreCientifico": "Isurus paucus",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 4.27,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En aguas abiertas lejos de la costa",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "lamna-nasus",
+    "nombre": "Marrajo sardinero",
+    "nombreCientifico": "Lamna nasus",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 3.5,
+      "pesoKg": 230,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En aguas abiertas lejos de la costa",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "mollisquama-mississippiensis",
+    "nombre": "Mollisquama mississippiensis",
+    "nombreCientifico": "Mollisquama mississippiensis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.14,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas muy profundas"
+  },
+  {
+    "id": "mollisquama-parini",
+    "nombre": "Mollisquama parini",
+    "nombreCientifico": "Mollisquama parini",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas muy profundas"
+  },
+  {
+    "id": "mustelus-mosis",
+    "nombre": "Musola arábiga",
+    "nombreCientifico": "Mustelus mosis",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 1.5,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Crustáceos del fondo y peces"
+  },
+  {
+    "id": "mustelus-antarcticus",
+    "nombre": "Musola austral",
+    "nombreCientifico": "Mustelus antarcticus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.57,
+      "pesoKg": 30.8,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces y cefalópodos"
+  },
+  {
+    "id": "mustelus-manazo",
+    "nombre": "Musola celestial",
+    "nombreCientifico": "Mustelus manazo",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 2.2,
+      "pesoKg": 5.7,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Crustáceos del fondo y gusanos"
+  },
+  {
+    "id": "mustelus-asterias",
+    "nombre": "Musola dentuda",
+    "nombreCientifico": "Mustelus asterias",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 1.54,
+      "pesoKg": 4.8,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Crustáceos del fondo"
+  },
+  {
+    "id": "mustelus-griseus",
+    "nombre": "Musola gris",
+    "nombreCientifico": "Mustelus griseus",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 0.87,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Crustáceos del fondo"
+  },
+  {
+    "id": "mustelus-lenticulatus",
+    "nombre": "Musola manchada",
+    "nombreCientifico": "Mustelus lenticulatus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.25,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Crustáceos del fondo, gusanos y moluscos"
+  },
+  {
+    "id": "mustelus-palumbes",
+    "nombre": "Musola paloma",
+    "nombreCientifico": "Mustelus palumbes",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.2,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Crustáceos del fondo"
+  },
+  {
+    "id": "mustelus-henlei",
+    "nombre": "Musola parda",
+    "nombreCientifico": "Mustelus henlei",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "mustelus-punctulatus",
+    "nombre": "Musola pimienta",
+    "nombreCientifico": "Mustelus punctulatus",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 1.9,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "mustelus-lunulatus",
+    "nombre": "Musola segadora",
+    "nombreCientifico": "Mustelus lunulatus",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 1.75,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "mustelus-norrisi",
+    "nombre": "Musola viuda",
+    "nombreCientifico": "Mustelus norrisi",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 1.1,
+      "pesoKg": 13.8,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Crustáceos del fondo y peces"
+  },
+  {
+    "id": "pseudotriakis-microdon",
+    "nombre": "Musolón de aleta larga",
+    "nombreCientifico": "Pseudotriakis microdon",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 2.69,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "mustelus-andamanensis",
+    "nombre": "Mustelus andamanensis",
+    "nombreCientifico": "Mustelus andamanensis",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 1.04,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "mustelus-minicanis",
+    "nombre": "Mustelus minicanis",
+    "nombreCientifico": "Mustelus minicanis",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 0.48,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "mustelus-ravidus",
+    "nombre": "Mustelus ravidus",
+    "nombreCientifico": "Mustelus ravidus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.68,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "mustelus-stevensi",
+    "nombre": "Mustelus stevensi",
+    "nombreCientifico": "Mustelus stevensi",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.28,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "mustelus-widodoi",
+    "nombre": "Mustelus widodoi",
+    "nombreCientifico": "Mustelus widodoi",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "mustelus-fasciatus",
+    "nombre": "Mustola listada",
+    "nombreCientifico": "Mustelus fasciatus",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 1.5,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Crustáceos del fondo y peces"
+  },
+  {
+    "id": "etmopterus-spinax",
+    "nombre": "Negrito",
+    "nombreCientifico": "Etmopterus spinax",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 0.6,
+      "pesoKg": 0.9,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces, cefalópodos y crustáceos del fondo"
+  },
+  {
+    "id": "galeus-atlanticus",
+    "nombre": "Olayo atlántico",
+    "nombreCientifico": "Galeus atlanticus",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 0.42,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "orectolobus-floridus",
+    "nombre": "Orectolobus floridus",
+    "nombreCientifico": "Orectolobus floridus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.75,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas cercanas a la costa"
+  },
+  {
+    "id": "orectolobus-halei",
+    "nombre": "Orectolobus halei",
+    "nombreCientifico": "Orectolobus halei",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 2.56,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "orectolobus-hutchinsi",
+    "nombre": "Orectolobus hutchinsi",
+    "nombreCientifico": "Orectolobus hutchinsi",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.49,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "orectolobus-leptolineatus",
+    "nombre": "Orectolobus leptolineatus",
+    "nombreCientifico": "Orectolobus leptolineatus",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 1.12,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "orectolobus-parvimaculatus",
+    "nombre": "Orectolobus parvimaculatus",
+    "nombreCientifico": "Orectolobus parvimaculatus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.89,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "orectolobus-reticulatus",
+    "nombre": "Orectolobus reticulatus",
+    "nombreCientifico": "Orectolobus reticulatus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "oxynotus-japonicus",
+    "nombre": "Oxynotus japonicus",
+    "nombreCientifico": "Oxynotus japonicus",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 0.54,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "centroscymnus-coelolepis",
+    "nombre": "Pailona",
+    "nombreCientifico": "Centroscymnus coelolepis",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 1.21,
+      "pesoKg": 10.1,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Cefalópodos, peces y crustáceos del fondo"
+  },
+  {
+    "id": "centroscymnus-owstonii",
+    "nombre": "Pailona ñata",
+    "nombreCientifico": "Centroscymnus owstonii",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 1.48,
+      "pesoKg": 21.3,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces y moluscos"
+  },
+  {
+    "id": "apristurus-riveri",
+    "nombre": "Pajegato agallón",
+    "nombreCientifico": "Apristurus riveri",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.46,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "paragaleus-leucolomatus",
+    "nombre": "Paragaleus leucolomatus",
+    "nombreCientifico": "Paragaleus leucolomatus",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 0.96,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "paragaleus-longicaudatus",
+    "nombre": "Paragaleus longicaudatus",
+    "nombreCientifico": "Paragaleus longicaudatus",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 0.48,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "parascyllium-elongatum",
+    "nombre": "Parascyllium elongatum",
+    "nombreCientifico": "Parascyllium elongatum",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "parascyllium-sparsimaculatum",
+    "nombre": "Parascyllium sparsimaculatum",
+    "nombreCientifico": "Parascyllium sparsimaculatum",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "parmaturus-albipenis",
+    "nombre": "Parmaturus albipenis",
+    "nombreCientifico": "Parmaturus albipenis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.42,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "parmaturus-angelae",
+    "nombre": "Parmaturus angelae",
+    "nombreCientifico": "Parmaturus angelae",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "parmaturus-lanatus",
+    "nombre": "Parmaturus lanatus",
+    "nombreCientifico": "Parmaturus lanatus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.36,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "parmaturus-macmillani",
+    "nombre": "Parmaturus macmillani",
+    "nombreCientifico": "Parmaturus macmillani",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.45,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "parmaturus-pilosus",
+    "nombre": "Pejagato salamandra",
+    "nombreCientifico": "Parmaturus pilosus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.64,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "bythaelurus-canescens",
+    "nombre": "Peje gato",
+    "nombreCientifico": "Bythaelurus canescens",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 0.7,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Medusas, crustáceos del fondo y peces"
+  },
+  {
+    "id": "apristurus-profundorum",
+    "nombre": "Pejegato abisal",
+    "nombreCientifico": "Apristurus profundorum",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.54,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Cefalópodos, peces y crustáceos del fondo"
+  },
+  {
+    "id": "cephaloscyllium-isabella",
+    "nombre": "Pejegato ajedrezado",
+    "nombreCientifico": "Cephaloscyllium isabella",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Moluscos y crustáceos del fondo"
+  },
+  {
+    "id": "apristurus-herklotsi",
+    "nombre": "Pejegato aletón",
+    "nombreCientifico": "Apristurus herklotsi",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.49,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "bythaelurus-alcockii",
+    "nombre": "Pejegato arábigo",
+    "nombreCientifico": "Bythaelurus alcockii",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.3,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "halaelurus-natalensis",
+    "nombre": "Pejegato atigrado",
+    "nombreCientifico": "Halaelurus natalensis",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 0.45,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces, crustáceos del fondo y cefalópodos"
+  },
+  {
+    "id": "cephaloscyllium-laticeps",
+    "nombre": "Pejegato australiano",
+    "nombreCientifico": "Cephaloscyllium laticeps",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.5,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "cephaloscyllium-sufflans",
+    "nombre": "Pejegato balón",
+    "nombreCientifico": "Cephaloscyllium sufflans",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 1.1,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces, crustáceos del fondo y cefalópodos"
+  },
+  {
+    "id": "schroederichthys-bivius",
+    "nombre": "Pejegato bocachica",
+    "nombreCientifico": "Schroederichthys bivius",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.7,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Crustáceos del fondo, peces y cefalópodos"
+  },
+  {
+    "id": "apristurus-longicephalus",
+    "nombre": "Pejegato cabezón",
+    "nombreCientifico": "Apristurus longicephalus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.6,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "parmaturus-campechiensis",
+    "nombre": "Pejegato campechano",
+    "nombreCientifico": "Parmaturus campechiensis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.16,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "apristurus-canutus",
+    "nombre": "Pejegato cano",
+    "nombreCientifico": "Apristurus canutus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.43,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "apristurus-macrorhynchus",
+    "nombre": "Pejegato chato",
+    "nombreCientifico": "Apristurus macrorhynchus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "apristurus-sinensis",
+    "nombre": "Pejegato chino",
+    "nombreCientifico": "Apristurus sinensis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.42,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "dichichthys-melanobranchus",
+    "nombre": "Pejegato de agallas negras",
+    "nombreCientifico": "Dichichthys melanobranchus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "apristurus-platyrhynchus",
+    "nombre": "Pejegato de Borneo",
+    "nombreCientifico": "Apristurus platyrhynchus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.8,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas muy profundas"
+  },
+  {
+    "id": "asymbolus-analis",
+    "nombre": "Pejegato de lunares",
+    "nombreCientifico": "Asymbolus analis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.9,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos"
+  },
+  {
+    "id": "apristurus-laurussonii",
+    "nombre": "Pejegato de Madera",
+    "nombreCientifico": "Apristurus laurussonii",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.76,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces y crustáceos del plancton"
+  },
+  {
+    "id": "halaelurus-buergeri",
+    "nombre": "Pejegato de manchas negras",
+    "nombreCientifico": "Halaelurus buergeri",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 0.49,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "cephaloscyllium-silasi",
+    "nombre": "Pejegato de Silas",
+    "nombreCientifico": "Cephaloscyllium silasi",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 0.36,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "asymbolus-vincenti",
+    "nombre": "Pejegato de Tasmania",
+    "nombreCientifico": "Asymbolus vincenti",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.61,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "bythaelurus-hispidus",
+    "nombre": "Pejegato erizado",
+    "nombreCientifico": "Bythaelurus hispidus",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 0.26,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Cefalópodos, peces y crustáceos del fondo"
+  },
+  {
+    "id": "apristurus-spongiceps",
+    "nombre": "Pejegato esponjoso",
+    "nombreCientifico": "Apristurus spongiceps",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.5,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "aulohalaelurus-labiosus",
+    "nombre": "Pejegato estrellado",
+    "nombreCientifico": "Aulohalaelurus labiosus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "bythaelurus-lutarius",
+    "nombre": "Pejegato fanguero",
+    "nombreCientifico": "Bythaelurus lutarius",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.34,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces, crustáceos del fondo y moluscos"
+  },
+  {
+    "id": "apristurus-manis",
+    "nombre": "Pejegato fantasma",
+    "nombreCientifico": "Apristurus manis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.85,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "apristurus-nasutus",
+    "nombre": "Pejegato hocicón",
+    "nombreCientifico": "Apristurus nasutus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.7,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Crustáceos del plancton"
+  },
+  {
+    "id": "bythaelurus-immaculatus",
+    "nombre": "Pejegato immaculado",
+    "nombreCientifico": "Bythaelurus immaculatus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.71,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "apristurus-indicus",
+    "nombre": "Pejegato índico",
+    "nombreCientifico": "Apristurus indicus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.34,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "apristurus-japonicus",
+    "nombre": "Pejegato japonés",
+    "nombreCientifico": "Apristurus japonicus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.71,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "atelomycterus-macleayi",
+    "nombre": "Pejegato jaspeado",
+    "nombreCientifico": "Atelomycterus macleayi",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.6,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos"
+  },
+  {
+    "id": "parmaturus-xaniurus",
+    "nombre": "Pejegato lima",
+    "nombreCientifico": "Parmaturus xaniurus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.45,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces, moluscos y otros invertebrados del fondo"
+  },
+  {
+    "id": "cephaloscyllium-fasciatum",
+    "nombre": "Pejegato mallero",
+    "nombreCientifico": "Cephaloscyllium fasciatum",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 0.42,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos"
+  },
+  {
+    "id": "apristurus-brunneus",
+    "nombre": "Pejegato marrón",
+    "nombreCientifico": "Apristurus brunneus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.69,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Cefalópodos, peces y crustáceos del fondo"
+  },
+  {
+    "id": "schroederichthys-tenuis",
+    "nombre": "Pejegato menudo",
+    "nombreCientifico": "Schroederichthys tenuis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.7,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "apristurus-parvipinnis",
+    "nombre": "Pejegato mocho",
+    "nombreCientifico": "Apristurus parvipinnis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.48,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "holohalaelurus-punctatus",
+    "nombre": "Pejegato moteado",
+    "nombreCientifico": "Holohalaelurus punctatus",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 0.35,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces, crustáceos del fondo y moluscos"
+  },
+  {
+    "id": "bythaelurus-dawsoni",
+    "nombre": "Pejegato neozelandés",
+    "nombreCientifico": "Bythaelurus dawsoni",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.45,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Crustáceos del fondo y crustáceos del plancton"
+  },
+  {
+    "id": "apristurus-investigatoris",
+    "nombre": "Pejegato ñato",
+    "nombreCientifico": "Apristurus investigatoris",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.26,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "apristurus-sibogae",
+    "nombre": "Pejegato paliducho",
+    "nombreCientifico": "Apristurus sibogae",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.21,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "apristurus-stenseni",
+    "nombre": "Pejegato panameño",
+    "nombreCientifico": "Apristurus stenseni",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "galeus-piperatus",
+    "nombre": "Pejegato pimienta",
+    "nombreCientifico": "Galeus piperatus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.29,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "halaelurus-boesemani",
+    "nombre": "Pejegato pintado",
+    "nombreCientifico": "Halaelurus boesemani",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 0.48,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "halaelurus-lineatus",
+    "nombre": "Pejegato playero",
+    "nombreCientifico": "Halaelurus lineatus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.56,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Cefalópodos y peces"
+  },
+  {
+    "id": "apristurus-microps",
+    "nombre": "Pejegato puerco",
+    "nombreCientifico": "Apristurus microps",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.61,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces, cefalópodos y crustáceos del fondo"
+  },
+  {
+    "id": "halaelurus-quagga",
+    "nombre": "Pejegato quagga",
+    "nombreCientifico": "Halaelurus quagga",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.32,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "schroederichthys-maculatus",
+    "nombre": "Pejegato rabo fino",
+    "nombreCientifico": "Schroederichthys maculatus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.33,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Cefalópodos y peces"
+  },
+  {
+    "id": "cephalurus-cephalus",
+    "nombre": "Pejegato renacuajo",
+    "nombreCientifico": "Cephalurus cephalus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.28,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "holohalaelurus-regani",
+    "nombre": "Pejegato reticulado",
+    "nombreCientifico": "Holohalaelurus regani",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.69,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces, crustáceos del fondo y cefalópodos"
+  },
+  {
+    "id": "apristurus-saldanha",
+    "nombre": "Pejegato saldaña",
+    "nombreCientifico": "Apristurus saldanha",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.88,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Cefalópodos y peces"
+  },
+  {
+    "id": "apristurus-kampae",
+    "nombre": "Pejegato trompudo",
+    "nombreCientifico": "Apristurus kampae",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.58,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "pentanchus-profundicolus",
+    "nombre": "Pejegato velero",
+    "nombreCientifico": "Pentanchus profundicolus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.51,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "cetorhinus-maximus",
+    "nombre": "Peregrino",
+    "nombreCientifico": "Cetorhinus maximus",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 15.2,
+      "pesoKg": 4000,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa",
+    "alimentacion": "Crustáceos del plancton y huevos o larvas de peces"
+  },
+  {
+    "id": "squatina-oculata",
+    "nombre": "Pez ángel",
+    "nombreCientifico": "Squatina oculata",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 1.6,
+      "formaCuerpo": "Forma variada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "sphyrna-zygaena",
+    "nombre": "Pez martillo",
+    "nombreCientifico": "Sphyrna zygaena",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 5,
+      "pesoKg": 400,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa",
+    "alimentacion": "Peces y cefalópodos"
+  },
+  {
+    "id": "scyliorhinus-canicula",
+    "nombre": "Pintarroja",
+    "nombreCientifico": "Scyliorhinus canicula",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1,
+      "pesoKg": 3.7,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Crustáceos del fondo y peces"
+  },
+  {
+    "id": "galeus-polli",
+    "nombre": "Pintarroja africana",
+    "nombreCientifico": "Galeus polli",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 0.45,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces, cefalópodos y crustáceos del fondo"
+  },
+  {
+    "id": "figaro-boardmani",
+    "nombre": "Pintarroja australiana",
+    "nombreCientifico": "Figaro boardmani",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.61,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces, crustáceos del fondo y moluscos"
+  },
+  {
+    "id": "schroederichthys-chilensis",
+    "nombre": "Pintarroja chilena",
+    "nombreCientifico": "Schroederichthys chilensis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.62,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "atelomycterus-marmoratus",
+    "nombre": "Pintarroja coralera",
+    "nombreCientifico": "Atelomycterus marmoratus",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 0.7,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos"
+  },
+  {
+    "id": "galeus-schultzi",
+    "nombre": "Pintarroja enana",
+    "nombreCientifico": "Galeus schultzi",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "galeus-murinus",
+    "nombre": "Pintarroja islándica",
+    "nombreCientifico": "Galeus murinus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.63,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces, crustáceos del fondo y crustáceos del plancton"
+  },
+  {
+    "id": "galeus-nipponensis",
+    "nombre": "Pintarroja nipona",
+    "nombreCientifico": "Galeus nipponensis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.7,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Crustáceos del fondo, peces y cefalópodos"
+  },
+  {
+    "id": "galeus-arae",
+    "nombre": "Pintarroja rabolija",
+    "nombreCientifico": "Galeus arae",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.36,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Crustáceos del fondo"
+  },
+  {
+    "id": "galeus-sauteri",
+    "nombre": "Pintarroja rabonegro",
+    "nombreCientifico": "Galeus sauteri",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.38,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "galeus-eastmani",
+    "nombre": "Pintarroja salamanquesa",
+    "nombreCientifico": "Galeus eastmani",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.4,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Crustáceos del fondo"
+  },
+  {
+    "id": "mustelus-whitneyi",
+    "nombre": "Piruche",
+    "nombreCientifico": "Mustelus whitneyi",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "planonasus-indicus",
+    "nombre": "Planonasus indicus",
+    "nombreCientifico": "Planonasus indicus",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.64,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "planonasus-parini",
+    "nombre": "Planonasus parini",
+    "nombreCientifico": "Planonasus parini",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "pesoKg": 0.6,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "pliotrema-annae",
+    "nombre": "Pliotrema annae",
+    "nombreCientifico": "Pliotrema annae",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "pliotrema-kajae",
+    "nombre": "Pliotrema kajae",
+    "nombreCientifico": "Pliotrema kajae",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 1.02,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "pristiophorus-delicatus",
+    "nombre": "Pristiophorus delicatus",
+    "nombreCientifico": "Pristiophorus delicatus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.63,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "pristiophorus-lanae",
+    "nombre": "Pristiophorus lanae",
+    "nombreCientifico": "Pristiophorus lanae",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 0.67,
+      "formaCuerpo": "Forma variada"
+    },
+    "habitat": "En aguas abiertas cercanas a la costa"
+  },
+  {
+    "id": "pristiophorus-nancyae",
+    "nombre": "Pristiophorus nancyae",
+    "nombreCientifico": "Pristiophorus nancyae",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.62,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "proscyllium-magnificum",
+    "nombre": "Proscyllium magnificum",
+    "nombreCientifico": "Proscyllium magnificum",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 0.49,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "centrophorus-granulosus",
+    "nombre": "Quelvacho agujón",
+    "nombreCientifico": "Centrophorus granulosus",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 1.24,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "centrophorus-moluccensis",
+    "nombre": "Quelvacho de aleta corta",
+    "nombreCientifico": "Centrophorus moluccensis",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 1,
+      "pesoKg": 2.4,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "centrophorus-harrissoni",
+    "nombre": "Quelvacho galludo",
+    "nombreCientifico": "Centrophorus harrissoni",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 1.11,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "centrophorus-lusitanicus",
+    "nombre": "Quelvacho lusitánico",
+    "nombreCientifico": "Centrophorus lusitanicus",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 1.6,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces, cefalópodos y crustáceos del fondo"
+  },
+  {
+    "id": "centrophorus-tessellatus",
+    "nombre": "Quelvacho mosaico",
+    "nombreCientifico": "Centrophorus tessellatus",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 0.89,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "centrophorus-squamosus",
+    "nombre": "Quelvacho negro",
+    "nombreCientifico": "Centrophorus squamosus",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 1.64,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "centroselachus-crepidater",
+    "nombre": "Sapata negra",
+    "nombreCientifico": "Centroselachus crepidater",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 1.3,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces y crustáceos del fondo"
+  },
+  {
+    "id": "carcharias-taurus",
+    "nombre": "Sarda",
+    "nombreCientifico": "Carcharias taurus",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 3.3,
+      "pesoKg": 158.8,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "schroederichthys-saurisqualus",
+    "nombre": "Schroederichthys saurisqualus",
+    "nombreCientifico": "Schroederichthys saurisqualus",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 0.58,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "scoliodon-macrorhynchos",
+    "nombre": "Scoliodon macrorhynchos",
+    "nombreCientifico": "Scoliodon macrorhynchos",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 0.72,
+      "pesoKg": 0.2,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "scyliorhinus-cabofriensis",
+    "nombre": "Scyliorhinus cabofriensis",
+    "nombreCientifico": "Scyliorhinus cabofriensis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.47,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas cercanas a la costa"
+  },
+  {
+    "id": "scyliorhinus-comoroensis",
+    "nombre": "Scyliorhinus comoroensis",
+    "nombreCientifico": "Scyliorhinus comoroensis",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.18,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "scyliorhinus-ugoi",
+    "nombre": "Scyliorhinus ugoi",
+    "nombreCientifico": "Scyliorhinus ugoi",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.53,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "scymnodalatias-albicauda",
+    "nombre": "Scymnodalatias albicauda",
+    "nombreCientifico": "Scymnodalatias albicauda",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 1.11,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas muy profundas"
+  },
+  {
+    "id": "scymnodalatias-garricki",
+    "nombre": "Scymnodalatias garricki",
+    "nombreCientifico": "Scymnodalatias garricki",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas muy profundas"
+  },
+  {
+    "id": "scymnodalatias-oligodon",
+    "nombre": "Scymnodalatias oligodon",
+    "nombreCientifico": "Scymnodalatias oligodon",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "scymnodon-ichiharai",
+    "nombre": "Scymnodon ichiharai",
+    "nombreCientifico": "Scymnodon ichiharai",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 1.01,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas muy profundas"
+  },
+  {
+    "id": "odontaspis-ferox",
+    "nombre": "Solrayo",
+    "nombreCientifico": "Odontaspis ferox",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 4.5,
+      "pesoKg": 289,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "Junto al fondo y también a media agua",
+    "alimentacion": "Peces, crustáceos del fondo y cefalópodos"
+  },
+  {
+    "id": "odontaspis-noronhai",
+    "nombre": "Solrayo ojigrande",
+    "nombreCientifico": "Odontaspis noronhai",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 3.67,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "somniosus-cheni",
+    "nombre": "Somniosus cheni",
+    "nombreCientifico": "Somniosus cheni",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.15,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "somniosus-longus",
+    "nombre": "Somniosus longus",
+    "nombreCientifico": "Somniosus longus",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 1.1,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "sphyrna-gilberti",
+    "nombre": "Sphyrna gilberti",
+    "nombreCientifico": "Sphyrna gilberti",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.47,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas cercanas a la costa"
+  },
+  {
+    "id": "squaliolus-aliae",
+    "nombre": "Squaliolus aliae",
+    "nombreCientifico": "Squaliolus aliae",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.22,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas muy profundas",
+    "alimentacion": "Peces y moluscos"
+  },
+  {
+    "id": "squalus-albicaudus",
+    "nombre": "Squalus albicaudus",
+    "nombreCientifico": "Squalus albicaudus",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.53,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "squalus-albifrons",
+    "nombre": "Squalus albifrons",
+    "nombreCientifico": "Squalus albifrons",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.74,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "squalus-altipinnis",
+    "nombre": "Squalus altipinnis",
+    "nombreCientifico": "Squalus altipinnis",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.59,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "squalus-bahiensis",
+    "nombre": "Squalus bahiensis",
+    "nombreCientifico": "Squalus bahiensis",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.69,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "squalus-bassi",
+    "nombre": "Squalus bassi",
+    "nombreCientifico": "Squalus bassi",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.96,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas cercanas a la costa"
+  },
+  {
+    "id": "squalus-brevirostris",
+    "nombre": "Squalus brevirostris",
+    "nombreCientifico": "Squalus brevirostris",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 0.6,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas cercanas a la costa"
+  },
+  {
+    "id": "squalus-bucephalus",
+    "nombre": "Squalus bucephalus",
+    "nombreCientifico": "Squalus bucephalus",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.9,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "squalus-chloroculus",
+    "nombre": "Squalus chloroculus",
+    "nombreCientifico": "Squalus chloroculus",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 0.86,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "squalus-clarkae",
+    "nombre": "Squalus clarkae",
+    "nombreCientifico": "Squalus clarkae",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.55,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "squalus-crassispinus",
+    "nombre": "Squalus crassispinus",
+    "nombreCientifico": "Squalus crassispinus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.48,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "squalus-edmundsi",
+    "nombre": "Squalus edmundsi",
+    "nombreCientifico": "Squalus edmundsi",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 0.7,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "squalus-formosus",
+    "nombre": "Squalus formosus",
+    "nombreCientifico": "Squalus formosus",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 0.73,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "squalus-grahami",
+    "nombre": "Squalus grahami",
+    "nombreCientifico": "Squalus grahami",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 0.6,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "squalus-griffini",
+    "nombre": "Squalus griffini",
+    "nombreCientifico": "Squalus griffini",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.9,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "squalus-hemipinnis",
+    "nombre": "Squalus hemipinnis",
+    "nombreCientifico": "Squalus hemipinnis",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 0.52,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "squalus-lalannei",
+    "nombre": "Squalus lalannei",
+    "nombreCientifico": "Squalus lalannei",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.62,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "squalus-lobularis",
+    "nombre": "Squalus lobularis",
+    "nombreCientifico": "Squalus lobularis",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.64,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "squalus-mahia",
+    "nombre": "Squalus mahia",
+    "nombreCientifico": "Squalus mahia",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.5,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "squalus-margaretsmithae",
+    "nombre": "Squalus margaretsmithae",
+    "nombreCientifico": "Squalus margaretsmithae",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.54,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas cercanas a la costa"
+  },
+  {
+    "id": "squalus-montalbani",
+    "nombre": "Squalus montalbani",
+    "nombreCientifico": "Squalus montalbani",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 0.84,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "squalus-nasutus",
+    "nombre": "Squalus nasutus",
+    "nombreCientifico": "Squalus nasutus",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 0.5,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "squalus-notocaudatus",
+    "nombre": "Squalus notocaudatus",
+    "nombreCientifico": "Squalus notocaudatus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.62,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "squalus-quasimodo",
+    "nombre": "Squalus quasimodo",
+    "nombreCientifico": "Squalus quasimodo",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "squalus-raoulensis",
+    "nombre": "Squalus raoulensis",
+    "nombreCientifico": "Squalus raoulensis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.68,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "squatina-albipunctata",
+    "nombre": "Squatina albipunctata",
+    "nombreCientifico": "Squatina albipunctata",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 0.99,
+      "pesoKg": 17,
+      "formaCuerpo": "Forma variada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "squatina-caillieti",
+    "nombre": "Squatina caillieti",
+    "nombreCientifico": "Squatina caillieti",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "formaCuerpo": "Forma variada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "squatina-legnota",
+    "nombre": "Squatina legnota",
+    "nombreCientifico": "Squatina legnota",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 1.34,
+      "formaCuerpo": "Forma variada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "squatina-pseudocellata",
+    "nombre": "Squatina pseudocellata",
+    "nombreCientifico": "Squatina pseudocellata",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.75,
+      "formaCuerpo": "Forma variada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "squatina-varii",
+    "nombre": "Squatina varii",
+    "nombreCientifico": "Squatina varii",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.24,
+      "formaCuerpo": "Forma variada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "eucrossorhinus-dasypogon",
+    "nombre": "Tapicero barbudo",
+    "nombreCientifico": "Eucrossorhinus dasypogon",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 3.66,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces y otros invertebrados del fondo"
+  },
+  {
+    "id": "orectolobus-japonicus",
+    "nombre": "Tapicero japonés",
+    "nombreCientifico": "Orectolobus japonicus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.18,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces, crustáceos del fondo y otros invertebrados del fondo"
+  },
+  {
+    "id": "orectolobus-maculatus",
+    "nombre": "Tapicero manchado",
+    "nombreCientifico": "Orectolobus maculatus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 3.2,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces, crustáceos del fondo y moluscos"
+  },
+  {
+    "id": "orectolobus-ornatus",
+    "nombre": "Tapicero ornamentado",
+    "nombreCientifico": "Orectolobus ornatus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 2.9,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces y otros invertebrados del fondo"
+  },
+  {
+    "id": "orectolobus-wardi",
+    "nombre": "Tapicero zapatilla",
+    "nombreCientifico": "Orectolobus wardi",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.63,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces y otros invertebrados del fondo"
+  },
+  {
+    "id": "sutorectus-tentaculatus",
+    "nombre": "Tapicero zapatudo",
+    "nombreCientifico": "Sutorectus tentaculatus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.92,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos"
+  },
+  {
+    "id": "stegostoma-tigrinum",
+    "nombre": "Tiburón acebrado",
+    "nombreCientifico": "Stegostoma tigrinum",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 3.54,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Moluscos, crustáceos del fondo y peces"
+  },
+  {
+    "id": "carcharhinus-brevipinna",
+    "nombre": "Tiburón aleta negra",
+    "nombreCientifico": "Carcharhinus brevipinna",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 3.09,
+      "pesoKg": 193,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "lamiopsis-temminckii",
+    "nombre": "Tiburón aletón",
+    "nombreCientifico": "Lamiopsis temminckii",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 1.6,
+      "pesoKg": 52.4,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces y otros invertebrados del fondo"
+  },
+  {
+    "id": "carcharhinus-sealei",
+    "nombre": "Tiburón alinegro",
+    "nombreCientifico": "Carcharhinus sealei",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 1,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Cefalópodos, peces y crustáceos del fondo"
+  },
+  {
+    "id": "carcharhinus-acronotus",
+    "nombre": "Tiburón amarillo",
+    "nombreCientifico": "Carcharhinus acronotus",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 2,
+      "pesoKg": 18.9,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "negaprion-brevirostris",
+    "nombre": "Tiburón amarillo",
+    "nombreCientifico": "Negaprion brevirostris",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 3.4,
+      "pesoKg": 183.7,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "squatina-dumeril",
+    "nombre": "Tiburón ángel",
+    "nombreCientifico": "Squatina dumeril",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.52,
+      "formaCuerpo": "Forma variada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces, crustáceos del fondo y moluscos"
+  },
+  {
+    "id": "chlamydoselachus-anguineus",
+    "nombre": "Tiburón anguila",
+    "nombreCientifico": "Chlamydoselachus anguineus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 2,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Cefalópodos y peces"
+  },
+  {
+    "id": "carcharhinus-obscurus",
+    "nombre": "Tiburón arenero",
+    "nombreCientifico": "Carcharhinus obscurus",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 4.2,
+      "pesoKg": 346.5,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "prionace-glauca",
+    "nombre": "Tiburón azul",
+    "nombreCientifico": "Prionace glauca",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 4,
+      "pesoKg": 205.9,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En aguas abiertas lejos de la costa",
+    "alimentacion": "Peces y cefalópodos"
+  },
+  {
+    "id": "carcharhinus-altimus",
+    "nombre": "Tiburón baboso",
+    "nombreCientifico": "Carcharhinus altimus",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 3,
+      "pesoKg": 167.8,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "carcharhinus-amboinensis",
+    "nombre": "Tiburón baleta",
+    "nombreCientifico": "Carcharhinus amboinensis",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 2.8,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces, cefalópodos y crustáceos del fondo"
   },
   {
     "id": "tiburon-ballena",
-    "nombre": "Tiburón Ballena",
+    "nombre": "Tiburón ballena",
     "nombreCientifico": "Rhincodon typus",
     "estadoConservacion": "En peligro",
     "morfologia": {
@@ -42,8 +4936,555 @@
     "alimentacion": "Filtrador de plancton y peces pequeños"
   },
   {
+    "id": "carcharhinus-fitzroyensis",
+    "nombre": "Tiburón ballenero",
+    "nombreCientifico": "Carcharhinus fitzroyensis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.35,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "leptocharias-smithii",
+    "nombre": "Tiburón barbudo",
+    "nombreCientifico": "Leptocharias smithii",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 0.77,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Crustáceos del fondo, cefalópodos y peces"
+  },
+  {
+    "id": "tiburon-blanco",
+    "nombre": "Tiburón blanco",
+    "nombreCientifico": "Carcharodon carcharias",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 6,
+      "pesoKg": 1200,
+      "formaCuerpo": "Fusiforme",
+      "rasgoDistintivo": "Dientes triangulares aserrados"
+    },
+    "habitat": "Aguas cálidas y templadas",
+    "alimentacion": "Mamíferos marinos, peces y otros tiburones"
+  },
+  {
+    "id": "megachasma-pelagios",
+    "nombre": "Tiburón bocudo",
+    "nombreCientifico": "Megachasma pelagios",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 5.49,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa",
+    "alimentacion": "Crustáceos del plancton, peces y medusas"
+  },
+  {
+    "id": "carcharhinus-dussumieri",
+    "nombre": "Tiburón cariblanco",
+    "nombreCientifico": "Carcharhinus dussumieri",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 1.21,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces, crustáceos del fondo y moluscos"
+  },
+  {
+    "id": "brachaelurus-waddi",
+    "nombre": "Tiburón ciego de roca",
+    "nombreCientifico": "Brachaelurus waddi",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.22,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Crustáceos del fondo, cefalópodos y peces"
+  },
+  {
+    "id": "brachaelurus-colcloughi",
+    "nombre": "Tiburón ciego gris",
+    "nombreCientifico": "Brachaelurus colcloughi",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 0.76,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Otros invertebrados del fondo"
+  },
+  {
+    "id": "carcharhinus-brachyurus",
+    "nombre": "Tiburón cobrizo",
+    "nombreCientifico": "Carcharhinus brachyurus",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 3.25,
+      "pesoKg": 304.6,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "pseudocarcharias-kamoharai",
+    "nombre": "Tiburón cocodrilo",
+    "nombreCientifico": "Pseudocarcharias kamoharai",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.1,
+      "pesoKg": 5.9,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa",
+    "alimentacion": "Cefalópodos y peces"
+  },
+  {
+    "id": "paragaleus-pectoralis",
+    "nombre": "Tiburón comadiza",
+    "nombreCientifico": "Paragaleus pectoralis",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 1.4,
+      "pesoKg": 7.2,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces, crustáceos del fondo y cefalópodos"
+  },
+  {
+    "id": "carcharhinus-amblyrhynchos",
+    "nombre": "Tiburón coralero rabinegro",
+    "nombreCientifico": "Carcharhinus amblyrhynchos",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 2.55,
+      "pesoKg": 33.7,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "carcharhinus-perezii",
+    "nombre": "Tiburón coralino",
+    "nombreCientifico": "Carcharhinus perezii",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 3,
+      "pesoKg": 69.9,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "carcharhinus-borneensis",
+    "nombre": "Tiburón de Borneo",
+    "nombreCientifico": "Carcharhinus borneensis",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 0.7,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "echinorhinus-brucus",
+    "nombre": "Tiburón de clavos",
+    "nombreCientifico": "Echinorhinus brucus",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 3.1,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "carcharhinus-galapagensis",
+    "nombre": "Tiburón de Galápagos",
+    "nombreCientifico": "Carcharhinus galapagensis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 3.7,
+      "pesoKg": 85.5,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "carcharhinus-signatus",
+    "nombre": "Tiburón de noche",
+    "nombreCientifico": "Carcharhinus signatus",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 2.8,
+      "pesoKg": 76.7,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "Junto al fondo y también a media agua",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "carcharhinus-hemiodon",
+    "nombre": "Tiburón de Pondicherry",
+    "nombreCientifico": "Carcharhinus hemiodon",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 2,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces, crustáceos del fondo y moluscos"
+  },
+  {
+    "id": "carcharhinus-albimarginatus",
+    "nombre": "Tiburón de puntas blancas",
+    "nombreCientifico": "Carcharhinus albimarginatus",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 3,
+      "pesoKg": 162.2,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "carcharhinus-melanopterus",
+    "nombre": "Tiburón de puntas negras",
+    "nombreCientifico": "Carcharhinus melanopterus",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 2,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces y moluscos"
+  },
+  {
+    "id": "glyphis-gangeticus",
+    "nombre": "Tiburón del Ganges",
+    "nombreCientifico": "Glyphis gangeticus",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 2.04,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "carcharhinus-isodon",
+    "nombre": "Tiburón dentiliso",
+    "nombreCientifico": "Carcharhinus isodon",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 2,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces y crustáceos del fondo"
+  },
+  {
+    "id": "mitsukurina-owstoni",
+    "nombre": "Tiburón duende",
+    "nombreCientifico": "Mitsukurina owstoni",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 6.17,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces, crustáceos del fondo y cefalópodos"
+  },
+  {
+    "id": "ginglymostoma-unami",
+    "nombre": "Tiburón gata",
+    "nombreCientifico": "Ginglymostoma unami",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 2.07,
+      "formaCuerpo": "Forma variada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "carcharhinus-amblyrhynchoides",
+    "nombre": "Tiburón grácil",
+    "nombreCientifico": "Carcharhinus amblyrhynchoides",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 1.82,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En aguas abiertas cercanas a la costa"
+  },
+  {
+    "id": "cephaloscyllium-ventriosum",
+    "nombre": "Tiburón inflado",
+    "nombreCientifico": "Cephaloscyllium ventriosum",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.1,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces, crustáceos del fondo y moluscos"
+  },
+  {
+    "id": "glyphis-glyphis",
+    "nombre": "Tiburón lanza",
+    "nombreCientifico": "Glyphis glyphis",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 1,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "triakis-semifasciata",
+    "nombre": "Tiburón leopardo",
+    "nombreCientifico": "Triakis semifasciata",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.98,
+      "pesoKg": 18.4,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces y otros invertebrados del fondo"
+  },
+  {
+    "id": "sphyrna-lewini",
+    "nombre": "Tiburón martillo",
+    "nombreCientifico": "Sphyrna lewini",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 4.3,
+      "pesoKg": 152.4,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa",
+    "alimentacion": "Peces y crustáceos del fondo"
+  },
+  {
+    "id": "tiburon-martillo",
+    "nombre": "Tiburón martillo",
+    "nombreCientifico": "Sphyrna mokarran",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 6,
+      "pesoKg": 450,
+      "formaCuerpo": "Fusiforme",
+      "rasgoDistintivo": "Cabeza en forma de martillo"
+    },
+    "habitat": "Aguas tropicales y subtropicales",
+    "alimentacion": "Dieta muy variada (peces, tortugas, aves marinas, carroña)"
+  },
+  {
+    "id": "echinorhinus-cookei",
+    "nombre": "Tiburón negro espinoso",
+    "nombreCientifico": "Echinorhinus cookei",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 4,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "carcharhinus-cautus",
+    "nombre": "Tiburón nervioso",
+    "nombreCientifico": "Carcharhinus cautus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.5,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces y crustáceos del fondo"
+  },
+  {
+    "id": "carcharhinus-longimanus",
+    "nombre": "Tiburón oceánico",
+    "nombreCientifico": "Carcharhinus longimanus",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 4,
+      "pesoKg": 167.4,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En aguas abiertas lejos de la costa",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "oxynotus-caribbaeus",
+    "nombre": "Tiburón ojinoto",
+    "nombreCientifico": "Oxynotus caribbaeus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.49,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces y otros invertebrados del fondo"
+  },
+  {
+    "id": "loxodon-macrorhinus",
+    "nombre": "Tiburón ojuelo",
+    "nombreCientifico": "Loxodon macrorhinus",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 0.98,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces y crustáceos del fondo"
+  },
+  {
+    "id": "notorynchus-cepedianus",
+    "nombre": "Tiburón pinto",
+    "nombreCientifico": "Notorynchus cepedianus",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 3,
+      "pesoKg": 107,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces y mamíferos marinos"
+  },
+  {
+    "id": "carcharhinus-porosus",
+    "nombre": "Tiburón poroso",
+    "nombreCientifico": "Carcharhinus porosus",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 1.5,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "carcharhinus-cerdale",
+    "nombre": "Tiburón poroso del Pacífico",
+    "nombreCientifico": "Carcharhinus cerdale",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 1.4,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "carcharhinus-sorrah",
+    "nombre": "Tiburón rabo manchado",
+    "nombreCientifico": "Carcharhinus sorrah",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 1.6,
+      "pesoKg": 28,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces, cefalópodos y crustáceos del fondo"
+  },
+  {
+    "id": "lamna-ditropis",
+    "nombre": "Tiburón salmón",
+    "nombreCientifico": "Lamna ditropis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 3.05,
+      "pesoKg": 175,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En aguas abiertas lejos de la costa",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "negaprion-acutidens",
+    "nombre": "Tiburón segador",
+    "nombreCientifico": "Negaprion acutidens",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 3.8,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En arrecifes o cerca de ellos"
+  },
+  {
+    "id": "pristiophorus-schroederi",
+    "nombre": "Tiburón sierra americano",
+    "nombreCientifico": "Pristiophorus schroederi",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.8,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "pliotrema-warreni",
+    "nombre": "Tiburón sierra del Cabo",
+    "nombreCientifico": "Pliotrema warreni",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.7,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "pristiophorus-japonicus",
+    "nombre": "Tiburón sierra japonés",
+    "nombreCientifico": "Pristiophorus japonicus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces, crustáceos del fondo y otros invertebrados del fondo"
+  },
+  {
+    "id": "pristiophorus-nudipinnis",
+    "nombre": "Tiburón sierra ñato",
+    "nombreCientifico": "Pristiophorus nudipinnis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.22,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "pristiophorus-cirratus",
+    "nombre": "Tiburón sierra trompudo",
+    "nombreCientifico": "Pristiophorus cirratus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.37,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces y crustáceos del fondo"
+  },
+  {
     "id": "tiburon-tigre",
-    "nombre": "Tiburón Tigre",
+    "nombre": "Tiburón tigre",
     "nombreCientifico": "Galeocerdo cuvier",
     "estadoConservacion": "Casi amenazado",
     "morfologia": {
@@ -54,5 +5495,661 @@
     },
     "habitat": "Aguas tropicales y subtropicales",
     "alimentacion": "Peces, tortugas, aves marinas y carroña"
+  },
+  {
+    "id": "carcharhinus-leucas",
+    "nombre": "Tiburón toro",
+    "nombreCientifico": "Carcharhinus leucas",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 3.6,
+      "pesoKg": 316.5,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En arrecifes o cerca de ellos",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "carcharhinus-macloti",
+    "nombre": "Tiburón trompudo",
+    "nombreCientifico": "Carcharhinus macloti",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 1.1,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces, crustáceos del fondo y cefalópodos"
+  },
+  {
+    "id": "mustelus-mento",
+    "nombre": "Tollo",
+    "nombreCientifico": "Mustelus mento",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 1.41,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Crustáceos del fondo"
+  },
+  {
+    "id": "mustelus-mustelus",
+    "nombre": "Tollo",
+    "nombreCientifico": "Mustelus mustelus",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 2,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Crustáceos del fondo y peces"
+  },
+  {
+    "id": "somniosus-rostratus",
+    "nombre": "Tollo boreal",
+    "nombreCientifico": "Somniosus rostratus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.43,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "isistius-brasiliensis",
+    "nombre": "Tollo cigarro",
+    "nombreCientifico": "Isistius brasiliensis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.42,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas muy profundas",
+    "alimentacion": "Cefalópodos, mamíferos marinos y carroña"
+  },
+  {
+    "id": "isistius-plutodus",
+    "nombre": "Tollo cigarro dentón",
+    "nombreCientifico": "Isistius plutodus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas cercanas a la costa"
+  },
+  {
+    "id": "eridacnis-sinuans",
+    "nombre": "Tollo coludo africano",
+    "nombreCientifico": "Eridacnis sinuans",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces, crustáceos del fondo y moluscos"
+  },
+  {
+    "id": "ctenacis-fehlmanni",
+    "nombre": "Tollo coludo arlequín",
+    "nombreCientifico": "Ctenacis fehlmanni",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Otros invertebrados del fondo"
+  },
+  {
+    "id": "eridacnis-barbouri",
+    "nombre": "Tollo coludo cubano",
+    "nombreCientifico": "Eridacnis barbouri",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 2,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces, crustáceos del fondo y moluscos"
+  },
+  {
+    "id": "gollum-attenuatus",
+    "nombre": "Tollo coludo elegante",
+    "nombreCientifico": "Gollum attenuatus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.07,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces, crustáceos del fondo y moluscos"
+  },
+  {
+    "id": "proscyllium-habereri",
+    "nombre": "Tollo coludo grácil",
+    "nombreCientifico": "Proscyllium habereri",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 0.57,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces, crustáceos del fondo y moluscos"
+  },
+  {
+    "id": "eridacnis-radcliffei",
+    "nombre": "Tollo coludo pigmeo",
+    "nombreCientifico": "Eridacnis radcliffei",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.23,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "somniosus-antarcticus",
+    "nombre": "Tollo de Groenlandia",
+    "nombreCientifico": "Somniosus antarcticus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 4.38,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua",
+    "alimentacion": "Peces y cefalópodos"
+  },
+  {
+    "id": "somniosus-microcephalus",
+    "nombre": "Tollo de Groenlandia",
+    "nombreCientifico": "Somniosus microcephalus",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 4.27,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "triakis-acutipinna",
+    "nombre": "Tollo del Ecuador",
+    "nombreCientifico": "Triakis acutipinna",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 0.9,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "triakis-megalopterus",
+    "nombre": "Tollo dentudo",
+    "nombreCientifico": "Triakis megalopterus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.42,
+      "pesoKg": 20,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Peces, crustáceos del fondo y moluscos"
+  },
+  {
+    "id": "deania-profundorum",
+    "nombre": "Tollo flecha",
+    "nombreCientifico": "Deania profundorum",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 1.1,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Cefalópodos, peces y moluscos"
+  },
+  {
+    "id": "etmopterus-polli",
+    "nombre": "Tollo lucero africano",
+    "nombreCientifico": "Etmopterus polli",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.3,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "etmopterus-hillianus",
+    "nombre": "Tollo lucero antillano",
+    "nombreCientifico": "Etmopterus hillianus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.3,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "etmopterus-gracilispinis",
+    "nombre": "Tollo lucero bandoneado",
+    "nombreCientifico": "Etmopterus gracilispinis",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.35,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa",
+    "alimentacion": "Cefalópodos, peces y crustáceos del fondo"
+  },
+  {
+    "id": "etmopterus-villosus",
+    "nombre": "Tollo lucero de Hawaii",
+    "nombreCientifico": "Etmopterus villosus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.46,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "etmopterus-lucifer",
+    "nombre": "Tollo lucero diablo",
+    "nombreCientifico": "Etmopterus lucifer",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.55,
+      "pesoKg": 0.8,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa",
+    "alimentacion": "Cefalópodos y peces"
+  },
+  {
+    "id": "etmopterus-sentosus",
+    "nombre": "Tollo lucero espinudo",
+    "nombreCientifico": "Etmopterus sentosus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.27,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "etmopterus-schultzi",
+    "nombre": "Tollo lucero franjeado",
+    "nombreCientifico": "Etmopterus schultzi",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.27,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "etmopterus-pusillus",
+    "nombre": "Tollo lucero liso",
+    "nombreCientifico": "Etmopterus pusillus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.5,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces, cefalópodos y huevos o larvas de peces"
+  },
+  {
+    "id": "etmopterus-unicolor",
+    "nombre": "Tollo lucero marrón",
+    "nombreCientifico": "Etmopterus unicolor",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.64,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "etmopterus-brachyurus",
+    "nombre": "Tollo lucero mocho",
+    "nombreCientifico": "Etmopterus brachyurus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.5,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "etmopterus-decacuspidatus",
+    "nombre": "Tollo lucero peine",
+    "nombreCientifico": "Etmopterus decacuspidatus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.29,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "etmopterus-princeps",
+    "nombre": "Tollo lucero raspa",
+    "nombreCientifico": "Etmopterus princeps",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.94,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces y crustáceos del fondo"
+  },
+  {
+    "id": "etmopterus-bullisi",
+    "nombre": "Tollo lucero rayado",
+    "nombreCientifico": "Etmopterus bullisi",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.2,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "etmopterus-virens",
+    "nombre": "Tollo lucero verde",
+    "nombreCientifico": "Etmopterus virens",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.23,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Cefalópodos"
+  },
+  {
+    "id": "triakis-maculata",
+    "nombre": "Tollo manchado",
+    "nombreCientifico": "Triakis maculata",
+    "estadoConservacion": "En peligro crítico",
+    "morfologia": {
+      "longitudMetros": 1.8,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Otros invertebrados del fondo"
+  },
+  {
+    "id": "cirrhigaleus-barbifer",
+    "nombre": "Tollo mandarín",
+    "nombreCientifico": "Cirrhigaleus barbifer",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.26,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces y otros invertebrados del fondo"
+  },
+  {
+    "id": "centroscyllium-ritteri",
+    "nombre": "Tollo negro aliblanco",
+    "nombreCientifico": "Centroscyllium ritteri",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.43,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "aculeola-nigra",
+    "nombre": "Tollo negro de cachos",
+    "nombreCientifico": "Aculeola nigra",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 0.6,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "somniosus-pacificus",
+    "nombre": "Tollo negro dormilón",
+    "nombreCientifico": "Somniosus pacificus",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 4.4,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua",
+    "alimentacion": "Peces y moluscos"
+  },
+  {
+    "id": "centroscyllium-ornatum",
+    "nombre": "Tollo negro elegante",
+    "nombreCientifico": "Centroscyllium ornatum",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.3,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "centroscyllium-kamoharai",
+    "nombre": "Tollo negro liso",
+    "nombreCientifico": "Centroscyllium kamoharai",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.6,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "centroscyllium-fabricii",
+    "nombre": "Tollo negro merga",
+    "nombreCientifico": "Centroscyllium fabricii",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 1.07,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces, crustáceos del fondo y crustáceos del plancton"
+  },
+  {
+    "id": "etmopterus-granulosus",
+    "nombre": "Tollo negro narigón",
+    "nombreCientifico": "Etmopterus granulosus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.67,
+      "pesoKg": 1.7,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas lejos de la costa",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "centroscyllium-nigrum",
+    "nombre": "Tollo negro peine",
+    "nombreCientifico": "Centroscyllium nigrum",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.51,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua",
+    "alimentacion": "Peces y otros invertebrados del fondo"
+  },
+  {
+    "id": "centroscyllium-granulatum",
+    "nombre": "Tollo negro raspa",
+    "nombreCientifico": "Centroscyllium granulatum",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 0.28,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas muy profundas"
+  },
+  {
+    "id": "deania-calceus",
+    "nombre": "Tollo pajarito",
+    "nombreCientifico": "Deania calceus",
+    "estadoConservacion": "Casi amenazado",
+    "morfologia": {
+      "longitudMetros": 1.27,
+      "pesoKg": 8.7,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces y crustáceos del fondo"
+  },
+  {
+    "id": "euprotomicrus-bispinatus",
+    "nombre": "Tollo pigmeo",
+    "nombreCientifico": "Euprotomicrus bispinatus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.31,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas muy profundas"
+  },
+  {
+    "id": "squaliolus-laticaudus",
+    "nombre": "Tollo pigmeo espinudo",
+    "nombreCientifico": "Squaliolus laticaudus",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.22,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "En aguas abiertas muy profundas",
+    "alimentacion": "Cefalópodos"
+  },
+  {
+    "id": "heteroscymnoides-marleyi",
+    "nombre": "Tollo pigmeo trompudo",
+    "nombreCientifico": "Heteroscymnoides marleyi",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.29,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "euprotomicroides-zantedeschia",
+    "nombre": "Tollo rabo claro",
+    "nombreCientifico": "Euprotomicroides zantedeschia",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.42,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "deania-hystricosa",
+    "nombre": "Tollo raspa",
+    "nombreCientifico": "Deania hystricosa",
+    "estadoConservacion": "Datos insuficientes",
+    "morfologia": {
+      "longitudMetros": 0.84,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas"
+  },
+  {
+    "id": "triakis-scyllium",
+    "nombre": "Tollo rayado",
+    "nombreCientifico": "Triakis scyllium",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 1.5,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar",
+    "alimentacion": "Crustáceos del fondo y peces"
+  },
+  {
+    "id": "deania-quadrispinosa",
+    "nombre": "Tollo trompalarga",
+    "nombreCientifico": "Deania quadrispinosa",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 1.15,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "trigonognathus-kabeyai",
+    "nombre": "Trigonognathus kabeyai",
+    "nombreCientifico": "Trigonognathus kabeyai",
+    "estadoConservacion": "Preocupación menor",
+    "morfologia": {
+      "longitudMetros": 0.47,
+      "pesoKg": 0.4,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo, en aguas profundas",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "mustelus-higmani",
+    "nombre": "Viuda",
+    "nombreCientifico": "Mustelus higmani",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 0.77,
+      "pesoKg": 1.6,
+      "formaCuerpo": "Forma alargada"
+    },
+    "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "alopias-vulpinus",
+    "nombre": "Zorro",
+    "nombreCientifico": "Alopias vulpinus",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 5.73,
+      "pesoKg": 348,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En aguas abiertas lejos de la costa",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "alopias-superciliosus",
+    "nombre": "Zorro ojón",
+    "nombreCientifico": "Alopias superciliosus",
+    "estadoConservacion": "Vulnerable",
+    "morfologia": {
+      "longitudMetros": 4.88,
+      "pesoKg": 363.8,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En aguas abiertas lejos de la costa",
+    "alimentacion": "Peces"
+  },
+  {
+    "id": "alopias-pelagicus",
+    "nombre": "Zorro pelágico",
+    "nombreCientifico": "Alopias pelagicus",
+    "estadoConservacion": "En peligro",
+    "morfologia": {
+      "longitudMetros": 4.28,
+      "formaCuerpo": "Forma de torpedo"
+    },
+    "habitat": "En aguas abiertas lejos de la costa",
+    "alimentacion": "Peces, cefalópodos y huevos o larvas de peces"
   }
 ]
