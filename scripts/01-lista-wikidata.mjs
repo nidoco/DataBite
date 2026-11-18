@@ -5,13 +5,14 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 
 const CONSULTA = `
-SELECT ?t ?sci ?fb ?status WHERE {
+SELECT ?t ?sci ?fb ?status ?uicn WHERE {
   ?t wdt:P171* wd:Q7372;
      wdt:P105 wd:Q7432;
      wdt:P225 ?sci;
      wdt:P938 ?fb;
      wdt:P141 ?s.
   ?s rdfs:label ?status FILTER(LANG(?status) = "en")
+  OPTIONAL { ?t wdt:P627 ?uicn }
 }`;
 
 const url = 'https://query.wikidata.org/sparql?query=' + encodeURIComponent(CONSULTA);
@@ -39,6 +40,8 @@ for (const f of filas) {
     wikidata: f.t.value.split('/').pop(),
     fishbase: Number(f.fb.value),
     estadoWikidata: f.status.value,
+    // ID interno de la UICN: sirve de respaldo cuando el nombre científico no coincide.
+    uicn: f.uicn ? Number(f.uicn.value) : null,
   });
 }
 
