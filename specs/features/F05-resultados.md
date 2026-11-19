@@ -70,26 +70,26 @@ volver al catálogo.
 
 ## Criterios de aceptación
 
-- [ ] La pantalla recibe la lista de respuestas dadas por parámetro de ruta.
-- [ ] Los aciertos y el total se calculan de esa lista (no se pasan por separado).
-- [ ] Se muestra el resumen del desempeño (aciertos sobre total).
-- [ ] Se muestra un repaso solo de las preguntas falladas, con su respuesta
+- [X] La pantalla recibe la lista de respuestas dadas por parámetro de ruta.
+- [X] Los aciertos y el total se calculan de esa lista (no se pasan por separado).
+- [X] Se muestra el resumen del desempeño (aciertos sobre total).
+- [X] Se muestra un repaso solo de las preguntas falladas, con su respuesta
       correcta y explicación científica.
-- [ ] Si no se falló ninguna, no se muestra lista de repaso, sino felicitación.
-- [ ] Existe una acción para reintentar el quiz y otra para volver al catálogo.
-- [ ] Un `id` fallado que no exista en el banco se omite sin romper la pantalla.
-- [ ] Todo el texto se renderiza dentro de componentes `Text`.
+- [X] Si no se falló ninguna, no se muestra lista de repaso, sino felicitación.
+- [X] Existe una acción para reintentar el quiz y otra para volver al catálogo.
+- [X] Un `id` fallado que no exista en el banco se omite sin romper la pantalla.
+- [X] Todo el texto se renderiza dentro de componentes `Text`.
 
 ## Tasks
 
-- [ ] Ajustar el parámetro de la ruta `Resultados` en `RootStackParamList`
+- [X] Ajustar el parámetro de la ruta `Resultados` en `RootStackParamList`
       (lista de respuestas dadas) — ver `01-navigation.md`.
-- [ ] Crear la pantalla `ResultadosScreen` en `screens/`, tipada con
+- [X] Crear la pantalla `ResultadosScreen` en `screens/`, tipada con
       `NativeStackScreenProps`.
-- [ ] Calcular aciertos y total a partir de la lista de respuestas.
-- [ ] Recuperar las preguntas falladas por `id` desde `loadQuiz`.
-- [ ] Mostrar el resumen y el mensaje según desempeño.
-- [ ] Renderizar el repaso de las falladas (respuesta correcta + explicación).
-- [ ] Agregar las acciones de reintentar y volver al catálogo.
-- [ ] Manejar los casos de lista vacía e `id` no encontrado.
-- [ ] Verificar los criterios de aceptación de F05.
+- [X] Calcular aciertos y total a partir de la lista de respuestas.
+- [X] Recuperar las preguntas falladas por `id` desde `loadQuiz`.
+- [X] Mostrar el resumen y el mensaje según desempeño.
+- [X] Renderizar el repaso de las falladas (respuesta correcta + explicación).
+- [X] Agregar las acciones de reintentar y volver al catálogo.
+- [X] Manejar los casos de lista vacía e `id` no encontrado.
+- [X] Verificar los criterios de aceptación de F05.
