@@ -1,14 +1,14 @@
 import { View, Text, StyleSheet, Pressable } from 'react-native';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../types/navigation';
-import loadQuiz from '../data/loadQuiz';
+import loadQuiz, { elegirRonda } from '../data/loadQuiz';
 import { useState } from 'react';
 import { Respuesta } from '../types/Pregunta';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Quiz'>;
 
 export function QuizScreen({ navigation }: Props) {
-  const quiz = loadQuiz();
+  const [quiz] = useState(() => elegirRonda(loadQuiz()));
   const [indice, setIndice] = useState(0);
   const [respuestas, setRespuestas] = useState<{ id: string; acierto: boolean }[]>([]);
 

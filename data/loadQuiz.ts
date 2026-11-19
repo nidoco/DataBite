@@ -1,6 +1,22 @@
 import quiz from './quiz.json';
 import { Pregunta } from '../types/Pregunta';
 
+const PREGUNTAS_POR_RONDA = 10;
+
+export function elegirRonda(preguntas: Pregunta[]): Pregunta[] {
+    const mezcladas = [...preguntas]; // Crea una copia, si se mezcla preguntas directamente, cambiar[ia el banco completo]
+    // El for va de atrás hacia adelante. 
+    // En cada vuelta elige una posición j al azar 
+    // entre 0 e i, y la línea de los corchetes intercambia 
+    // las dos preguntas
+    for (let i = mezcladas.length - 1; i > 0; i--){
+        const j = Math.floor(Math.random() *  (i + 1));
+        [mezcladas[i], mezcladas[j]] = [mezcladas[j], mezcladas[i]];
+    }
+
+    return mezcladas.slice(0, PREGUNTAS_POR_RONDA);
+}
+
 function esPregunta(valor: unknown): valor is Pregunta {
     if (typeof valor !== "object" || valor === null) return false;
     const obj = valor as Record<string, unknown>;
