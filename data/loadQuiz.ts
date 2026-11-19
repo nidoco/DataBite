@@ -29,6 +29,11 @@ function esPregunta(valor: unknown): valor is Pregunta {
     );
 }
 
+// Busca una pregunta por su id. Devuelve undefined si no existe (por ejemplo, si el banco cambió).
+export function getPreguntaPorId(id: string): Pregunta | undefined {
+    return loadQuiz().find((pregunta) => pregunta.id === id);
+}
+
 export default function loadQuiz(): Pregunta[] {
     const datos: unknown = quiz;
     if (!Array.isArray(datos)) return [];
