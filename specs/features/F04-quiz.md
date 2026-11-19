@@ -110,48 +110,47 @@ conteo de aciertos. Cada vez que vuelve a entrar al quiz le toca una ronda nueva
 
 ## Criterios de aceptación
 
-- [ ] Existe la interface `Pregunta` con `respuesta: "mito" | "realidad"`.
-- [ ] Existe `data/quiz.json` validado en la frontera (type guard propio).
-- [ ] Una pregunta con `respuesta` distinta de "mito"/"realidad" se descarta.
-- [ ] El quiz muestra las preguntas una por una.
-- [ ] Cada ronda tiene 10 preguntas distintas elegidas al azar del banco (o todas
+- [X] Existe la interface `Pregunta` con `respuesta: "mito" | "realidad"`.
+- [X] Existe `data/quiz.json` validado en la frontera (type guard propio).
+- [X] Una pregunta con `respuesta` distinta de "mito"/"realidad" se descarta.
+- [X] El quiz muestra las preguntas una por una.
+- [X] Cada ronda tiene 10 preguntas distintas elegidas al azar del banco (o todas
       las que haya, si el banco tiene menos de 10).
-- [ ] La ronda no cambia mientras se juega, aunque la pantalla se redibuje.
-- [ ] Dos entradas al quiz no repiten necesariamente las mismas preguntas ni el
+- [X] La ronda no cambia mientras se juega, aunque la pantalla se redibuje.
+- [X] Dos entradas al quiz no repiten necesariamente las mismas preguntas ni el
       mismo orden.
-- [ ] Salir con al menos una pregunta respondida pide confirmación y avisa de que
+- [X] Salir con al menos una pregunta respondida pide confirmación y avisa de que
       el progreso se pierde.
-- [ ] Salir sin haber respondido nada no pide confirmación.
-- [ ] Terminar la ronda y pasar a `Resultados` no pide confirmación.
+- [X] Salir sin haber respondido nada no pide confirmación.
+- [X] Terminar la ronda y pasar a `Resultados` no pide confirmación.
 - [ ] La usuaria puede responder por swipe Y por botones (ambas equivalentes).
-- [ ] Tras responder, se muestra si acertó y la explicación científica.
-- [ ] La usuaria puede avanzar a la siguiente pregunta.
-- [ ] Al terminar, se navega a `Resultados` con la lista de respuestas dadas
+- [X] Tras responder, se muestra si acertó y la explicación científica.
+- [X] La usuaria puede avanzar a la siguiente pregunta.
+- [X] Al terminar, se navega a `Resultados` con la lista de respuestas dadas
       (id de cada pregunta y si se acertó).
-
-- [ ] Con reducción de movimiento activada, el quiz funciona sin animación de swipe.
-- [ ] El puntaje se calcula de las respuestas, sin contador paralelo.
-- [ ] Todo el texto se renderiza dentro de componentes `Text`.
+- [X] Con reducción de movimiento activada, el quiz funciona sin animación de swipe.
+- [X] El puntaje se calcula de las respuestas, sin contador paralelo.
+- [X] Todo el texto se renderiza dentro de componentes `Text`.
 
 ## Tasks
 
-- [ ] Crear la interface `Pregunta` en `types/` (con `respuesta: "mito" | "realidad"`).
-- [ ] Crear `data/quiz.json` con un banco inicial de preguntas (10-15).
-- [ ] Crear el cargador validado `loadQuiz` con su type guard (patrón de `loadSharks`).
-- [ ] Elegir una ronda de 10 preguntas al azar (constante `PREGUNTAS_POR_RONDA`) y
+- [X] Crear la interface `Pregunta` en `types/` (con `respuesta: "mito" | "realidad"`).
+- [X] Crear `data/quiz.json` con un banco inicial de preguntas (10-15).
+- [X] Crear el cargador validado `loadQuiz` con su type guard (patrón de `loadSharks`).
+- [X] Elegir una ronda de 10 preguntas al azar (constante `PREGUNTAS_POR_RONDA`) y
       fijarla al entrar a la pantalla con el estado inicial perezoso de `useState`.
-- [ ] Registrar la ruta `Quiz` en el stack.
-- [ ] Crear la pantalla `QuizScreen` en `screens/`, tipada con `NativeStackScreenProps`.
-- [ ] Manejar el estado del quiz: pregunta actual y respuestas registradas.
-- [ ] Mostrar la pregunta actual en una tarjeta.
-- [ ] Implementar los botones "Mito" / "Realidad" (vía base de respuesta).
+- [X] Registrar la ruta `Quiz` en el stack.
+- [X] Crear la pantalla `QuizScreen` en `screens/`, tipada con `NativeStackScreenProps`.
+- [X] Manejar el estado del quiz: pregunta actual y respuestas registradas.
+- [X] Mostrar la pregunta actual en una tarjeta.
+- [X] Implementar los botones "Mito" / "Realidad" (vía base de respuesta).
 - [ ] Implementar el swipe con gesture-handler + Reanimated, respetando reduce-motion.
-- [ ] Mostrar retroalimentación por pregunta (acierto/fallo + explicación).
-- [ ] Registrar cada respuesta (id + si acertó) y navegar a `Resultados` con esa
+- [X] Mostrar retroalimentación por pregunta (acierto/fallo + explicación).
+- [X] Registrar cada respuesta (id + si acertó) y navegar a `Resultados` con esa
       lista al terminar.
 
 - [ ] Manejar el caso de banco de preguntas vacío.
-- [ ] Pedir confirmación al salir a mitad de ronda (evento `beforeRemove`), sin avisar
+- [X] Pedir confirmación al salir a mitad de ronda (evento `beforeRemove`), sin avisar
       al terminar la ronda ni si no se ha respondido nada.
-- [ ] Ampliar el banco de preguntas (el quiz usa 10 por ronda).
-- [ ] Verificar los criterios de aceptación de F04.
+- [X] Ampliar el banco de preguntas (el quiz usa 10 por ronda).
+- [X] Verificar los criterios de aceptación de F04.
