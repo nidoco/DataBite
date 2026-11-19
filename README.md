@@ -116,3 +116,47 @@ Configuración inicial del proyecto en Expo con plantilla TypeScript
 - Con lo que medí, cambié qué datos son obligatorios: nombre científico, estado de conservación y longitud. Con eso salen unas 490 especies.
 - Si una especie no tiene nombre en español, se muestra el nombre científico.
 
+#### Commit: proteger la llave de la UICN
+- La UICN aprobó mi solicitud y me dio una llave para pedir sus datos. La primera que copié no funcionaba, generé otra y esa sí.
+- Guardé la llave en un archivo que no se sube a GitHub, y revisé que no apareciera en ningún otro archivo del proyecto.
+
+#### Commits: el programa que arma el catálogo
+- Hice un programa que junta los datos de tres lugares: la lista de tiburones de Wikidata, el estado de conservación de la UICN y las medidas y nombres de FishBase.
+- Le pide los datos a la UICN despacio, con una pausa entre cada tiburón, y los guarda para no volver a pedirlos.
+- 11 tiburones no los encontraba la UICN porque los escribe con otro nombre. Los busqué por su número de la UICN y así salieron todos.
+- Ayuda de IA: me ayudó a escribir el programa y a revisar los datos. La tabla para pasar al español el hábitat, la forma del cuerpo y lo que comen la pedí a otra IA, y corregí algunas palabras que no cuadraban con los datos.
+
+#### Commit: la longitud ya no es obligatoria
+- 45 tiburones no tenían longitud conocida y se quedaban fuera. Decidí incluirlos y que la ficha diga "No disponible", igual que con el peso.
+
+#### Commit: catálogo de 535 especies
+- El catálogo pasó de 4 tiburones a 535. Solo quedó fuera uno que no tiene ficha en FishBase.
+- Mis 4 tiburones que escribí a mano se conservaron igual.
+- Lo probé en el teléfono y la lista se mueve bien aunque sea tan larga.
+
+#### Commits: banco de preguntas del quiz
+- Pedí preguntas de mito o realidad a dos IAs. Al juntarlas se repetían temas y dos preguntas tenían el mismo nombre, así que quité las repetidas.
+- Hice que el quiz revise cada pregunta antes de usarla y descarte las que estén mal escritas.
+
+#### Commits: pantallas del quiz y de resultados
+- Agregué un botón "Quiz" arriba a la derecha del catálogo.
+- El quiz muestra una pregunta, dos botones (Mito y Realidad) y, al contestar, si acerté y la explicación. Después paso a la siguiente.
+- Al final aparece "Acertaste X de 10".
+- Me equivoqué varias veces con cuándo mostrar los botones y cuándo la explicación. Una vez la app se iba a romper porque intentaba leer una respuesta que todavía no existía.
+
+#### Commit: rondas de 10 preguntas al azar
+- Ahora cada vez que entro al quiz me tocan 10 preguntas distintas y en otro orden.
+- Lo probé varias veces y la primera pregunta casi siempre cambia.
+
+#### Commit: confirmar antes de salir
+- Si salgo a la mitad de una ronda, la app me pregunta si estoy segura, porque se pierde lo que llevo.
+- Funciona con la flecha de arriba, con el botón "Volver" y al deslizar. Si no he contestado nada o si terminé la ronda, no pregunta.
+
+#### Commit: contestar deslizando la tarjeta
+- Ahora también puedo contestar deslizando la tarjeta: a la izquierda es mito y a la derecha es realidad. Los botones siguen funcionando.
+- Si en el teléfono está activado "reducir movimiento", la tarjeta no se mueve pero igual se puede contestar.
+- Al probar, deslizar hacia un lado me sacaba del quiz. Era porque el teléfono tiene su propio gesto para regresar y chocaba con el de la tarjeta. Lo desactivé solo en la pantalla del quiz.
+
+#### Ampliar el banco de preguntas
+- Pedí más preguntas y el banco pasó de 30 a 100: 47 mitos y 53 realidades.
+- Revisé que ninguna se repitiera ni tuviera el mismo nombre que otra.
