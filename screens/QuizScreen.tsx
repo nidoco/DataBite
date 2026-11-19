@@ -1,9 +1,11 @@
-import { View, Text, StyleSheet, Pressable } from 'react-native';
+import { View, Text, StyleSheet, Pressable, Alert } from 'react-native';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../types/navigation';
 import loadQuiz, { elegirRonda } from '../data/loadQuiz';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { Respuesta } from '../types/Pregunta';
+import { usePreventRemove } from '@react-navigation/native';
+
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Quiz'>;
 
@@ -17,11 +19,35 @@ export function QuizScreen({ navigation }: Props) {
   const esUltima = indice === quiz.length - 1;
   const avanzar = () => {
     if (esUltima) {
+      terminada.current = true;
       navigation.replace('Resultados', { respuestas });
     } else {
       setIndice(indice + 1);
     }
   };
+  const terminada = useRef(false);
+
+usePreventRemove(respuestas.length > 0, ({ data }) => {
+  // La ronda terminó y se va a Resultados: no hay nada que confirmar.
+  if (terminada.current) {
+    navigation.dispatch(data.action);
+    return;
+  }
+
+  Alert.alert(
+    '¿Salir del quiz?',
+    'Si sales ahora, perderás el progreso de esta ronda.',
+    [
+      { text: 'Seguir jugando', style: 'cancel' },
+      {
+        text: 'Salir',
+        style: 'destructive',
+        onPress: () => navigation.dispatch(data.action),
+      },
+    ],
+  );
+});
+
 
   if (!pregunta) {
     return (
