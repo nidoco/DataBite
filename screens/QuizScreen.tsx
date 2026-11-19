@@ -1,10 +1,11 @@
-import { View, Text, StyleSheet, Pressable, Alert } from 'react-native';
+import { View, Text, StyleSheet, Pressable, Alert, AccessibilityInfo } from 'react-native';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../types/navigation';
 import loadQuiz, { elegirRonda } from '../data/loadQuiz';
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { Respuesta } from '../types/Pregunta';
 import { usePreventRemove } from '@react-navigation/native';
+import { TarjetaPregunta } from '../components/TarjetaPregunta';
 
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Quiz'>;
@@ -13,6 +14,14 @@ export function QuizScreen({ navigation }: Props) {
   const [quiz] = useState(() => elegirRonda(loadQuiz()));
   const [indice, setIndice] = useState(0);
   const [respuestas, setRespuestas] = useState<{ id: string; acierto: boolean }[]>([]);
+  const [reducirMovimiento, setReducirMovimiento] = useState(false);
+
+  // Se respeta la preferencia del sistema de reducir el movimiento (y sus cambios en vivo).
+  useEffect(() => {
+    AccessibilityInfo.isReduceMotionEnabled().then(setReducirMovimiento);
+    const suscripcion = AccessibilityInfo.addEventListener('reduceMotionChanged', setReducirMovimiento);
+    return () => suscripcion.remove();
+  }, []);
 
   const pregunta = quiz[indice];
   const respondida = respuestas.length > indice;
@@ -48,11 +57,15 @@ usePreventRemove(respuestas.length > 0, ({ data }) => {
   );
 });
 
-
   if (!pregunta) {
     return (
       <View style={styles.container}>
         <Text style={styles.texto}>No hay preguntas disponibles.</Text>
+        <Pressable
+          style={({ pressed }) => [styles.boton, pressed && styles.botonPresionado]}
+          onPress={() => navigation.goBack()}>
+          <Text style={styles.botonTexto}>Volver</Text>
+        </Pressable>
       </View>
     );
   }
@@ -69,9 +82,16 @@ usePreventRemove(respuestas.length > 0, ({ data }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.texto}>Pregunta {indice + 1} de {quiz.length}</Text>
-      <Text style={styles.texto}>{pregunta.enunciado}</Text>
+      <TarjetaPregunta
+        key={pregunta.id}
+        enunciado={pregunta.enunciado}
+        habilitada={!respondida}
+        reducirMovimiento={reducirMovimiento}
+        onElegir={responder}
+      />
       {!respondida && (
       <>
+      <Text style={styles.pista}>Desliza la tarjeta: ← Mito · Realidad →</Text>
       <Pressable style={styles.boton} onPress={() => responder('mito')}>
           <Text style={styles.texto}>Mito</Text>
         </Pressable><Pressable style={styles.boton} onPress={() => responder('realidad')}>
@@ -121,6 +141,12 @@ const styles = StyleSheet.create({
   },
   botonPresionado: {
     opacity: 0.7,
+  },
+  pista: {
+    color: '#94a3b8',
+    fontSize: 14,
+    textAlign: 'center',
+    marginBottom: 12,
   },
   botonTexto: {
     color: '#4fd1c5',
