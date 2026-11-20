@@ -598,5 +598,185 @@
     "enunciado": "Los tiburones pueden percibir el miedo de una persona.",
     "respuesta": "mito",
     "explicacion": "No existe ninguna prueba científica de que los tiburones detecten emociones humanas como el miedo. Lo que perciben son movimientos, sonidos, olores y otras señales del entorno."
+  },
+  {
+    "id": "tiburon-ballena-es-mamifero",
+    "enunciado": "El tiburón ballena es un mamífero emparentado con las ballenas.",
+    "respuesta": "mito",
+    "explicacion": "El tiburón ballena es un pez cartilaginoso: respira con branquias y no amamanta a sus crías. Su nombre se debe a su enorme tamaño y a que filtra su alimento del agua, como hacen algunas ballenas."
+  },
+  {
+    "id": "cola-del-tiburon-zorro",
+    "enunciado": "El tiburón zorro usa su larga cola para golpear y aturdir a los peces que caza.",
+    "respuesta": "realidad",
+    "explicacion": "El lóbulo superior de la aleta caudal del tiburón zorro es extraordinariamente largo. Se ha filmado a estos tiburones lanzando latigazos con la cola contra bancos de peces para aturdirlos y después comérselos."
+  },
+  {
+    "id": "todos-cinco-hendiduras",
+    "enunciado": "Todos los tiburones tienen exactamente cinco hendiduras branquiales a cada lado de la cabeza.",
+    "respuesta": "mito",
+    "explicacion": "La mayoría de los tiburones tiene cinco pares de hendiduras, pero el tiburón cañabota y otros de su familia tienen seis o siete. Además, a diferencia de la mayoría de los peces óseos, los tiburones no tienen una tapa que cubra sus branquias."
+  },
+  {
+    "id": "rayas-parientes-cercanos",
+    "enunciado": "Las rayas son parientes cercanos de los tiburones.",
+    "respuesta": "realidad",
+    "explicacion": "Tiburones y rayas forman juntos el grupo de los elasmobranquios, peces cartilaginosos con hendiduras branquiales al descubierto. Las rayas tienen el cuerpo aplanado y las aletas pectorales unidas a la cabeza, una adaptación para vivir sobre el fondo."
+  },
+  {
+    "id": "mordeduras-mayoria-mortales",
+    "enunciado": "La mayoría de las mordeduras de tiburón a personas terminan en muerte.",
+    "respuesta": "mito",
+    "explicacion": "Los registros del Archivo Internacional de Ataques de Tiburón muestran que la gran mayoría de las mordeduras no son mortales. La atención médica rápida aumenta todavía más las probabilidades de sobrevivir."
+  },
+  {
+    "id": "tiburon-cortagalletas",
+    "enunciado": "Existe un tiburón que arranca trozos redondos de carne a animales mucho más grandes que él.",
+    "respuesta": "realidad",
+    "explicacion": "El tiburón cortagalletas es un tiburón pequeño de aguas profundas que se sujeta con los labios a atunes, ballenas y otros animales grandes, y gira el cuerpo para cortar un bocado circular. Muchas de sus víctimas sobreviven y quedan con una cicatriz redonda."
+  },
+  {
+    "id": "tiburones-sin-oido",
+    "enunciado": "Los tiburones no pueden oír porque no tienen orejas.",
+    "respuesta": "mito",
+    "explicacion": "Los tiburones tienen oídos internos dentro de la cabeza, conectados al exterior por pequeños poros. Captan especialmente bien los sonidos de baja frecuencia, como los que produce un pez que se agita en el agua."
+  },
+  {
+    "id": "remoras-viajan-con-tiburones",
+    "enunciado": "Las rémoras son peces que se adhieren a los tiburones para viajar con ellos.",
+    "respuesta": "realidad",
+    "explicacion": "Las rémoras tienen en la cabeza una ventosa que les permite sujetarse a tiburones, rayas, tortugas y ballenas. Así se desplazan sin gastar energía y se alimentan de restos de comida y de parásitos."
+  },
+  {
+    "id": "redes-barrera-cerrada",
+    "enunciado": "Las redes antitiburones de las playas forman una barrera cerrada que los tiburones no pueden cruzar.",
+    "respuesta": "mito",
+    "explicacion": "En muchas playas estas redes son tramos que no encierran la zona de baño, y los tiburones pueden pasar por encima, por debajo o por los lados. Funcionan atrapando tiburones, pero también capturan tortugas, rayas y otros animales."
+  },
+  {
+    "id": "intestino-en-espiral",
+    "enunciado": "El intestino de los tiburones tiene en su interior una estructura enrollada en forma de espiral.",
+    "respuesta": "realidad",
+    "explicacion": "Esta estructura se llama válvula espiral y obliga al alimento a recorrer un camino más largo dentro de un intestino corto. Así el tiburón tiene más superficie para absorber nutrientes sin necesitar un intestino largo."
+  },
+  {
+    "id": "tiburones-no-aprenden",
+    "enunciado": "Los tiburones actúan solo por instinto y no son capaces de aprender.",
+    "respuesta": "mito",
+    "explicacion": "Experimentos científicos han demostrado que los tiburones pueden aprender a asociar luces o sonidos con comida y recordar lo aprendido durante semanas. Algunas especies incluso aprenden observando a otros tiburones."
+  },
+  {
+    "id": "tiburones-que-saltan",
+    "enunciado": "Algunos tiburones pueden saltar completamente fuera del agua.",
+    "respuesta": "realidad",
+    "explicacion": "El tiburón blanco y el marrajo pueden lanzarse fuera del agua al atacar presas desde abajo. El tiburón tornillo incluso gira sobre sí mismo en el aire cuando caza bancos de peces."
+  },
+  {
+    "id": "solo-mar-abierto",
+    "enunciado": "Todos los tiburones viven en mar abierto, lejos de la costa.",
+    "respuesta": "mito",
+    "explicacion": "Muchas especies viven cerca de la costa, en arrecifes, bahías, manglares o estuarios. Otras habitan el fondo marino o las aguas profundas, y solo algunas recorren el océano abierto."
+  },
+  {
+    "id": "tiburon-tigre-traga-objetos",
+    "enunciado": "En el estómago de tiburones tigre se han encontrado objetos que no son alimento, como basura.",
+    "respuesta": "realidad",
+    "explicacion": "El tiburón tigre tiene una de las dietas más variadas entre los tiburones: come peces, tortugas, aves marinas y carroña. Por eso a menudo traga cosas que no son comida, como plásticos, latas y otros desechos."
+  },
+  {
+    "id": "espinas-en-aletas-dorsales",
+    "enunciado": "Algunos tiburones tienen una espina dura delante de sus aletas dorsales.",
+    "respuesta": "realidad",
+    "explicacion": "El galludo y los tiburones cornudos tienen una espina delante de cada aleta dorsal. Estas espinas los protegen de los depredadores, y las del galludo pueden causar heridas dolorosas a quien lo manipula."
+  },
+  {
+    "id": "nodriza-amamanta",
+    "enunciado": "El tiburón nodriza amamanta a sus crías, como indica su nombre.",
+    "respuesta": "mito",
+    "explicacion": "A pesar de su nombre, el tiburón nodriza es un pez y no produce leche. Sus crías nacen ya formadas y se valen por sí mismas desde el primer momento."
+  },
+  {
+    "id": "tiburon-ballena-en-mexico",
+    "enunciado": "En aguas de México se puede observar al tiburón ballena en su hábitat natural.",
+    "respuesta": "realidad",
+    "explicacion": "El tiburón ballena se reúne cada año en zonas como el norte de la península de Yucatán y varias bahías del Golfo de California. Estos lugares se han vuelto importantes tanto para estudiarlo como para el turismo de observación."
+  },
+  {
+    "id": "blanco-el-mas-grande",
+    "enunciado": "El tiburón blanco es la especie de tiburón más grande que existe.",
+    "respuesta": "mito",
+    "explicacion": "El tiburón ballena y el tiburón peregrino son más grandes que el tiburón blanco. El tiburón blanco es, eso sí, uno de los tiburones depredadores más grandes."
+  },
+  {
+    "id": "martillo-ojos-en-los-extremos",
+    "enunciado": "El tiburón martillo tiene los ojos en los extremos de su cabeza ancha y aplanada.",
+    "respuesta": "realidad",
+    "explicacion": "Su cabeza en forma de martillo coloca los ojos muy separados, uno en cada punta. Esta posición le da un campo de visión muy amplio hacia los lados."
+  },
+  {
+    "id": "limon-aguas-profundas",
+    "enunciado": "El tiburón limón vive en aguas profundas, lejos de la costa.",
+    "respuesta": "mito",
+    "explicacion": "El tiburón limón vive en aguas costeras poco profundas, como bahías, arrecifes y manglares. Su nombre se debe al tono amarillento de su piel."
+  },
+  {
+    "id": "guadalupe-tiburon-blanco",
+    "enunciado": "La isla Guadalupe, en Baja California, es uno de los lugares donde se reúnen tiburones blancos.",
+    "respuesta": "realidad",
+    "explicacion": "Cada año llegan tiburones blancos a las aguas que rodean esta isla del Pacífico mexicano. Gracias a marcas satelitales se sabe que muchos de ellos viajan después a mar abierto y regresan a la isla."
+  },
+  {
+    "id": "peregrino-boca-abierta",
+    "enunciado": "Cuando el tiburón peregrino nada con la boca muy abierta, es porque se prepara para atacar.",
+    "respuesta": "mito",
+    "explicacion": "El tiburón peregrino abre la boca para filtrar el plancton del agua mientras nada despacio. Aunque es enorme, es inofensivo para las personas."
+  },
+  {
+    "id": "tigre-come-tortugas",
+    "enunciado": "El tiburón tigre puede comer tortugas marinas.",
+    "respuesta": "realidad",
+    "explicacion": "El tiburón tigre tiene dientes anchos y aserrados que le permiten cortar el caparazón de las tortugas. Las tortugas marinas son una parte importante de su dieta en muchas regiones."
+  },
+  {
+    "id": "martillo-una-sola-especie",
+    "enunciado": "Existe una sola especie de tiburón martillo.",
+    "respuesta": "mito",
+    "explicacion": "Hay varias especies de tiburón martillo, de tamaños y formas de cabeza distintas. Van desde especies pequeñas con la cabeza redondeada hasta el gran tiburón martillo, el más grande del grupo."
+  },
+  {
+    "id": "groenlandia-muy-lento",
+    "enunciado": "El tiburón de Groenlandia es uno de los tiburones que nadan más despacio.",
+    "respuesta": "realidad",
+    "explicacion": "Un estudio que midió su velocidad con instrumentos colocados en su cuerpo lo describió como el pez más lento registrado en proporción a su tamaño. Su lentitud se relaciona con las aguas heladas en las que vive."
+  },
+  {
+    "id": "tigre-aguas-frias",
+    "enunciado": "El tiburón tigre vive principalmente en aguas frías.",
+    "respuesta": "mito",
+    "explicacion": "El tiburón tigre habita aguas tropicales y templadas cálidas de todo el mundo. Es común cerca de islas y costas de mares cálidos."
+  },
+  {
+    "id": "marrajo-muy-rapido",
+    "enunciado": "El marrajo dientuso está considerado uno de los tiburones más rápidos.",
+    "respuesta": "realidad",
+    "explicacion": "Su cuerpo en forma de torpedo y su cola casi simétrica le permiten alcanzar grandes velocidades. Además es capaz de dar saltos espectaculares fuera del agua."
+  },
+  {
+    "id": "azul-vive-en-arrecifes",
+    "enunciado": "El tiburón azul vive sobre todo en arrecifes cerca de la costa.",
+    "respuesta": "mito",
+    "explicacion": "El tiburón azul es un tiburón de mar abierto que recorre grandes distancias por los océanos. Rara vez se acerca a la costa o a los arrecifes."
+  },
+  {
+    "id": "duende-mandibulas-catapulta",
+    "enunciado": "El tiburón duende puede lanzar sus mandíbulas hacia adelante para atrapar a sus presas.",
+    "respuesta": "realidad",
+    "explicacion": "Al cazar, este tiburón de aguas profundas proyecta las mandíbulas fuera de la boca a gran velocidad, como una catapulta. Así atrapa peces y calamares sin tener que acercar todo el cuerpo."
+  },
+  {
+    "id": "boquiancho-descubierto-1976",
+    "enunciado": "El tiburón boquiancho era desconocido para la ciencia hasta 1976.",
+    "respuesta": "realidad",
+    "explicacion": "El primer ejemplar se encontró enredado en el ancla de un barco cerca de Hawái. Es un gran tiburón filtrador que vive en aguas profundas, y desde entonces se han registrado muy pocos ejemplares."
   }
 ]
