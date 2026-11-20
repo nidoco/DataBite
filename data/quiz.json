@@ -178,8 +178,8 @@
     "enunciado": "Muchas especies de tiburón están en peligro de extinción.",
     "respuesta": "realidad",
     "explicacion": "La pesca excesiva es la principal amenaza para los tiburones. Como muchas especies crecen despacio y tienen pocas crías, sus poblaciones tardan mucho en recuperarse."
-  }, 
-   {
+  },
+  {
     "id": "tiburones-sin-depredadores",
     "enunciado": "Los tiburones no tienen enemigos naturales en el mar.",
     "respuesta": "mito",
@@ -612,82 +612,16 @@
     "explicacion": "El lóbulo superior de la aleta caudal del tiburón zorro es extraordinariamente largo. Se ha filmado a estos tiburones lanzando latigazos con la cola contra bancos de peces para aturdirlos y después comérselos."
   },
   {
-    "id": "todos-cinco-hendiduras",
-    "enunciado": "Todos los tiburones tienen exactamente cinco hendiduras branquiales a cada lado de la cabeza.",
-    "respuesta": "mito",
-    "explicacion": "La mayoría de los tiburones tiene cinco pares de hendiduras, pero el tiburón cañabota y otros de su familia tienen seis o siete. Además, a diferencia de la mayoría de los peces óseos, los tiburones no tienen una tapa que cubra sus branquias."
-  },
-  {
-    "id": "rayas-parientes-cercanos",
-    "enunciado": "Las rayas son parientes cercanos de los tiburones.",
-    "respuesta": "realidad",
-    "explicacion": "Tiburones y rayas forman juntos el grupo de los elasmobranquios, peces cartilaginosos con hendiduras branquiales al descubierto. Las rayas tienen el cuerpo aplanado y las aletas pectorales unidas a la cabeza, una adaptación para vivir sobre el fondo."
-  },
-  {
-    "id": "mordeduras-mayoria-mortales",
-    "enunciado": "La mayoría de las mordeduras de tiburón a personas terminan en muerte.",
-    "respuesta": "mito",
-    "explicacion": "Los registros del Archivo Internacional de Ataques de Tiburón muestran que la gran mayoría de las mordeduras no son mortales. La atención médica rápida aumenta todavía más las probabilidades de sobrevivir."
-  },
-  {
     "id": "tiburon-cortagalletas",
     "enunciado": "Existe un tiburón que arranca trozos redondos de carne a animales mucho más grandes que él.",
     "respuesta": "realidad",
     "explicacion": "El tiburón cortagalletas es un tiburón pequeño de aguas profundas que se sujeta con los labios a atunes, ballenas y otros animales grandes, y gira el cuerpo para cortar un bocado circular. Muchas de sus víctimas sobreviven y quedan con una cicatriz redonda."
   },
   {
-    "id": "tiburones-sin-oido",
-    "enunciado": "Los tiburones no pueden oír porque no tienen orejas.",
-    "respuesta": "mito",
-    "explicacion": "Los tiburones tienen oídos internos dentro de la cabeza, conectados al exterior por pequeños poros. Captan especialmente bien los sonidos de baja frecuencia, como los que produce un pez que se agita en el agua."
-  },
-  {
-    "id": "remoras-viajan-con-tiburones",
-    "enunciado": "Las rémoras son peces que se adhieren a los tiburones para viajar con ellos.",
-    "respuesta": "realidad",
-    "explicacion": "Las rémoras tienen en la cabeza una ventosa que les permite sujetarse a tiburones, rayas, tortugas y ballenas. Así se desplazan sin gastar energía y se alimentan de restos de comida y de parásitos."
-  },
-  {
-    "id": "redes-barrera-cerrada",
-    "enunciado": "Las redes antitiburones de las playas forman una barrera cerrada que los tiburones no pueden cruzar.",
-    "respuesta": "mito",
-    "explicacion": "En muchas playas estas redes son tramos que no encierran la zona de baño, y los tiburones pueden pasar por encima, por debajo o por los lados. Funcionan atrapando tiburones, pero también capturan tortugas, rayas y otros animales."
-  },
-  {
-    "id": "intestino-en-espiral",
-    "enunciado": "El intestino de los tiburones tiene en su interior una estructura enrollada en forma de espiral.",
-    "respuesta": "realidad",
-    "explicacion": "Esta estructura se llama válvula espiral y obliga al alimento a recorrer un camino más largo dentro de un intestino corto. Así el tiburón tiene más superficie para absorber nutrientes sin necesitar un intestino largo."
-  },
-  {
-    "id": "tiburones-no-aprenden",
-    "enunciado": "Los tiburones actúan solo por instinto y no son capaces de aprender.",
-    "respuesta": "mito",
-    "explicacion": "Experimentos científicos han demostrado que los tiburones pueden aprender a asociar luces o sonidos con comida y recordar lo aprendido durante semanas. Algunas especies incluso aprenden observando a otros tiburones."
-  },
-  {
-    "id": "tiburones-que-saltan",
-    "enunciado": "Algunos tiburones pueden saltar completamente fuera del agua.",
-    "respuesta": "realidad",
-    "explicacion": "El tiburón blanco y el marrajo pueden lanzarse fuera del agua al atacar presas desde abajo. El tiburón tornillo incluso gira sobre sí mismo en el aire cuando caza bancos de peces."
-  },
-  {
-    "id": "solo-mar-abierto",
-    "enunciado": "Todos los tiburones viven en mar abierto, lejos de la costa.",
-    "respuesta": "mito",
-    "explicacion": "Muchas especies viven cerca de la costa, en arrecifes, bahías, manglares o estuarios. Otras habitan el fondo marino o las aguas profundas, y solo algunas recorren el océano abierto."
-  },
-  {
     "id": "tiburon-tigre-traga-objetos",
     "enunciado": "En el estómago de tiburones tigre se han encontrado objetos que no son alimento, como basura.",
     "respuesta": "realidad",
     "explicacion": "El tiburón tigre tiene una de las dietas más variadas entre los tiburones: come peces, tortugas, aves marinas y carroña. Por eso a menudo traga cosas que no son comida, como plásticos, latas y otros desechos."
-  },
-  {
-    "id": "espinas-en-aletas-dorsales",
-    "enunciado": "Algunos tiburones tienen una espina dura delante de sus aletas dorsales.",
-    "respuesta": "realidad",
-    "explicacion": "El galludo y los tiburones cornudos tienen una espina delante de cada aleta dorsal. Estas espinas los protegen de los depredadores, y las del galludo pueden causar heridas dolorosas a quien lo manipula."
   },
   {
     "id": "nodriza-amamanta",
