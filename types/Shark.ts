@@ -13,4 +13,6 @@ export interface Shark {
     morfologia: Morfologia;
     habitat: string;
     alimentacion?: string | undefined;
+    // Identificadores de las fotos (ver data/imagenes.ts). Opcional: puede no tener ninguna.
+    imagenes?: string[] | undefined;
 }

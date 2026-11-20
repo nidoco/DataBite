@@ -138,6 +138,7 @@ function esShark(s) {
     esTexto(s.id) && esTexto(s.nombre) && esTexto(s.nombreCientifico) &&
     esTexto(s.estadoConservacion) && esTexto(s.habitat) &&
     opcionalTexto(s.alimentacion) &&
+    (s.imagenes === undefined || (Array.isArray(s.imagenes) && s.imagenes.every(esTexto))) &&
     esMorfologia(s.morfologia)
   );
 }
@@ -149,6 +150,11 @@ if (!existsSync('scripts/cache/lista.json')) {
   process.exit(1);
 }
 const lista = JSON.parse(readFileSync('scripts/cache/lista.json', 'utf8'));
+// Fotos descargadas por scripts/04-descargar-imagenes.mjs (id de especie -> identificadores).
+const indiceImagenes = existsSync('scripts/imagenes-indice.json')
+  ? JSON.parse(readFileSync('scripts/imagenes-indice.json', 'utf8'))
+  : {};
+
 const manuales = existsSync('scripts/manual-especies.json')
   ? JSON.parse(readFileSync('scripts/manual-especies.json', 'utf8'))
   : [];
@@ -241,6 +247,9 @@ for (const e of lista) {
 
   if (estado.desactualizada) stats.estadoAntiguo++;
   if (uicn?.porId) stats.porIdUicn++;
+
+  const fotos = indiceImagenes[registro.id];
+  if (fotos?.length) registro = { ...registro, imagenes: fotos };
 
   if (!esShark(registro)) { excluidas.push({ sci: nombreCientifico, motivo: 'No pasa la validación de la app' }); continue; }
   if (idsUsados.has(registro.id)) { excluidas.push({ sci: nombreCientifico, motivo: `Id repetido (${registro.id})` }); continue; }

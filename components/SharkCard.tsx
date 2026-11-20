@@ -1,5 +1,6 @@
 import { Shark } from '../types/Shark';
-import { View, Text, StyleSheet, Pressable} from 'react-native';
+import { View, Text, StyleSheet, Pressable, Image } from 'react-native';
+import { imagenPorIdentificador } from '../data/imagenes';
 
 interface SharkCardProps {
   shark: Shark;
@@ -10,7 +11,8 @@ export function SharkCard({ shark, onPress }: SharkCardProps) {
   return (
     <Pressable style={styles.pressable} onPress={onPress}>
       <View style={styles.card}>
-        {/* Aqui ira la imagen de la especie en F03 (galeria). */}
+        {/* La portada es la primera foto de la especie; sin foto, sale el placeholder. */}
+        <Image source={imagenPorIdentificador(shark.imagenes?.[0])} style={styles.portada} />
         <View style={styles.info}>
           <Text style={styles.nombre}>{shark.nombre}</Text>
           <Text style={styles.nombreCientifico}>{shark.nombreCientifico}</Text>
@@ -22,30 +24,36 @@ export function SharkCard({ shark, onPress }: SharkCardProps) {
 
 const styles = StyleSheet.create({
   pressable: {
-      marginVertical: 8,
-      marginHorizontal: 16,
-      borderRadius: 16,
-      overflow: 'hidden',
-    },
+    borderRadius: 16,
+    overflow: 'hidden',
+  },
   card: {
-      flexDirection: 'row',
-      alignItems: 'center',
-      gap: 12,
-      backgroundColor: '#163a5f',
-      padding: 16,
-    },
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+    backgroundColor: '#163a5f',
+    padding: 16,
+    marginVertical: 8,
+    marginHorizontal: 16,
+    borderRadius: 16,
+  },
+  portada: {
+    width: 72,
+    height: 72,
+    borderRadius: 12,
+  },
   info: {
-      flex: 1,
-    },
+    flex: 1,
+  },
   nombre: {
-      fontSize: 20,
-      color: '#4fd1c5',
-      fontWeight: 'bold',
-      marginBottom: 4,
-    },
+    fontSize: 20,
+    color: '#4fd1c5',
+    fontWeight: 'bold',
+    marginBottom: 4,
+  },
   nombreCientifico: {
-      fontSize: 16,
-      color: '#cbd5e0',
-      fontStyle: 'italic',
-    },
+    fontSize: 16,
+    color: '#cbd5e0',
+    fontStyle: 'italic',
+  },
 });

@@ -23,6 +23,7 @@ function esShark(valor: unknown): valor is Shark{
         typeof obj.estadoConservacion === "string" &&
         typeof obj.habitat === "string" &&
         (typeof obj.alimentacion === "string" || obj.alimentacion === undefined) &&
+        (obj.imagenes === undefined || (Array.isArray(obj.imagenes) && obj.imagenes.every((i) => typeof i === "string"))) &&
         esMorfologia(obj.morfologia)
     )
 }

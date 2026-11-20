@@ -1,7 +1,9 @@
-import { View, Text, StyleSheet, Pressable, ScrollView } from 'react-native';
+import { View, Text, StyleSheet, Pressable, ScrollView, FlatList, Image, useWindowDimensions } from 'react-native';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../types/navigation';
 import { getSharkById } from '../data/loadSharks';
+import { imagenPorIdentificador } from '../data/imagenes';
+import creditos from '../data/creditos.json';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { DatoFicha } from '../components/DatoFicha';
 
@@ -9,6 +11,9 @@ type Props = NativeStackScreenProps<RootStackParamList, 'Detalle'>;
 export function DetalleScreen({ route, navigation }: Props) {
   const { id } = route.params;
   const shark = getSharkById(id);
+  // Va antes del if: los hooks deben llamarse siempre en el mismo orden.
+  const { width } = useWindowDimensions();
+  const anchoFoto = width * 0.8;
 
   if (!shark) {
     return (
@@ -23,6 +28,10 @@ export function DetalleScreen({ route, navigation }: Props) {
       </View>
     );
   }
+
+  // Sin fotos, la galería muestra un solo placeholder en vez de quedar vacía.
+  const fotos = shark.imagenes?.length ? shark.imagenes : [undefined];
+
   return (
     <SafeAreaView style={styles.container} edges={['left', 'right']}>
     <ScrollView contentContainerStyle={styles.contenido}>
@@ -33,6 +42,30 @@ export function DetalleScreen({ route, navigation }: Props) {
           <Text style={styles.estadoTexto}>{shark.estadoConservacion}</Text>
         </View>
       </View>
+
+      <FlatList
+        horizontal
+        pagingEnabled
+        showsHorizontalScrollIndicator={false}
+        data={fotos}
+        keyExtractor={(item, indice) => item ?? `sin-foto-${indice}`}
+        ItemSeparatorComponent={() => <View style={styles.separador} />}
+        renderItem={({ item }) => {
+          const credito = creditos.find((c) => c.identificador === item);
+          return (
+            <View style={{ width: anchoFoto }}>
+              <Image
+                source={imagenPorIdentificador(item)}
+                style={[styles.foto, { width: anchoFoto, height: anchoFoto * 0.66 }]}
+                resizeMode="cover"
+              />
+              {credito && (
+                <Text style={styles.credito}>Foto: {credito.autor} · {credito.licencia}</Text>
+              )}
+            </View>
+          );
+        }}
+      />
 
       <View style={styles.tarjeta}>
         <Text style={styles.seccion}>Morfología</Text>
@@ -87,6 +120,17 @@ const styles = StyleSheet.create({
   estadoTexto: {
     color: '#4fd1c5',
     fontSize: 14,
+  },
+  separador: {
+    width: 12,
+  },
+  foto: {
+    borderRadius: 16,
+  },
+  credito: {
+    color: '#94a3b8',
+    fontSize: 12,
+    marginTop: 6,
   },
   tarjeta: {
     backgroundColor: '#163a5f',
