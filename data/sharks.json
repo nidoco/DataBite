@@ -30,7 +30,10 @@
       "longitudMetros": 0.91,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo del mar"
+    "habitat": "Junto al fondo del mar",
+    "imagenes": [
+      "parascyllium-variolatum-1"
+    ]
   },
   {
     "id": "parascyllium-collare",
@@ -41,7 +44,10 @@
       "longitudMetros": 0.85,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "En arrecifes o cerca de ellos"
+    "habitat": "En arrecifes o cerca de ellos",
+    "imagenes": [
+      "parascyllium-collare-1"
+    ]
   },
   {
     "id": "cirrhoscyllium-formosanum",
@@ -74,7 +80,10 @@
       "longitudMetros": 0.8,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo del mar"
+    "habitat": "Junto al fondo del mar",
+    "imagenes": [
+      "parascyllium-ferrugineum-1"
+    ]
   },
   {
     "id": "scyliorhinus-stellaris",
@@ -86,7 +95,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "En arrecifes o cerca de ellos",
-    "alimentacion": "Crustáceos del fondo y peces"
+    "alimentacion": "Crustáceos del fondo y peces",
+    "imagenes": [
+      "scyliorhinus-stellaris-1"
+    ]
   },
   {
     "id": "scyliorhinus-cervigoni",
@@ -109,7 +121,10 @@
       "longitudMetros": 0.54,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo, en aguas profundas"
+    "habitat": "Junto al fondo, en aguas profundas",
+    "imagenes": [
+      "scyliorhinus-boa-1"
+    ]
   },
   {
     "id": "poroderma-pantherinum",
@@ -121,7 +136,11 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "En arrecifes o cerca de ellos",
-    "alimentacion": "Peces, moluscos y gusanos"
+    "alimentacion": "Peces, moluscos y gusanos",
+    "imagenes": [
+      "poroderma-pantherinum-1",
+      "poroderma-pantherinum-2"
+    ]
   },
   {
     "id": "scyliorhinus-besnardi",
@@ -144,7 +163,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Crustáceos del fondo y cefalópodos"
+    "alimentacion": "Crustáceos del fondo y cefalópodos",
+    "imagenes": [
+      "scyliorhinus-capensis-1"
+    ]
   },
   {
     "id": "scyliorhinus-torrei",
@@ -165,7 +187,10 @@
     "morfologia": {
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo, en aguas profundas"
+    "habitat": "Junto al fondo, en aguas profundas",
+    "imagenes": [
+      "scyliorhinus-hesperius-1"
+    ]
   },
   {
     "id": "poroderma-africanum",
@@ -177,7 +202,11 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Peces, crustáceos del fondo y cefalópodos"
+    "alimentacion": "Peces, crustáceos del fondo y cefalópodos",
+    "imagenes": [
+      "poroderma-africanum-1",
+      "poroderma-africanum-2"
+    ]
   },
   {
     "id": "scyliorhinus-retifer",
@@ -188,7 +217,10 @@
       "longitudMetros": 0.48,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo del mar"
+    "habitat": "Junto al fondo del mar",
+    "imagenes": [
+      "scyliorhinus-retifer-1"
+    ]
   },
   {
     "id": "scyliorhinus-garmani",
@@ -199,7 +231,10 @@
       "longitudMetros": 0.38,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo y también a media agua"
+    "habitat": "Junto al fondo y también a media agua",
+    "imagenes": [
+      "scyliorhinus-garmani-1"
+    ]
   },
   {
     "id": "haploblepharus-fuscus",
@@ -223,7 +258,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Peces, crustáceos del fondo y moluscos"
+    "alimentacion": "Peces, crustáceos del fondo y moluscos",
+    "imagenes": [
+      "scyliorhinus-torazame-1"
+    ]
   },
   {
     "id": "haploblepharus-pictus",
@@ -235,7 +273,11 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Peces, crustáceos del fondo y moluscos"
+    "alimentacion": "Peces, crustáceos del fondo y moluscos",
+    "imagenes": [
+      "haploblepharus-pictus-1",
+      "haploblepharus-pictus-2"
+    ]
   },
   {
     "id": "scyliorhinus-haeckelii",
@@ -257,7 +299,10 @@
       "longitudMetros": 0.49,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo, en aguas profundas"
+    "habitat": "Junto al fondo, en aguas profundas",
+    "imagenes": [
+      "scyliorhinus-meadi-1"
+    ]
   },
   {
     "id": "haploblepharus-edwardsii",
@@ -269,7 +314,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Peces y crustáceos del fondo"
+    "alimentacion": "Peces y crustáceos del fondo",
+    "imagenes": [
+      "haploblepharus-edwardsii-1"
+    ]
   },
   {
     "id": "squatina-guggenheim",
@@ -338,7 +386,10 @@
       "longitudMetros": 0.84,
       "formaCuerpo": "Forma variada"
     },
-    "habitat": "Junto al fondo del mar"
+    "habitat": "Junto al fondo del mar",
+    "imagenes": [
+      "squatina-africana-1"
+    ]
   },
   {
     "id": "squatina-argentina",
@@ -350,7 +401,10 @@
       "formaCuerpo": "Forma variada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Otros invertebrados del plancton"
+    "alimentacion": "Otros invertebrados del plancton",
+    "imagenes": [
+      "squatina-argentina-1"
+    ]
   },
   {
     "id": "squatina-australis",
@@ -397,7 +451,10 @@
       "formaCuerpo": "Forma variada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Peces y crustáceos del fondo"
+    "alimentacion": "Peces y crustáceos del fondo",
+    "imagenes": [
+      "squatina-aculeata-1"
+    ]
   },
   {
     "id": "squatina-japonica",
@@ -409,7 +466,10 @@
       "formaCuerpo": "Forma variada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Otros invertebrados del fondo"
+    "alimentacion": "Otros invertebrados del fondo",
+    "imagenes": [
+      "squatina-japonica-1"
+    ]
   },
   {
     "id": "squatina-nebulosa",
@@ -419,7 +479,10 @@
     "morfologia": {
       "formaCuerpo": "Forma variada"
     },
-    "habitat": "Junto al fondo del mar"
+    "habitat": "Junto al fondo del mar",
+    "imagenes": [
+      "squatina-nebulosa-1"
+    ]
   },
   {
     "id": "squatina-tergocellatoides",
@@ -442,7 +505,10 @@
       "formaCuerpo": "Forma variada"
     },
     "habitat": "Junto al fondo, en aguas profundas",
-    "alimentacion": "Cefalópodos y peces"
+    "alimentacion": "Cefalópodos y peces",
+    "imagenes": [
+      "squatina-tergocellata-1"
+    ]
   },
   {
     "id": "apristurus-albisoma",
@@ -661,7 +727,10 @@
       "longitudMetros": 0.6,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "En aguas abiertas lejos de la costa"
+    "habitat": "En aguas abiertas lejos de la costa",
+    "imagenes": [
+      "asymbolus-occiduus-1"
+    ]
   },
   {
     "id": "asymbolus-pallidus",
@@ -716,7 +785,10 @@
       "longitudMetros": 0.47,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo del mar"
+    "habitat": "Junto al fondo del mar",
+    "imagenes": [
+      "atelomycterus-baliensis-1"
+    ]
   },
   {
     "id": "atelomycterus-erdmanni",
@@ -727,7 +799,10 @@
       "longitudMetros": 0.5,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "En arrecifes o cerca de ellos"
+    "habitat": "En arrecifes o cerca de ellos",
+    "imagenes": [
+      "atelomycterus-erdmanni-1"
+    ]
   },
   {
     "id": "atelomycterus-fasciatus",
@@ -749,7 +824,10 @@
       "longitudMetros": 0.47,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo y también a media agua"
+    "habitat": "Junto al fondo y también a media agua",
+    "imagenes": [
+      "atelomycterus-marnkalha-1"
+    ]
   },
   {
     "id": "aulohalaelurus-kanakorum",
@@ -795,7 +873,10 @@
       "longitudMetros": 0.8,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "En arrecifes o cerca de ellos"
+    "habitat": "En arrecifes o cerca de ellos",
+    "imagenes": [
+      "hemiscyllium-strahani-1"
+    ]
   },
   {
     "id": "chiloscyllium-hasseltii",
@@ -807,7 +888,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "En arrecifes o cerca de ellos",
-    "alimentacion": "Otros invertebrados del fondo"
+    "alimentacion": "Otros invertebrados del fondo",
+    "imagenes": [
+      "chiloscyllium-hasseltii-1"
+    ]
   },
   {
     "id": "chiloscyllium-indicum",
@@ -819,7 +903,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Peces y otros invertebrados del fondo"
+    "alimentacion": "Peces y otros invertebrados del fondo",
+    "imagenes": [
+      "chiloscyllium-indicum-1"
+    ]
   },
   {
     "id": "chiloscyllium-caeruleopunctatum",
@@ -842,7 +929,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "En arrecifes o cerca de ellos",
-    "alimentacion": "Peces y otros invertebrados del fondo"
+    "alimentacion": "Peces y otros invertebrados del fondo",
+    "imagenes": [
+      "chiloscyllium-punctatum-1"
+    ]
   },
   {
     "id": "chiloscyllium-griseum",
@@ -853,7 +943,10 @@
       "longitudMetros": 0.77,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "En arrecifes o cerca de ellos"
+    "habitat": "En arrecifes o cerca de ellos",
+    "imagenes": [
+      "chiloscyllium-griseum-1"
+    ]
   },
   {
     "id": "hemiscyllium-hallstromi",
@@ -864,7 +957,10 @@
       "longitudMetros": 0.77,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "En arrecifes o cerca de ellos"
+    "habitat": "En arrecifes o cerca de ellos",
+    "imagenes": [
+      "hemiscyllium-hallstromi-1"
+    ]
   },
   {
     "id": "hemiscyllium-freycineti",
@@ -875,7 +971,10 @@
       "longitudMetros": 0.72,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "En arrecifes o cerca de ellos"
+    "habitat": "En arrecifes o cerca de ellos",
+    "imagenes": [
+      "hemiscyllium-freycineti-1"
+    ]
   },
   {
     "id": "hemiscyllium-trispeculare",
@@ -899,7 +998,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "En arrecifes o cerca de ellos",
-    "alimentacion": "Crustáceos del fondo y moluscos"
+    "alimentacion": "Crustáceos del fondo y moluscos",
+    "imagenes": [
+      "hemiscyllium-ocellatum-1"
+    ]
   },
   {
     "id": "chiloscyllium-plagiosum",
@@ -924,7 +1026,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Crustáceos del fondo y moluscos"
+    "alimentacion": "Crustáceos del fondo y moluscos",
+    "imagenes": [
+      "mustelus-canis-1"
+    ]
   },
   {
     "id": "heptranchias-perlo",
@@ -949,7 +1054,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Crustáceos del fondo y peces"
+    "alimentacion": "Crustáceos del fondo y peces",
+    "imagenes": [
+      "galeus-melastomus-1"
+    ]
   },
   {
     "id": "scymnodon-ringens",
@@ -960,7 +1068,10 @@
       "longitudMetros": 1.1,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "En aguas abiertas muy profundas"
+    "habitat": "En aguas abiertas muy profundas",
+    "imagenes": [
+      "scymnodon-ringens-1"
+    ]
   },
   {
     "id": "zameus-squamulosus",
@@ -983,7 +1094,10 @@
       "longitudMetros": 0.8,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo y también a media agua"
+    "habitat": "Junto al fondo y también a media agua",
+    "imagenes": [
+      "scymnodalatias-sherwoodi-1"
+    ]
   },
   {
     "id": "bythaelurus-bachi",
@@ -1005,7 +1119,10 @@
       "longitudMetros": 0.39,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo, en aguas profundas"
+    "habitat": "Junto al fondo, en aguas profundas",
+    "imagenes": [
+      "bythaelurus-clevai-1"
+    ]
   },
   {
     "id": "bythaelurus-giddingsi",
@@ -1016,7 +1133,10 @@
       "longitudMetros": 0.45,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "En aguas abiertas muy profundas"
+    "habitat": "En aguas abiertas muy profundas",
+    "imagenes": [
+      "bythaelurus-giddingsi-1"
+    ]
   },
   {
     "id": "bythaelurus-incanus",
@@ -1049,7 +1169,10 @@
       "longitudMetros": 0.43,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo, en aguas profundas"
+    "habitat": "Junto al fondo, en aguas profundas",
+    "imagenes": [
+      "bythaelurus-stewarti-1"
+    ]
   },
   {
     "id": "bythaelurus-tenuicephalus",
@@ -1083,7 +1206,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo, en aguas profundas",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "hexanchus-griseus-1"
+    ]
   },
   {
     "id": "carcharhinus-coatesi",
@@ -1150,7 +1276,10 @@
       "longitudMetros": 0.94,
       "formaCuerpo": "Forma de torpedo"
     },
-    "habitat": "En arrecifes o cerca de ellos"
+    "habitat": "En arrecifes o cerca de ellos",
+    "imagenes": [
+      "carcharhinus-tjutjot-1"
+    ]
   },
   {
     "id": "carcharhinus-falciformis",
@@ -1163,7 +1292,10 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "En arrecifes o cerca de ellos",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "carcharhinus-falciformis-1"
+    ]
   },
   {
     "id": "carcharhinus-limbatus",
@@ -1176,7 +1308,10 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "En arrecifes o cerca de ellos",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "carcharhinus-limbatus-1"
+    ]
   },
   {
     "id": "carcharhinus-plumbeus",
@@ -1189,7 +1324,10 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "Junto al fondo y también a media agua",
-    "alimentacion": "Peces y crustáceos del fondo"
+    "alimentacion": "Peces y crustáceos del fondo",
+    "imagenes": [
+      "carcharhinus-plumbeus-1"
+    ]
   },
   {
     "id": "galeorhinus-galeus",
@@ -1202,7 +1340,11 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo y también a media agua",
-    "alimentacion": "Peces y crustáceos del fondo"
+    "alimentacion": "Peces y crustáceos del fondo",
+    "imagenes": [
+      "galeorhinus-galeus-1",
+      "galeorhinus-galeus-2"
+    ]
   },
   {
     "id": "nasolamia-velox",
@@ -1214,7 +1356,10 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Peces y crustáceos del fondo"
+    "alimentacion": "Peces y crustáceos del fondo",
+    "imagenes": [
+      "nasolamia-velox-1"
+    ]
   },
   {
     "id": "furgaleus-macki",
@@ -1227,7 +1372,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Cefalópodos, peces y vegetación marina"
+    "alimentacion": "Cefalópodos, peces y vegetación marina",
+    "imagenes": [
+      "furgaleus-macki-1"
+    ]
   },
   {
     "id": "rhizoprionodon-longurio",
@@ -1297,7 +1445,10 @@
       "longitudMetros": 2.06,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo, en aguas profundas"
+    "habitat": "Junto al fondo, en aguas profundas",
+    "imagenes": [
+      "hexanchus-nakamurai-1"
+    ]
   },
   {
     "id": "mustelus-sinusmexicanus",
@@ -1331,7 +1482,10 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Peces y crustáceos del fondo"
+    "alimentacion": "Peces y crustáceos del fondo",
+    "imagenes": [
+      "scoliodon-laticaudus-1"
+    ]
   },
   {
     "id": "squalus-suckleyi",
@@ -1379,7 +1533,11 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "Junto al fondo y también a media agua",
-    "alimentacion": "Cefalópodos, crustáceos del fondo y peces"
+    "alimentacion": "Cefalópodos, crustáceos del fondo y peces",
+    "imagenes": [
+      "rhizoprionodon-acutus-1",
+      "rhizoprionodon-acutus-2"
+    ]
   },
   {
     "id": "mustelus-californicus",
@@ -1390,7 +1548,10 @@
       "longitudMetros": 1.16,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo del mar"
+    "habitat": "Junto al fondo del mar",
+    "imagenes": [
+      "mustelus-californicus-1"
+    ]
   },
   {
     "id": "scylliogaleus-quecketti",
@@ -1414,7 +1575,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo, en aguas profundas",
-    "alimentacion": "Cefalópodos, crustáceos del fondo y peces"
+    "alimentacion": "Cefalópodos, crustáceos del fondo y peces",
+    "imagenes": [
+      "iago-omanensis-1"
+    ]
   },
   {
     "id": "iago-garricki",
@@ -1487,7 +1651,11 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "isogomphodon-oxyrhynchus-1",
+      "isogomphodon-oxyrhynchus-2"
+    ]
   },
   {
     "id": "gogolia-filewoodi",
@@ -1508,7 +1676,10 @@
       "longitudMetros": 0.87,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo, en aguas profundas"
+    "habitat": "Junto al fondo, en aguas profundas",
+    "imagenes": [
+      "centrophorus-atromarginatus-1"
+    ]
   },
   {
     "id": "centrophorus-isodon",
@@ -1584,7 +1755,10 @@
       "longitudMetros": 1.01,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "En aguas abiertas muy profundas"
+    "habitat": "En aguas abiertas muy profundas",
+    "imagenes": [
+      "cephaloscyllium-albipinnum-1"
+    ]
   },
   {
     "id": "cephaloscyllium-cooki",
@@ -1671,7 +1845,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "En arrecifes o cerca de ellos",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "cephaloscyllium-umbratile-1"
+    ]
   },
   {
     "id": "cephaloscyllium-variegatum",
@@ -1705,7 +1882,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo, en aguas profundas",
-    "alimentacion": "Gusanos"
+    "alimentacion": "Gusanos",
+    "imagenes": [
+      "oxynotus-centrina-1"
+    ]
   },
   {
     "id": "oxynotus-bruniensis",
@@ -1835,7 +2015,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "En arrecifes o cerca de ellos",
-    "alimentacion": "Crustáceos del fondo y moluscos"
+    "alimentacion": "Crustáceos del fondo y moluscos",
+    "imagenes": [
+      "sphyrna-tiburo-1"
+    ]
   },
   {
     "id": "sphyrna-tudes",
@@ -1858,7 +2041,10 @@
       "longitudMetros": 1.86,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo y también a media agua"
+    "habitat": "Junto al fondo y también a media agua",
+    "imagenes": [
+      "eusphyra-blochii-1"
+    ]
   },
   {
     "id": "dichichthys-albimarginatus",
@@ -1914,7 +2100,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Crustáceos del fondo"
+    "alimentacion": "Crustáceos del fondo",
+    "imagenes": [
+      "heterodontus-ramalheira-1"
+    ]
   },
   {
     "id": "heterodontus-mexicanus",
@@ -1950,7 +2139,11 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Crustáceos del fondo, moluscos y peces"
+    "alimentacion": "Crustáceos del fondo, moluscos y peces",
+    "imagenes": [
+      "heterodontus-francisci-1",
+      "heterodontus-francisci-2"
+    ]
   },
   {
     "id": "heterodontus-quoyi",
@@ -2064,7 +2257,10 @@
       "longitudMetros": 0.31,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "En aguas abiertas lejos de la costa"
+    "habitat": "En aguas abiertas lejos de la costa",
+    "imagenes": [
+      "etmopterus-caudistigmus-1"
+    ]
   },
   {
     "id": "etmopterus-compagnoi",
@@ -2109,7 +2305,10 @@
       "longitudMetros": 0.32,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "En aguas abiertas lejos de la costa"
+    "habitat": "En aguas abiertas lejos de la costa",
+    "imagenes": [
+      "etmopterus-evansi-1"
+    ]
   },
   {
     "id": "etmopterus-fusus",
@@ -2186,7 +2385,10 @@
       "longitudMetros": 0.17,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "En aguas abiertas lejos de la costa"
+    "habitat": "En aguas abiertas lejos de la costa",
+    "imagenes": [
+      "etmopterus-perryi-1"
+    ]
   },
   {
     "id": "etmopterus-pseudosqualiolus",
@@ -2365,7 +2567,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo, en aguas profundas",
-    "alimentacion": "Cefalópodos y peces"
+    "alimentacion": "Cefalópodos y peces",
+    "imagenes": [
+      "centrophorus-uyato-1"
+    ]
   },
   {
     "id": "squalus-acanthias",
@@ -2378,7 +2583,11 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo, en aguas profundas",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "squalus-acanthias-1",
+      "squalus-acanthias-2"
+    ]
   },
   {
     "id": "squalus-blainville",
@@ -2391,7 +2600,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Crustáceos del fondo, cefalópodos y peces"
+    "alimentacion": "Crustáceos del fondo, cefalópodos y peces",
+    "imagenes": [
+      "squalus-blainville-1"
+    ]
   },
   {
     "id": "squalus-megalops",
@@ -2403,7 +2615,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Peces y crustáceos del fondo"
+    "alimentacion": "Peces y crustáceos del fondo",
+    "imagenes": [
+      "squalus-megalops-1"
+    ]
   },
   {
     "id": "squalus-rancureli",
@@ -2424,7 +2639,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "En aguas abiertas lejos de la costa",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "squalus-melanurus-1"
+    ]
   },
   {
     "id": "squalus-cubensis",
@@ -2436,7 +2654,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Crustáceos del fondo, peces y moluscos"
+    "alimentacion": "Crustáceos del fondo, peces y moluscos",
+    "imagenes": [
+      "squalus-cubensis-1"
+    ]
   },
   {
     "id": "squalus-mitsukurii",
@@ -2448,7 +2669,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo y también a media agua",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "squalus-mitsukurii-1"
+    ]
   },
   {
     "id": "squalus-japonicus",
@@ -2459,7 +2683,10 @@
       "longitudMetros": 0.91,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "En aguas abiertas lejos de la costa"
+    "habitat": "En aguas abiertas lejos de la costa",
+    "imagenes": [
+      "squalus-japonicus-1"
+    ]
   },
   {
     "id": "cirrhigaleus-asper",
@@ -2484,7 +2711,12 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "En arrecifes o cerca de ellos",
-    "alimentacion": "Peces y moluscos"
+    "alimentacion": "Peces y moluscos",
+    "imagenes": [
+      "ginglymostoma-cirratum-1",
+      "ginglymostoma-cirratum-2",
+      "ginglymostoma-cirratum-3"
+    ]
   },
   {
     "id": "nebrius-ferrugineus",
@@ -2496,7 +2728,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "En arrecifes o cerca de ellos",
-    "alimentacion": "Crustáceos del fondo y peces"
+    "alimentacion": "Crustáceos del fondo y peces",
+    "imagenes": [
+      "nebrius-ferrugineus-1"
+    ]
   },
   {
     "id": "pseudoginglymostoma-brevicaudatum",
@@ -2507,7 +2742,10 @@
       "longitudMetros": 0.75,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "En arrecifes o cerca de ellos"
+    "habitat": "En arrecifes o cerca de ellos",
+    "imagenes": [
+      "pseudoginglymostoma-brevicaudatum-1"
+    ]
   },
   {
     "id": "galeus-antillensis",
@@ -2529,7 +2767,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Crustáceos del fondo y gusanos"
+    "alimentacion": "Crustáceos del fondo y gusanos",
+    "imagenes": [
+      "mustelus-schmitti-1"
+    ]
   },
   {
     "id": "glyphis-garricki",
@@ -2572,7 +2813,10 @@
       "longitudMetros": 0.46,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo del mar"
+    "habitat": "Junto al fondo del mar",
+    "imagenes": [
+      "halaelurus-maculosus-1"
+    ]
   },
   {
     "id": "halaelurus-sellus",
@@ -2671,7 +2915,10 @@
       "longitudMetros": 0.81,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo y también a media agua"
+    "habitat": "Junto al fondo y también a media agua",
+    "imagenes": [
+      "hemitriakis-complicofasciata-1"
+    ]
   },
   {
     "id": "hemitriakis-falcata",
@@ -2751,7 +2998,10 @@
       "pesoKg": 13.5,
       "formaCuerpo": "Forma de torpedo"
     },
-    "habitat": "Junto al fondo del mar"
+    "habitat": "Junto al fondo del mar",
+    "imagenes": [
+      "lamiopsis-tephrodes-1"
+    ]
   },
   {
     "id": "dalatias-licha",
@@ -2776,7 +3026,10 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "En aguas abiertas lejos de la costa",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "isurus-oxyrinchus-1"
+    ]
   },
   {
     "id": "isurus-paucus",
@@ -2801,7 +3054,10 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "En aguas abiertas lejos de la costa",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "lamna-nasus-1"
+    ]
   },
   {
     "id": "mollisquama-mississippiensis",
@@ -2812,7 +3068,10 @@
       "longitudMetros": 0.14,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "En aguas abiertas muy profundas"
+    "habitat": "En aguas abiertas muy profundas",
+    "imagenes": [
+      "mollisquama-mississippiensis-1"
+    ]
   },
   {
     "id": "mollisquama-parini",
@@ -2847,7 +3106,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Peces y cefalópodos"
+    "alimentacion": "Peces y cefalópodos",
+    "imagenes": [
+      "mustelus-antarcticus-1"
+    ]
   },
   {
     "id": "mustelus-manazo",
@@ -2860,7 +3122,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Crustáceos del fondo y gusanos"
+    "alimentacion": "Crustáceos del fondo y gusanos",
+    "imagenes": [
+      "mustelus-manazo-1"
+    ]
   },
   {
     "id": "mustelus-asterias",
@@ -2873,7 +3138,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Crustáceos del fondo"
+    "alimentacion": "Crustáceos del fondo",
+    "imagenes": [
+      "mustelus-asterias-1"
+    ]
   },
   {
     "id": "mustelus-griseus",
@@ -2920,7 +3188,10 @@
       "longitudMetros": 1,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo del mar"
+    "habitat": "Junto al fondo del mar",
+    "imagenes": [
+      "mustelus-henlei-1"
+    ]
   },
   {
     "id": "mustelus-punctulatus",
@@ -2931,7 +3202,10 @@
       "longitudMetros": 1.9,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo del mar"
+    "habitat": "Junto al fondo del mar",
+    "imagenes": [
+      "mustelus-punctulatus-1"
+    ]
   },
   {
     "id": "mustelus-lunulatus",
@@ -2955,7 +3229,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Crustáceos del fondo y peces"
+    "alimentacion": "Crustáceos del fondo y peces",
+    "imagenes": [
+      "mustelus-norrisi-1"
+    ]
   },
   {
     "id": "pseudotriakis-microdon",
@@ -3020,7 +3297,10 @@
     "morfologia": {
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo y también a media agua"
+    "habitat": "Junto al fondo y también a media agua",
+    "imagenes": [
+      "mustelus-widodoi-1"
+    ]
   },
   {
     "id": "mustelus-fasciatus",
@@ -3056,7 +3336,11 @@
       "longitudMetros": 0.42,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo, en aguas profundas"
+    "habitat": "Junto al fondo, en aguas profundas",
+    "imagenes": [
+      "galeus-atlanticus-1",
+      "galeus-atlanticus-2"
+    ]
   },
   {
     "id": "orectolobus-floridus",
@@ -3078,7 +3362,10 @@
       "longitudMetros": 2.56,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo del mar"
+    "habitat": "Junto al fondo del mar",
+    "imagenes": [
+      "orectolobus-halei-1"
+    ]
   },
   {
     "id": "orectolobus-hutchinsi",
@@ -3089,7 +3376,10 @@
       "longitudMetros": 1.49,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo del mar"
+    "habitat": "Junto al fondo del mar",
+    "imagenes": [
+      "orectolobus-hutchinsi-1"
+    ]
   },
   {
     "id": "orectolobus-leptolineatus",
@@ -3100,7 +3390,10 @@
       "longitudMetros": 1.12,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo y también a media agua"
+    "habitat": "Junto al fondo y también a media agua",
+    "imagenes": [
+      "orectolobus-leptolineatus-1"
+    ]
   },
   {
     "id": "orectolobus-parvimaculatus",
@@ -3132,7 +3425,10 @@
       "longitudMetros": 0.54,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo, en aguas profundas"
+    "habitat": "Junto al fondo, en aguas profundas",
+    "imagenes": [
+      "oxynotus-japonicus-1"
+    ]
   },
   {
     "id": "centroscymnus-coelolepis",
@@ -3145,7 +3441,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo, en aguas profundas",
-    "alimentacion": "Cefalópodos, peces y crustáceos del fondo"
+    "alimentacion": "Cefalópodos, peces y crustáceos del fondo",
+    "imagenes": [
+      "centroscymnus-coelolepis-1"
+    ]
   },
   {
     "id": "centroscymnus-owstonii",
@@ -3158,7 +3457,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo, en aguas profundas",
-    "alimentacion": "Peces y moluscos"
+    "alimentacion": "Peces y moluscos",
+    "imagenes": [
+      "centroscymnus-owstonii-1"
+    ]
   },
   {
     "id": "apristurus-riveri",
@@ -3265,7 +3567,10 @@
       "longitudMetros": 0.64,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo, en aguas profundas"
+    "habitat": "Junto al fondo, en aguas profundas",
+    "imagenes": [
+      "parmaturus-pilosus-1"
+    ]
   },
   {
     "id": "bythaelurus-canescens",
@@ -3277,7 +3582,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo, en aguas profundas",
-    "alimentacion": "Medusas, crustáceos del fondo y peces"
+    "alimentacion": "Medusas, crustáceos del fondo y peces",
+    "imagenes": [
+      "bythaelurus-canescens-1"
+    ]
   },
   {
     "id": "apristurus-profundorum",
@@ -3289,7 +3597,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo, en aguas profundas",
-    "alimentacion": "Cefalópodos, peces y crustáceos del fondo"
+    "alimentacion": "Cefalópodos, peces y crustáceos del fondo",
+    "imagenes": [
+      "apristurus-profundorum-1"
+    ]
   },
   {
     "id": "cephaloscyllium-isabella",
@@ -3346,7 +3657,11 @@
       "longitudMetros": 1.5,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo del mar"
+    "habitat": "Junto al fondo del mar",
+    "imagenes": [
+      "cephaloscyllium-laticeps-1",
+      "cephaloscyllium-laticeps-2"
+    ]
   },
   {
     "id": "cephaloscyllium-sufflans",
@@ -3381,7 +3696,10 @@
       "longitudMetros": 0.6,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo, en aguas profundas"
+    "habitat": "Junto al fondo, en aguas profundas",
+    "imagenes": [
+      "apristurus-longicephalus-1"
+    ]
   },
   {
     "id": "parmaturus-campechiensis",
@@ -3413,7 +3731,10 @@
     "morfologia": {
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo, en aguas profundas"
+    "habitat": "Junto al fondo, en aguas profundas",
+    "imagenes": [
+      "apristurus-macrorhynchus-1"
+    ]
   },
   {
     "id": "apristurus-sinensis",
@@ -3468,7 +3789,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo, en aguas profundas",
-    "alimentacion": "Peces y crustáceos del plancton"
+    "alimentacion": "Peces y crustáceos del plancton",
+    "imagenes": [
+      "apristurus-laurussonii-1"
+    ]
   },
   {
     "id": "halaelurus-buergeri",
@@ -3695,7 +4019,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo, en aguas profundas",
-    "alimentacion": "Crustáceos del fondo y crustáceos del plancton"
+    "alimentacion": "Crustáceos del fondo y crustáceos del plancton",
+    "imagenes": [
+      "bythaelurus-dawsoni-1"
+    ]
   },
   {
     "id": "apristurus-investigatoris",
@@ -3807,7 +4134,10 @@
       "longitudMetros": 0.28,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo, en aguas profundas"
+    "habitat": "Junto al fondo, en aguas profundas",
+    "imagenes": [
+      "cephalurus-cephalus-1"
+    ]
   },
   {
     "id": "holohalaelurus-regani",
@@ -3853,7 +4183,10 @@
       "longitudMetros": 0.51,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo, en aguas profundas"
+    "habitat": "Junto al fondo, en aguas profundas",
+    "imagenes": [
+      "pentanchus-profundicolus-1"
+    ]
   },
   {
     "id": "cetorhinus-maximus",
@@ -3866,7 +4199,12 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "En aguas abiertas lejos de la costa",
-    "alimentacion": "Crustáceos del plancton y huevos o larvas de peces"
+    "alimentacion": "Crustáceos del plancton y huevos o larvas de peces",
+    "imagenes": [
+      "cetorhinus-maximus-1",
+      "cetorhinus-maximus-2",
+      "cetorhinus-maximus-3"
+    ]
   },
   {
     "id": "squatina-oculata",
@@ -3904,7 +4242,11 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Crustáceos del fondo y peces"
+    "alimentacion": "Crustáceos del fondo y peces",
+    "imagenes": [
+      "scyliorhinus-canicula-1",
+      "scyliorhinus-canicula-2"
+    ]
   },
   {
     "id": "galeus-polli",
@@ -3939,7 +4281,10 @@
       "longitudMetros": 0.62,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo del mar"
+    "habitat": "Junto al fondo del mar",
+    "imagenes": [
+      "schroederichthys-chilensis-1"
+    ]
   },
   {
     "id": "atelomycterus-marmoratus",
@@ -3950,7 +4295,10 @@
       "longitudMetros": 0.7,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "En arrecifes o cerca de ellos"
+    "habitat": "En arrecifes o cerca de ellos",
+    "imagenes": [
+      "atelomycterus-marmoratus-1"
+    ]
   },
   {
     "id": "galeus-schultzi",
@@ -3984,7 +4332,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo, en aguas profundas",
-    "alimentacion": "Crustáceos del fondo, peces y cefalópodos"
+    "alimentacion": "Crustáceos del fondo, peces y cefalópodos",
+    "imagenes": [
+      "galeus-nipponensis-1"
+    ]
   },
   {
     "id": "galeus-arae",
@@ -4128,7 +4479,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo, en aguas profundas",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "centrophorus-granulosus-1"
+    ]
   },
   {
     "id": "centrophorus-moluccensis",
@@ -4141,7 +4495,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo, en aguas profundas",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "centrophorus-moluccensis-1"
+    ]
   },
   {
     "id": "centrophorus-harrissoni",
@@ -4152,7 +4509,10 @@
       "longitudMetros": 1.11,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo, en aguas profundas"
+    "habitat": "Junto al fondo, en aguas profundas",
+    "imagenes": [
+      "centrophorus-harrissoni-1"
+    ]
   },
   {
     "id": "centrophorus-lusitanicus",
@@ -4164,7 +4524,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo, en aguas profundas",
-    "alimentacion": "Peces, cefalópodos y crustáceos del fondo"
+    "alimentacion": "Peces, cefalópodos y crustáceos del fondo",
+    "imagenes": [
+      "centrophorus-lusitanicus-1"
+    ]
   },
   {
     "id": "centrophorus-tessellatus",
@@ -4187,7 +4550,11 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo, en aguas profundas",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "centrophorus-squamosus-1",
+      "centrophorus-squamosus-2"
+    ]
   },
   {
     "id": "centroselachus-crepidater",
@@ -4199,7 +4566,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo, en aguas profundas",
-    "alimentacion": "Peces y crustáceos del fondo"
+    "alimentacion": "Peces y crustáceos del fondo",
+    "imagenes": [
+      "centroselachus-crepidater-1"
+    ]
   },
   {
     "id": "carcharias-taurus",
@@ -4212,7 +4582,11 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "En arrecifes o cerca de ellos",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "carcharias-taurus-1",
+      "carcharias-taurus-2"
+    ]
   },
   {
     "id": "schroederichthys-saurisqualus",
@@ -4323,7 +4697,10 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "Junto al fondo y también a media agua",
-    "alimentacion": "Peces, crustáceos del fondo y cefalópodos"
+    "alimentacion": "Peces, crustáceos del fondo y cefalópodos",
+    "imagenes": [
+      "odontaspis-ferox-1"
+    ]
   },
   {
     "id": "odontaspis-noronhai",
@@ -4445,7 +4822,10 @@
       "longitudMetros": 0.6,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "En aguas abiertas cercanas a la costa"
+    "habitat": "En aguas abiertas cercanas a la costa",
+    "imagenes": [
+      "squalus-brevirostris-1"
+    ]
   },
   {
     "id": "squalus-bucephalus",
@@ -4456,7 +4836,10 @@
       "longitudMetros": 0.9,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "En aguas abiertas lejos de la costa"
+    "habitat": "En aguas abiertas lejos de la costa",
+    "imagenes": [
+      "squalus-bucephalus-1"
+    ]
   },
   {
     "id": "squalus-chloroculus",
@@ -4489,7 +4872,10 @@
       "longitudMetros": 0.48,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "En aguas abiertas lejos de la costa"
+    "habitat": "En aguas abiertas lejos de la costa",
+    "imagenes": [
+      "squalus-crassispinus-1"
+    ]
   },
   {
     "id": "squalus-edmundsi",
@@ -4599,7 +4985,10 @@
       "longitudMetros": 0.84,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo, en aguas profundas"
+    "habitat": "Junto al fondo, en aguas profundas",
+    "imagenes": [
+      "squalus-montalbani-1"
+    ]
   },
   {
     "id": "squalus-nasutus",
@@ -4709,7 +5098,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "En arrecifes o cerca de ellos",
-    "alimentacion": "Peces y otros invertebrados del fondo"
+    "alimentacion": "Peces y otros invertebrados del fondo",
+    "imagenes": [
+      "eucrossorhinus-dasypogon-1"
+    ]
   },
   {
     "id": "orectolobus-japonicus",
@@ -4721,7 +5113,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Peces, crustáceos del fondo y otros invertebrados del fondo"
+    "alimentacion": "Peces, crustáceos del fondo y otros invertebrados del fondo",
+    "imagenes": [
+      "orectolobus-japonicus-1"
+    ]
   },
   {
     "id": "orectolobus-maculatus",
@@ -4733,7 +5128,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "En arrecifes o cerca de ellos",
-    "alimentacion": "Peces, crustáceos del fondo y moluscos"
+    "alimentacion": "Peces, crustáceos del fondo y moluscos",
+    "imagenes": [
+      "orectolobus-maculatus-1"
+    ]
   },
   {
     "id": "orectolobus-ornatus",
@@ -4745,7 +5143,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "En arrecifes o cerca de ellos",
-    "alimentacion": "Peces y otros invertebrados del fondo"
+    "alimentacion": "Peces y otros invertebrados del fondo",
+    "imagenes": [
+      "orectolobus-ornatus-1"
+    ]
   },
   {
     "id": "orectolobus-wardi",
@@ -4757,7 +5158,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "En arrecifes o cerca de ellos",
-    "alimentacion": "Peces y otros invertebrados del fondo"
+    "alimentacion": "Peces y otros invertebrados del fondo",
+    "imagenes": [
+      "orectolobus-wardi-1"
+    ]
   },
   {
     "id": "sutorectus-tentaculatus",
@@ -4793,7 +5197,11 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "En arrecifes o cerca de ellos",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "carcharhinus-brevipinna-1",
+      "carcharhinus-brevipinna-2"
+    ]
   },
   {
     "id": "lamiopsis-temminckii",
@@ -4806,7 +5214,10 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Peces y otros invertebrados del fondo"
+    "alimentacion": "Peces y otros invertebrados del fondo",
+    "imagenes": [
+      "lamiopsis-temminckii-1"
+    ]
   },
   {
     "id": "carcharhinus-sealei",
@@ -4831,7 +5242,10 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "En arrecifes o cerca de ellos",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "carcharhinus-acronotus-1"
+    ]
   },
   {
     "id": "negaprion-brevirostris",
@@ -4844,7 +5258,10 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "En arrecifes o cerca de ellos",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "negaprion-brevirostris-1"
+    ]
   },
   {
     "id": "squatina-dumeril",
@@ -4868,7 +5285,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo, en aguas profundas",
-    "alimentacion": "Cefalópodos y peces"
+    "alimentacion": "Cefalópodos y peces",
+    "imagenes": [
+      "chlamydoselachus-anguineus-1"
+    ]
   },
   {
     "id": "carcharhinus-obscurus",
@@ -4881,7 +5301,10 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "En arrecifes o cerca de ellos",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "carcharhinus-obscurus-1"
+    ]
   },
   {
     "id": "prionace-glauca",
@@ -4894,7 +5317,11 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "En aguas abiertas lejos de la costa",
-    "alimentacion": "Peces y cefalópodos"
+    "alimentacion": "Peces y cefalópodos",
+    "imagenes": [
+      "prionace-glauca-1",
+      "prionace-glauca-2"
+    ]
   },
   {
     "id": "carcharhinus-altimus",
@@ -4907,7 +5334,10 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "En arrecifes o cerca de ellos",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "carcharhinus-altimus-1"
+    ]
   },
   {
     "id": "carcharhinus-amboinensis",
@@ -4933,7 +5363,10 @@
       "rasgoDistintivo": "Patrón único de manchas blancas"
     },
     "habitat": "Aguas tropicales abiertas",
-    "alimentacion": "Filtrador de plancton y peces pequeños"
+    "alimentacion": "Filtrador de plancton y peces pequeños",
+    "imagenes": [
+      "tiburon-ballena-1"
+    ]
   },
   {
     "id": "carcharhinus-fitzroyensis",
@@ -4944,7 +5377,10 @@
       "longitudMetros": 1.35,
       "formaCuerpo": "Forma de torpedo"
     },
-    "habitat": "Junto al fondo del mar"
+    "habitat": "Junto al fondo del mar",
+    "imagenes": [
+      "carcharhinus-fitzroyensis-1"
+    ]
   },
   {
     "id": "leptocharias-smithii",
@@ -4956,7 +5392,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Crustáceos del fondo, cefalópodos y peces"
+    "alimentacion": "Crustáceos del fondo, cefalópodos y peces",
+    "imagenes": [
+      "leptocharias-smithii-1"
+    ]
   },
   {
     "id": "tiburon-blanco",
@@ -4970,7 +5409,12 @@
       "rasgoDistintivo": "Dientes triangulares aserrados"
     },
     "habitat": "Aguas cálidas y templadas",
-    "alimentacion": "Mamíferos marinos, peces y otros tiburones"
+    "alimentacion": "Mamíferos marinos, peces y otros tiburones",
+    "imagenes": [
+      "tiburon-blanco-1",
+      "tiburon-blanco-2",
+      "tiburon-blanco-3"
+    ]
   },
   {
     "id": "megachasma-pelagios",
@@ -4982,7 +5426,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "En aguas abiertas lejos de la costa",
-    "alimentacion": "Crustáceos del plancton, peces y medusas"
+    "alimentacion": "Crustáceos del plancton, peces y medusas",
+    "imagenes": [
+      "megachasma-pelagios-1"
+    ]
   },
   {
     "id": "carcharhinus-dussumieri",
@@ -5006,7 +5453,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "En arrecifes o cerca de ellos",
-    "alimentacion": "Crustáceos del fondo, cefalópodos y peces"
+    "alimentacion": "Crustáceos del fondo, cefalópodos y peces",
+    "imagenes": [
+      "brachaelurus-waddi-1"
+    ]
   },
   {
     "id": "brachaelurus-colcloughi",
@@ -5018,7 +5468,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Otros invertebrados del fondo"
+    "alimentacion": "Otros invertebrados del fondo",
+    "imagenes": [
+      "brachaelurus-colcloughi-1"
+    ]
   },
   {
     "id": "carcharhinus-brachyurus",
@@ -5031,7 +5484,11 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "En arrecifes o cerca de ellos",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "carcharhinus-brachyurus-1",
+      "carcharhinus-brachyurus-2"
+    ]
   },
   {
     "id": "pseudocarcharias-kamoharai",
@@ -5070,7 +5527,12 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "En arrecifes o cerca de ellos",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "carcharhinus-amblyrhynchos-1",
+      "carcharhinus-amblyrhynchos-2",
+      "carcharhinus-amblyrhynchos-3"
+    ]
   },
   {
     "id": "carcharhinus-perezii",
@@ -5094,7 +5556,10 @@
       "longitudMetros": 0.7,
       "formaCuerpo": "Forma de torpedo"
     },
-    "habitat": "Junto al fondo del mar"
+    "habitat": "Junto al fondo del mar",
+    "imagenes": [
+      "carcharhinus-borneensis-1"
+    ]
   },
   {
     "id": "echinorhinus-brucus",
@@ -5106,7 +5571,11 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo, en aguas profundas",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "echinorhinus-brucus-1",
+      "echinorhinus-brucus-2"
+    ]
   },
   {
     "id": "carcharhinus-galapagensis",
@@ -5157,7 +5626,10 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "En arrecifes o cerca de ellos",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "carcharhinus-albimarginatus-1"
+    ]
   },
   {
     "id": "carcharhinus-melanopterus",
@@ -5169,7 +5641,10 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "En arrecifes o cerca de ellos",
-    "alimentacion": "Peces y moluscos"
+    "alimentacion": "Peces y moluscos",
+    "imagenes": [
+      "carcharhinus-melanopterus-1"
+    ]
   },
   {
     "id": "glyphis-gangeticus",
@@ -5204,7 +5679,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo, en aguas profundas",
-    "alimentacion": "Peces, crustáceos del fondo y cefalópodos"
+    "alimentacion": "Peces, crustáceos del fondo y cefalópodos",
+    "imagenes": [
+      "mitsukurina-owstoni-1"
+    ]
   },
   {
     "id": "ginglymostoma-unami",
@@ -5226,7 +5704,10 @@
       "longitudMetros": 1.82,
       "formaCuerpo": "Forma de torpedo"
     },
-    "habitat": "En aguas abiertas cercanas a la costa"
+    "habitat": "En aguas abiertas cercanas a la costa",
+    "imagenes": [
+      "carcharhinus-amblyrhynchoides-1"
+    ]
   },
   {
     "id": "cephaloscyllium-ventriosum",
@@ -5238,7 +5719,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Peces, crustáceos del fondo y moluscos"
+    "alimentacion": "Peces, crustáceos del fondo y moluscos",
+    "imagenes": [
+      "cephaloscyllium-ventriosum-1"
+    ]
   },
   {
     "id": "glyphis-glyphis",
@@ -5249,7 +5733,10 @@
       "longitudMetros": 1,
       "formaCuerpo": "Forma de torpedo"
     },
-    "habitat": "Junto al fondo del mar"
+    "habitat": "Junto al fondo del mar",
+    "imagenes": [
+      "glyphis-glyphis-1"
+    ]
   },
   {
     "id": "triakis-semifasciata",
@@ -5275,7 +5762,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "En aguas abiertas lejos de la costa",
-    "alimentacion": "Peces y crustáceos del fondo"
+    "alimentacion": "Peces y crustáceos del fondo",
+    "imagenes": [
+      "sphyrna-lewini-1"
+    ]
   },
   {
     "id": "tiburon-martillo",
@@ -5289,7 +5779,10 @@
       "rasgoDistintivo": "Cabeza en forma de martillo"
     },
     "habitat": "Aguas tropicales y subtropicales",
-    "alimentacion": "Dieta muy variada (peces, tortugas, aves marinas, carroña)"
+    "alimentacion": "Dieta muy variada (peces, tortugas, aves marinas, carroña)",
+    "imagenes": [
+      "tiburon-martillo-1"
+    ]
   },
   {
     "id": "echinorhinus-cookei",
@@ -5313,7 +5806,10 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "En arrecifes o cerca de ellos",
-    "alimentacion": "Peces y crustáceos del fondo"
+    "alimentacion": "Peces y crustáceos del fondo",
+    "imagenes": [
+      "carcharhinus-cautus-1"
+    ]
   },
   {
     "id": "carcharhinus-longimanus",
@@ -5326,7 +5822,10 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "En aguas abiertas lejos de la costa",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "carcharhinus-longimanus-1"
+    ]
   },
   {
     "id": "oxynotus-caribbaeus",
@@ -5338,7 +5837,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo, en aguas profundas",
-    "alimentacion": "Peces y otros invertebrados del fondo"
+    "alimentacion": "Peces y otros invertebrados del fondo",
+    "imagenes": [
+      "oxynotus-caribbaeus-1"
+    ]
   },
   {
     "id": "loxodon-macrorhinus",
@@ -5350,7 +5852,10 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Peces y crustáceos del fondo"
+    "alimentacion": "Peces y crustáceos del fondo",
+    "imagenes": [
+      "loxodon-macrorhinus-1"
+    ]
   },
   {
     "id": "notorynchus-cepedianus",
@@ -5363,7 +5868,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Peces y mamíferos marinos"
+    "alimentacion": "Peces y mamíferos marinos",
+    "imagenes": [
+      "notorynchus-cepedianus-1"
+    ]
   },
   {
     "id": "carcharhinus-porosus",
@@ -5375,7 +5883,10 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "carcharhinus-porosus-1"
+    ]
   },
   {
     "id": "carcharhinus-cerdale",
@@ -5399,7 +5910,10 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "En arrecifes o cerca de ellos",
-    "alimentacion": "Peces, cefalópodos y crustáceos del fondo"
+    "alimentacion": "Peces, cefalópodos y crustáceos del fondo",
+    "imagenes": [
+      "carcharhinus-sorrah-1"
+    ]
   },
   {
     "id": "lamna-ditropis",
@@ -5412,7 +5926,10 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "En aguas abiertas lejos de la costa",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "lamna-ditropis-1"
+    ]
   },
   {
     "id": "negaprion-acutidens",
@@ -5423,7 +5940,10 @@
       "longitudMetros": 3.8,
       "formaCuerpo": "Forma de torpedo"
     },
-    "habitat": "En arrecifes o cerca de ellos"
+    "habitat": "En arrecifes o cerca de ellos",
+    "imagenes": [
+      "negaprion-acutidens-1"
+    ]
   },
   {
     "id": "pristiophorus-schroederi",
@@ -5434,7 +5954,10 @@
       "longitudMetros": 0.8,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo, en aguas profundas"
+    "habitat": "Junto al fondo, en aguas profundas",
+    "imagenes": [
+      "pristiophorus-schroederi-1"
+    ]
   },
   {
     "id": "pliotrema-warreni",
@@ -5446,7 +5969,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "pliotrema-warreni-1"
+    ]
   },
   {
     "id": "pristiophorus-japonicus",
@@ -5457,7 +5983,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Peces, crustáceos del fondo y otros invertebrados del fondo"
+    "alimentacion": "Peces, crustáceos del fondo y otros invertebrados del fondo",
+    "imagenes": [
+      "pristiophorus-japonicus-1"
+    ]
   },
   {
     "id": "pristiophorus-nudipinnis",
@@ -5468,7 +5997,10 @@
       "longitudMetros": 1.22,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo del mar"
+    "habitat": "Junto al fondo del mar",
+    "imagenes": [
+      "pristiophorus-nudipinnis-1"
+    ]
   },
   {
     "id": "pristiophorus-cirratus",
@@ -5480,7 +6012,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Peces y crustáceos del fondo"
+    "alimentacion": "Peces y crustáceos del fondo",
+    "imagenes": [
+      "pristiophorus-cirratus-1"
+    ]
   },
   {
     "id": "tiburon-tigre",
@@ -5494,7 +6029,11 @@
       "rasgoDistintivo": "Rayas verticales en el cuerpo"
     },
     "habitat": "Aguas tropicales y subtropicales",
-    "alimentacion": "Peces, tortugas, aves marinas y carroña"
+    "alimentacion": "Peces, tortugas, aves marinas y carroña",
+    "imagenes": [
+      "tiburon-tigre-1",
+      "tiburon-tigre-2"
+    ]
   },
   {
     "id": "carcharhinus-leucas",
@@ -5507,7 +6046,11 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "En arrecifes o cerca de ellos",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "carcharhinus-leucas-1",
+      "carcharhinus-leucas-2"
+    ]
   },
   {
     "id": "carcharhinus-macloti",
@@ -5519,7 +6062,10 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Peces, crustáceos del fondo y cefalópodos"
+    "alimentacion": "Peces, crustáceos del fondo y cefalópodos",
+    "imagenes": [
+      "carcharhinus-macloti-1"
+    ]
   },
   {
     "id": "mustelus-mento",
@@ -5543,7 +6089,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Crustáceos del fondo y peces"
+    "alimentacion": "Crustáceos del fondo y peces",
+    "imagenes": [
+      "mustelus-mustelus-1"
+    ]
   },
   {
     "id": "somniosus-rostratus",
@@ -5566,7 +6115,11 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "En aguas abiertas muy profundas",
-    "alimentacion": "Cefalópodos, mamíferos marinos y carroña"
+    "alimentacion": "Cefalópodos, mamíferos marinos y carroña",
+    "imagenes": [
+      "isistius-brasiliensis-1",
+      "isistius-brasiliensis-2"
+    ]
   },
   {
     "id": "isistius-plutodus",
@@ -5587,7 +6140,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo, en aguas profundas",
-    "alimentacion": "Peces, crustáceos del fondo y moluscos"
+    "alimentacion": "Peces, crustáceos del fondo y moluscos",
+    "imagenes": [
+      "eridacnis-sinuans-1"
+    ]
   },
   {
     "id": "ctenacis-fehlmanni",
@@ -5622,7 +6178,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo, en aguas profundas",
-    "alimentacion": "Peces, crustáceos del fondo y moluscos"
+    "alimentacion": "Peces, crustáceos del fondo y moluscos",
+    "imagenes": [
+      "gollum-attenuatus-1"
+    ]
   },
   {
     "id": "proscyllium-habereri",
@@ -5634,7 +6193,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo del mar",
-    "alimentacion": "Peces, crustáceos del fondo y moluscos"
+    "alimentacion": "Peces, crustáceos del fondo y moluscos",
+    "imagenes": [
+      "proscyllium-habereri-1"
+    ]
   },
   {
     "id": "eridacnis-radcliffei",
@@ -5657,7 +6219,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo y también a media agua",
-    "alimentacion": "Peces y cefalópodos"
+    "alimentacion": "Peces y cefalópodos",
+    "imagenes": [
+      "somniosus-antarcticus-1"
+    ]
   },
   {
     "id": "somniosus-microcephalus",
@@ -5669,7 +6234,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo y también a media agua",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "somniosus-microcephalus-1"
+    ]
   },
   {
     "id": "triakis-acutipinna",
@@ -5751,7 +6319,10 @@
       "longitudMetros": 0.46,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo, en aguas profundas"
+    "habitat": "Junto al fondo, en aguas profundas",
+    "imagenes": [
+      "etmopterus-villosus-1"
+    ]
   },
   {
     "id": "etmopterus-lucifer",
@@ -5764,7 +6335,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "En aguas abiertas lejos de la costa",
-    "alimentacion": "Cefalópodos y peces"
+    "alimentacion": "Cefalópodos y peces",
+    "imagenes": [
+      "etmopterus-lucifer-1"
+    ]
   },
   {
     "id": "etmopterus-sentosus",
@@ -5786,7 +6360,10 @@
       "longitudMetros": 0.27,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo, en aguas profundas"
+    "habitat": "Junto al fondo, en aguas profundas",
+    "imagenes": [
+      "etmopterus-schultzi-1"
+    ]
   },
   {
     "id": "etmopterus-pusillus",
@@ -5820,7 +6397,10 @@
       "longitudMetros": 0.5,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "En aguas abiertas lejos de la costa"
+    "habitat": "En aguas abiertas lejos de la costa",
+    "imagenes": [
+      "etmopterus-brachyurus-1"
+    ]
   },
   {
     "id": "etmopterus-decacuspidatus",
@@ -5831,7 +6411,10 @@
       "longitudMetros": 0.29,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "En aguas abiertas lejos de la costa"
+    "habitat": "En aguas abiertas lejos de la costa",
+    "imagenes": [
+      "etmopterus-decacuspidatus-1"
+    ]
   },
   {
     "id": "etmopterus-princeps",
@@ -5866,7 +6449,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo, en aguas profundas",
-    "alimentacion": "Cefalópodos"
+    "alimentacion": "Cefalópodos",
+    "imagenes": [
+      "etmopterus-virens-1"
+    ]
   },
   {
     "id": "triakis-maculata",
@@ -5971,7 +6557,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "En aguas abiertas lejos de la costa",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "etmopterus-granulosus-1"
+    ]
   },
   {
     "id": "centroscyllium-nigrum",
@@ -5983,7 +6572,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo y también a media agua",
-    "alimentacion": "Peces y otros invertebrados del fondo"
+    "alimentacion": "Peces y otros invertebrados del fondo",
+    "imagenes": [
+      "centroscyllium-nigrum-1"
+    ]
   },
   {
     "id": "centroscyllium-granulatum",
@@ -6007,7 +6599,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo, en aguas profundas",
-    "alimentacion": "Peces y crustáceos del fondo"
+    "alimentacion": "Peces y crustáceos del fondo",
+    "imagenes": [
+      "deania-calceus-1"
+    ]
   },
   {
     "id": "euprotomicrus-bispinatus",
@@ -6030,7 +6625,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "En aguas abiertas muy profundas",
-    "alimentacion": "Cefalópodos"
+    "alimentacion": "Cefalópodos",
+    "imagenes": [
+      "squaliolus-laticaudus-1"
+    ]
   },
   {
     "id": "heteroscymnoides-marleyi",
@@ -6052,7 +6650,10 @@
       "longitudMetros": 0.42,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo y también a media agua"
+    "habitat": "Junto al fondo y también a media agua",
+    "imagenes": [
+      "euprotomicroides-zantedeschia-1"
+    ]
   },
   {
     "id": "deania-hystricosa",
@@ -6063,7 +6664,10 @@
       "longitudMetros": 0.84,
       "formaCuerpo": "Forma alargada"
     },
-    "habitat": "Junto al fondo, en aguas profundas"
+    "habitat": "Junto al fondo, en aguas profundas",
+    "imagenes": [
+      "deania-hystricosa-1"
+    ]
   },
   {
     "id": "triakis-scyllium",
@@ -6087,7 +6691,10 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo, en aguas profundas",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "deania-quadrispinosa-1"
+    ]
   },
   {
     "id": "trigonognathus-kabeyai",
@@ -6125,7 +6732,10 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "En aguas abiertas lejos de la costa",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "alopias-vulpinus-1"
+    ]
   },
   {
     "id": "alopias-superciliosus",
@@ -6138,7 +6748,10 @@
       "formaCuerpo": "Forma de torpedo"
     },
     "habitat": "En aguas abiertas lejos de la costa",
-    "alimentacion": "Peces"
+    "alimentacion": "Peces",
+    "imagenes": [
+      "alopias-superciliosus-1"
+    ]
   },
   {
     "id": "alopias-pelagicus",
