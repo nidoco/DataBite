@@ -5,12 +5,17 @@ import loadSharks from '../data/loadSharks';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../types/navigation';
 import { useLayoutEffect } from 'react';
+import { useProgreso } from '../data/progresoContext';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Catalogo'>;
 
 export function CatalogoScreen({ navigation }: Props) {
+    const { desbloqueadas, cargando } = useProgreso();
 
-    const sharks = loadSharks();
+    // Las extintas solo aparecen cuando ya se desbloquearon. Mientras carga el progreso, se ocultan.
+    const sharks = loadSharks().filter(
+        (shark) => !shark.extinta || (!cargando && desbloqueadas.includes(shark.id))
+    );
 
     useLayoutEffect(() => {
         navigation.setOptions({
