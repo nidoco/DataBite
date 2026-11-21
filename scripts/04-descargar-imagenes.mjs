@@ -53,8 +53,8 @@ for (let i = 0; i < elegidas.length; i += 20) {
   const url = `https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&iiprop=url&iiurlwidth=${ANCHO}&format=json&maxlag=5&titles=${encodeURIComponent(titulos)}`;
   let json = null;
   for (let intento = 0; intento < 5 && !json; intento++) {
-    const r = await fetch(url, { headers: { 'User-Agent': UA } });
     try {
+      const r = await fetch(url, { headers: { 'User-Agent': UA } });
       json = JSON.parse(await r.text());
     } catch {
       await sleep(5000 * (intento + 1)); // Commons pide bajar el ritmo: esperar más cada vez
@@ -82,25 +82,32 @@ let sinUrl = 0;
 for (const e of elegidas) {
   const thumb = urlsReducidas.get(e.archivo);
   if (!thumb) { sinUrl++; continue; }
-  indice[e.id] = indice[e.id] ?? [];
-  const n = indice[e.id].length + 1;
+  const n = (indice[e.id]?.length ?? 0) + 1;
   const ext = (path.extname(new URL(thumb).pathname) || '.jpg').toLowerCase();
   const nombre = `${e.id}-${n}`;
   const destino = path.join(carpeta, `${nombre}${ext}`);
   if (!fs.existsSync(destino)) {
-    let r = null;
     // Commons responde 429 si se pide muy seguido: se espera más en cada intento.
-    for (let intento = 0; intento < 5; intento++) {
-      r = await fetch(thumb, { headers: { 'User-Agent': UA } });
-      if (r.status !== 429) break;
-      await sleep(8000 * (intento + 1));
+    // Un corte de red no detiene el script: esa foto se salta y sigue con la siguiente.
+    let bajada = false;
+    for (let intento = 0; intento < 3; intento++) {
+      try {
+        const r = await fetch(thumb, { headers: { 'User-Agent': UA } });
+        if (r.status === 429) { await sleep(8000 * (intento + 1)); continue; }
+        if (!r.ok) break;
+        fs.writeFileSync(destino, Buffer.from(await r.arrayBuffer()));
+        bajada = true;
+        break;
+      } catch (err) {
+        console.error(`Error de red con ${e.archivo}: ${err.cause?.code ?? err.message}`);
+        await sleep(3000 * (intento + 1));
+      }
     }
-    if (!r.ok) { console.error(`No se pudo bajar ${e.archivo} (${r.status})`); continue; }
-    fs.writeFileSync(destino, Buffer.from(await r.arrayBuffer()));
+    if (!bajada) { console.error(`No se pudo bajar ${e.archivo}`); continue; }
     descargadas++;
     await sleep(1200);
   }
-  indice[e.id].push(nombre);
+  (indice[e.id] ??= []).push(nombre);
   creditos.push({ identificador: nombre, archivo: `${nombre}${ext}`, autor: e.autor, licencia: e.licencia, fuente: e.url });
 }
 
