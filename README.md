@@ -160,3 +160,41 @@ Configuración inicial del proyecto en Expo con plantilla TypeScript
 #### Ampliar el banco de preguntas
 - Pedí más preguntas y el banco pasó de 30 a 100: 47 mitos y 53 realidades.
 - Revisé que ninguna se repitiera ni tuviera el mismo nombre que otra.
+
+### Semana 11
+
+#### Commit: guardar las listas en el teléfono
+- Instalé AsyncStorage, que es la memoria que guarda datos en el teléfono aunque cierre la app.
+- Hice dos funciones: una lee una lista guardada y otra la guarda. Si el dato está dañado o no existe, la app empieza con una lista vacía en vez de romperse.
+- Ayuda de IA: me ayudó a revisar que la lectura validara el dato antes de usarlo. Las funciones las escribí yo.
+
+#### Commit: contexto de progreso
+- Creé un contexto que guarda las especies desbloqueadas y las favoritas. Cualquier pantalla puede leerlo sin pasar los datos de una en una.
+- Al abrir la app, primero carga las listas guardadas y mientras tanto no cambia nada.
+- Ayuda de IA: me señaló que estaba guardando dentro de la función que actualiza la lista, y que eso podía escribir dos veces. Lo cambié para que se guarde cuando la lista cambia y ya cargó.
+
+#### Commit: botón de favorita en la ficha
+- En la ficha de cada tiburón hay un botón "Agregar a favoritas". Al tocarlo cambia a "Favorita".
+- Lo probé en mi teléfono: la favorita se queda marcada aunque cierre la app, y al tocarla otra vez se quita.
+
+#### Commit: spec de persistencia (F08)
+- Escribí la spec para guardar datos en el teléfono antes de programarla, igual que las demás funciones.
+
+#### Commit: quitar preguntas repetidas
+- Un lote nuevo de preguntas traía 11 repetidas. Las quité y el banco quedó en 119 preguntas.
+
+#### Commits: fotos de las especies
+- Las fotos vienen de Wikimedia Commons. Solo uso fotos con licencia abierta (dominio público, CC0 o CC BY) y guardo el nombre del autor y la licencia de cada una.
+- Commons me bloqueó varias veces con el error 429 porque pedía demasiadas fotos seguidas. Por eso bajé las fotos en varias tandas.
+- Una vez se cortó la conexión y el programa se detuvo. Lo cambié para que, si falla una foto, siga con la siguiente.
+- Encontré que el índice de fotos tenía 112 especies con lista vacía, así que el conteo estaba mal. Lo corregí: ahora son 212 especies con fotos y 258 fotos con crédito.
+- Ayuda de IA: me ayudó a encontrar el error del índice y a revisar qué datos cambiaban antes de guardarlos. Revisé los cambios antes de hacer commit.
+
+#### Spec del acertijo (F06)
+- Escribí la spec del acertijo que desbloquea una especie extinta. Todavía no lo programo.
+
+#### Pendiente
+- Probar la galería de fotos en el teléfono.
+- Quitar una foto duplicada que no tenía crédito.
+- Corregir cómo se numeran las fotos en el programa de descarga, para que no repita un número.
+- Programar el acertijo (F06).
