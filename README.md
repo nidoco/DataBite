@@ -198,3 +198,38 @@ Configuración inicial del proyecto en Expo con plantilla TypeScript
 - Quitar una foto duplicada que no tenía crédito.
 - Corregir cómo se numeran las fotos en el programa de descarga, para que no repita un número.
 - Programar el acertijo (F06).
+
+### Semana 12
+
+#### Commit: siete especies extintas
+- Agregué siete especies extintas al catálogo: megalodón, Otodus obliquus, Cretoxyrhina, Ptychodus, Xenacanthus, Hybodus y Cladoselache.
+- Busqué los datos en museos, revistas científicas y el Museo de Historia Natural de Londres. Donde no encontré un dato confiable, dejé "No disponible" en vez de inventarlo.
+- Ayuda de IA: me ayudó a buscar fuentes y a descartar datos que no estaban respaldados. Yo elegí las especies y revisé las fichas.
+
+#### Commit: campo de especie extinta
+- Agregué un campo que marca si una especie está extinta. Las especies vivas no lo tienen y siguen funcionando igual.
+- Cambié el programa del catálogo para que también lea las especies escritas a mano, incluidas las extintas.
+
+#### Commits: acertijos
+- Escribí siete acertijos, uno por cada especie extinta. Cada uno tiene una o varias respuestas aceptadas.
+- Hice un cargador que revisa que cada acertijo tenga datos completos y que apunte a una especie extinta real.
+- Ayuda de IA: me ayudó a revisar los acertijos. Quité frases que no estaban respaldadas por las fuentes, como un dato sobre escamas y otro sobre extinciones masivas.
+
+#### Commit: tarjeta del acertijo
+- Hice una tarjeta con el enunciado, un campo para escribir la respuesta y un botón para enviarla.
+- Las respuestas se comparan sin importar acentos ni mayúsculas, para no rechazar una respuesta correcta por un detalle de escritura.
+- Tienes 3 intentos. Después de cada fallo, la tarjeta dice "No es esa".
+- Ayuda de IA: me ayudó a revisar que la comparación funcionara bien y a ajustar los colores para que se vieran sobre el fondo de la app.
+
+#### Commit: acertijos durante el quiz
+- Al pasar a la siguiente pregunta, hay una probabilidad de que salga un acertijo. Solo sale de especies que todavía no están desbloqueadas.
+- Si acierto, la especie se desbloquea y aparece en el catálogo. Si fallo tres veces, la app muestra "Se acabaron los intentos" y dice cuál era la especie.
+- Lo probé en mi teléfono: al acertar, la especie apareció en el catálogo, y después de cerrar y abrir la app seguía ahí.
+- Tuve que cambiar la forma en que se mostraba el acertijo. Al principio pasaba muy rápido a la siguiente pregunta y el teclado tapaba el botón de responder.
+
+#### Commit: catálogo sin especies bloqueadas
+- Las especies extintas solo se ven en el catálogo cuando las desbloqueé. Mientras la app carga el progreso, tampoco se muestran.
+
+#### Pendiente
+- Conseguir fotos de Cretoxyrhina, Hybodus y Cladoselache. Wikimedia Commons me bloqueó las descargas.
+- Mejorar el diseño de la pantalla del acertijo.

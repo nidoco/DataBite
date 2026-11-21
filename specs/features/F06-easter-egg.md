@@ -98,34 +98,34 @@ pierde nada ni queda bloqueada: el reto puede volver a aparecer.
 
 ## Criterios de aceptación
 
-- [ ] Existe la interface `Acertijo` con `sharkId` y `respuestasAceptadas`.
-- [ ] Existe `data/acertijos.json` validado en la frontera (type guard propio).
-- [ ] La interface `Shark` tiene un campo que marca a las especies extintas/bloqueadas.
-- [ ] El acertijo aparece con probabilidad baja durante el quiz, solo si su especie
+- [X] Existe la interface `Acertijo` con `sharkId` y `respuestasAceptadas`.
+- [X] Existe `data/acertijos.json` validado en la frontera (type guard propio).
+- [X] La interface `Shark` tiene un campo que marca a las especies extintas/bloqueadas.
+- [X] El acertijo aparece con probabilidad baja durante el quiz, solo si su especie
       sigue bloqueada.
-- [ ] La respuesta se compara de forma normalizada (mayúsculas, acentos, espacios).
-- [ ] Al acertar, la especie asociada se desbloquea y se guarda de forma persistente.
-- [ ] La especie desbloqueada aparece en el catálogo tras desbloquearse, incluso
+- [X] La respuesta se compara de forma normalizada (mayúsculas, acentos, espacios).
+- [X] Al acertar, la especie asociada se desbloquea y se guarda de forma persistente.
+- [X] La especie desbloqueada aparece en el catálogo tras desbloquearse, incluso
       al reabrir la app.
-- [ ] El máximo de intentos es 3; al agotarlos se cierra con mensaje amable.
-- [ ] Tras fallar, no hay bloqueo permanente: el acertijo puede reaparecer.
-- [ ] La lectura del almacenamiento se valida en la frontera.
-- [ ] Todo el texto se renderiza dentro de componentes `Text`.
+- [X] El máximo de intentos es 3; al agotarlos se cierra con mensaje amable.
+- [X] Tras fallar, no hay bloqueo permanente: el acertijo puede reaparecer.
+- [X] La lectura del almacenamiento se valida en la frontera.
+- [X] Todo el texto se renderiza dentro de componentes `Text`.
 
 ## Tasks
 
-- [ ] Agregar a la interface `Shark` el campo de especie extinta/bloqueada.
-- [ ] Marcar en `data/sharks.json` las especies extintas correspondientes.
-- [ ] Crear la interface `Acertijo` en `types/` (con `sharkId` y `respuestasAceptadas`).
-- [ ] Crear `data/acertijos.json` con los acertijos y su especie asociada.
-- [ ] Crear el cargador validado `loadAcertijos` con su type guard.
-- [ ] Crear el módulo de persistencia de especies desbloqueadas (guardar/leer con
+- [X] Agregar a la interface `Shark` el campo de especie extinta/bloqueada.
+- [X] Marcar en `data/sharks.json` las especies extintas correspondientes.
+- [X] Crear la interface `Acertijo` en `types/` (con `sharkId` y `respuestasAceptadas`).
+- [X] Crear `data/acertijos.json` con los acertijos y su especie asociada.
+- [X] Crear el cargador validado `loadAcertijos` con su type guard.
+- [X] Crear el módulo de persistencia de especies desbloqueadas (guardar/leer con
       validación en la frontera).
-- [ ] Implementar la probabilidad de aparición del acertijo durante el quiz.
-- [ ] Crear la pantalla/evento del acertijo con `TextInput`, validación y contador
+- [X] Implementar la probabilidad de aparición del acertijo durante el quiz.
+- [X] Crear la pantalla/evento del acertijo con `TextInput`, validación y contador
       de intentos (máximo 3).
-- [ ] Implementar la normalización y comparación de la respuesta.
-- [ ] Al acertar, desbloquear y persistir la especie; mostrar éxito y volver al quiz.
-- [ ] Al agotar intentos, cerrar con mensaje amable y volver al quiz.
-- [ ] Hacer que el catálogo muestre las especies extintas solo si están desbloqueadas.
-- [ ] Verificar los criterios de aceptación de F06.
+- [X] Implementar la normalización y comparación de la respuesta.
+- [X] Al acertar, desbloquear y persistir la especie; mostrar éxito y volver al quiz.
+- [X] Al agotar intentos, cerrar con mensaje amable y volver al quiz.
+- [X] Hacer que el catálogo muestre las especies extintas solo si están desbloqueadas.
+- [X] Verificar los criterios de aceptación de F06.
