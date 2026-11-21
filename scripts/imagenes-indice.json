@@ -2,7 +2,6 @@
   "brachaelurus-waddi": [
     "brachaelurus-waddi-1"
   ],
-  "carcharhinus-galapagensis": [],
   "carcharhinus-limbatus": [
     "carcharhinus-limbatus-1"
   ],
@@ -12,7 +11,8 @@
   "carcharhinus-amblyrhynchos": [
     "carcharhinus-amblyrhynchos-1",
     "carcharhinus-amblyrhynchos-2",
-    "carcharhinus-amblyrhynchos-3"
+    "carcharhinus-amblyrhynchos-3",
+    "carcharhinus-amblyrhynchos-4"
   ],
   "carcharhinus-fitzroyensis": [
     "carcharhinus-fitzroyensis-1"
@@ -27,19 +27,16 @@
   "carcharhinus-longimanus": [
     "carcharhinus-longimanus-1"
   ],
-  "carcharhinus-amboinensis": [],
   "alopias-superciliosus": [
     "alopias-superciliosus-1"
   ],
-  "asymbolus-vincenti": [],
   "apristurus-macrorhynchus": [
     "apristurus-macrorhynchus-1"
   ],
-  "apristurus-melanoasper": [],
   "alopias-vulpinus": [
-    "alopias-vulpinus-1"
+    "alopias-vulpinus-1",
+    "alopias-vulpinus-2"
   ],
-  "carcharhinus-dussumieri": [],
   "bythaelurus-giddingsi": [
     "bythaelurus-giddingsi-1"
   ],
@@ -50,82 +47,62 @@
     "carcharhinus-brachyurus-1",
     "carcharhinus-brachyurus-2"
   ],
-  "carcharhinus-isodon": [],
-  "carcharhinus-coatesi": [],
   "carcharhinus-altimus": [
     "carcharhinus-altimus-1"
   ],
   "carcharhinus-albimarginatus": [
     "carcharhinus-albimarginatus-1"
   ],
-  "alopias-pelagicus": [],
+  "alopias-pelagicus": [
+    "alopias-pelagicus-1"
+  ],
   "carcharhinus-acronotus": [
-    "carcharhinus-acronotus-1"
+    "carcharhinus-acronotus-1",
+    "carcharhinus-acronotus-2"
   ],
   "carcharhinus-brevipinna": [
     "carcharhinus-brevipinna-1",
     "carcharhinus-brevipinna-2"
   ],
-  "carcharhinus-hemiodon": [],
-  "carcharhinus-leiodon": [],
+  "carcharhinus-hemiodon": [
+    "carcharhinus-hemiodon-1"
+  ],
   "atelomycterus-marmoratus": [
     "atelomycterus-marmoratus-1"
   ],
-  "apristurus-bucephalus": [],
   "apristurus-longicephalus": [
     "apristurus-longicephalus-1"
   ],
-  "apristurus-aphyodes": [],
-  "apristurus-ampliceps": [],
-  "apristurus-exsanguis": [],
-  "atelomycterus-fasciatus": [],
   "asymbolus-occiduus": [
     "asymbolus-occiduus-1"
   ],
-  "asymbolus-funebris": [],
   "atelomycterus-baliensis": [
     "atelomycterus-baliensis-1"
   ],
-  "apristurus-pinguis": [],
-  "asymbolus-parvus": [],
   "bythaelurus-clevai": [
     "bythaelurus-clevai-1"
   ],
-  "apristurus-brunneus": [],
   "carcharhinus-cautus": [
     "carcharhinus-cautus-1"
   ],
-  "apristurus-platyrhynchus": [],
-  "apristurus-spongiceps": [],
   "apristurus-laurussonii": [
     "apristurus-laurussonii-1"
   ],
-  "bythaelurus-hispidus": [],
-  "apristurus-sinensis": [],
-  "apristurus-australis": [],
   "apristurus-profundorum": [
     "apristurus-profundorum-1"
   ],
-  "apristurus-manis": [],
-  "aculeola-nigra": [],
   "bythaelurus-dawsoni": [
     "bythaelurus-dawsoni-1"
   ],
-  "aulohalaelurus-labiosus": [],
-  "atelomycterus-macleayi": [],
   "bythaelurus-canescens": [
     "bythaelurus-canescens-1"
   ],
-  "asymbolus-analis": [],
-  "apristurus-parvipinnis": [],
-  "asymbolus-pallidus": [],
   "atelomycterus-marnkalha": [
     "atelomycterus-marnkalha-1"
   ],
   "brachaelurus-colcloughi": [
     "brachaelurus-colcloughi-1"
   ],
-  "carcharhinus-cerdale": [],
   "atelomycterus-erdmanni": [
     "atelomycterus-erdmanni-1"
   ],
@@ -135,25 +112,20 @@
   "chiloscyllium-hasseltii": [
     "chiloscyllium-hasseltii-1"
   ],
-  "chiloscyllium-plagiosum": [],
   "chiloscyllium-griseum": [
     "chiloscyllium-griseum-1"
   ],
-  "chiloscyllium-arabicum": [],
   "chiloscyllium-punctatum": [
     "chiloscyllium-punctatum-1"
   ],
   "chiloscyllium-indicum": [
     "chiloscyllium-indicum-1"
   ],
-  "cirrhoscyllium-japonicum": [],
-  "chaenogaleus-macrostoma": [],
   "tiburon-blanco": [
     "tiburon-blanco-1",
     "tiburon-blanco-2",
     "tiburon-blanco-3"
   ],
-  "echinorhinus-cookei": [],
   "etmopterus-evansi": [
     "etmopterus-evansi-1"
   ],
@@ -168,14 +140,13 @@
   "carcharhinus-sorrah": [
     "carcharhinus-sorrah-1"
   ],
-  "etmopterus-carteri": [],
   "carcharhinus-plumbeus": [
-    "carcharhinus-plumbeus-1"
+    "carcharhinus-plumbeus-1",
+    "carcharhinus-plumbeus-2"
   ],
-  "cirrhigaleus-asper": [],
-  "eridacnis-radcliffei": [],
-  "centrophorus-tessellatus": [],
-  "carcharhinus-signatus": [],
+  "cirrhigaleus-asper": [
+    "cirrhigaleus-asper-1"
+  ],
   "centroselachus-crepidater": [
     "centroselachus-crepidater-1"
   ],
@@ -187,7 +158,8 @@
     "carcharias-taurus-2"
   ],
   "carcharhinus-melanopterus": [
-    "carcharhinus-melanopterus-1"
+    "carcharhinus-melanopterus-1",
+    "carcharhinus-melanopterus-2"
   ],
   "carcharhinus-porosus": [
     "carcharhinus-porosus-1"
@@ -195,7 +167,6 @@
   "eridacnis-sinuans": [
     "eridacnis-sinuans-1"
   ],
-  "carcharhinus-tilstoni": [],
   "carcharhinus-obscurus": [
     "carcharhinus-obscurus-1"
   ],
@@ -211,7 +182,6 @@
   "centrophorus-harrissoni": [
     "centrophorus-harrissoni-1"
   ],
-  "deania-profundorum": [],
   "deania-hystricosa": [
     "deania-hystricosa-1"
   ],
@@ -221,25 +191,23 @@
   "centroscymnus-owstonii": [
     "centroscymnus-owstonii-1"
   ],
-  "cephaloscyllium-variegatum": [],
   "echinorhinus-brucus": [
     "echinorhinus-brucus-1",
     "echinorhinus-brucus-2"
   ],
-  "dalatias-licha": [],
-  "cirrhigaleus-barbifer": [],
+  "dalatias-licha": [
+    "dalatias-licha-1"
+  ],
   "carcharhinus-macloti": [
     "carcharhinus-macloti-1"
   ],
   "cephalurus-cephalus": [
     "cephalurus-cephalus-1"
   ],
-  "carcharhinus-sealei": [],
   "cephaloscyllium-umbratile": [
-    "cephaloscyllium-umbratile-1"
+    "cephaloscyllium-umbratile-1",
+    "cephaloscyllium-umbratile-2"
   ],
-  "cephaloscyllium-hiscosellum": [],
-  "cephaloscyllium-cooki": [],
   "cephaloscyllium-albipinnum": [
     "cephaloscyllium-albipinnum-1"
   ],
@@ -250,45 +218,41 @@
     "centrophorus-squamosus-1",
     "centrophorus-squamosus-2"
   ],
-  "etmopterus-bullisi": [],
+  "etmopterus-bullisi": [
+    "etmopterus-bullisi-1"
+  ],
   "centroscymnus-coelolepis": [
     "centroscymnus-coelolepis-1"
   ],
-  "centroscyllium-fabricii": [],
-  "centroscyllium-ornatum": [],
-  "centroscyllium-granulatum": [],
   "etmopterus-decacuspidatus": [
     "etmopterus-decacuspidatus-1"
   ],
-  "centroscyllium-ritteri": [],
-  "centroscyllium-kamoharai": [],
+  "centroscyllium-kamoharai": [
+    "centroscyllium-kamoharai-1"
+  ],
   "etmopterus-brachyurus": [
     "etmopterus-brachyurus-1"
   ],
-  "cephaloscyllium-silasi": [],
   "cephaloscyllium-ventriosum": [
-    "cephaloscyllium-ventriosum-1"
+    "cephaloscyllium-ventriosum-1",
+    "cephaloscyllium-ventriosum-2"
   ],
-  "etmopterus-gracilispinis": [],
   "cephaloscyllium-laticeps": [
     "cephaloscyllium-laticeps-1",
     "cephaloscyllium-laticeps-2"
   ],
-  "etmopterus-bigelowi": [],
   "centrophorus-moluccensis": [
     "centrophorus-moluccensis-1"
   ],
   "etmopterus-caudistigmus": [
     "etmopterus-caudistigmus-1"
   ],
-  "etmopterus-benchleyi": [],
   "centrophorus-uyato": [
     "centrophorus-uyato-1"
   ],
   "deania-calceus": [
     "deania-calceus-1"
   ],
-  "hemiscyllium-trispeculare": [],
   "hemiscyllium-strahani": [
     "hemiscyllium-strahani-1"
   ],
@@ -304,23 +268,17 @@
   "hemiscyllium-hallstromi": [
     "hemiscyllium-hallstromi-1"
   ],
-  "hemigaleus-australiensis": [],
-  "hemigaleus-microstoma": [],
-  "hemipristis-elongata": [],
   "galeus-melastomus": [
     "galeus-melastomus-1"
   ],
-  "heterodontus-zebra": [],
   "tiburon-tigre": [
     "tiburon-tigre-1",
-    "tiburon-tigre-2"
+    "tiburon-tigre-2",
+    "tiburon-tigre-3"
   ],
   "etmopterus-perryi": [
     "etmopterus-perryi-1"
   ],
-  "glyphis-garricki": [],
-  "galeus-murinus": [],
-  "halaelurus-quagga": [],
   "galeorhinus-galeus": [
     "galeorhinus-galeus-1",
     "galeorhinus-galeus-2"
@@ -341,59 +299,57 @@
   "ginglymostoma-cirratum": [
     "ginglymostoma-cirratum-1",
     "ginglymostoma-cirratum-2",
-    "ginglymostoma-cirratum-3"
+    "ginglymostoma-cirratum-3",
+    "ginglymostoma-cirratum-4"
   ],
-  "heterodontus-japonicus": [],
+  "heterodontus-japonicus": [
+    "heterodontus-japonicus-1"
+  ],
   "eusphyra-blochii": [
     "eusphyra-blochii-1"
   ],
-  "haploblepharus-fuscus": [],
+  "haploblepharus-fuscus": [
+    "haploblepharus-fuscus-1"
+  ],
   "heterodontus-francisci": [
     "heterodontus-francisci-1",
     "heterodontus-francisci-2"
   ],
   "glyphis-glyphis": [
-    "glyphis-glyphis-1"
+    "glyphis-glyphis-1",
+    "glyphis-glyphis-2"
   ],
-  "hemitriakis-falcata": [],
-  "hemitriakis-abdita": [],
+  "hemitriakis-abdita": [
+    "hemitriakis-abdita-1"
+  ],
   "hemitriakis-complicofasciata": [
     "hemitriakis-complicofasciata-1"
   ],
-  "figaro-boardmani": [],
-  "halaelurus-sellus": [],
   "halaelurus-maculosus": [
     "halaelurus-maculosus-1"
   ],
-  "galeus-cadenati": [],
-  "galeus-antillensis": [],
   "heterodontus-ramalheira": [
     "heterodontus-ramalheira-1"
   ],
   "furgaleus-macki": [
     "furgaleus-macki-1"
   ],
-  "galeus-eastmani": [],
   "galeus-nipponensis": [
     "galeus-nipponensis-1"
   ],
-  "etmopterus-hillianus": [],
   "etmopterus-virens": [
-    "etmopterus-virens-1"
+    "etmopterus-virens-1",
+    "etmopterus-virens-2"
   ],
-  "halaelurus-natalensis": [],
-  "galeus-arae": [],
-  "halaelurus-buergeri": [],
   "etmopterus-lucifer": [
     "etmopterus-lucifer-1"
   ],
   "etmopterus-granulosus": [
     "etmopterus-granulosus-1"
   ],
-  "etmopterus-polli": [],
-  "etmopterus-robinsi": [],
   "etmopterus-schultzi": [
-    "etmopterus-schultzi-1"
+    "etmopterus-schultzi-1",
+    "etmopterus-schultzi-2"
   ],
   "etmopterus-villosus": [
     "etmopterus-villosus-1"
@@ -402,8 +358,9 @@
     "galeus-atlanticus-1",
     "galeus-atlanticus-2"
   ],
-  "ginglymostoma-unami": [],
-  "orectolobus-floridus": [],
+  "orectolobus-floridus": [
+    "orectolobus-floridus-1"
+  ],
   "orectolobus-hutchinsi": [
     "orectolobus-hutchinsi-1"
   ],
@@ -422,7 +379,9 @@
   "orectolobus-japonicus": [
     "orectolobus-japonicus-1"
   ],
-  "orectolobus-parvimaculatus": [],
+  "orectolobus-parvimaculatus": [
+    "orectolobus-parvimaculatus-1"
+  ],
   "parascyllium-variolatum": [
     "parascyllium-variolatum-1"
   ],
@@ -432,7 +391,6 @@
   "parascyllium-ferrugineum": [
     "parascyllium-ferrugineum-1"
   ],
-  "paragaleus-pectoralis": [],
   "leptocharias-smithii": [
     "leptocharias-smithii-1"
   ],
@@ -440,7 +398,8 @@
     "lamna-ditropis-1"
   ],
   "megachasma-pelagios": [
-    "megachasma-pelagios-1"
+    "megachasma-pelagios-1",
+    "megachasma-pelagios-2"
   ],
   "lamna-nasus": [
     "lamna-nasus-1"
@@ -449,7 +408,8 @@
     "oxynotus-caribbaeus-1"
   ],
   "isurus-oxyrinchus": [
-    "isurus-oxyrinchus-1"
+    "isurus-oxyrinchus-1",
+    "isurus-oxyrinchus-2"
   ],
   "isistius-brasiliensis": [
     "isistius-brasiliensis-1",
@@ -458,7 +418,6 @@
   "negaprion-brevirostris": [
     "negaprion-brevirostris-1"
   ],
-  "isurus-paucus": [],
   "lamiopsis-temminckii": [
     "lamiopsis-temminckii-1"
   ],
@@ -469,7 +428,8 @@
     "mustelus-mustelus-1"
   ],
   "hexanchus-griseus": [
-    "hexanchus-griseus-1"
+    "hexanchus-griseus-1",
+    "hexanchus-griseus-2"
   ],
   "notorynchus-cepedianus": [
     "notorynchus-cepedianus-1"
@@ -486,8 +446,6 @@
   "negaprion-acutidens": [
     "negaprion-acutidens-1"
   ],
-  "iago-garricki": [],
-  "oxynotus-bruniensis": [],
   "nebrius-ferrugineus": [
     "nebrius-ferrugineus-1"
   ],
@@ -502,10 +460,9 @@
     "oxynotus-centrina-1"
   ],
   "odontaspis-ferox": [
-    "odontaspis-ferox-1"
+    "odontaspis-ferox-1",
+    "odontaspis-ferox-2"
   ],
-  "oxynotus-paradoxus": [],
-  "odontaspis-noronhai": [],
   "hexanchus-nakamurai": [
     "hexanchus-nakamurai-1"
   ],
@@ -515,20 +472,15 @@
   "mustelus-manazo": [
     "mustelus-manazo-1"
   ],
-  "hypogaleus-hyugaensis": [],
-  "mustelus-lunulatus": [],
   "mustelus-widodoi": [
     "mustelus-widodoi-1"
   ],
   "mustelus-schmitti": [
     "mustelus-schmitti-1"
   ],
-  "mustelus-whitneyi": [],
-  "mustelus-mosis": [],
-  "mustelus-higmani": [],
-  "mustelus-dorsalis": [],
-  "mustelus-lenticulatus": [],
-  "mustelus-mento": [],
+  "mustelus-lenticulatus": [
+    "mustelus-lenticulatus-1"
+  ],
   "pentanchus-profundicolus": [
     "pentanchus-profundicolus-1"
   ],
@@ -547,15 +499,12 @@
   "mustelus-antarcticus": [
     "mustelus-antarcticus-1"
   ],
-  "mustelus-griseus": [],
   "mustelus-norrisi": [
     "mustelus-norrisi-1"
   ],
   "mustelus-henlei": [
     "mustelus-henlei-1"
   ],
-  "mustelus-sinusmexicanus": [],
-  "parmaturus-xaniurus": [],
   "parmaturus-pilosus": [
     "parmaturus-pilosus-1"
   ],
@@ -599,23 +548,25 @@
     "squalus-acanthias-1",
     "squalus-acanthias-2"
   ],
-  "sphyrna-corona": [],
   "sphyrna-tiburo": [
     "sphyrna-tiburo-1"
   ],
   "somniosus-microcephalus": [
     "somniosus-microcephalus-1"
   ],
-  "somniosus-pacificus": [],
   "scyliorhinus-retifer": [
     "scyliorhinus-retifer-1"
   ],
-  "sphyrna-zygaena": [],
-  "rhizoprionodon-terraenovae": [],
-  "tiburon-martillo": [
-    "tiburon-martillo-1"
+  "sphyrna-zygaena": [
+    "sphyrna-zygaena-1"
   ],
-  "rhizoprionodon-taylori": [],
+  "tiburon-martillo": [
+    "tiburon-martillo-1",
+    "tiburon-martillo-2"
+  ],
+  "rhizoprionodon-taylori": [
+    "rhizoprionodon-taylori-1"
+  ],
   "proscyllium-habereri": [
     "proscyllium-habereri-1"
   ],
@@ -625,18 +576,15 @@
   "sphyrna-lewini": [
     "sphyrna-lewini-1"
   ],
-  "rhizoprionodon-lalandii": [],
   "scyliorhinus-meadi": [
     "scyliorhinus-meadi-1"
   ],
   "scoliodon-laticaudus": [
     "scoliodon-laticaudus-1"
   ],
-  "scyliorhinus-besnardi": [],
   "squaliolus-laticaudus": [
     "squaliolus-laticaudus-1"
   ],
-  "pseudotriakis-microdon": [],
   "squalus-japonicus": [
     "squalus-japonicus-1"
   ],
@@ -646,11 +594,9 @@
   "squalus-cubensis": [
     "squalus-cubensis-1"
   ],
-  "sphyrna-media": [],
-  "sphyrna-tudes": [],
-  "scoliodon-macrorhynchos": [],
-  "pseudocarcharias-kamoharai": [],
-  "rhizoprionodon-oligolinx": [],
+  "sphyrna-tudes": [
+    "sphyrna-tudes-1"
+  ],
   "rhizoprionodon-acutus": [
     "rhizoprionodon-acutus-1",
     "rhizoprionodon-acutus-2"
@@ -658,23 +604,19 @@
   "squalus-blainville": [
     "squalus-blainville-1"
   ],
-  "rhizoprionodon-porosus": [],
   "pristiophorus-cirratus": [
-    "pristiophorus-cirratus-1"
+    "pristiophorus-cirratus-1",
+    "pristiophorus-cirratus-2"
   ],
-  "rhizoprionodon-longurio": [],
   "scymnodalatias-sherwoodi": [
     "scymnodalatias-sherwoodi-1"
   ],
   "squalus-mitsukurii": [
     "squalus-mitsukurii-1"
   ],
-  "scylliogaleus-quecketti": [],
-  "somniosus-rostratus": [],
   "scyliorhinus-torazame": [
     "scyliorhinus-torazame-1"
   ],
-  "pristiophorus-delicatus": [],
   "scymnodon-ringens": [
     "scymnodon-ringens-1"
   ],
@@ -690,12 +632,12 @@
   "scyliorhinus-capensis": [
     "scyliorhinus-capensis-1"
   ],
-  "scyliorhinus-haeckelii": [],
   "schroederichthys-chilensis": [
     "schroederichthys-chilensis-1"
   ],
-  "schroederichthys-bivius": [],
-  "squalus-albifrons": [],
+  "squalus-albifrons": [
+    "squalus-albifrons-1"
+  ],
   "poroderma-pantherinum": [
     "poroderma-pantherinum-1",
     "poroderma-pantherinum-2"
@@ -703,7 +645,6 @@
   "squalus-crassispinus": [
     "squalus-crassispinus-1"
   ],
-  "squalus-altipinnis": [],
   "squalus-megalops": [
     "squalus-megalops-1"
   ],
@@ -719,9 +660,6 @@
   "squalus-brevirostris": [
     "squalus-brevirostris-1"
   ],
-  "squalus-griffini": [],
-  "squalus-chloroculus": [],
-  "squatina-armata": [],
   "squatina-tergocellata": [
     "squatina-tergocellata-1"
   ],
@@ -740,5 +678,7 @@
   "squatina-nebulosa": [
     "squatina-nebulosa-1"
   ],
-  "squatina-californica": []
+  "squatina-californica": [
+    "squatina-californica-1"
+  ]
 }

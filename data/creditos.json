@@ -23,20 +23,27 @@
   {
     "identificador": "carcharhinus-amblyrhynchos-1",
     "archivo": "carcharhinus-amblyrhynchos-1.jpg",
+    "autor": "Richard Ling",
+    "licencia": "CC BY-SA 2.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Carcharhinus_amblyrhynchos_1.jpg"
+  },
+  {
+    "identificador": "carcharhinus-amblyrhynchos-2",
+    "archivo": "carcharhinus-amblyrhynchos-2.jpg",
     "autor": "Marc Tarlock from San Francisco",
     "licencia": "CC BY-SA 2.0",
     "fuente": "https://commons.wikimedia.org/wiki/File:Carcharhinus_amblyrhynchos_papua_new_guinea.jpg"
   },
   {
-    "identificador": "carcharhinus-amblyrhynchos-2",
-    "archivo": "carcharhinus-amblyrhynchos-2.jpg",
+    "identificador": "carcharhinus-amblyrhynchos-3",
+    "archivo": "carcharhinus-amblyrhynchos-3.jpg",
     "autor": "CRED/PIFSC, NOAA",
     "licencia": "Public domain",
     "fuente": "https://commons.wikimedia.org/wiki/File:Carcharhinus_amblyrhynchos_wake.jpg"
   },
   {
-    "identificador": "carcharhinus-amblyrhynchos-3",
-    "archivo": "carcharhinus-amblyrhynchos-3.jpg",
+    "identificador": "carcharhinus-amblyrhynchos-4",
+    "archivo": "carcharhinus-amblyrhynchos-4.jpg",
     "autor": "Albert kok",
     "licencia": "CC BY-SA 3.0",
     "fuente": "https://commons.wikimedia.org/wiki/File:Grey5b.jpg"
@@ -98,6 +105,13 @@
     "fuente": "https://commons.wikimedia.org/wiki/File:Alopias_vulpinus_noaa2.jpg"
   },
   {
+    "identificador": "alopias-vulpinus-2",
+    "archivo": "alopias-vulpinus-2.jpg",
+    "autor": "NOAA Fisheries Apex Predators Investigation",
+    "licencia": "Public domain",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Thresher_shark.jpg"
+  },
+  {
     "identificador": "bythaelurus-giddingsi-1",
     "archivo": "bythaelurus-giddingsi-1.jpg",
     "autor": "Alison E. Schroeer",
@@ -140,11 +154,25 @@
     "fuente": "https://commons.wikimedia.org/wiki/File:Silvertip_shark.jpg"
   },
   {
+    "identificador": "alopias-pelagicus-1",
+    "archivo": "alopias-pelagicus-1.jpg",
+    "autor": "NOAA Observer Program",
+    "licencia": "Public domain",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Alopias_pelagicus.jpg"
+  },
+  {
     "identificador": "carcharhinus-acronotus-1",
     "archivo": "carcharhinus-acronotus-1.jpg",
     "autor": "SEFSC Pascagoula Laboratory; Collection of Brandi Noble, NOAA/NMFS/SEFSC",
     "licencia": "Public domain",
     "fuente": "https://commons.wikimedia.org/wiki/File:Blacknose_shark_nmfs.jpg"
+  },
+  {
+    "identificador": "carcharhinus-acronotus-2",
+    "archivo": "carcharhinus-acronotus-2.jpg",
+    "autor": "Tambja",
+    "licencia": "CC BY-SA 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Carcharhinus_acro.JPG"
   },
   {
     "identificador": "carcharhinus-brevipinna-1",
@@ -159,6 +187,13 @@
     "autor": "Jean-Lou Justine",
     "licencia": "CC BY-SA 3.0",
     "fuente": "https://commons.wikimedia.org/wiki/File:Carcharhinus_brevipinna_JNC3080_Body.JPG"
+  },
+  {
+    "identificador": "carcharhinus-hemiodon-1",
+    "archivo": "carcharhinus-hemiodon-1.png",
+    "autor": "J.A.F. Garrick",
+    "licencia": "Public domain",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Carcharhinus_hemiodon_nmfs.png"
   },
   {
     "identificador": "atelomycterus-marmoratus-1",
@@ -352,9 +387,23 @@
   {
     "identificador": "carcharhinus-plumbeus-1",
     "archivo": "carcharhinus-plumbeus-1.jpg",
+    "autor": "Tambja",
+    "licencia": "CC BY-SA 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Carcharhinus_plumb.JPG"
+  },
+  {
+    "identificador": "carcharhinus-plumbeus-2",
+    "archivo": "carcharhinus-plumbeus-2.jpg",
     "autor": "Brian Gratwicke",
     "licencia": "CC BY 2.0",
     "fuente": "https://commons.wikimedia.org/wiki/File:Carcharhinus_plumbeus_georgia.jpg"
+  },
+  {
+    "identificador": "cirrhigaleus-asper-1",
+    "archivo": "cirrhigaleus-asper-1.jpg",
+    "autor": "Tambja",
+    "licencia": "CC BY-SA 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Cirrhigaleus_asper.JPG"
   },
   {
     "identificador": "centroselachus-crepidater-1",
@@ -390,6 +439,13 @@
     "autor": "\nLuc Viatour",
     "licencia": "CC BY-SA 3.0",
     "fuente": "https://commons.wikimedia.org/wiki/File:Carcharhinus_melanopterus_Luc_Viatour.jpg"
+  },
+  {
+    "identificador": "carcharhinus-melanopterus-2",
+    "archivo": "carcharhinus-melanopterus-2.jpg",
+    "autor": "https://www.whatsthatfish.com/profile/fishx6",
+    "licencia": "Public domain",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Carcharhinus_melanopterus_mirihi.jpg"
   },
   {
     "identificador": "carcharhinus-porosus-1",
@@ -476,6 +532,13 @@
     "fuente": "https://commons.wikimedia.org/wiki/File:Echinorhinus_brucus1.jpg"
   },
   {
+    "identificador": "dalatias-licha-1",
+    "archivo": "dalatias-licha-1.jpg",
+    "autor": "CSIRO National Fish Collection",
+    "licencia": "CC BY 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Dalatias_licha_csiro-nfc.jpg"
+  },
+  {
     "identificador": "carcharhinus-macloti-1",
     "archivo": "carcharhinus-macloti-1.jpg",
     "autor": "CSIRO National Fish Collection",
@@ -492,6 +555,13 @@
   {
     "identificador": "cephaloscyllium-umbratile-1",
     "archivo": "cephaloscyllium-umbratile-1.jpg",
+    "autor": "Jordan, D. S.  and H. W. Fowler",
+    "licencia": "Public domain",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Cephaloscyllium_umbratile_by_jordan_and_fowler.jpg"
+  },
+  {
+    "identificador": "cephaloscyllium-umbratile-2",
+    "archivo": "cephaloscyllium-umbratile-2.jpg",
     "autor": "RYO SATO from Hamamatsu, Shizuoka, Japan",
     "licencia": "CC BY-SA 2.0",
     "fuente": "https://commons.wikimedia.org/wiki/File:Cephaloscyllium_umbratile2.jpg"
@@ -525,6 +595,13 @@
     "fuente": "https://commons.wikimedia.org/wiki/File:Centrophorus_squamosus1.jpg"
   },
   {
+    "identificador": "etmopterus-bullisi-1",
+    "archivo": "etmopterus-bullisi-1.jpg",
+    "autor": "Tambja",
+    "licencia": "CC BY-SA 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Etmopterus_bullisi.JPG"
+  },
+  {
     "identificador": "centroscymnus-coelolepis-1",
     "archivo": "centroscymnus-coelolepis-1.jpg",
     "autor": "",
@@ -539,6 +616,13 @@
     "fuente": "https://commons.wikimedia.org/wiki/File:Etmopterus_decacuspidatus_Chan,_1966_1057506355.jpg"
   },
   {
+    "identificador": "centroscyllium-kamoharai-1",
+    "archivo": "centroscyllium-kamoharai-1.jpg",
+    "autor": "CSIRO National Fish Collection",
+    "licencia": "CC BY 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Centroscyllium_kamoharai.jpg"
+  },
+  {
     "identificador": "etmopterus-brachyurus-1",
     "archivo": "etmopterus-brachyurus-1.jpg",
     "autor": "Smith H. M.",
@@ -551,6 +635,13 @@
     "autor": "Cliff from I now live in Arlington, VA (Outside Washington DC), USA",
     "licencia": "CC BY 2.0",
     "fuente": "https://commons.wikimedia.org/wiki/File:Cephaloscyllium_ventriosum.jpg"
+  },
+  {
+    "identificador": "cephaloscyllium-ventriosum-2",
+    "archivo": "cephaloscyllium-ventriosum-2.jpg",
+    "autor": "Aquaimages at English Wikipedia",
+    "licencia": "CC BY-SA 2.5",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Swell_Shark,_San_Clemente_Island,_California.jpg"
   },
   {
     "identificador": "cephaloscyllium-laticeps-1",
@@ -646,6 +737,13 @@
   {
     "identificador": "tiburon-tigre-2",
     "archivo": "tiburon-tigre-2.jpg",
+    "autor": "",
+    "licencia": "CC BY 2.5",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Scarface-tigershark.jpg"
+  },
+  {
+    "identificador": "tiburon-tigre-3",
+    "archivo": "tiburon-tigre-3.jpg",
     "autor": "Albert kok",
     "licencia": "CC BY-SA 3.0",
     "fuente": "https://commons.wikimedia.org/wiki/File:Tiger_shark.jpg"
@@ -723,9 +821,23 @@
   {
     "identificador": "ginglymostoma-cirratum-3",
     "archivo": "ginglymostoma-cirratum-3.jpg",
+    "autor": "The original uploader was Jlencion at English Wikipedia.",
+    "licencia": "CC BY-SA 2.5",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Grey_nurse_shark_2.jpg"
+  },
+  {
+    "identificador": "ginglymostoma-cirratum-4",
+    "archivo": "ginglymostoma-cirratum-4.jpg",
     "autor": "User: (WT-shared) Jpatokal at  wts wikivoyage",
     "licencia": "CC BY-SA 4.0",
     "fuente": "https://commons.wikimedia.org/wiki/File:Saddleback_NurseShark.JPG"
+  },
+  {
+    "identificador": "heterodontus-japonicus-1",
+    "archivo": "heterodontus-japonicus-1.jpg",
+    "autor": "OpenCage Systems",
+    "licencia": "CC BY-SA 2.5",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Heterodontus_japonicus_port_of_nagoya.jpg"
   },
   {
     "identificador": "eusphyra-blochii-1",
@@ -733,6 +845,13 @@
     "autor": "CSIRO National fish Collection",
     "licencia": "CC BY 3.0 au",
     "fuente": "https://commons.wikimedia.org/wiki/File:Eusphyra_blochii_csiro-nfc.jpg"
+  },
+  {
+    "identificador": "haploblepharus-fuscus-1",
+    "archivo": "haploblepharus-fuscus-1.jpg",
+    "autor": "Hannelie.de.klerk",
+    "licencia": "CC BY-SA 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Brown_shyshark_DEK5155.jpg"
   },
   {
     "identificador": "heterodontus-francisci-1",
@@ -751,9 +870,23 @@
   {
     "identificador": "glyphis-glyphis-1",
     "archivo": "glyphis-glyphis-1.jpg",
+    "autor": "CSIRO National Fish Collection",
+    "licencia": "CC BY 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Glyphis_glyphis_csiro-nfc.jpg"
+  },
+  {
+    "identificador": "glyphis-glyphis-2",
+    "archivo": "glyphis-glyphis-2.jpg",
     "autor": "Bill Harrison from Wellington, New Zealand",
     "licencia": "CC BY 2.0",
     "fuente": "https://commons.wikimedia.org/wiki/File:Speartooth_shark_melbourne.jpg"
+  },
+  {
+    "identificador": "hemitriakis-abdita-1",
+    "archivo": "hemitriakis-abdita-1.jpg",
+    "autor": "CSIRO National Fish Collection",
+    "licencia": "CC BY 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Hemitriakis_abdita.jpg"
   },
   {
     "identificador": "hemitriakis-complicofasciata-1",
@@ -793,6 +926,13 @@
   {
     "identificador": "etmopterus-virens-1",
     "archivo": "etmopterus-virens-1.jpg",
+    "autor": "Tambja",
+    "licencia": "CC BY-SA 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Etmopterus_virens.JPG"
+  },
+  {
+    "identificador": "etmopterus-virens-2",
+    "archivo": "etmopterus-virens-2.jpg",
     "autor": "SEFSC Pascagoula Laboratory; Collection of Brandi Noble, NOAA/NMFS/SEFSC",
     "licencia": "Public domain",
     "fuente": "https://commons.wikimedia.org/wiki/File:Green_lanternshark_nmfs1.jpg"
@@ -814,6 +954,13 @@
   {
     "identificador": "etmopterus-schultzi-1",
     "archivo": "etmopterus-schultzi-1.jpg",
+    "autor": "Tambja",
+    "licencia": "CC BY-SA 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Etmopterus_schultzi.JPG"
+  },
+  {
+    "identificador": "etmopterus-schultzi-2",
+    "archivo": "etmopterus-schultzi-2.jpg",
     "autor": "SEFSC Pascagoula Laboratory; Collection of Brandi Noble, NOAA/NMFS/SEFSC",
     "licencia": "Public domain",
     "fuente": "https://commons.wikimedia.org/wiki/File:Etmopterus_schultzi1.jpg"
@@ -838,6 +985,13 @@
     "autor": "Bideault",
     "licencia": "Public domain",
     "fuente": "https://commons.wikimedia.org/wiki/File:Galeus_atlanticus1.jpg"
+  },
+  {
+    "identificador": "orectolobus-floridus-1",
+    "archivo": "orectolobus-floridus-1.jpg",
+    "autor": "CSIRO National Fish Collection",
+    "licencia": "CC BY 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Orectolobus_floridus.jpg"
   },
   {
     "identificador": "orectolobus-hutchinsi-1",
@@ -882,6 +1036,13 @@
     "fuente": "https://commons.wikimedia.org/wiki/File:Orectolobus_japonicus,_Naturhistorisches_Museum_Wien.jpg"
   },
   {
+    "identificador": "orectolobus-parvimaculatus-1",
+    "archivo": "orectolobus-parvimaculatus-1.jpg",
+    "autor": "CSIRO National Fish Collection",
+    "licencia": "CC BY 3.0 au",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Orectolobus_parvimaculatus.jpg"
+  },
+  {
     "identificador": "parascyllium-variolatum-1",
     "archivo": "parascyllium-variolatum-1.jpg",
     "autor": "",
@@ -924,6 +1085,13 @@
     "fuente": "https://commons.wikimedia.org/wiki/File:Mega_mouth_shark_specimen.jpg"
   },
   {
+    "identificador": "megachasma-pelagios-2",
+    "archivo": "megachasma-pelagios-2.jpg",
+    "autor": "OpenCage",
+    "licencia": "CC BY-SA 2.5",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Megamouth_shark_japan.jpg"
+  },
+  {
     "identificador": "lamna-nasus-1",
     "archivo": "lamna-nasus-1.jpg",
     "autor": "NOAA",
@@ -943,6 +1111,13 @@
     "autor": "Mark Conlin, SWFSC Large Pelagics Program",
     "licencia": "Public domain",
     "fuente": "https://commons.wikimedia.org/wiki/File:Isurus_oxyrinchus_by_mark_conlin2.JPG"
+  },
+  {
+    "identificador": "isurus-oxyrinchus-2",
+    "archivo": "isurus-oxyrinchus-2.jpg",
+    "autor": "",
+    "licencia": "Public domain",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Shortfin_mako.jpg"
   },
   {
     "identificador": "isistius-brasiliensis-1",
@@ -989,6 +1164,13 @@
   {
     "identificador": "hexanchus-griseus-1",
     "archivo": "hexanchus-griseus-1.jpg",
+    "autor": "",
+    "licencia": "Public domain",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Six-gill_shark.jpg"
+  },
+  {
+    "identificador": "hexanchus-griseus-2",
+    "archivo": "hexanchus-griseus-2.jpg",
     "autor": "Operation Deep Scope 2005 Expedition: NOAA Office of Ocean Exploration; Harbor B",
     "licencia": "Public domain",
     "fuente": "https://commons.wikimedia.org/wiki/File:Hexanchus_griseus.jpg"
@@ -1071,6 +1253,13 @@
     "fuente": "https://commons.wikimedia.org/wiki/File:Odontaspis_ferox_(Smalltooth_sand_tiger).gif"
   },
   {
+    "identificador": "odontaspis-ferox-2",
+    "archivo": "odontaspis-ferox-2.jpg",
+    "autor": "Dr. Ken Sulak, U.S. Geological Survey",
+    "licencia": "Public domain",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Odontaspis_ferox_3.jpg"
+  },
+  {
     "identificador": "hexanchus-nakamurai-1",
     "archivo": "hexanchus-nakamurai-1.jpg",
     "autor": "Jean-Lou Justine",
@@ -1104,6 +1293,13 @@
     "autor": "Ezequiel Vera",
     "licencia": "CC BY 4.0",
     "fuente": "https://commons.wikimedia.org/wiki/File:Mustelus_schmitti_-_Ezequiel_Vera_-_212129243.jpeg"
+  },
+  {
+    "identificador": "mustelus-lenticulatus-1",
+    "archivo": "mustelus-lenticulatus-1.jpg",
+    "autor": "Arnim Littek",
+    "licencia": "CC BY 4.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Mustelus_lenticulatus_2.jpg"
   },
   {
     "identificador": "pentanchus-profundicolus-1",
@@ -1302,11 +1498,32 @@
     "fuente": "https://commons.wikimedia.org/wiki/File:Scyliorhinus_retifer_okeanos.jpg"
   },
   {
+    "identificador": "sphyrna-zygaena-1",
+    "archivo": "sphyrna-zygaena-1.jpg",
+    "autor": "NOAA",
+    "licencia": "Public domain",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Sphyrna_zygaena_noaa.jpg"
+  },
+  {
     "identificador": "tiburon-martillo-1",
-    "archivo": "tiburon-martillo-1.png",
+    "archivo": "tiburon-martillo-1.jpg",
+    "autor": "Josh Hallett from Winter Haven, FL, USA",
+    "licencia": "CC BY 2.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Sphyrna_mokarran_at_georgia.jpg"
+  },
+  {
+    "identificador": "tiburon-martillo-2",
+    "archivo": "tiburon-martillo-2.png",
     "autor": "DataBase Center for Life Science (DBCLS)",
     "licencia": "CC BY 4.0",
     "fuente": "https://commons.wikimedia.org/wiki/File:202411_Sphyrna_mokarran.svg"
+  },
+  {
+    "identificador": "rhizoprionodon-taylori-1",
+    "archivo": "rhizoprionodon-taylori-1.jpg",
+    "autor": "CSIRO National Fish Collection",
+    "licencia": "CC BY 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Rhizoprionodon_taylori.jpg"
   },
   {
     "identificador": "proscyllium-habereri-1",
@@ -1372,6 +1589,13 @@
     "fuente": "https://commons.wikimedia.org/wiki/File:Squalus_cubensis_eits.jpg"
   },
   {
+    "identificador": "sphyrna-tudes-1",
+    "archivo": "sphyrna-tudes-1.jpg",
+    "autor": "manimalworld.net",
+    "licencia": "CC BY-SA 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Sphyrna_tudes2.jpg"
+  },
+  {
     "identificador": "rhizoprionodon-acutus-1",
     "archivo": "rhizoprionodon-acutus-1.jpg",
     "autor": "Karunakar Rayker from India",
@@ -1395,6 +1619,13 @@
   {
     "identificador": "pristiophorus-cirratus-1",
     "archivo": "pristiophorus-cirratus-1.jpg",
+    "autor": "Latham, J.",
+    "licencia": "Public domain",
+    "fuente": "https://commons.wikimedia.org/wiki/File:%D0%AE%D0%B6%D0%BD%D1%8B%D0%B9_%D0%BF%D0%B8%D0%BB%D0%BE%D0%BD%D0%BE%D1%81.jpg"
+  },
+  {
+    "identificador": "pristiophorus-cirratus-2",
+    "archivo": "pristiophorus-cirratus-2.jpg",
     "autor": "William Buelow Gould (1801 - 1853).Reproduction by the Allport Library and Museu",
     "licencia": "Public domain",
     "fuente": "https://commons.wikimedia.org/wiki/File:Sketchbook_of_fishes_-_25._(Longnose)_Saw_shark_-_William_Buelow_Gould,_c1832.jpg"
@@ -1461,6 +1692,13 @@
     "autor": "Gnzlndrs",
     "licencia": "CC BY-SA 4.0",
     "fuente": "https://commons.wikimedia.org/wiki/File:Pintarroja.jpg"
+  },
+  {
+    "identificador": "squalus-albifrons-1",
+    "archivo": "squalus-albifrons-1.jpg",
+    "autor": "Wood, D.R.",
+    "licencia": "CC BY 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Squalus_albifrons.jpg"
   },
   {
     "identificador": "poroderma-pantherinum-1",
@@ -1559,5 +1797,12 @@
     "autor": "海老原 光雄",
     "licencia": "CC BY-SA 4.0",
     "fuente": "https://commons.wikimedia.org/wiki/File:%E3%82%B3%E3%83%AD%E3%82%B6%E3%83%A1%EF%BC%88%E5%85%A8%E4%BD%93%EF%BC%89.jpg"
+  },
+  {
+    "identificador": "squatina-californica-1",
+    "archivo": "squatina-californica-1.jpg",
+    "autor": "Tony Chess/NOAA SWFSC",
+    "licencia": "Public domain",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Squatina_californica.jpg"
   }
 ]
