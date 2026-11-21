@@ -1,0 +1,62 @@
+[
+  {
+    "id": "acertijo-1",
+    "enunciado": "Fui el depredador más colosal de los océanos hace millones de años. Mis dientes triangulares del tamaño de una mano humana eran ideales para cazar ballenas.",
+    "respuestasAceptadas": [
+      "megalodon",
+      "otodus megalodon"
+    ],
+    "sharkId": "otodus-megalodon"
+  },
+  {
+    "id": "acertijo-2",
+    "enunciado": "Viví entre el Paleoceno y el Eoceno, y alcancé hasta 9 metros de largo. Me consideran el ancestro más antiguo del gigantesco megalodón.",
+    "respuestasAceptadas": [
+      "otodus obliquus"
+    ],
+    "sharkId": "otodus-obliquus"
+  },
+  {
+    "id": "acertijo-3",
+    "enunciado": "Me apodaban el 'tiburón Ginsu' porque mis dientes afilados como navajas cortaban a mis presas con facilidad en los mares del Cretácico.",
+    "respuestasAceptadas": [
+      "tiburon ginsu",
+      "cretoxyrhina mantelli",
+      "cretoxyrhina"
+    ],
+    "sharkId": "cretoxyrhina-mantelli"
+  },
+  {
+    "id": "acertijo-4",
+    "enunciado": "A diferencia de otros tiburones con dientes afilados, tenía placas dentales planas y rugosas diseñadas para triturar conchas de moluscos en el fondo marino.",
+    "respuestasAceptadas": [
+      "ptychodus"
+    ],
+    "sharkId": "ptychodus"
+  },
+  {
+    "id": "acertijo-5",
+    "enunciado": "No vivía en el océano, sino en ríos y lagos de agua dulce. Tenía el cuerpo alargado como una anguila y una larga espina sobresaliendo justo detrás de mi cabeza.",
+    "respuestasAceptadas": [
+      "xenacanthus",
+      "tiburon de agua dulce"
+    ],
+    "sharkId": "xenacanthus"
+  },
+  {
+    "id": "acertijo-6",
+    "enunciado": "Tenía dos tipos de dientes: afilados al frente para atrapar peces, y planos atrás para triturar. Además, tenía espinas delante de mis aletas dorsales.",
+    "respuestasAceptadas": [
+      "hybodus"
+    ],
+    "sharkId": "hybodus"
+  },
+  {
+    "id": "acertijo-7",
+    "enunciado": "Soy uno de los tiburones más antiguos conocidos del período Devónico. Mi boca estaba en la punta del hocico, no debajo como en los tiburones actuales.",
+    "respuestasAceptadas": [
+      "cladoselache"
+    ],
+    "sharkId": "cladoselache"
+  }
+]
