@@ -258,7 +258,6 @@ const fotos: Record<string, ImageSourcePropType> = {
   'tiburon-blanco-2': require('../assets/tiburones/tiburon-blanco-2.jpg'),
   'tiburon-blanco-3': require('../assets/tiburones/tiburon-blanco-3.jpg'),
   'tiburon-martillo-1': require('../assets/tiburones/tiburon-martillo-1.jpg'),
-  'tiburon-martillo-1': require('../assets/tiburones/tiburon-martillo-1.png'),
   'tiburon-martillo-2': require('../assets/tiburones/tiburon-martillo-2.png'),
   'tiburon-tigre-1': require('../assets/tiburones/tiburon-tigre-1.png'),
   'tiburon-tigre-2': require('../assets/tiburones/tiburon-tigre-2.jpg'),
