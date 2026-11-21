@@ -1,13 +1,18 @@
-import { FlatList, Text, StyleSheet, Pressable } from 'react-native';
+import { FlatList, Text, StyleSheet, Pressable, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { SharkCard } from '../components/SharkCard';
 import loadSharks from '../data/loadSharks';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
-import { RootStackParamList } from '../types/navigation';
+import { BottomTabScreenProps } from '@react-navigation/bottom-tabs';
+import { CompositeScreenProps } from '@react-navigation/native';
+import { RootStackParamList, TabsParamList } from '../types/navigation';
 import { useLayoutEffect } from 'react';
 import { useProgreso } from '../data/progresoContext';
 
-type Props = NativeStackScreenProps<RootStackParamList, 'Catalogo'>;
+type Props = CompositeScreenProps<
+    BottomTabScreenProps<TabsParamList, 'Catalogo'>,
+    NativeStackScreenProps<RootStackParamList>
+>;
 
 export function CatalogoScreen({ navigation }: Props) {
     const { desbloqueadas, cargando } = useProgreso();
@@ -20,9 +25,14 @@ export function CatalogoScreen({ navigation }: Props) {
     useLayoutEffect(() => {
         navigation.setOptions({
             headerRight: () => (
-                <Pressable onPress={() => navigation.navigate('Quiz')}>
-                    <Text style={styles.botonQuiz}>Quiz</Text>
-                </Pressable>
+                <View style={styles.encabezadoDerecha}>
+                    <Pressable onPress={() => navigation.navigate('Creditos')}>
+                        <Text style={styles.botonQuiz}>Créditos</Text>
+                    </Pressable>
+                    <Pressable onPress={() => navigation.navigate('Quiz')}>
+                        <Text style={styles.botonQuiz}>Quiz</Text>
+                    </Pressable>
+                </View>
             ),
         });
     }, [navigation]);
@@ -56,6 +66,11 @@ const styles = StyleSheet.create({
         marginTop: 20,
         fontSize: 16,
         color: '#cbd5e0',
+    },
+    encabezadoDerecha: {
+        flexDirection: 'row',
+        gap: 16,
+        marginRight: 8,
     },
     botonQuiz: {
         color: '#4fd1c5',

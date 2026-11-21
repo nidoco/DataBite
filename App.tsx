@@ -4,11 +4,12 @@ import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { SafeAreaProvider } from "react-native-safe-area-context";
-import { CatalogoScreen } from "./screens/CatalogoScreen";
+import { TabsPrincipal } from "./navigation/TabsPrincipal";
 import { RootStackParamList } from "./types/navigation";
 import { DetalleScreen } from "./screens/DetalleScreen";
 import { QuizScreen } from "./screens/QuizScreen";
 import { ResultadosScreen } from "./screens/ResultadosScreen";
+import { CreditosScreen } from "./screens/CreditosScreen";
 import { ProgresoProvider } from "./data/progresoContext";
 
 // Stack tipado: Stack.Screen solo acepta rutas declaradas en RootStackParamList
@@ -29,9 +30,9 @@ export default function App() {
               }}
             >
               <Stack.Screen
-                name="Catalogo"
-                component={CatalogoScreen}
-                options={{ title: "DataBite" }}
+                name="Principal"
+                component={TabsPrincipal}
+                options={{ headerShown: false }}
               />
 
               <Stack.Screen
@@ -51,6 +52,12 @@ export default function App() {
                 name="Resultados"
                 component={ResultadosScreen}
                 options={{ title: "Resultados" }}
+              />
+
+              <Stack.Screen
+                name="Creditos"
+                component={CreditosScreen}
+                options={{ title: "Créditos", presentation: "modal" }}
               />
             </Stack.Navigator>
           </NavigationContainer>
