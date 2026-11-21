@@ -257,6 +257,19 @@ for (const e of lista) {
   incluidas.push(registro);
 }
 
+// Especies escritas a mano que no están en la lista de vivas (por ejemplo, las extintas).
+const sciEnLista = new Set(lista.map((e) => e.sci));
+for (const m of manuales) {
+  if (sciEnLista.has(m.nombreCientifico)) continue;
+  let registro = { ...m };
+  const fotos = indiceImagenes[registro.id];
+  if (fotos?.length) registro = { ...registro, imagenes: fotos };
+  if (!esShark(registro)) { excluidas.push({ sci: m.nombreCientifico, motivo: 'Manual: no pasa la validación de la app' }); continue; }
+  if (idsUsados.has(registro.id)) { excluidas.push({ sci: m.nombreCientifico, motivo: `Manual: id repetido (${registro.id})` }); continue; }
+  idsUsados.add(registro.id);
+  incluidas.push(registro);
+}
+
 incluidas.sort((a, b) => a.nombre.localeCompare(b.nombre, 'es'));
 
 // ---------- salida ----------
