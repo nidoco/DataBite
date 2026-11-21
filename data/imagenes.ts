@@ -187,6 +187,9 @@ const fotos: Record<string, ImageSourcePropType> = {
   'orectolobus-ornatus-1': require('../assets/tiburones/orectolobus-ornatus-1.jpg'),
   'orectolobus-parvimaculatus-1': require('../assets/tiburones/orectolobus-parvimaculatus-1.jpg'),
   'orectolobus-wardi-1': require('../assets/tiburones/orectolobus-wardi-1.jpg'),
+  'otodus-megalodon-1': require('../assets/tiburones/otodus-megalodon-1.jpg'),
+  'otodus-megalodon-2': require('../assets/tiburones/otodus-megalodon-2.jpg'),
+  'otodus-obliquus-1': require('../assets/tiburones/otodus-obliquus-1.jpg'),
   'oxynotus-caribbaeus-1': require('../assets/tiburones/oxynotus-caribbaeus-1.jpg'),
   'oxynotus-centrina-1': require('../assets/tiburones/oxynotus-centrina-1.jpg'),
   'oxynotus-japonicus-1': require('../assets/tiburones/oxynotus-japonicus-1.jpg'),
@@ -209,6 +212,7 @@ const fotos: Record<string, ImageSourcePropType> = {
   'pristiophorus-schroederi-1': require('../assets/tiburones/pristiophorus-schroederi-1.jpg'),
   'proscyllium-habereri-1': require('../assets/tiburones/proscyllium-habereri-1.jpg'),
   'pseudoginglymostoma-brevicaudatum-1': require('../assets/tiburones/pseudoginglymostoma-brevicaudatum-1.jpg'),
+  'ptychodus-1': require('../assets/tiburones/ptychodus-1.jpg'),
   'rhizoprionodon-acutus-1': require('../assets/tiburones/rhizoprionodon-acutus-1.jpg'),
   'rhizoprionodon-acutus-2': require('../assets/tiburones/rhizoprionodon-acutus-2.jpg'),
   'rhizoprionodon-taylori-1': require('../assets/tiburones/rhizoprionodon-taylori-1.jpg'),
@@ -262,6 +266,7 @@ const fotos: Record<string, ImageSourcePropType> = {
   'tiburon-tigre-1': require('../assets/tiburones/tiburon-tigre-1.png'),
   'tiburon-tigre-2': require('../assets/tiburones/tiburon-tigre-2.jpg'),
   'tiburon-tigre-3': require('../assets/tiburones/tiburon-tigre-3.jpg'),
+  'xenacanthus-1': require('../assets/tiburones/xenacanthus-1.jpg'),
 };
 
 // Devuelve la foto de un identificador, o el placeholder si no existe o no hay ninguno.

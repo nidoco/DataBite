@@ -54,5 +54,102 @@
     },
     "habitat": "Aguas tropicales y subtropicales",
     "alimentacion": "Peces, tortugas, aves marinas y carroña"
+  },
+  {
+    "id": "otodus-megalodon",
+    "nombre": "Megalodón",
+    "nombreCientifico": "Otodus megalodon",
+    "estadoConservacion": "Extinta",
+    "extinta": true,
+    "morfologia": {
+      "longitudMetros": 24,
+      "pesoKg": 94000,
+      "formaCuerpo": "Fusiforme",
+      "rasgoDistintivo": "Dientes serrados de hasta 18 cm"
+    },
+    "habitat": "Mares cálidos tropicales y subtropicales",
+    "alimentacion": "Ballenas, peces grandes y otros tiburones"
+  },
+  {
+    "id": "otodus-obliquus",
+    "nombre": "Otodus obliquus",
+    "nombreCientifico": "Otodus obliquus",
+    "estadoConservacion": "Extinta",
+    "extinta": true,
+    "morfologia": {
+      "longitudMetros": 9,
+      "formaCuerpo": "Fusiforme"
+    },
+    "habitat": "Mares cálidos",
+    "alimentacion": "Mamíferos marinos, peces y otros tiburones"
+  },
+  {
+    "id": "cretoxyrhina-mantelli",
+    "nombre": "Cretoxyrhina mantelli",
+    "nombreCientifico": "Cretoxyrhina mantelli",
+    "estadoConservacion": "Extinta",
+    "extinta": true,
+    "morfologia": {
+      "longitudMetros": 6,
+      "formaCuerpo": "Fusiforme"
+    },
+    "habitat": "Mares abiertos del Cretácico",
+    "alimentacion": "Depredador de peces y otros animales marinos"
+  },
+  {
+    "id": "ptychodus",
+    "nombre": "Ptychodus",
+    "nombreCientifico": "Ptychodus",
+    "estadoConservacion": "Extinta",
+    "extinta": true,
+    "morfologia": {
+      "longitudMetros": 9.7,
+      "formaCuerpo": "Fusiforme",
+      "rasgoDistintivo": "Dientes planos para aplastar conchas"
+    },
+    "habitat": "Mares cálidos del Cretácico",
+    "alimentacion": "Animales con concha, como crustáceos y moluscos"
+  },
+  {
+    "id": "xenacanthus",
+    "nombre": "Xenacanthus",
+    "nombreCientifico": "Xenacanthus",
+    "estadoConservacion": "Extinta",
+    "extinta": true,
+    "morfologia": {
+      "longitudMetros": 2,
+      "formaCuerpo": "Alargada, parecida a una anguila",
+      "rasgoDistintivo": "Aleta dorsal larga que recorre todo el cuerpo"
+    },
+    "habitat": "Ríos y lagos de agua dulce",
+    "alimentacion": "Depredador de peces y pequeños animales"
+  },
+  {
+    "id": "hybodus",
+    "nombre": "Hybodus",
+    "nombreCientifico": "Hybodus",
+    "estadoConservacion": "Extinta",
+    "extinta": true,
+    "morfologia": {
+      "longitudMetros": 2,
+      "formaCuerpo": "Fusiforme",
+      "rasgoDistintivo": "Espina con púas sobre cada aleta dorsal"
+    },
+    "habitat": "Mares del Mesozoico",
+    "alimentacion": "Depredador de peces y otros animales marinos"
+  },
+  {
+    "id": "cladoselache",
+    "nombre": "Cladoselache",
+    "nombreCientifico": "Cladoselache",
+    "estadoConservacion": "Extinta",
+    "extinta": true,
+    "morfologia": {
+      "longitudMetros": 2,
+      "formaCuerpo": "Fusiforme, con cola muy ahorquillada",
+      "rasgoDistintivo": "Aletas pectorales anchas"
+    },
+    "habitat": "Mares del Devónico tardío",
+    "alimentacion": "Presas pequeñas y lentas"
   }
 ]

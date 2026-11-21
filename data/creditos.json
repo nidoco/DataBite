@@ -1804,5 +1804,40 @@
     "autor": "Tony Chess/NOAA SWFSC",
     "licencia": "Public domain",
     "fuente": "https://commons.wikimedia.org/wiki/File:Squatina_californica.jpg"
+  },
+  {
+    "identificador": "otodus-megalodon-1",
+    "archivo": "otodus-megalodon-1.jpg",
+    "autor": "Géry PARENT",
+    "licencia": "CC BY-SA 4.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Carcharocles_megalodon_(Agassz,_1837)_1.jpg"
+  },
+  {
+    "identificador": "otodus-obliquus-1",
+    "archivo": "otodus-obliquus-1.jpg",
+    "autor": "Wilson44691",
+    "licencia": "CC0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Otodus_obliquus_multiple_021313.JPG"
+  },
+  {
+    "identificador": "ptychodus-1",
+    "archivo": "ptychodus-1.jpg",
+    "autor": "Dmitry Bogdanov",
+    "licencia": "CC BY 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Ptychodus_mortoni.jpg"
+  },
+  {
+    "identificador": "xenacanthus-1",
+    "archivo": "xenacanthus-1.jpg",
+    "autor": "A Cynical Idealist",
+    "licencia": "CC BY 4.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Xenacanthus_sp_skull_Harvard.jpg"
+  },
+  {
+    "identificador": "otodus-megalodon-2",
+    "archivo": "otodus-megalodon-2.jpg",
+    "autor": "Reinhold Möller (Ermell)",
+    "licencia": "CC BY-SA 4.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Megalodon_American_Museum_Natural_History-20120521-RM-225233.jpg"
   }
 ]

@@ -10,7 +10,7 @@ Cita de la UICN: IUCN 2026. IUCN Red List of Threatened Species. Version 2026-1 
 | | Especies |
 |---|---|
 | Partimos de (Wikidata: vivas con estado e ID de FishBase) | 536 |
-| **Incluidas en el catálogo** | **535** |
+| **Incluidas en el catálogo** | **542** |
 | Excluidas | 1 |
 
 ## Por qué se excluyeron

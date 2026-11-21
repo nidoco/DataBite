@@ -1946,6 +1946,20 @@
     "habitat": "En aguas abiertas lejos de la costa"
   },
   {
+    "id": "cladoselache",
+    "nombre": "Cladoselache",
+    "nombreCientifico": "Cladoselache",
+    "estadoConservacion": "Extinta",
+    "extinta": true,
+    "morfologia": {
+      "longitudMetros": 2,
+      "formaCuerpo": "Fusiforme, con cola muy ahorquillada",
+      "rasgoDistintivo": "Aletas pectorales anchas"
+    },
+    "habitat": "Mares del Devónico tardío",
+    "alimentacion": "Presas pequeñas y lentas"
+  },
+  {
     "id": "paragaleus-tengi",
     "nombre": "Comadreja coluda",
     "nombreCientifico": "Paragaleus tengi",
@@ -2060,6 +2074,19 @@
     "imagenes": [
       "eusphyra-blochii-1"
     ]
+  },
+  {
+    "id": "cretoxyrhina-mantelli",
+    "nombre": "Cretoxyrhina mantelli",
+    "nombreCientifico": "Cretoxyrhina mantelli",
+    "estadoConservacion": "Extinta",
+    "extinta": true,
+    "morfologia": {
+      "longitudMetros": 6,
+      "formaCuerpo": "Fusiforme"
+    },
+    "habitat": "Mares abiertos del Cretácico",
+    "alimentacion": "Depredador de peces y otros animales marinos"
   },
   {
     "id": "dichichthys-albimarginatus",
@@ -3014,6 +3041,20 @@
     "habitat": "Junto al fondo, en aguas profundas"
   },
   {
+    "id": "hybodus",
+    "nombre": "Hybodus",
+    "nombreCientifico": "Hybodus",
+    "estadoConservacion": "Extinta",
+    "extinta": true,
+    "morfologia": {
+      "longitudMetros": 2,
+      "formaCuerpo": "Fusiforme",
+      "rasgoDistintivo": "Espina con púas sobre cada aleta dorsal"
+    },
+    "habitat": "Mares del Mesozoico",
+    "alimentacion": "Depredador de peces y otros animales marinos"
+  },
+  {
     "id": "lamiopsis-tephrodes",
     "nombre": "Lamiopsis tephrodes",
     "nombreCientifico": "Lamiopsis tephrodes",
@@ -3086,6 +3127,25 @@
     "alimentacion": "Peces",
     "imagenes": [
       "lamna-nasus-1"
+    ]
+  },
+  {
+    "id": "otodus-megalodon",
+    "nombre": "Megalodón",
+    "nombreCientifico": "Otodus megalodon",
+    "estadoConservacion": "Extinta",
+    "extinta": true,
+    "morfologia": {
+      "longitudMetros": 24,
+      "pesoKg": 94000,
+      "formaCuerpo": "Fusiforme",
+      "rasgoDistintivo": "Dientes serrados de hasta 18 cm"
+    },
+    "habitat": "Mares cálidos tropicales y subtropicales",
+    "alimentacion": "Ballenas, peces grandes y otros tiburones",
+    "imagenes": [
+      "otodus-megalodon-1",
+      "otodus-megalodon-2"
     ]
   },
   {
@@ -3453,6 +3513,22 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo y también a media agua"
+  },
+  {
+    "id": "otodus-obliquus",
+    "nombre": "Otodus obliquus",
+    "nombreCientifico": "Otodus obliquus",
+    "estadoConservacion": "Extinta",
+    "extinta": true,
+    "morfologia": {
+      "longitudMetros": 9,
+      "formaCuerpo": "Fusiforme"
+    },
+    "habitat": "Mares cálidos",
+    "alimentacion": "Mamíferos marinos, peces y otros tiburones",
+    "imagenes": [
+      "otodus-obliquus-1"
+    ]
   },
   {
     "id": "oxynotus-japonicus",
@@ -4509,6 +4585,23 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "En aguas abiertas lejos de la costa"
+  },
+  {
+    "id": "ptychodus",
+    "nombre": "Ptychodus",
+    "nombreCientifico": "Ptychodus",
+    "estadoConservacion": "Extinta",
+    "extinta": true,
+    "morfologia": {
+      "longitudMetros": 9.7,
+      "formaCuerpo": "Fusiforme",
+      "rasgoDistintivo": "Dientes planos para aplastar conchas"
+    },
+    "habitat": "Mares cálidos del Cretácico",
+    "alimentacion": "Animales con concha, como crustáceos y moluscos",
+    "imagenes": [
+      "ptychodus-1"
+    ]
   },
   {
     "id": "centrophorus-granulosus",
@@ -6785,6 +6878,23 @@
       "formaCuerpo": "Forma alargada"
     },
     "habitat": "Junto al fondo del mar"
+  },
+  {
+    "id": "xenacanthus",
+    "nombre": "Xenacanthus",
+    "nombreCientifico": "Xenacanthus",
+    "estadoConservacion": "Extinta",
+    "extinta": true,
+    "morfologia": {
+      "longitudMetros": 2,
+      "formaCuerpo": "Alargada, parecida a una anguila",
+      "rasgoDistintivo": "Aleta dorsal larga que recorre todo el cuerpo"
+    },
+    "habitat": "Ríos y lagos de agua dulce",
+    "alimentacion": "Depredador de peces y pequeños animales",
+    "imagenes": [
+      "xenacanthus-1"
+    ]
   },
   {
     "id": "alopias-vulpinus",
