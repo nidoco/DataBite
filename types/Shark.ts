@@ -15,4 +15,5 @@ export interface Shark {
     alimentacion?: string | undefined;
     // Identificadores de las fotos (ver data/imagenes.ts). Opcional: puede no tener ninguna.
     imagenes?: string[] | undefined;
+    extinta?: boolean | undefined; // Opcional: si falta, la especie no está extinta.
 }
