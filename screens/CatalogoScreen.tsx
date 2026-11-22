@@ -13,7 +13,7 @@ import { NativeStackScreenProps } from "@react-navigation/native-stack";
 import { BottomTabScreenProps } from "@react-navigation/bottom-tabs";
 import { CompositeScreenProps } from "@react-navigation/native";
 import { RootStackParamList, TabsParamList } from "../types/navigation";
-import { useLayoutEffect, useState } from "react";
+import { useEffect, useLayoutEffect, useState } from "react";
 import { useProgreso } from "../data/progresoContext";
 import { filtrarEspecies } from "../data/buscarEspecies";
 
@@ -29,13 +29,19 @@ export function CatalogoScreen({ navigation }: Props) {
   const [soloConFoto, setSoloConFoto] = useState(false);
   const [soloDesbloqueadas, setSoloDesbloqueadas] = useState(false);
 
-  // 1. Especies visibles según el estado de carga y desbloqueo
+  // 1. Estado para controlar cuántas especies mostrar
+  const [cantidad, setCantidad] = useState(20);
+
+  // 3. Volver a 20 al cambiar la búsqueda o los filtros
+  useEffect(() => {
+    setCantidad(20);
+  }, [texto, soloConFoto, soloDesbloqueadas]);
+
   const especiesDisponibles = loadSharks().filter(
     (shark) =>
       !shark.extinta || (!cargando && desbloqueadas.includes(shark.id)),
   );
 
-  // 2. Aplicar búsqueda y filtros activos
   const sharks = filtrarEspecies(
     especiesDisponibles,
     {
@@ -45,6 +51,9 @@ export function CatalogoScreen({ navigation }: Props) {
     },
     cargando ? [] : desbloqueadas,
   );
+
+  // 2. Cortar la lista
+  const visible = sharks.slice(0, cantidad);
 
   useLayoutEffect(() => {
     navigation.setOptions({
@@ -92,8 +101,10 @@ export function CatalogoScreen({ navigation }: Props) {
             style={[
               styles.chipFiltro,
               soloDesbloqueadas && styles.chipFiltroActivo,
+              cargando && styles.chipDeshabilitado,
             ]}
             onPress={() => setSoloDesbloqueadas((prev) => !prev)}
+            disabled={cargando}
           >
             <Text
               style={[
@@ -108,7 +119,7 @@ export function CatalogoScreen({ navigation }: Props) {
       </View>
 
       <FlatList
-        data={sharks}
+        data={visible}
         keyExtractor={(item) => item.id}
         renderItem={({ item }) => (
           <SharkCard
@@ -116,6 +127,13 @@ export function CatalogoScreen({ navigation }: Props) {
             onPress={() => navigation.navigate("Detalle", { id: item.id })}
           />
         )}
+        onEndReached={() => setCantidad((c) => Math.min(c + 20, sharks.length))}
+        onEndReachedThreshold={0.5}
+        ListFooterComponent={
+          cantidad < sharks.length ? (
+            <Text style={styles.emptyText}>Cargando más...</Text>
+          ) : undefined
+        }
         ListEmptyComponent={
           hayBusqueda ? (
             <View style={styles.vacio}>
@@ -171,6 +189,9 @@ const styles = StyleSheet.create({
   chipFiltroActivo: {
     backgroundColor: "#4fd1c5",
     borderColor: "#4fd1c5",
+  },
+  chipDeshabilitado: {
+    opacity: 0.5,
   },
   chipTexto: {
     color: "#cbd5e0",
