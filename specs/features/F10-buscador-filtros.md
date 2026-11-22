@@ -30,7 +30,7 @@ La usuaria de la app (proyecto personal).
    mayúsculas ni acentos.
 3. Al tocar "Con foto", solo quedan las especies que tienen al menos una foto.
 4. Al tocar "Solo extintas desbloqueadas", solo quedan las especies extintas que la
-   usuaria ya desbloqueó. Las especies vivas no se ocultan con este filtro.
+   usuaria ya desbloqueó. Las especies vivas se ocultan con este filtro.
 5. Los filtros se combinan: si los dos están prendidos, se cumplen ambos.
 6. La lista muestra 20 especies al principio. Al llegar al final, carga 20 más, hasta
    terminar.
