@@ -82,6 +82,6 @@ validar de forma segura el acceso a `route.params` y a `navigation`.
 - [X] Instalar React Navigation y sus dependencias nativas.
 - [X] Definir `RootStackParamList` en un archivo de tipos propio.
 - [X] Configurar `NavigationContainer` y el Native Stack en `App.tsx`.
-- [ ] Registrar las rutas: Catalogo, Detalle, Quiz, Resultados.
+- [X] Registrar las rutas: Catalogo, Detalle, Quiz, Resultados.
 - [X] Aplicar el estilo global del header con `screenOptions`.
-- [ ] Verificar los criterios de aceptación de navegación.
+- [X] Verificar los criterios de aceptación de navegación.

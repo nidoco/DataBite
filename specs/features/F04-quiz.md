@@ -123,7 +123,7 @@ conteo de aciertos. Cada vez que vuelve a entrar al quiz le toca una ronda nueva
       el progreso se pierde.
 - [X] Salir sin haber respondido nada no pide confirmación.
 - [X] Terminar la ronda y pasar a `Resultados` no pide confirmación.
-- [ ] La usuaria puede responder por swipe Y por botones (ambas equivalentes).
+- [X] La usuaria puede responder por swipe Y por botones (ambas equivalentes).
 - [X] Tras responder, se muestra si acertó y la explicación científica.
 - [X] La usuaria puede avanzar a la siguiente pregunta.
 - [X] Al terminar, se navega a `Resultados` con la lista de respuestas dadas
@@ -144,12 +144,12 @@ conteo de aciertos. Cada vez que vuelve a entrar al quiz le toca una ronda nueva
 - [X] Manejar el estado del quiz: pregunta actual y respuestas registradas.
 - [X] Mostrar la pregunta actual en una tarjeta.
 - [X] Implementar los botones "Mito" / "Realidad" (vía base de respuesta).
-- [ ] Implementar el swipe con gesture-handler + Reanimated, respetando reduce-motion.
+- [X] Implementar el swipe con gesture-handler + Reanimated, respetando reduce-motion.
 - [X] Mostrar retroalimentación por pregunta (acierto/fallo + explicación).
 - [X] Registrar cada respuesta (id + si acertó) y navegar a `Resultados` con esa
       lista al terminar.
 
-- [ ] Manejar el caso de banco de preguntas vacío.
+- [X] Manejar el caso de banco de preguntas vacío.
 - [X] Pedir confirmación al salir a mitad de ronda (evento `beforeRemove`), sin avisar
       al terminar la ronda ni si no se ha respondido nada.
 - [X] Ampliar el banco de preguntas (el quiz usa 10 por ronda).

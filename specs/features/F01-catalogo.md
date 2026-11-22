@@ -61,13 +61,13 @@ puede recorrerlo, y en caso de no haber datos ve un mensaje claro.
 
 ## Criterios de aceptación
 
-- [ ] Al abrir el Catálogo, se muestra una tarjeta por cada especie válida del JSON.
-- [ ] Cada tarjeta muestra al menos el nombre de la especie.
-- [ ] La lista se puede desplazar cuando hay más tarjetas de las que caben en pantalla.
-- [ ] Si la lista de especies está vacía, se muestra un mensaje de "sin especies"
+- [X] Al abrir el Catálogo, se muestra una tarjeta por cada especie válida del JSON.
+- [X] Cada tarjeta muestra al menos el nombre de la especie.
+- [X] La lista se puede desplazar cuando hay más tarjetas de las que caben en pantalla.
+- [X] Si la lista de especies está vacía, se muestra un mensaje de "sin especies"
       y no una pantalla en blanco.
-- [ ] Ninguna especie inválida (que no cumple el tipo `Shark`) aparece en la lista.
-- [ ] Todo el texto de las tarjetas se renderiza dentro de componentes `Text`.
+- [X] Ninguna especie inválida (que no cumple el tipo `Shark`) aparece en la lista.
+- [X] Todo el texto de las tarjetas se renderiza dentro de componentes `Text`.
 
 ## Tasks
 

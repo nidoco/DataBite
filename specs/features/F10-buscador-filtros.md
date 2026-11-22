@@ -63,21 +63,21 @@ que la pantalla se vuelva lenta.
 
 ## Criterios de aceptación
 
-- [ ] El buscador filtra por nombre común y por nombre científico.
-- [ ] La búsqueda no distingue mayúsculas ni acentos.
-- [ ] El texto de búsqueda acepta máximo 40 caracteres.
-- [ ] "Con foto" muestra solo especies con al menos una foto.
-- [ ] "Solo extintas desbloqueadas" muestra solo extintas que ya se desbloquearon.
-- [ ] Los dos filtros se pueden combinar.
-- [ ] La lista carga 20 especies al inicio y 20 más cada vez que llega al final.
-- [ ] Sin resultados, se muestra un mensaje con botón para limpiar.
+- [X] El buscador filtra por nombre común y por nombre científico.
+- [X] La búsqueda no distingue mayúsculas ni acentos.
+- [X] El texto de búsqueda acepta máximo 40 caracteres.
+- [X] "Con foto" muestra solo especies con al menos una foto.
+- [X] "Solo extintas desbloqueadas" muestra solo extintas que ya se desbloquearon.
+- [X] Los dos filtros se pueden combinar.
+- [X] La lista carga 20 especies al inicio y 20 más cada vez que llega al final.
+- [X] Sin resultados, se muestra un mensaje con botón para limpiar.
 
 ## Tasks
 
-- [ ] Crear la función de búsqueda normalizada, con su prueba manual en el código.
-- [ ] Agregar el campo de búsqueda con su validación (recorte y máximo de 40).
-- [ ] Agregar los dos filtros como botones que se prenden y apagan.
-- [ ] Combinar búsqueda y filtros en una sola lista filtrada.
-- [ ] Cambiar el `FlatList` del catálogo a carga por páginas de 20.
-- [ ] Agregar el mensaje de "Sin resultados" y el botón para limpiar.
-- [ ] Verificar los criterios de aceptación de F10.
+- [X] Crear la función de búsqueda normalizada, con su prueba manual en el código.
+- [X] Agregar el campo de búsqueda con su validación (recorte y máximo de 40).
+- [X] Agregar los dos filtros como botones que se prenden y apagan.
+- [X] Combinar búsqueda y filtros en una sola lista filtrada.
+- [X] Cambiar el `FlatList` del catálogo a carga por páginas de 20.
+- [X] Agregar el mensaje de "Sin resultados" y el botón para limpiar.
+- [X] Verificar los criterios de aceptación de F10.

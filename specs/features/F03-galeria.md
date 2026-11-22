@@ -72,28 +72,28 @@ placeholder.
 
 ## Criterios de aceptación
 
-- [ ] La interface `Shark` incluye el campo `imagenes` (lista de strings).
-- [ ] `loadSharks` valida que `imagenes` sea una lista de strings; una especie
+- [X] La interface `Shark` incluye el campo `imagenes` (lista de strings).
+- [X] `loadSharks` valida que `imagenes` sea una lista de strings; una especie
       con `imagenes` inválido se descarta como cualquier otro dato corrupto.
-- [ ] Existe un mapa en código que traduce cada identificador a su archivo local.
-- [ ] La tarjeta del catálogo muestra la imagen de portada (primera de la lista).
-- [ ] El detalle muestra una galería horizontal deslizable con todas las imágenes.
-- [ ] Toda `Image` se renderiza con dimensiones definidas.
-- [ ] Una especie sin imágenes muestra el placeholder en tarjeta y detalle.
-- [ ] Un identificador que no resuelve en el mapa muestra el placeholder, sin
+- [X] Existe un mapa en código que traduce cada identificador a su archivo local.
+- [X] La tarjeta del catálogo muestra la imagen de portada (primera de la lista).
+- [X] El detalle muestra una galería horizontal deslizable con todas las imágenes.
+- [X] Toda `Image` se renderiza con dimensiones definidas.
+- [X] Una especie sin imágenes muestra el placeholder en tarjeta y detalle.
+- [X] Un identificador que no resuelve en el mapa muestra el placeholder, sin
       romper la pantalla.
 
 ## Tasks
 
-- [ ] Agregar el campo `imagenes: string[]` a la interface `Shark`.
-- [ ] Actualizar `data/sharks.json` con la lista de imágenes de cada especie.
-- [ ] Extender el type guard de `loadSharks` para validar `imagenes` (lista de
+- [X] Agregar el campo `imagenes: string[]` a la interface `Shark`.
+- [X] Actualizar `data/sharks.json` con la lista de imágenes de cada especie.
+- [X] Extender el type guard de `loadSharks` para validar `imagenes` (lista de
       strings).
-- [ ] Agregar los archivos de imagen a `assets/` y el archivo placeholder.
-- [ ] Crear el mapa `identificador -> require(archivo)` en un módulo propio.
-- [ ] Crear una función/helper que devuelva el `require` de un identificador, o
+- [X] Agregar los archivos de imagen a `assets/` y el archivo placeholder.
+- [X] Crear el mapa `identificador -> require(archivo)` en un módulo propio.
+- [X] Crear una función/helper que devuelva el `require` de un identificador, o
       el placeholder si no resuelve.
-- [ ] Mostrar la imagen de portada en `SharkCard` (en el hueco ya reservado).
-- [ ] Crear un componente de galería horizontal (`FlatList`) para el detalle.
-- [ ] Integrar la galería en `DetalleScreen`.
-- [ ] Verificar los criterios de aceptación de F03.
+- [X] Mostrar la imagen de portada en `SharkCard` (en el hueco ya reservado).
+- [X] Crear un componente de galería horizontal (`FlatList`) para el detalle.
+- [X] Integrar la galería en `DetalleScreen`.
+- [X] Verificar los criterios de aceptación de F03.

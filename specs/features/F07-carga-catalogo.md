@@ -145,23 +145,23 @@ resto quedó fuera.
 
 ## Criterios de aceptación
 
-- [ ] El informe de cobertura existe y muestra incluidas, descartadas y motivos.
+- [X] El informe de cobertura existe y muestra incluidas, descartadas y motivos.
 - [X] Toda especie del JSON tiene nombre científico, estado de conservación, forma
       del cuerpo y hábitat.
-- [ ] Toda especie sin nombre en español muestra su nombre científico como nombre.
+- [X] Toda especie sin nombre en español muestra su nombre científico como nombre.
 - [X] `longitudMetros`, `pesoKg`, `alimentacion` y `rasgoDistintivo` son opcionales
       en el modelo y en su validación.
 - [X] Una especie con uno de esos campos con tipo incorrecto se descarta; una sin
       el campo se acepta.
 - [X] La ficha de detalle muestra "No disponible" cuando falta longitud, peso,
       alimentación o rasgo distintivo.
-- [ ] Los `id` son únicos y con formato de slug.
-- [ ] El JSON generado pasa la validación de `loadSharks` sin descartes inesperados.
-- [ ] El catálogo muestra las especies cargadas con scroll fluido.
-- [ ] Las fuentes y su atribución quedan registradas en el proyecto.
+- [X] Los `id` son únicos y con formato de slug.
+- [X] El JSON generado pasa la validación de `loadSharks` sin descartes inesperados.
+- [X] El catálogo muestra las especies cargadas con scroll fluido.
+- [X] Las fuentes y su atribución quedan registradas en el proyecto.
 - [ ] La app muestra una sección de créditos con Wikidata, FishBase y la UICN.
-- [ ] El token de la UICN no aparece en ningún archivo del repositorio.
-- [ ] La app no hace ninguna petición de red.
+- [X] El token de la UICN no aparece en ningún archivo del repositorio.
+- [X] La app no hace ninguna petición de red.
 
 ## Decisiones abiertas
 
@@ -191,22 +191,22 @@ resto quedó fuera.
 ## Tasks
 
 - [X] Revisar términos de uso y atribución de las fuentes candidatas.
-- [ ] Crear la cuenta de la UICN, solicitar el token y guardarlo fuera del
+- [X] Crear la cuenta de la UICN, solicitar el token y guardarlo fuera del
       repositorio (agregar su archivo al `.gitignore`).
 - [X] Hacer `pesoKg` opcional en `Morfologia` y en `esMorfologia`.
 - [X] Mostrar "No disponible" en `DetalleScreen` cuando falte el peso.
 - [X] Medir la cobertura de datos de Wikidata y FishBase (prueba previa).
-- [ ] Hacer `alimentacion` y `rasgoDistintivo` opcionales en `Morfologia`/`Shark`,
+- [X] Hacer `alimentacion` y `rasgoDistintivo` opcionales en `Morfologia`/`Shark`,
       en sus type guards y en `DetalleScreen`.
-- [ ] Consultar a `redlist@iucn.org` por el uso de sus datos en una app educativa.
-- [ ] Escribir la tabla de equivalencias a español de los códigos de hábitat y
+- [X] Consultar a `redlist@iucn.org` por el uso de sus datos en una app educativa.
+- [X] Escribir la tabla de equivalencias a español de los códigos de hábitat y
       forma del cuerpo de FishBase.
-- [ ] Crear el script de obtención de la lista base de especies.
-- [ ] Crear la combinación de atributos por especie y la regla de "datos completos".
-- [ ] Definir y documentar la regla para elegir un nombre en español cuando hay
+- [X] Crear el script de obtención de la lista base de especies.
+- [X] Crear la combinación de atributos por especie y la regla de "datos completos".
+- [X] Definir y documentar la regla para elegir un nombre en español cuando hay
       varios.
-- [ ] Revisar a mano las especies con nombre científico distinto entre fuentes.
-- [ ] Generar el informe de cobertura y revisarlo.
-- [ ] Generar `data/sharks.json` y validarlo con `loadSharks`.
+- [X] Revisar a mano las especies con nombre científico distinto entre fuentes.
+- [X] Generar el informe de cobertura y revisarlo.
+- [X] Generar `data/sharks.json` y validarlo con `loadSharks`.
 - [ ] Agregar la sección de créditos y atribución en la app y en el README.
-- [ ] Verificar los criterios de aceptación de F07.
+- [X] Verificar los criterios de aceptación de F07.

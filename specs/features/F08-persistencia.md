@@ -68,20 +68,20 @@ vuelve a abrir, y sigue viéndolo igual.
 
 ## Criterios de aceptación
 
-- [ ] Existe un módulo de persistencia que lee y guarda las dos listas.
-- [ ] Desbloquear una especie persiste después de cerrar y volver a abrir la app.
-- [ ] Marcar y desmarcar una favorita persiste de la misma forma.
-- [ ] Un dato guardado corrupto no rompe la app: se trata como vacío.
-- [ ] Un id guardado que ya no existe se ignora sin error.
-- [ ] Sin datos guardados, el catálogo no muestra especies extintas.
+- [X] Existe un módulo de persistencia que lee y guarda las dos listas.
+- [X] Desbloquear una especie persiste después de cerrar y volver a abrir la app.
+- [X] Marcar y desmarcar una favorita persiste de la misma forma.
+- [X] Un dato guardado corrupto no rompe la app: se trata como vacío.
+- [X] Un id guardado que ya no existe se ignora sin error.
+- [X] Sin datos guardados, el catálogo no muestra especies extintas.
 
 ## Tasks
 
-- [ ] Instalar AsyncStorage con `npx expo install`.
-- [ ] Crear el módulo de persistencia con las funciones de leer y guardar.
-- [ ] Validar en la frontera los datos leídos.
-- [ ] Crear un estado global con Context para las dos listas, para que catálogo, ficha
+- [X] Instalar AsyncStorage con `npx expo install`.
+- [X] Crear el módulo de persistencia con las funciones de leer y guardar.
+- [X] Validar en la frontera los datos leídos.
+- [X] Crear un estado global con Context para las dos listas, para que catálogo, ficha
       y quiz lean lo mismo.
-- [ ] Filtrar las especies extintas del catálogo según las desbloqueadas.
-- [ ] Agregar el botón de favorita en la ficha.
-- [ ] Verificar los criterios de aceptación de F08.
+- [X] Filtrar las especies extintas del catálogo según las desbloqueadas.
+- [X] Agregar el botón de favorita en la ficha.
+- [X] Verificar los criterios de aceptación de F08.
