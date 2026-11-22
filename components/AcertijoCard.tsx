@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { View, Text, TextInput, Pressable, StyleSheet } from "react-native";
 import { Acertijo } from "../types/Acertijo";
-
+import { normalizar } from "../data/normalizar";
 export function AcertijoCard({
   acertijo,
   onAcierto,
@@ -11,18 +11,13 @@ export function AcertijoCard({
   onAcierto: (sharkId: string) => void;
   onAgotado: () => void;
 }) {
-  const normalizar = (texto: string) => {
-    return texto
-      .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "")
-      .toLowerCase()
-      .trim();
-  };
+  
   const [respuesta, setRespuesta] = useState("");
   const [intentosFallidos, setIntentosFallidos] = useState(0);
   const [mensajeError, setMensajeError] = useState("");
 
   const handleEnviar = () => {
+
     const textoNormalizado = normalizar(respuesta);
     if (!textoNormalizado) return;
 
