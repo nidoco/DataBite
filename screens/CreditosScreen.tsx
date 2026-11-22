@@ -5,6 +5,27 @@ import { RootStackParamList } from '../types/navigation';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Creditos'>;
 
+const fuentesDeDatos = [
+  {
+    nombre: 'Wikidata',
+    uso: 'Lista de especies y datos básicos',
+    licencia: 'CC0',
+    url: 'https://www.wikidata.org',
+  },
+  {
+    nombre: 'FishBase',
+    uso: 'Medidas, nombres en español y alimentación',
+    licencia: 'CC BY-NC',
+    url: 'https://www.fishbase.se',
+  },
+  {
+    nombre: 'Lista Roja de la UICN',
+    uso: 'Estado de conservación de cada especie',
+    licencia: 'Uso autorizado con token, sin fines comerciales',
+    url: 'https://www.iucnredlist.org',
+  },
+];
+
 // Modal con el autor, la licencia y la fuente de cada foto de la app.
 export function CreditosScreen({ navigation }: Props) {
   return (
@@ -22,6 +43,22 @@ export function CreditosScreen({ navigation }: Props) {
           </Pressable>
         </View>
       )}
+      ListHeaderComponent={
+        <View style={styles.tarjeta}>
+          <Text style={styles.titulo}>Fuentes de datos</Text>
+          {fuentesDeDatos.map((fuente) => (
+            <View key={fuente.nombre} style={styles.fuente}>
+              <Text style={styles.autor}>{fuente.nombre}</Text>
+              <Text style={styles.licencia}>{fuente.uso}</Text>
+              <Text style={styles.licencia}>Licencia: {fuente.licencia}</Text>
+              <Pressable onPress={() => Linking.openURL(fuente.url)}>
+                <Text style={styles.enlace}>Visitar el sitio</Text>
+              </Pressable>
+            </View>
+          ))}
+          <Text style={styles.titulo}>Fotos</Text>
+        </View>
+      }
       ListEmptyComponent={<Text style={styles.texto}>No hay créditos disponibles</Text>}
       ListFooterComponent={
         <Pressable style={styles.boton} onPress={() => navigation.goBack()}>
@@ -60,6 +97,15 @@ const styles = StyleSheet.create({
     color: '#4fd1c5',
     fontSize: 14,
     textDecorationLine: 'underline',
+  },
+  titulo: {
+    color: '#4fd1c5',
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  fuente: {
+    gap: 4,
+    paddingVertical: 6,
   },
   texto: {
     color: '#cbd5e0',
