@@ -233,3 +233,13 @@ Configuración inicial del proyecto en Expo con plantilla TypeScript
 #### Pendiente
 - Conseguir fotos de Cretoxyrhina, Hybodus y Cladoselache. Wikimedia Commons me bloqueó las descargas.
 - Mejorar el diseño de la pantalla del acertijo.
+
+## Créditos y fuentes
+
+Los datos de las especies salen de estas fuentes:
+
+- **Wikidata** (licencia CC0): lista de especies y datos básicos. https://www.wikidata.org
+- **FishBase** (licencia CC BY-NC): medidas, nombres en español y alimentación. https://www.fishbase.se
+- **Lista Roja de la UICN**: estado de conservación de cada especie. La UICN autorizó el uso de su API para este proyecto educativo, sin fines comerciales. https://www.iucnredlist.org
+
+Las fotos vienen de Wikimedia Commons, y solo se usaron fotos con licencias abiertas (CC0, dominio público, CC BY y CC BY-SA). Cada foto tiene su autor, su licencia y el enlace a su página original, y todo eso aparece en la pantalla de Créditos de la app.

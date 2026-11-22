@@ -159,7 +159,7 @@ resto quedó fuera.
 - [X] El JSON generado pasa la validación de `loadSharks` sin descartes inesperados.
 - [X] El catálogo muestra las especies cargadas con scroll fluido.
 - [X] Las fuentes y su atribución quedan registradas en el proyecto.
-- [ ] La app muestra una sección de créditos con Wikidata, FishBase y la UICN.
+- [X] La app muestra una sección de créditos con Wikidata, FishBase y la UICN.
 - [X] El token de la UICN no aparece en ningún archivo del repositorio.
 - [X] La app no hace ninguna petición de red.
 
@@ -208,5 +208,5 @@ resto quedó fuera.
 - [X] Revisar a mano las especies con nombre científico distinto entre fuentes.
 - [X] Generar el informe de cobertura y revisarlo.
 - [X] Generar `data/sharks.json` y validarlo con `loadSharks`.
-- [ ] Agregar la sección de créditos y atribución en la app y en el README.
+- [X] Agregar la sección de créditos y atribución en la app y en el README.
 - [X] Verificar los criterios de aceptación de F07.
