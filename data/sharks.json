@@ -1957,7 +1957,10 @@
       "rasgoDistintivo": "Aletas pectorales anchas"
     },
     "habitat": "Mares del Devónico tardío",
-    "alimentacion": "Presas pequeñas y lentas"
+    "alimentacion": "Presas pequeñas y lentas",
+    "imagenes": [
+      "cladoselache-1"
+    ]
   },
   {
     "id": "paragaleus-tengi",
@@ -2086,7 +2089,10 @@
       "formaCuerpo": "Fusiforme"
     },
     "habitat": "Mares abiertos del Cretácico",
-    "alimentacion": "Depredador de peces y otros animales marinos"
+    "alimentacion": "Depredador de peces y otros animales marinos",
+    "imagenes": [
+      "cretoxyrhina-mantelli-1"
+    ]
   },
   {
     "id": "dichichthys-albimarginatus",
@@ -3052,7 +3058,10 @@
       "rasgoDistintivo": "Espina con púas sobre cada aleta dorsal"
     },
     "habitat": "Mares del Mesozoico",
-    "alimentacion": "Depredador de peces y otros animales marinos"
+    "alimentacion": "Depredador de peces y otros animales marinos",
+    "imagenes": [
+      "hybodus-1"
+    ]
   },
   {
     "id": "lamiopsis-tephrodes",

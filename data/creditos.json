@@ -1839,5 +1839,26 @@
     "autor": "Reinhold Möller (Ermell)",
     "licencia": "CC BY-SA 4.0",
     "fuente": "https://commons.wikimedia.org/wiki/File:Megalodon_American_Museum_Natural_History-20120521-RM-225233.jpg"
+  },
+  {
+    "identificador": "cretoxyrhina-mantelli-1",
+    "archivo": "cretoxyrhina-mantelli-1.jpg",
+    "autor": "Mason Hintermeister",
+    "licencia": "CC BY-SA 4.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Cretoxyrhina_mantelli.jpg"
+  },
+  {
+    "identificador": "hybodus-1",
+    "archivo": "hybodus-1.jpg",
+    "autor": "Haplochromis",
+    "licencia": "CC BY-SA 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Hybodus_fraasi_(fossil).jpg"
+  },
+  {
+    "identificador": "cladoselache-1",
+    "archivo": "cladoselache-1.jpg",
+    "autor": "Ghedoghedo",
+    "licencia": "Public domain",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Cladoselache_fyleri.JPG"
   }
 ]
