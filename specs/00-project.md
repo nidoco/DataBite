@@ -23,24 +23,42 @@ No está pensada por ahora para un público específico.
 
 Una aplicación móvil autónoma (offline, sin backend) que funciona como una
 enciclopedia personal de tiburones: permite explorar un catálogo de especies con
-su información, ver sus ilustraciones, y poner a prueba lo aprendido mediante un
-quiz de "mito o realidad" con retroalimentación de base científica.
+su información, ver sus fotos, buscarlas, guardar favoritas y notas, y poner a
+prueba lo aprendido mediante un quiz de "mito o realidad" con retroalimentación de
+base científica.
 
 ## MVP
 
-- F01 - Catálogo de especies: lista de tiburones con su información básica.
-- F02 - Detalle de especie: ficha completa de un tiburón al seleccionarlo.
-- F03 - Galería e ilustraciones: imagen identificativa de cada especie.
-- F04 - Quiz "Mito o Realidad": preguntas con respuesta de mito o realidad.
-- F05 - Resultados y retroalimentación: respuesta correcta y explicación científica.
-- F06 - Easter Egg: acertijo oculto de baja probabilidad durante el quiz, con
-  máximo 3 intentos y bloqueo del componente tras fallar, sin interrumpir el quiz.
+| Feature | Qué es | Estado |
+|---|---|---|
+| F01 - Catálogo | Lista de especies con su información básica | Hecho |
+| F02 - Detalle | Ficha completa de cada especie | Hecho |
+| F03 - Galería | Fotos con licencia abierta y créditos de cada una | Hecho y probado en el teléfono |
+| F04 - Quiz | Preguntas de mito o realidad en rondas de 10 | Hecho |
+| F05 - Resultados | Conteo, repaso de falladas y reintentar | Hecho |
+| F06 - Easter egg | Acertijo que desbloquea una especie extinta, con 3 intentos | Hecho |
+
+## Funcionalidades agregadas
+
+| Feature | Qué es | Estado |
+|---|---|---|
+| F07 - Carga del catálogo | 542 especies generadas desde Wikidata, FishBase y la UICN | Hecho; falta la sección de créditos de las fuentes en la app |
+| F08 - Persistencia | Favoritas y especies desbloqueadas guardadas en el teléfono | Hecho |
+| F09 - Navegación | Pestañas Catálogo y Favoritas, y modal de créditos | Hecho |
+| F10 - Buscador | Búsqueda por nombre, filtros y carga por partes | Hecho y probado en el teléfono |
+| F11 - Notas personales | Crear, leer, editar y borrar una nota por especie | Pendiente |
+
+## Requisitos del curso
+
+El curso pide tres features nativas, de las que se implementarán dos:
+
+- **Compartir:** pendiente (F-futura, la ficha se podrá compartir).
+- **Sensores:** pendiente (sacudir el teléfono para mostrar un acertijo).
+
+También pide tests (12 unitarios y 4 de integración), que quedan para el final.
 
 ## Funcionalidades futuras
 
 - Persistencia de puntajes del quiz en el dispositivo.
-- Búsqueda y filtrado de especies en el catálogo.
 - Posible apertura a público general más adelante (cuentas de usuario / login),
   si el proyecto deja de ser solo personal.
-
-
