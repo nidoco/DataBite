@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, Pressable, Alert, AccessibilityInfo, KeyboardAvoidingView, Platform, Image } from "react-native";
+import { View, Text, StyleSheet, Pressable, Alert, AccessibilityInfo, KeyboardAvoidingView, Platform, Image, ScrollView } from "react-native";
 import { NativeStackScreenProps } from "@react-navigation/native-stack";
 import { RootStackParamList } from "../types/navigation";
 import loadQuiz, { elegirRonda } from "../data/loadQuiz";
@@ -14,7 +14,7 @@ import { getSharkById } from "../data/loadSharks";
 import { imagenPorIdentificador } from "../data/imagenes";
 
 // Probabilidad de que aparezca un acertijo al avanzar de pregunta. Para probar, súbela a 1.
-const PROBABILIDAD_ACERTIJO = 1;
+const PROBABILIDAD_ACERTIJO = 0.1;
 
 const nombreEspecie = (id: string) => getSharkById(id)?.nombre ?? id;
 
@@ -106,7 +106,7 @@ usePreventRemove(respuestas.length > 0, ({ data }) => {
       const foto = especie?.imagenes?.[0];
 
       return (
-        <View style={styles.container}>
+        <ScrollView contentContainerStyle={styles.scrollFallo}>
           <View style={styles.bloqueFallo}>
             <Text style={styles.etiquetaAcertijo}>Acertijo</Text>
             <Text style={styles.tituloFallo}>No acertaste en esta ocasión</Text>
@@ -131,7 +131,7 @@ usePreventRemove(respuestas.length > 0, ({ data }) => {
               <Text style={styles.textoBotonSiguiente}>Continuar</Text>
             </Pressable>
           </View>
-        </View>
+        </ScrollView>
       );
     }
 
@@ -262,6 +262,12 @@ const styles = StyleSheet.create({
     backgroundColor: "#0a2540",
     justifyContent: "center",
     alignItems: "center",
+    padding: 16,
+  },
+  scrollFallo: {
+    flexGrow: 1,
+    justifyContent: 'center',
+    backgroundColor: '#0a2540',
     padding: 16,
   },
   bloqueFallo: {
