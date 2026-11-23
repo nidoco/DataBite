@@ -12,6 +12,7 @@ import {
   type ScrollViewInstance,
   Keyboard,
   Alert,
+  Share,
 } from "react-native";
 import { NativeStackScreenProps } from "@react-navigation/native-stack";
 import { RootStackParamList } from "../types/navigation";
@@ -21,6 +22,7 @@ import creditos from "../data/creditos.json";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { DatoFicha } from "../components/DatoFicha";
 import { useProgreso } from "../data/progresoContext";
+import { textoParaCompartir } from "../data/textoCompartir";
 
 type Props = NativeStackScreenProps<RootStackParamList, "Detalle">;
 
@@ -124,6 +126,15 @@ export function DetalleScreen({ route, navigation }: Props) {
       ],
     );
   };
+  const manejarCompartir = async () => {
+    try {
+      await Share.share({
+        message: textoParaCompartir(shark),
+      });
+    } catch (error) {
+      console.error("Error al compartir:", error);
+    }
+  };
 
   return (
     <View style={styles.container}>
@@ -165,6 +176,16 @@ export function DetalleScreen({ route, navigation }: Props) {
                 >
                   {esFavorita ? "★ Favorita" : "☆ Agregar a favoritas"}
                 </Text>
+              </Pressable>
+
+              <Pressable
+                style={({ pressed }) => [
+                  styles.botonFavorito,
+                  pressed && styles.botonPresionado,
+                ]}
+                onPress={manejarCompartir}
+              >
+                <Text style={styles.estadoTexto}>Compartir</Text>
               </Pressable>
             </View>
           </View>
@@ -464,18 +485,18 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   botonBorrarNota: {
-  paddingVertical: 10,
-  paddingHorizontal: 16,
-  borderRadius: 12,
-  borderWidth: 1,
-  borderColor: "#fc8181",
-  alignItems: "center",
-},
-textoBotonBorrar: {
-  color: "#fc8181",
-  fontSize: 15,
-  fontWeight: "bold",
-},
+    paddingVertical: 10,
+    paddingHorizontal: 16,
+    borderRadius: 12,
+    borderWidth: 1,
+    borderColor: "#fc8181",
+    alignItems: "center",
+  },
+  textoBotonBorrar: {
+    color: "#fc8181",
+    fontSize: 15,
+    fontWeight: "bold",
+  },
   textoBotonCancelar: {
     color: "#4fd1c5",
     fontSize: 15,
