@@ -140,16 +140,36 @@ usePreventRemove(respuestas.length > 0, ({ data }) => {
     }
 
     if (resultadoAcertijo) {
+      const especieDesbloqueada = getSharkById(acertijo.sharkId);
+      const fotoDesbloqueada = especieDesbloqueada?.imagenes?.[0];
+
       return (
-        <View style={styles.container}>
-          <Text style={styles.tituloAcertijo}>¡Correcto!</Text>
-          <Text style={styles.texto}>
-            {`Desbloqueaste a ${resultadoAcertijo.nombre} en el catálogo.`}
-          </Text>
-          <Pressable style={styles.boton} onPress={cerrarAcertijo}>
-            <Text style={styles.botonTexto}>Continuar</Text>
-          </Pressable>
-        </View>
+        <ScrollView contentContainerStyle={styles.scrollFallo}>
+          <View style={styles.bloqueFallo}>
+            <Text style={styles.etiquetaAcertijo}>Acertijo</Text>
+            <Text style={styles.tituloExito}>¡Lo lograste!</Text>
+            {fotoDesbloqueada ? (
+              <Image
+                source={imagenPorIdentificador(fotoDesbloqueada)}
+                style={styles.fotoFallo}
+                resizeMode="cover"
+              />
+            ) : null}
+            <Text style={styles.nombreEspecie}>{resultadoAcertijo.nombre}</Text>
+            <Text style={styles.textoFallo}>
+              Desbloqueaste esta especie. Ya aparece en tu catálogo.
+            </Text>
+            <Pressable
+              style={({ pressed }) => [
+                styles.botonSiguiente,
+                pressed && styles.botonPresionado,
+              ]}
+              onPress={cerrarAcertijo}
+            >
+              <Text style={styles.textoBotonSiguiente}>Continuar</Text>
+            </Pressable>
+          </View>
+        </ScrollView>
       );
     }
 
@@ -284,6 +304,12 @@ const styles = StyleSheet.create({
     fontSize: 13,
     fontWeight: "600",
     letterSpacing: 1,
+  },
+  tituloExito: {
+    color: '#68d391',
+    fontSize: 26,
+    fontWeight: 'bold',
+    textAlign: 'center',
   },
   tituloFallo: {
     color: "#fc8181",
