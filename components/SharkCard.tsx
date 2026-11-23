@@ -12,7 +12,13 @@ export function SharkCard({ shark, onPress }: SharkCardProps) {
     <Pressable style={styles.pressable} onPress={onPress}>
       <View style={styles.card}>
         {/* La portada es la primera foto de la especie; sin foto, sale el placeholder. */}
-        <Image source={imagenPorIdentificador(shark.imagenes?.[0])} style={styles.portada} />
+        {shark.imagenes?.[0] ? (
+          <Image source={imagenPorIdentificador(shark.imagenes[0])} style={styles.portada} />
+        ) : (
+          <View style={[styles.portada, styles.sinFoto]}>
+            <Text style={styles.textoSinFoto}>Sin foto</Text>
+          </View>
+        )}
         <View style={styles.info}>
           <Text style={styles.nombre}>{shark.nombre}</Text>
           <Text style={styles.nombreCientifico}>{shark.nombreCientifico}</Text>
@@ -41,6 +47,17 @@ const styles = StyleSheet.create({
     width: 72,
     height: 72,
     borderRadius: 12,
+  },
+  sinFoto: {
+    backgroundColor: '#0a2540',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  textoSinFoto: {
+    color: '#94a3b8',
+    fontSize: 11,
+    fontWeight: '600',
+    textAlign: 'center',
   },
   info: {
     flex: 1,

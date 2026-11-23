@@ -241,14 +241,26 @@ export function DetalleScreen({ route, navigation }: Props) {
               const credito = creditos.find((c) => c.identificador === item);
               return (
                 <View style={{ width: anchoFoto }}>
-                  <Image
-                    source={imagenPorIdentificador(item)}
-                    style={[
-                      styles.foto,
-                      { width: anchoFoto, height: anchoFoto * 0.66 },
-                    ]}
-                    resizeMode="cover"
-                  />
+                  {item ? (
+                    <Image
+                      source={imagenPorIdentificador(item)}
+                      style={[
+                        styles.foto,
+                        { width: anchoFoto, height: anchoFoto * 0.66 },
+                      ]}
+                      resizeMode="cover"
+                    />
+                  ) : (
+                    <View
+                      style={[
+                        styles.foto,
+                        styles.sinFoto,
+                        { width: anchoFoto, height: anchoFoto * 0.66 },
+                      ]}
+                    >
+                      <Text style={styles.textoSinFoto}>Sin foto</Text>
+                    </View>
+                  )}
                   {credito && (
                     <Text style={styles.credito}>
                       Foto: {credito.autor} · {credito.licencia}
@@ -499,6 +511,16 @@ const styles = StyleSheet.create({
   },
   foto: {
     borderRadius: 16,
+  },
+  sinFoto: {
+    backgroundColor: "#163a5f",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  textoSinFoto: {
+    color: "#94a3b8",
+    fontSize: 16,
+    fontWeight: "600",
   },
   credito: {
     color: "#94a3b8",
