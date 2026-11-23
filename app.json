@@ -4,14 +4,12 @@
     "slug": "DataBite",
     "version": "1.0.0",
     "orientation": "default",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true
     },
     "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE"
-      },
       "predictiveBackGestureEnabled": false
     },
     "plugins": [
