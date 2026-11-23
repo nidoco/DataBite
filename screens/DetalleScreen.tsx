@@ -23,6 +23,14 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { DatoFicha } from "../components/DatoFicha";
 import { useProgreso } from "../data/progresoContext";
 import { textoParaCompartir } from "../data/textoCompartir";
+import {
+  formatearFecha,
+  guardarUbicaciones,
+  leerUbicaciones,
+  Ubicaciones,
+} from "../data/ubicaciones";
+import { obtenerUbicacionActual } from "../data/obtenerUbicacion";
+
 
 type Props = NativeStackScreenProps<RootStackParamList, "Detalle">;
 
@@ -65,6 +73,38 @@ export function DetalleScreen({ route, navigation }: Props) {
 
   const anchoFoto = width * 0.8;
   const notaGuardada = notas[id];
+
+  // Ubicaciones donde se vio cada especie. Se leen al abrir la ficha y se guardan en el teléfono.
+  const [ubicaciones, setUbicaciones] = useState<Ubicaciones>({});
+  const [buscandoUbicacion, setBuscandoUbicacion] = useState(false);
+  const [errorUbicacion, setErrorUbicacion] = useState("");
+  const ubicacion = ubicaciones[id];
+
+  useEffect(() => {
+    leerUbicaciones().then(setUbicaciones);
+  }, []);
+
+  const guardarUbicacionNota = async () => {
+    setBuscandoUbicacion(true);
+    setErrorUbicacion("");
+
+    const resultado = await obtenerUbicacionActual();
+    if (resultado.ok) {
+      const nuevas = { ...ubicaciones, [id]: resultado.ubicacion };
+      setUbicaciones(nuevas);
+      await guardarUbicaciones(nuevas);
+    } else {
+      setErrorUbicacion(resultado.error);
+    }
+
+    setBuscandoUbicacion(false);
+  };
+
+  const quitarUbicacion = async () => {
+    const { [id]: _quitada, ...resto } = ubicaciones;
+    setUbicaciones(resto);
+    await guardarUbicaciones(resto);
+  };
 
   if (!shark) {
     return (
@@ -348,6 +388,50 @@ export function DetalleScreen({ route, navigation }: Props) {
                 <Text style={styles.textoBotonNota}>Agregar nota</Text>
               </Pressable>
             )}
+
+            {notaGuardada && (
+              <View style={styles.bloqueUbicacion}>
+                {ubicacion ? (
+                  <>
+                    <Text style={styles.textoUbicacion}>
+                      Vista en {ubicacion.latitud.toFixed(4)},{" "}
+                      {ubicacion.longitud.toFixed(4)} ·{" "}
+                      {formatearFecha(ubicacion.fecha)}
+                    </Text>
+                    <Pressable
+                      style={({ pressed }) => [
+                        styles.botonCancelarNota,
+                        pressed && styles.botonPresionado,
+                      ]}
+                      onPress={quitarUbicacion}
+                    >
+                      <Text style={styles.textoBotonCancelar}>
+                        Quitar ubicación
+                      </Text>
+                    </Pressable>
+                  </>
+                ) : (
+                  <Pressable
+                    style={({ pressed }) => [
+                      styles.botonAgregarNota,
+                      buscandoUbicacion && styles.botonDeshabilitado,
+                      pressed && styles.botonPresionado,
+                    ]}
+                    onPress={guardarUbicacionNota}
+                    disabled={buscandoUbicacion}
+                  >
+                    <Text style={styles.textoBotonNota}>
+                      {buscandoUbicacion
+                        ? "Buscando ubicación..."
+                        : "Guardar dónde la viste"}
+                    </Text>
+                  </Pressable>
+                )}
+                {errorUbicacion ? (
+                  <Text style={styles.errorNota}>{errorUbicacion}</Text>
+                ) : null}
+              </View>
+            )}
           </View>
         </ScrollView>
       </SafeAreaView>
@@ -431,6 +515,14 @@ const styles = StyleSheet.create({
     color: "#4fd1c5",
     fontSize: 18,
     fontWeight: "bold",
+  },
+  bloqueUbicacion: {
+    gap: 8,
+    marginTop: 8,
+  },
+  textoUbicacion: {
+    color: "#cbd5e0",
+    fontSize: 14,
   },
   textoNota: {
     color: "#cbd5e0",
