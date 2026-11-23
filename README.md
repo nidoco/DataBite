@@ -231,7 +231,6 @@ Configuración inicial del proyecto en Expo con plantilla TypeScript
 - Las especies extintas solo se ven en el catálogo cuando las desbloqueé. Mientras la app carga el progreso, tampoco se muestran.
 
 #### Pendiente
-- Conseguir fotos de Cretoxyrhina, Hybodus y Cladoselache. Wikimedia Commons me bloqueó las descargas.
 - Mejorar el diseño de la pantalla del acertijo.
 
 ## Créditos y fuentes
@@ -243,3 +242,31 @@ Los datos de las especies salen de estas fuentes:
 - **Lista Roja de la UICN**: estado de conservación de cada especie. La UICN autorizó el uso de su API para este proyecto educativo, sin fines comerciales. https://www.iucnredlist.org
 
 Las fotos vienen de Wikimedia Commons, y solo se usaron fotos con licencias abiertas (CC0, dominio público, CC BY y CC BY-SA). Cada foto tiene su autor, su licencia y el enlace a su página original, y todo eso aparece en la pantalla de Créditos de la app.
+
+### Semana 13
+
+#### Commit: buscador de especies
+- Agregué un campo para buscar especies por nombre común o científico. No importan los acentos ni las mayúsculas.
+- Puse dos filtros: "Solo con foto" y "Solo desbloqueadas", que muestra solo las extintas que ya desbloqueé.
+- Si la búsqueda no encuentra nada, la app dice "Sin resultados" y tiene un botón para limpiar la búsqueda.
+- Las especies se cargan de 20 en 20, según bajo por la lista.
+- Ayuda de IA: me ayudó a revisar el filtro y a corregir un error de tipos. Yo decidí cómo funcionan los filtros y los probé en mi teléfono.
+
+#### Commit: notas personales
+- En la ficha de cada especie puedo crear, leer, editar y borrar una nota.
+- Las notas tienen máximo 280 caracteres, y una nota vacía no se guarda. Al borrar, la app me pide confirmación.
+- Tuve un problema grande: la app se cerraba si tenía el teclado abierto mientras editaba una nota. Quité el componente que lo causaba y agregué espacio al final de la ficha, para que pueda bajar hasta lo que estoy escribiendo.
+- Ayuda de IA: me ayudó a encontrar la causa del cierre. Probé cada cambio en mi iPhone antes de seguir.
+
+#### Commit: compartir una especie
+- Un botón "Compartir" en la ficha abre la hoja del teléfono con el nombre, el nombre científico y algunos datos de la especie.
+- Si el nombre y el nombre científico son iguales, solo se muestra uno. Si un dato no existe, no aparece en el texto.
+
+#### Spec de geolocalización (F13)
+- Escribí la spec para guardar dónde vi cada especie, junto a mi nota. Todavía no la programo.
+- Cambié la segunda feature nativa. Pensé en usar el acelerómetro para sacudir el teléfono y abrir un acertijo, pero eso quitaba la sorpresa del easter egg.
+
+#### Pendiente
+- Programar la geolocalización (F13).
+- Corregir cómo se numeran las fotos en el programa de descarga.
+- Restaurar los iconos de la app antes de hacer un build con EAS.
