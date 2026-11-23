@@ -3,6 +3,8 @@ import { Pregunta } from "../types/Pregunta";
 
 const PREGUNTAS_POR_RONDA = 10;
 
+// Elige 10 preguntas al azar, sin repetir, mezclando una copia del banco (algoritmo Fisher-Yates).
+// El banco original no se modifica.
 export function elegirRonda(preguntas: Pregunta[]): Pregunta[] {
     const mezcladas = [...preguntas]; // Crea una copia, si se mezcla preguntas directamente, cambiar[ia el banco completo]
     // El for va de atrás hacia adelante. 
@@ -17,6 +19,7 @@ export function elegirRonda(preguntas: Pregunta[]): Pregunta[] {
     return mezcladas.slice(0, PREGUNTAS_POR_RONDA);
 }
 
+// Revisa que una pregunta tenga la forma correcta antes de usarla. Lo que no cumpla se descarta.
 function esPregunta(valor: unknown): valor is Pregunta {
     if (typeof valor !== "object" || valor === null) return false;
     const obj = valor as Record<string, unknown>;

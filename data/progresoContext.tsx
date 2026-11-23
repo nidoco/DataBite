@@ -26,6 +26,8 @@ export const ProgresoProvider: React.FC<ProgresoProviderProps> = ({ children }) 
   const [cargando, setCargando] = useState<boolean>(true);
 
   useEffect(() => {
+    // Al abrir la app se leen las listas guardadas. Mientras tanto, cargando es true
+    // y el resto de la app no escribe nada, para no sobrescribir datos que aún no se leyeron.
     const cargarProgreso = async () => {
       try {
         const [guardadasDesbloqueadas, guardadasFavoritas, guardadasNotas] = await Promise.all([
@@ -73,6 +75,7 @@ export const ProgresoProvider: React.FC<ProgresoProviderProps> = ({ children }) 
     );
   };
 
+  // Guardar una nota vacía equivale a borrarla, así no quedan notas en blanco.
   const guardarNota = (id: string, texto: string) => {
     const textoLimpio = texto.trim();
     if (!textoLimpio) {

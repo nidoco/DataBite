@@ -7,6 +7,8 @@ function esListaDeTextos(valor: unknown): valor is string[] {
 }
 type Clave = "desbloqueadas" | "favoritas";
 
+// Devuelve la lista guardada. Si no hay datos, si el dato está dañado o si falla la lectura,
+// devuelve [] para que la app siga funcionando.
 export async function leerLista(clave: Clave): Promise<string[]> {
   try {
     const valor = await AsyncStorage.getItem(clave);

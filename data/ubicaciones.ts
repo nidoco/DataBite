@@ -10,6 +10,7 @@ export interface Ubicacion {
 
 export type Ubicaciones = Record<string, Ubicacion>;
 
+// Revisa que las coordenadas sean números dentro de rango y que la fecha sea texto.
 function esUbicacionValida(valor: unknown): valor is Ubicacion {
   if (typeof valor !== "object" || valor === null || Array.isArray(valor)) {
     return false;

@@ -29,6 +29,8 @@ function esShark(valor: unknown): valor is Shark{
     )
 }
 
+// Lee el catálogo y deja solo las especies que pasan la validación. Las inválidas se descartan
+// sin romper la app.
 export default function loadSharks(): Shark[] {
   const datos: unknown = sharks;
   if (!Array.isArray(datos)) return [];

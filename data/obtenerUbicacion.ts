@@ -5,6 +5,8 @@ export type ResultadoUbicacion =
   | { ok: true; ubicacion: Ubicacion }
   | { ok: false; error: string };
 
+// Pide el permiso y toma la ubicación actual. No lanza errores: devuelve ok: false con un
+// mensaje que la pantalla puede mostrar.
 export async function obtenerUbicacionActual(): Promise<ResultadoUbicacion> {
   try {
     const { status } = await Location.requestForegroundPermissionsAsync();
