@@ -46,14 +46,14 @@ base científica.
 | F08 - Persistencia | Favoritas y especies desbloqueadas guardadas en el teléfono | Hecho |
 | F09 - Navegación | Pestañas Catálogo y Favoritas, y modal de créditos | Hecho |
 | F10 - Buscador | Búsqueda por nombre, filtros y carga por partes | Hecho y probado en el teléfono |
-| F11 - Notas personales | Crear, leer, editar y borrar una nota por especie | Pendiente |
+| F11 - Notas personales | Crear, leer, editar y borrar una nota por especie | Hecho |
 
 ## Requisitos del curso
 
-El curso pide tres features nativas, de las que se implementarán dos:
+El curso pide dos features nativas, y ya están hechas:
 
-- **Compartir:** pendiente (F-futura, la ficha se podrá compartir).
-- **Sensores:** pendiente (sacudir el teléfono para mostrar un acertijo).
+- **Compartir (F12):** hecho. La ficha comparte nombre, datos y estado con la hoja del teléfono.
+- **Geolocalización (F13):** hecho. Con una nota, se guarda dónde se vio la especie.
 
 También pide tests (12 unitarios y 4 de integración), que quedan para el final.
 

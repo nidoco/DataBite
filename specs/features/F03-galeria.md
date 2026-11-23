@@ -50,8 +50,8 @@ admite rutas dinámicas desde un string.
 
 ## Casos de error (degradación)
 
-- Si una especie no tiene imágenes (lista vacía), se muestra un placeholder
-  (imagen de relleno) tanto en la tarjeta como en el detalle, no un hueco vacío.
+- Si una especie no tiene imágenes (lista vacía), se muestra un recuadro oscuro con el
+  texto "Sin foto", tanto en la tarjeta como en el detalle, no un hueco vacío.
 - Si un identificador no existe en el mapa de `require` (typo o archivo faltante),
   esa imagen se sustituye por el placeholder en lugar de romper la pantalla.
 - El mismo placeholder cubre los dos casos: "sin imágenes" e "imagen que no
@@ -67,7 +67,8 @@ placeholder.
 ## Estados de la pantalla
 
 - Con imágenes: se muestran las ilustraciones reales.
-- Sin imágenes / imagen no resuelve: se muestra el placeholder.
+- Sin imágenes: se muestra el recuadro "Sin foto".
+- Imagen no resuelta: se muestra el placeholder de imagen.
 - (Carga y error de red no aplican: las imágenes son locales y empaquetadas.)
 
 ## Criterios de aceptación
@@ -79,7 +80,7 @@ placeholder.
 - [X] La tarjeta del catálogo muestra la imagen de portada (primera de la lista).
 - [X] El detalle muestra una galería horizontal deslizable con todas las imágenes.
 - [X] Toda `Image` se renderiza con dimensiones definidas.
-- [X] Una especie sin imágenes muestra el placeholder en tarjeta y detalle.
+- [X] Una especie sin imágenes muestra el recuadro "Sin foto" en tarjeta y detalle.
 - [X] Un identificador que no resuelve en el mapa muestra el placeholder, sin
       romper la pantalla.
 
