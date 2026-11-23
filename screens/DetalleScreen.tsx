@@ -84,6 +84,8 @@ export function DetalleScreen({ route, navigation }: Props) {
     leerUbicaciones().then(setUbicaciones);
   }, []);
 
+  // Pide el permiso, toma la posición actual y la guarda junto a la especie.
+  // Si algo falla, muestra el mensaje y no guarda nada.
   const guardarUbicacionNota = async () => {
     setBuscandoUbicacion(true);
     setErrorUbicacion("");
@@ -100,6 +102,7 @@ export function DetalleScreen({ route, navigation }: Props) {
     setBuscandoUbicacion(false);
   };
 
+  // Quita solo la ubicación de esta especie. La nota se queda como está.
   const quitarUbicacion = async () => {
     const { [id]: _quitada, ...resto } = ubicaciones;
     setUbicaciones(resto);
@@ -128,12 +131,14 @@ export function DetalleScreen({ route, navigation }: Props) {
   // Sin fotos, la galería muestra un solo placeholder en vez de quedar vacía.
   const fotos = shark.imagenes?.length ? shark.imagenes : [undefined];
 
+  // Al editar, el campo empieza con la nota actual, para que la usuaria solo cambie lo que quiera.
   const abrirFormulario = () => {
     setBorrador(notaGuardada ?? "");
     setErrorNota("");
     setEditando(true);
   };
 
+  // Una nota vacía no se guarda: se muestra el mensaje y el texto escrito se conserva para corregirlo.
   const manejarGuardar = () => {
     if (borrador.trim() === "") {
       setErrorNota("La nota no puede estar vacía");
@@ -149,6 +154,7 @@ export function DetalleScreen({ route, navigation }: Props) {
     setErrorNota("");
     setEditando(false);
   };
+  // Pide confirmación antes de borrar la nota, porque no se puede deshacer.
   const confirmarBorrado = () => {
     Alert.alert(
       "Borrar nota",

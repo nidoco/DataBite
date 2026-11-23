@@ -37,6 +37,8 @@ export function CatalogoScreen({ navigation }: Props) {
     setCantidad(20);
   }, [texto, soloConFoto, soloDesbloqueadas]);
 
+  // Las extintas bloqueadas no se muestran. Mientras carga el progreso, tampoco aparecen las
+  // extintas, para no mostrar una que después desaparece.
   const especiesDisponibles = loadSharks().filter(
     (shark) =>
       !shark.extinta || (!cargando && desbloqueadas.includes(shark.id)),

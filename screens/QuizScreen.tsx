@@ -21,6 +21,8 @@ const nombreEspecie = (id: string) => getSharkById(id)?.nombre ?? id;
 type Props = NativeStackScreenProps<RootStackParamList, "Quiz">;
 
 export function QuizScreen({ navigation }: Props) {
+  // La ronda se elige una sola vez al entrar. Con una función dentro de useState,
+  // no se vuelve a mezclar en cada redibujado de la pantalla.
   const [quiz] = useState(() => elegirRonda(loadQuiz()));
   const [indice, setIndice] = useState(0);
   const [respuestas, setRespuestas] = useState<{ id: string; acierto: boolean }[]>([]);
@@ -37,6 +39,7 @@ export function QuizScreen({ navigation }: Props) {
   }, []);
 
   const pregunta = quiz[indice];
+  // Una pregunta está respondida si ya existe una respuesta en su posición de la lista.
   const respondida = respuestas.length > indice;
   const esUltima = indice === quiz.length - 1;
   const avanzar = () => {
@@ -57,6 +60,7 @@ export function QuizScreen({ navigation }: Props) {
   };
   const terminada = useRef(false);
 
+// Pide confirmación al salir a mitad de la ronda. Si la ronda ya terminó, deja salir sin preguntar.
 usePreventRemove(respuestas.length > 0, ({ data }) => {
   // La ronda terminó y se va a Resultados: no hay nada que confirmar.
   if (terminada.current) {
