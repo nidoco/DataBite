@@ -20,29 +20,42 @@ La usuaria de la app (proyecto personal).
 
 - Nombre de la especie (`nombre`).
 - Nombre científico (`nombreCientifico`).
+- Longitud (`morfologia.longitudMetros`), si existe.
+- Hábitat (`habitat`).
+- Alimentación (`alimentacion`), si existe.
 - Estado de conservación (`estadoConservacion`).
 
 ## Flujo principal
 
 1. En la ficha de una especie, la usuaria toca el botón "Compartir".
 2. Se abre la hoja de compartir del teléfono, con un texto ya armado.
-3. El texto dice el nombre, el nombre científico, el estado de conservación y que
-   viene de DataBite.
-4. Si la usuaria elige una app y envía, el texto sale de DataBite. Si cancela, no
+3. Si la usuaria elige una app y envía, el texto sale de DataBite. Si cancela, no
    pasa nada.
 
 ## Formato del texto
 
-Una sola frase corta, por ejemplo:
-"Mira esta especie: {nombre} ({nombreCientifico}), estado de conservación:
-{estadoConservacion}. Vista en DataBite."
+El texto se arma en `data/textoCompartir.ts`, con este orden:
 
-El texto se arma en una función aparte, para poder revisarlo sin abrir la app.
+1. Frase inicial: "Mira esta especie:".
+2. Nombre y nombre científico, por ejemplo "Tiburón blanco (Carcharodon carcharias)".
+   Si los dos son iguales, se muestra solo uno.
+3. Datos disponibles, cada uno en su propia frase, solo si la especie los tiene:
+   - "Mide hasta X m." (longitud).
+   - "Hábitat: ..." (hábitat).
+   - "Alimentación: ..." (alimentación).
+4. Estado de conservación, solo si no es "Datos insuficientes".
+5. Cierre: "Vista en DataBite."
+
+Ejemplo:
+"Mira esta especie: Tiburón blanco (Carcharodon carcharias). Mide hasta 6 m.
+Hábitat: Aguas cálidas y templadas. Alimentación: Mamíferos marinos, peces y otros
+tiburones. Estado de conservación: Vulnerable. Vista en DataBite."
 
 ## Validaciones
 
-- El botón solo se activa si la ficha tiene una especie válida.
-- Si el texto de la especie viene vacío en algún campo, se omite esa parte del texto.
+- Cada dato se agrega solo si la especie lo tiene. Un dato vacío no deja huecos en el
+  texto.
+- Si el nombre común y el científico son iguales, no se repiten.
 
 ## Casos de error / degradación
 
@@ -57,20 +70,21 @@ app para copiar datos a mano.
 
 ## Estados de la pantalla
 
-- Botón "Compartir" visible debajo del encabezado de la ficha, con el mismo estilo
-  que el botón de favorita.
+- Botón "Compartir" en la misma fila de los chips de la ficha, separado del botón de
+  favorita.
 
 ## Criterios de aceptación
 
-- [ ] La ficha tiene un botón "Compartir".
-- [ ] Al tocarlo, se abre la hoja de compartir del teléfono.
-- [ ] El texto incluye nombre, nombre científico, estado de conservación y "DataBite".
-- [ ] Cancelar la hoja de compartir no muestra ningún error.
-- [ ] Si la hoja no se puede abrir, se muestra el mensaje de error.
+- [X] La ficha tiene un botón "Compartir".
+- [X] Al tocarlo, se abre la hoja de compartir del teléfono.
+- [X] El texto incluye nombre, nombre científico, datos disponibles y "Vista en DataBite".
+- [X] Si nombre y nombre científico son iguales, el texto muestra uno solo.
+- [X] Cancelar la hoja de compartir no muestra ningún error.
+- [X] Si la hoja no se puede abrir, se muestra el mensaje de error.
 
 ## Tasks
 
-- [ ] Crear la función que arma el texto para compartir (en `data/`).
-- [ ] Agregar el botón "Compartir" en la ficha, con el estilo de la app.
-- [ ] Conectar el botón con `Share.share` y manejar el error.
-- [ ] Verificar los criterios de aceptación de F12.
+- [X] Crear la función que arma el texto para compartir (en `data/`).
+- [X] Agregar el botón "Compartir" en la ficha, con el estilo de la app.
+- [X] Conectar el botón con `Share.share` y manejar el error.
+- [X] Verificar los criterios de aceptación de F12.
