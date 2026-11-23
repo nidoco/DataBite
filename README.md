@@ -3,7 +3,7 @@
 ## Cómo abrir la app
 
 1. Instala **Expo Go** en tu teléfono (App Store o Google Play).
-2. Abre este enlace en el navegador: https://expo.dev/preview/update?message=Entrega+final&updateRuntimeVersion=1.0.0&createdAt=2026-11-23T04%3A56%3A51.194Z&slug=exp&projectId=8089c144-2e7e-47ac-847d-13d3fb9f4d02&group=2b12eedf-1a52-4a87-9aaa-295e5f625fad
+2. Abre este enlace en el navegador: https://expo.dev/preview/update?message=Entrega+final&updateRuntimeVersion=1.0.0&createdAt=2026-11-23T05%3A47%3A31.131Z&slug=exp&projectId=8089c144-2e7e-47ac-847d-13d3fb9f4d02&group=c0ca7a3d-e006-40af-907a-88c9b16867e6
 3. Selecciona la opción "Expo Go".
 
 ## Cómo instalarla y correrla
