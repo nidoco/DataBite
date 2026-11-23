@@ -1,11 +1,16 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { leerLista, guardarLista } from './persistencia';
+import { Notas, leerNotas, guardarNotas } from './notas';
+
 interface ProgresoContextType {
   desbloqueadas: string[];
   favoritas: string[];
+  notas: Notas;
   cargando: boolean;
   desbloquearEspecie: (id: string) => void;
   alternarFavorita: (id: string) => void;
+  guardarNota: (id: string, texto: string) => void;
+  borrarNota: (id: string) => void;
 }
 
 const ProgresoContext = createContext<ProgresoContextType | undefined>(undefined);
@@ -17,18 +22,21 @@ interface ProgresoProviderProps {
 export const ProgresoProvider: React.FC<ProgresoProviderProps> = ({ children }) => {
   const [desbloqueadas, setDesbloqueadas] = useState<string[]>([]);
   const [favoritas, setFavoritas] = useState<string[]>([]);
+  const [notas, setNotas] = useState<Notas>({});
   const [cargando, setCargando] = useState<boolean>(true);
 
   useEffect(() => {
     const cargarProgreso = async () => {
       try {
-        const [guardadasDesbloqueadas, guardadasFavoritas] = await Promise.all([
+        const [guardadasDesbloqueadas, guardadasFavoritas, guardadasNotas] = await Promise.all([
           leerLista("desbloqueadas"),
           leerLista("favoritas"),
+          leerNotas(),
         ]);
 
         setDesbloqueadas(guardadasDesbloqueadas);
         setFavoritas(guardadasFavoritas);
+        setNotas(guardadasNotas);
       } catch (error) {
         console.error('Error al cargar el progreso:', error);
       } finally {
@@ -39,7 +47,7 @@ export const ProgresoProvider: React.FC<ProgresoProviderProps> = ({ children }) 
     cargarProgreso();
   }, []);
 
-  // Guardar en disco cuando cambia la lista, solo después de cargar el progreso
+  // Guardar en disco cuando cambia el estado, solo después de cargar el progreso
   useEffect(() => {
     if (cargando) return;
     guardarLista("desbloqueadas", desbloqueadas);
@@ -49,6 +57,11 @@ export const ProgresoProvider: React.FC<ProgresoProviderProps> = ({ children }) 
     if (cargando) return;
     guardarLista("favoritas", favoritas);
   }, [favoritas, cargando]);
+
+  useEffect(() => {
+    if (cargando) return;
+    guardarNotas(notas);
+  }, [notas, cargando]);
 
   const desbloquearEspecie = (id: string) => {
     setDesbloqueadas((prev) => (prev.includes(id) ? prev : [...prev, id]));
@@ -60,14 +73,37 @@ export const ProgresoProvider: React.FC<ProgresoProviderProps> = ({ children }) 
     );
   };
 
+  const guardarNota = (id: string, texto: string) => {
+    const textoLimpio = texto.trim();
+    if (!textoLimpio) {
+      borrarNota(id);
+      return;
+    }
+
+    setNotas((prev) => ({
+      ...prev,
+      [id]: textoLimpio,
+    }));
+  };
+
+  const borrarNota = (id: string) => {
+    setNotas((prev) => {
+      const { [id]: _, ...resto } = prev;
+      return resto;
+    });
+  };
+
   return (
     <ProgresoContext.Provider
       value={{
         desbloqueadas,
         favoritas,
+        notas,
         cargando,
         desbloquearEspecie,
         alternarFavorita,
+        guardarNota,
+        borrarNota,
       }}
     >
       {children}
