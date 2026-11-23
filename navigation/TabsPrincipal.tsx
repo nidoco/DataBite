@@ -1,4 +1,5 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { Ionicons } from '@expo/vector-icons';
 import { CatalogoScreen } from '../screens/CatalogoScreen';
 import { FavoritasScreen } from '../screens/FavoritasScreen';
 import { TabsParamList } from '../types/navigation';
@@ -21,12 +22,24 @@ export function TabsPrincipal() {
       <Tab.Screen
         name="Catalogo"
         component={CatalogoScreen}
-        options={{ title: 'DataBite', tabBarLabel: 'Catálogo' }}
+        options={{
+          title: 'DataBite',
+          tabBarLabel: 'Catálogo',
+          tabBarIcon: ({ color, focused }) => (
+            <Ionicons name={focused ? 'book' : 'book-outline'} size={24} color={color} />
+          ),
+        }}
       />
       <Tab.Screen
         name="Favoritas"
         component={FavoritasScreen}
-        options={{ title: 'Favoritas' }}
+        options={{
+          title: 'Favoritas',
+          tabBarLabel: 'Favoritas',
+          tabBarIcon: ({ color, focused }) => (
+            <Ionicons name={focused ? 'heart' : 'heart-outline'} size={24} color={color} />
+          ),
+        }}
       />
     </Tab.Navigator>
   );
