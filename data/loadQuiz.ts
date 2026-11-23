@@ -1,5 +1,5 @@
-import quiz from './quiz.json';
-import { Pregunta } from '../types/Pregunta';
+import quiz from "./quiz.json";
+import { Pregunta } from "../types/Pregunta";
 
 const PREGUNTAS_POR_RONDA = 10;
 

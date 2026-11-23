@@ -1,16 +1,16 @@
-import AsyncStorage from '@react-native-async-storage/async-storage';
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
-const CLAVE_NOTAS = 'notas';
+const CLAVE_NOTAS = "notas";
 
 export type Notas = Record<string, string>;
 
 // 1. Validador: debe ser un objeto (no null, no array) y todos sus valores string
 function esNotas(valor: unknown): valor is Notas {
-  if (typeof valor !== 'object' || valor === null || Array.isArray(valor)) {
+  if (typeof valor !== "object" || valor === null || Array.isArray(valor)) {
     return false;
   }
 
-  return Object.values(valor).every((item) => typeof item === 'string');
+  return Object.values(valor).every((item) => typeof item === "string");
 }
 
 // 2. Lee las notas desde AsyncStorage; devuelve {} si no existen, fallan o no son válidas

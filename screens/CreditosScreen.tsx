@@ -1,28 +1,28 @@
-import { FlatList, Linking, Pressable, StyleSheet, Text, View } from 'react-native';
-import { NativeStackScreenProps } from '@react-navigation/native-stack';
-import creditos from '../data/creditos.json';
-import { RootStackParamList } from '../types/navigation';
+import { FlatList, Linking, Pressable, StyleSheet, Text, View } from "react-native";
+import { NativeStackScreenProps } from "@react-navigation/native-stack";
+import creditos from "../data/creditos.json";
+import { RootStackParamList } from "../types/navigation";
 
-type Props = NativeStackScreenProps<RootStackParamList, 'Creditos'>;
+type Props = NativeStackScreenProps<RootStackParamList, "Creditos">;
 
 const fuentesDeDatos = [
   {
-    nombre: 'Wikidata',
-    uso: 'Lista de especies y datos básicos',
-    licencia: 'CC0',
-    url: 'https://www.wikidata.org',
+    nombre: "Wikidata",
+    uso: "Lista de especies y datos básicos",
+    licencia: "CC0",
+    url: "https://www.wikidata.org",
   },
   {
-    nombre: 'FishBase',
-    uso: 'Medidas, nombres en español y alimentación',
-    licencia: 'CC BY-NC',
-    url: 'https://www.fishbase.se',
+    nombre: "FishBase",
+    uso: "Medidas, nombres en español y alimentación",
+    licencia: "CC BY-NC",
+    url: "https://www.fishbase.se",
   },
   {
-    nombre: 'Lista Roja de la UICN',
-    uso: 'Estado de conservación de cada especie',
-    licencia: 'Uso autorizado con token, sin fines comerciales',
-    url: 'https://www.iucnredlist.org',
+    nombre: "Lista Roja de la UICN",
+    uso: "Estado de conservación de cada especie",
+    licencia: "Uso autorizado con token, sin fines comerciales",
+    url: "https://www.iucnredlist.org",
   },
 ];
 
@@ -72,57 +72,57 @@ export function CreditosScreen({ navigation }: Props) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0a2540',
+    backgroundColor: "#0a2540",
   },
   lista: {
     padding: 16,
     gap: 12,
   },
   tarjeta: {
-    backgroundColor: '#163a5f',
+    backgroundColor: "#163a5f",
     borderRadius: 12,
     padding: 12,
     gap: 6,
   },
   autor: {
-    color: '#cbd5e0',
+    color: "#cbd5e0",
     fontSize: 16,
-    fontWeight: 'bold',
+    fontWeight: "bold",
   },
   licencia: {
-    color: '#94a3b8',
+    color: "#94a3b8",
     fontSize: 14,
   },
   enlace: {
-    color: '#4fd1c5',
+    color: "#4fd1c5",
     fontSize: 14,
-    textDecorationLine: 'underline',
+    textDecorationLine: "underline",
   },
   titulo: {
-    color: '#4fd1c5',
+    color: "#4fd1c5",
     fontSize: 18,
-    fontWeight: 'bold',
+    fontWeight: "bold",
   },
   fuente: {
     gap: 4,
     paddingVertical: 6,
   },
   texto: {
-    color: '#cbd5e0',
+    color: "#cbd5e0",
     fontSize: 16,
-    textAlign: 'center',
+    textAlign: "center",
     padding: 16,
   },
   boton: {
-    backgroundColor: '#4fd1c5',
+    backgroundColor: "#4fd1c5",
     padding: 14,
     borderRadius: 8,
-    alignItems: 'center',
+    alignItems: "center",
     marginTop: 8,
   },
   botonTexto: {
-    color: '#0a2540',
-    fontWeight: 'bold',
+    color: "#0a2540",
+    fontWeight: "bold",
     fontSize: 16,
   },
 });

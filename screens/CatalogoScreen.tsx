@@ -13,7 +13,7 @@ import { NativeStackScreenProps } from "@react-navigation/native-stack";
 import { BottomTabScreenProps } from "@react-navigation/bottom-tabs";
 import { CompositeScreenProps } from "@react-navigation/native";
 import { RootStackParamList, TabsParamList } from "../types/navigation";
-import { useEffect, useLayoutEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useProgreso } from "../data/progresoContext";
 import { filtrarEspecies } from "../data/buscarEspecies";
 
@@ -54,21 +54,6 @@ export function CatalogoScreen({ navigation }: Props) {
 
   // 2. Cortar la lista
   const visible = sharks.slice(0, cantidad);
-
-  useLayoutEffect(() => {
-    navigation.setOptions({
-      headerRight: () => (
-        <View style={styles.encabezadoDerecha}>
-          <Pressable onPress={() => navigation.navigate("Creditos")}>
-            <Text style={styles.botonQuiz}>Créditos</Text>
-          </Pressable>
-          <Pressable onPress={() => navigation.navigate("Quiz")}>
-            <Text style={styles.botonQuiz}>Quiz</Text>
-          </Pressable>
-        </View>
-      ),
-    });
-  }, [navigation]);
 
   const hayBusqueda = texto.trim() !== "";
 
@@ -116,6 +101,16 @@ export function CatalogoScreen({ navigation }: Props) {
             </Text>
           </Pressable>
         </View>
+
+        <Pressable
+          style={({ pressed }) => [
+            styles.botonQuizPrincipal,
+            pressed && styles.botonPresionado,
+          ]}
+          onPress={() => navigation.navigate("Quiz")}
+        >
+          <Text style={styles.botonQuizPrincipalTexto}>Empezar quiz</Text>
+        </Pressable>
       </View>
 
       <FlatList
@@ -130,9 +125,14 @@ export function CatalogoScreen({ navigation }: Props) {
         onEndReached={() => setCantidad((c) => Math.min(c + 20, sharks.length))}
         onEndReachedThreshold={0.5}
         ListFooterComponent={
-          cantidad < sharks.length ? (
-            <Text style={styles.emptyText}>Cargando más...</Text>
-          ) : undefined
+          <View style={styles.pieLista}>
+            {cantidad < sharks.length ? (
+              <Text style={styles.emptyText}>Cargando más...</Text>
+            ) : null}
+            <Pressable onPress={() => navigation.navigate("Creditos")}>
+              <Text style={styles.enlaceCreditos}>Créditos y fuentes</Text>
+            </Pressable>
+          </View>
         }
         ListEmptyComponent={
           hayBusqueda ? (
@@ -177,6 +177,30 @@ const styles = StyleSheet.create({
   filtrosRow: {
     flexDirection: "row",
     gap: 10,
+  },
+  botonQuizPrincipal: {
+    backgroundColor: "#4fd1c5",
+    paddingVertical: 14,
+    borderRadius: 12,
+    alignItems: "center",
+  },
+  botonQuizPrincipalTexto: {
+    color: "#0a2540",
+    fontSize: 17,
+    fontWeight: "bold",
+  },
+  pieLista: {
+    alignItems: "center",
+    paddingVertical: 16,
+    gap: 12,
+  },
+  enlaceCreditos: {
+    color: "#94a3b8",
+    fontSize: 14,
+    textDecorationLine: "underline",
+  },
+  botonPresionado: {
+    opacity: 0.7,
   },
   chipFiltro: {
     paddingHorizontal: 12,

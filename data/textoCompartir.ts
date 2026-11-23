@@ -1,10 +1,10 @@
-import { Shark } from '../types/Shark';
+import { Shark } from "../types/Shark";
 
 // Arma el texto para compartir una especie con los datos que tenga disponibles.
 export function textoParaCompartir(shark: Shark): string {
   const nombre = shark.nombre.trim();
   const nombreCientifico = shark.nombreCientifico.trim();
-  const partes: string[] = ['Mira esta especie:'];
+  const partes: string[] = ["Mira esta especie:"];
 
   // Si el nombre común y el científico son iguales, se muestra solo uno.
   if (nombre.toLowerCase() === nombreCientifico.toLowerCase()) {
@@ -18,7 +18,7 @@ export function textoParaCompartir(shark: Shark): string {
     partes.push(`Mide hasta ${shark.morfologia.longitudMetros} m.`);
   }
 
-  if (shark.habitat.trim() !== '') {
+  if (shark.habitat.trim() !== "") {
     partes.push(`Hábitat: ${shark.habitat.trim()}.`);
   }
 
@@ -26,11 +26,11 @@ export function textoParaCompartir(shark: Shark): string {
     partes.push(`Alimentación: ${shark.alimentacion.trim()}.`);
   }
 
-  if (shark.estadoConservacion !== 'Datos insuficientes') {
+  if (shark.estadoConservacion !== "Datos insuficientes") {
     partes.push(`Estado de conservación: ${shark.estadoConservacion}.`);
   }
 
-  partes.push('Vista en DataBite.');
+  partes.push("Vista en DataBite.");
 
-  return partes.join(' ');
+  return partes.join(" ");
 }

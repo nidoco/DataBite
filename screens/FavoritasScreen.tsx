@@ -1,15 +1,15 @@
-import { FlatList, Text, StyleSheet } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
-import { NativeStackScreenProps } from '@react-navigation/native-stack';
-import { SharkCard } from '../components/SharkCard';
-import loadSharks from '../data/loadSharks';
-import { BottomTabScreenProps } from '@react-navigation/bottom-tabs';
-import { CompositeScreenProps } from '@react-navigation/native';
-import { RootStackParamList, TabsParamList } from '../types/navigation';
-import { useProgreso } from '../data/progresoContext';
+import { FlatList, Text, StyleSheet } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+import { NativeStackScreenProps } from "@react-navigation/native-stack";
+import { SharkCard } from "../components/SharkCard";
+import loadSharks from "../data/loadSharks";
+import { BottomTabScreenProps } from "@react-navigation/bottom-tabs";
+import { CompositeScreenProps } from "@react-navigation/native";
+import { RootStackParamList, TabsParamList } from "../types/navigation";
+import { useProgreso } from "../data/progresoContext";
 
 type Props = CompositeScreenProps<
-    BottomTabScreenProps<TabsParamList, 'Favoritas'>,
+    BottomTabScreenProps<TabsParamList, "Favoritas">,
     NativeStackScreenProps<RootStackParamList>
 >;
 
@@ -24,21 +24,21 @@ export function FavoritasScreen({ navigation }: Props) {
 
     if (cargando) {
         return (
-            <SafeAreaView style={styles.container} edges={['left', 'right']}>
+            <SafeAreaView style={styles.container} edges={["left", "right"]}>
                 <Text style={styles.emptyText}>Cargando...</Text>
             </SafeAreaView>
         );
     }
 
     return (
-        <SafeAreaView style={styles.container} edges={['left', 'right']}>
+        <SafeAreaView style={styles.container} edges={["left", "right"]}>
             <FlatList
                 data={sharks}
                 keyExtractor={(item) => item.id}
                 renderItem={({ item }) => (
                     <SharkCard
                         shark={item}
-                        onPress={() => navigation.navigate('Detalle', { id: item.id })}
+                        onPress={() => navigation.navigate("Detalle", { id: item.id })}
                     />
                 )}
                 ListEmptyComponent={
@@ -54,13 +54,13 @@ export function FavoritasScreen({ navigation }: Props) {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#0a2540',
+        backgroundColor: "#0a2540",
     },
     emptyText: {
-        textAlign: 'center',
+        textAlign: "center",
         padding: 16,
         marginTop: 20,
         fontSize: 16,
-        color: '#cbd5e0',
+        color: "#cbd5e0",
     },
 });

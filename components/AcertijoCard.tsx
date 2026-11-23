@@ -36,7 +36,7 @@ export function AcertijoCard({
         onAgotado();
       } else {
         setRespuesta("");
-        setMensajeError("No es esa");
+        setMensajeError("Casi, pero no. ¡Intenta otra vez!");
       }
     }
   };

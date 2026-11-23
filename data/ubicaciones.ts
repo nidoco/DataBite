@@ -74,10 +74,10 @@ export async function guardarUbicaciones(
 export function formatearFecha(fechaIso: string): string {
   const fecha = new Date(fechaIso);
   if (Number.isNaN(fecha.getTime())) {
-    return 'Fecha desconocida';
+    return "Fecha desconocida";
   }
 
-  const dia = String(fecha.getDate()).padStart(2, '0');
-  const mes = String(fecha.getMonth() + 1).padStart(2, '0');
+  const dia = String(fecha.getDate()).padStart(2, "0");
+  const mes = String(fecha.getMonth() + 1).padStart(2, "0");
   return `${dia}/${mes}/${fecha.getFullYear()}`;
 }

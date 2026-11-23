@@ -1,5 +1,5 @@
-import { Shark } from '../types/Shark';
-import { normalizar } from './normalizar';
+import { Shark } from "../types/Shark";
+import { normalizar } from "./normalizar";
 
 export interface FiltrosBusqueda {
   texto: string;
@@ -22,7 +22,7 @@ export function filtrarEspecies(
 
   // Paso 2: quedarse con las especies cuyo nombre común o científico
   // contenga el texto normalizado.
-  if (textoBusqueda !== '') {
+  if (textoBusqueda !== "") {
     resultado = resultado.filter((shark) => {
       const nombreComun = normalizar(shark.nombre);
       const nombreCientifico = normalizar(shark.nombreCientifico);

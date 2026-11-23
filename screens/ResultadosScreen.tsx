@@ -1,10 +1,10 @@
-import { View, Text, StyleSheet, Pressable, FlatList } from 'react-native';
-import { NativeStackScreenProps } from '@react-navigation/native-stack';
-import { RootStackParamList } from '../types/navigation';
-import { Pregunta } from '../types/Pregunta';
-import { getPreguntaPorId } from '../data/loadQuiz';
+import { View, Text, StyleSheet, Pressable, FlatList } from "react-native";
+import { NativeStackScreenProps } from "@react-navigation/native-stack";
+import { RootStackParamList } from "../types/navigation";
+import { Pregunta } from "../types/Pregunta";
+import { getPreguntaPorId } from "../data/loadQuiz";
 
-type Props = NativeStackScreenProps<RootStackParamList, 'Resultados'>;
+type Props = NativeStackScreenProps<RootStackParamList, "Resultados">;
 
 export function ResultadosScreen({ route, navigation }: Props) {
   const { respuestas } = route.params;
@@ -22,7 +22,7 @@ export function ResultadosScreen({ route, navigation }: Props) {
     return (
       <View style={styles.container}>
         <Text style={styles.texto}>No hay resultados que mostrar.</Text>
-        <Pressable style={styles.boton} onPress={() => navigation.replace('Quiz')}>
+        <Pressable style={styles.boton} onPress={() => navigation.replace("Quiz")}>
           <Text style={styles.botonTexto}>Volver</Text>
         </Pressable>
       </View>
@@ -52,7 +52,7 @@ export function ResultadosScreen({ route, navigation }: Props) {
         />
       )}
 
-      <Pressable style={styles.boton} onPress={() => navigation.replace('Quiz')}>
+      <Pressable style={styles.boton} onPress={() => navigation.replace("Quiz")}>
         <Text style={styles.botonTexto}>Reintentar</Text>
       </Pressable>
       <Pressable style={styles.boton} onPress={() => navigation.popToTop()}>
@@ -65,52 +65,52 @@ export function ResultadosScreen({ route, navigation }: Props) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0a2540',
+    backgroundColor: "#0a2540",
     padding: 16,
   },
   resumen: {
-    color: '#4fd1c5',
+    color: "#4fd1c5",
     fontSize: 24,
-    fontWeight: 'bold',
-    textAlign: 'center',
+    fontWeight: "bold",
+    textAlign: "center",
     marginVertical: 12,
   },
   texto: {
-    color: '#cbd5e0',
+    color: "#cbd5e0",
     fontSize: 16,
-    textAlign: 'center',
+    textAlign: "center",
   },
   lista: {
     flex: 1,
   },
   tarjeta: {
-    backgroundColor: '#163a5f',
+    backgroundColor: "#163a5f",
     borderRadius: 16,
     padding: 16,
     marginBottom: 12,
     gap: 6,
   },
   enunciado: {
-    color: '#cbd5e0',
+    color: "#cbd5e0",
     fontSize: 16,
-    fontWeight: 'bold',
+    fontWeight: "bold",
   },
   correcta: {
-    color: '#4fd1c5',
+    color: "#4fd1c5",
     fontSize: 14,
-    fontWeight: 'bold',
+    fontWeight: "bold",
   },
   boton: {
-    backgroundColor: '#163a5f',
+    backgroundColor: "#163a5f",
     paddingVertical: 12,
     paddingHorizontal: 32,
     borderRadius: 16,
-    alignItems: 'center',
+    alignItems: "center",
     marginTop: 8,
   },
   botonTexto: {
-    color: '#4fd1c5',
+    color: "#4fd1c5",
     fontSize: 16,
-    fontWeight: 'bold',
+    fontWeight: "bold",
   },
 });

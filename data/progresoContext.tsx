@@ -1,6 +1,6 @@
-import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
-import { leerLista, guardarLista } from './persistencia';
-import { Notas, leerNotas, guardarNotas } from './notas';
+import React, { createContext, useContext, useState, useEffect, ReactNode } from "react";
+import { leerLista, guardarLista } from "./persistencia";
+import { Notas, leerNotas, guardarNotas } from "./notas";
 
 interface ProgresoContextType {
   desbloqueadas: string[];
@@ -38,7 +38,7 @@ export const ProgresoProvider: React.FC<ProgresoProviderProps> = ({ children }) 
         setFavoritas(guardadasFavoritas);
         setNotas(guardadasNotas);
       } catch (error) {
-        console.error('Error al cargar el progreso:', error);
+        console.error("Error al cargar el progreso:", error);
       } finally {
         setCargando(false);
       }
@@ -115,7 +115,7 @@ export const ProgresoProvider: React.FC<ProgresoProviderProps> = ({ children }) 
 export const useProgreso = (): ProgresoContextType => {
   const context = useContext(ProgresoContext);
   if (!context) {
-    throw new Error('useProgreso debe usarse dentro de un ProgresoProvider');
+    throw new Error("useProgreso debe usarse dentro de un ProgresoProvider");
   }
   return context;
 };

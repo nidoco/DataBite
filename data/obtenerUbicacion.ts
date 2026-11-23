@@ -1,5 +1,5 @@
-import * as Location from 'expo-location';
-import { Ubicacion } from './ubicaciones';
+import * as Location from "expo-location";
+import { Ubicacion } from "./ubicaciones";
 
 export type ResultadoUbicacion =
   | { ok: true; ubicacion: Ubicacion }
@@ -9,7 +9,7 @@ export async function obtenerUbicacionActual(): Promise<ResultadoUbicacion> {
   try {
     const { status } = await Location.requestForegroundPermissionsAsync();
 
-    if (status !== 'granted') {
+    if (status !== "granted") {
       return {
         ok: false,
         error: "Permiso de ubicación denegado.",
