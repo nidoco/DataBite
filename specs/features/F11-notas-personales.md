@@ -65,23 +65,23 @@ siguen guardadas al reabrir la app.
 
 ## Criterios de aceptación
 
-- [ ] Se puede crear una nota desde la ficha de una especie.
-- [ ] La nota guardada se muestra al abrir la ficha de esa especie.
-- [ ] Se puede editar una nota existente y el cambio se guarda.
-- [ ] Se puede borrar una nota, después de confirmar.
-- [ ] Una nota vacía o solo con espacios no se guarda.
-- [ ] El texto no pasa de 280 caracteres.
-- [ ] Las notas siguen guardadas al cerrar y volver a abrir la app.
-- [ ] Un dato guardado corrupto no rompe la app.
+- [X] Se puede crear una nota desde la ficha de una especie.
+- [X] La nota guardada se muestra al abrir la ficha de esa especie.
+- [X] Se puede editar una nota existente y el cambio se guarda.
+- [X] Se puede borrar una nota, después de confirmar.
+- [X] Una nota vacía o solo con espacios no se guarda.
+- [X] El texto no pasa de 280 caracteres.
+- [X] Las notas siguen guardadas al cerrar y volver a abrir la app.
+- [X] Un dato guardado corrupto no rompe la app.
 
 ## Tasks
 
-- [ ] Crear las funciones de leer y guardar el objeto de notas, con validación en la
+- [X] Crear las funciones de leer y guardar el objeto de notas, con validación en la
       frontera.
-- [ ] Crear un estado global o un hook para las notas, para que la ficha lea y escriba
+- [X] Crear un estado global o un hook para las notas, para que la ficha lea y escriba
       lo mismo.
-- [ ] Agregar la sección "Mis notas" en la ficha, con su estado sin nota y con nota.
-- [ ] Agregar el formulario de nota con validación (vacía y máximo 280).
-- [ ] Agregar el botón de editar y guardar los cambios.
-- [ ] Agregar el botón de borrar con confirmación.
-- [ ] Verificar los criterios de aceptación de F11.
+- [X] Agregar la sección "Mis notas" en la ficha, con su estado sin nota y con nota.
+- [X] Agregar el formulario de nota con validación (vacía y máximo 280).
+- [X] Agregar el botón de editar y guardar los cambios.
+- [X] Agregar el botón de borrar con confirmación.
+- [X] Verificar los criterios de aceptación de F11.
